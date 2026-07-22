@@ -1,25 +1,25 @@
 {
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T03:05:31.310Z",
+  "generatedAt": "2026-07-22T11:33:01.079Z",
   "easy": {
-    "answer": "BLACKBERRY",
-    "category": "Fruit",
+    "answer": "CARPENTRY",
+    "category": "Craft",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "struck",
-        "content": "WHITE",
-        "sound": "BLACK"
+        "type": "emoji",
+        "content": "🚗",
+        "sound": "CAR"
       },
       {
         "type": "emoji",
-        "content": "🐻",
-        "sound": "BEAR"
+        "content": "🖊️",
+        "sound": "PEN"
       },
       {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "emoji",
+        "content": "🌳",
+        "sound": "TREE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "A small, dark fruit that grows on thorny canes and makes a wonderful summer jam or pie."
+        "text": "A skilled trade that turns wood into useful things"
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "DRAGONFLY",
-    "category": "Insect",
+    "answer": "Carpentry",
+    "category": "Craft",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "RuPaul's ___ Race",
-        "sound": "DRAG"
+        "type": "emoji",
+        "content": "🚗",
+        "sound": "CAR"
       },
       {
-        "type": "struck",
-        "content": "OFF",
-        "sound": "ON"
+        "type": "text",
+        "content": "___ pal (a faraway friend you exchange letters with)",
+        "sound": "PEN"
       },
       {
         "type": "emoji",
-        "content": "🪰",
-        "sound": "FLY"
+        "content": "🌳",
+        "sound": "TREE"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This creature is often spotted hovering over ponds, darting through the air with shimmering, iridescent wings."
+        "text": "A skilled trade where wood gets cut, shaped, and joined into something lasting."
       },
       {
         "label": "Reveal all sounds",
@@ -92,24 +92,24 @@
     ]
   },
   "hard": {
-    "answer": "Kathmandu",
-    "category": "City",
+    "answer": "Chernobyl",
+    "category": "Historic Site",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🐱",
-        "sound": "CAT"
+        "type": "text",
+        "content": "Sonny and ___",
+        "sound": "CHER"
       },
       {
-        "type": "emoji",
-        "content": "👨",
-        "sound": "MAN"
+        "type": "struck",
+        "content": "YES",
+        "sound": "NO"
       },
       {
         "type": "text",
-        "content": "Scooby-___",
-        "sound": "DOO"
+        "content": "as in 'Red ___ energy drink'",
+        "sound": "BULL"
       }
     ],
     "hints": [
@@ -128,7 +128,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This high-altitude capital city is the starting point for most Himalayan expeditions."
+        "text": "A name forever linked to a catastrophic 1986 disaster in Ukraine."
       },
       {
         "label": "Reveal all sounds",
