@@ -1,0 +1,139 @@
+{
+  "date": "2026-07-22",
+  "generatedAt": "2026-07-22T02:38:18.034Z",
+  "easy": {
+    "answer": "DINOSAUR",
+    "category": "Animal",
+    "difficulty": "easy",
+    "clues": [
+      {
+        "type": "emoji",
+        "content": "🎲",
+        "sound": "DIE"
+      },
+      {
+        "type": "struck",
+        "content": "YES",
+        "sound": "NO"
+      },
+      {
+        "type": "emoji",
+        "content": "🪚",
+        "sound": "SAW"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "This giant prehistoric reptile ruled the Earth long before humans existed."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "medium": {
+    "answer": "MICROPHONE",
+    "category": "Object",
+    "difficulty": "medium",
+    "clues": [
+      {
+        "type": "struck",
+        "content": "YOUR",
+        "sound": "MY"
+      },
+      {
+        "type": "text",
+        "content": "What a rooster does at dawn",
+        "sound": "CROW"
+      },
+      {
+        "type": "emoji",
+        "content": "📱",
+        "sound": "PHONE"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "Singers, podcasters, and public speakers all depend on this."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Chernobyl",
+    "category": "Place",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "emoji",
+        "content": "🪑",
+        "sound": "CHAIR"
+      },
+      {
+        "type": "struck",
+        "content": "YES",
+        "sound": "NO"
+      },
+      {
+        "type": "text",
+        "content": "___ Gates, Microsoft founder",
+        "sound": "BILL"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "This place became a byword for nuclear catastrophe after a single night in April 1986."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  }
+}

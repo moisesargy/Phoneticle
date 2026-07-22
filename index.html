@@ -1,0 +1,1952 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Phoneticle — Daily Rebus Puzzle</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0a0c;
+    --bg-soft:#0f0f13;
+    --elev-1:#16161c;
+    --elev-2:#1e1e26;
+    --elev-3:#26262f;
+    --border:#2a2a34;
+    --border-soft:#1f1f28;
+    --text:#f3f3f1;
+    --text-dim:#a3a3ad;
+    --text-faint:#6b6b76;
+    --accent:#c8f135;
+    --accent-dim:#9fc22a;
+    --accent-ink:#12160a;
+    --purple:#9b7bff;
+    --purple-dim:#7358d6;
+    --purple-soft:rgba(155,123,255,0.14);
+    --green:#3ddc84;
+    --green-soft:rgba(61,220,132,0.14);
+    --yellow:#f5c542;
+    --yellow-soft:rgba(245,197,66,0.14);
+    --red:#ff5c73;
+    --red-soft:rgba(255,92,115,0.14);
+    --radius-lg:20px;
+    --radius-md:14px;
+    --radius-sm:9px;
+    --font-head:'Space Grotesk',system-ui,sans-serif;
+    --font-body:'Inter',system-ui,sans-serif;
+    --font-mono:'JetBrains Mono',monospace;
+    --shadow-card:0 1px 0 rgba(255,255,255,0.03) inset, 0 8px 24px rgba(0,0,0,0.35);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(1100px 600px at 15% -10%, rgba(155,123,255,0.10), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(200,241,53,0.07), transparent 55%),
+      var(--bg);
+    color:var(--text);
+    font-family:var(--font-body);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.4;
+  }
+  #app{
+    max-width:760px;
+    margin:0 auto;
+    padding:20px 16px 80px;
+    min-height:100vh;
+  }
+  a{color:inherit;}
+  button{font-family:inherit;}
+  .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+
+  /* ---------- Topbar ---------- */
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:22px;
+    gap:10px;
+  }
+  .topbar-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .brand{
+    display:flex;
+    align-items:baseline;
+    gap:9px;
+    cursor:pointer;
+    user-select:none;
+  }
+  .brand-mark{
+    font-family:var(--font-head);
+    font-weight:700;
+    font-size:22px;
+    letter-spacing:-0.02em;
+    background:linear-gradient(90deg,var(--accent),var(--purple) 130%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
+  .brand-tag{
+    font-size:11px;
+    color:var(--text-faint);
+    text-transform:uppercase;
+    letter-spacing:0.09em;
+    font-weight:600;
+  }
+  .icon-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:var(--elev-1);
+    border:1px solid var(--border);
+    color:var(--text-dim);
+    padding:8px 13px;
+    border-radius:999px;
+    font-size:13px;
+    font-weight:600;
+    cursor:pointer;
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  .icon-btn:hover{background:var(--elev-2);color:var(--text);border-color:#39394a;}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    font-family:inherit;
+    font-weight:700;
+    font-size:14px;
+    border-radius:12px;
+    padding:12px 20px;
+    border:1px solid transparent;
+    cursor:pointer;
+    transition:transform .08s ease,filter .15s,background .15s,border-color .15s,opacity .15s;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    letter-spacing:0.01em;
+  }
+  .btn:active{transform:scale(0.97);}
+  .btn:disabled{opacity:0.4;cursor:not-allowed;transform:none;}
+  .btn-primary{background:var(--accent);color:var(--accent-ink);box-shadow:0 0 0 1px rgba(200,241,53,0.35),0 8px 22px -8px rgba(200,241,53,0.55);}
+  .btn-primary:hover:not(:disabled){filter:brightness(1.07);}
+  .btn-secondary{background:var(--purple-soft);color:var(--purple);border-color:rgba(155,123,255,0.35);}
+  .btn-secondary:hover:not(:disabled){background:rgba(155,123,255,0.22);}
+  .btn-ghost{background:transparent;color:var(--text-dim);border-color:var(--border);}
+  .btn-ghost:hover:not(:disabled){color:var(--text);border-color:#3a3a48;background:var(--elev-1);}
+  .btn-danger-ghost{background:transparent;color:var(--red);border-color:rgba(255,92,115,0.35);}
+  .btn-danger-ghost:hover:not(:disabled){background:var(--red-soft);}
+  .btn-block{width:100%;}
+  .btn-sm{padding:8px 14px;font-size:12.5px;border-radius:9px;}
+
+  /* ---------- Cards ---------- */
+  .card{
+    background:var(--elev-1);
+    border:1px solid var(--border);
+    border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-card);
+  }
+  .hero{
+    text-align:center;
+    padding:34px 22px 30px;
+    margin-bottom:20px;
+  }
+  .hero h1{
+    font-family:var(--font-head);
+    font-size:clamp(26px,6vw,34px);
+    margin:0 0 8px;
+    letter-spacing:-0.01em;
+  }
+  .hero p{
+    color:var(--text-dim);
+    font-size:15px;
+    margin:0 auto;
+    max-width:440px;
+  }
+  .mode-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    margin-top:24px;
+  }
+  @media (max-width:520px){ .mode-grid{grid-template-columns:1fr;} }
+  .mode-card{
+    background:var(--elev-1);
+    border:1px solid var(--border);
+    border-radius:var(--radius-lg);
+    padding:22px 18px;
+    cursor:pointer;
+    text-align:left;
+    transition:border-color .15s,background .15s,transform .1s;
+    position:relative;
+    overflow:hidden;
+  }
+  .mode-card:hover{border-color:#3c3c4c;background:var(--elev-2);transform:translateY(-2px);}
+  .mode-card .glyph{font-size:30px;margin-bottom:10px;display:block;}
+  .mode-card h3{font-family:var(--font-head);font-size:19px;margin:0 0 6px;}
+  .mode-card p{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+  .mode-card .progress-mini{font-size:12px;color:var(--accent);font-weight:700;}
+  .mode-card .progress-mini.purple{color:var(--purple);}
+
+  /* ---------- Section header ---------- */
+  .section-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:6px 0 14px;
+  }
+  .section-head h2{
+    font-family:var(--font-head);
+    font-size:20px;
+    margin:0;
+  }
+
+  /* ---------- Progress bar (classic) ---------- */
+  .progress-track{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    margin-bottom:22px;
+  }
+  .progress-seg{
+    flex:1 1 10px;
+    min-width:10px;
+    height:7px;
+    border-radius:999px;
+    background:var(--elev-2);
+    overflow:hidden;
+    position:relative;
+  }
+  .progress-seg.filled{background:var(--accent);}
+  .progress-seg.current{background:linear-gradient(90deg,var(--accent),var(--accent-dim));box-shadow:0 0 12px rgba(200,241,53,0.5);}
+
+  .progress-dots{display:flex;align-items:center;flex-wrap:wrap;gap:5px;max-width:180px;}
+  .progress-dot{width:7px;height:7px;border-radius:50%;background:var(--elev-3);}
+  .progress-dot.filled{background:var(--accent);}
+  .progress-dot.current{background:var(--purple);box-shadow:0 0 0 3px var(--purple-soft);}
+
+  /* ---------- Level / difficulty list ---------- */
+  .level-list, .diff-list{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .level-item, .diff-item{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    background:var(--elev-1);
+    border:1px solid var(--border);
+    border-radius:var(--radius-md);
+    padding:14px 16px;
+    cursor:pointer;
+    transition:border-color .15s,background .15s;
+  }
+  .level-item:hover:not(.locked), .diff-item:hover:not(.locked){border-color:#3c3c4c;background:var(--elev-2);}
+  .level-item.locked, .diff-item.locked{cursor:not-allowed;opacity:0.55;}
+  .level-item.complete, .diff-item.complete{border-color:rgba(200,241,53,0.3);}
+  .level-num{
+    width:38px;height:38px;flex:0 0 auto;
+    border-radius:11px;
+    background:var(--elev-2);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--font-head);font-weight:700;font-size:15px;
+    color:var(--text-dim);
+    border:1px solid var(--border);
+  }
+  .level-item.complete .level-num{background:var(--green-soft);color:var(--green);border-color:transparent;}
+  .level-item.current .level-num{background:var(--purple-soft);color:var(--purple);border-color:transparent;}
+  .level-body{flex:1;min-width:0;}
+  .level-title{font-weight:700;font-size:15px;margin-bottom:3px;}
+  .level-sub{font-size:12px;color:var(--text-faint);}
+  .level-status-icon{font-size:18px;color:var(--text-faint);flex:0 0 auto;}
+  .level-item.complete .level-status-icon{color:var(--green);}
+
+  /* ---------- Difficulty badge ---------- */
+  .badge{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    font-size:10.5px;
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    padding:4px 9px;
+    border-radius:999px;
+  }
+  .badge-easy{background:var(--green-soft);color:var(--green);}
+  .badge-medium{background:var(--yellow-soft);color:var(--yellow);}
+  .badge-hard{background:var(--red-soft);color:var(--red);}
+  .badge-dot{width:6px;height:6px;border-radius:50%;background:currentColor;}
+
+  /* ---------- Puzzle screen ---------- */
+  .puzzle-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:16px;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+  .puzzle-header-left{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .puzzle-header-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .puzzle-title{font-family:var(--font-head);font-weight:700;font-size:16px;color:var(--text-dim);}
+  .timer-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    font-family:var(--font-mono);
+    font-size:12px;
+    font-weight:700;
+    color:var(--text-dim);
+    background:var(--elev-2);
+    border:1px solid var(--border);
+    padding:5px 10px;
+    border-radius:999px;
+    letter-spacing:0.02em;
+  }
+
+  .category-chip{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:var(--elev-2);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:6px 12px;
+    font-size:12px;
+    color:var(--text-dim);
+    margin-bottom:18px;
+  }
+  .category-chip b{color:var(--purple);font-weight:700;}
+
+  .clue-card{
+    padding:30px 20px 26px;
+    margin-bottom:18px;
+    text-align:center;
+  }
+  .clue-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:8px 4px;
+    margin-bottom:8px;
+  }
+  .clue-plus{
+    font-family:var(--font-head);
+    font-size:22px;
+    color:var(--text-faint);
+    padding:0 2px;
+    align-self:center;
+  }
+  .clue-box{
+    background:var(--elev-2);
+    border:1px solid var(--border-soft);
+    border-radius:var(--radius-md);
+    min-width:96px;
+    max-width:150px;
+    min-height:96px;
+    padding:12px 10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    transition:border-color .2s,background .2s;
+  }
+  .clue-box.is-revealed{border-color:rgba(200,241,53,0.4);background:#191f10;}
+  .clue-emoji{font-size:42px;line-height:1;}
+  .clue-text{font-size:13px;font-style:italic;color:var(--text);line-height:1.35;}
+  .clue-struck-wrap{display:flex;flex-direction:column;align-items:center;gap:3px;}
+  .clue-struck{
+    font-family:var(--font-head);
+    font-size:19px;
+    font-weight:700;
+    color:var(--red);
+    text-decoration:line-through;
+    text-decoration-thickness:2px;
+    letter-spacing:0.02em;
+  }
+  .clue-struck-label{
+    font-size:9.5px;
+    text-transform:uppercase;
+    letter-spacing:0.09em;
+    color:var(--text-faint);
+    font-weight:700;
+  }
+  .clue-big{
+    font-family:var(--font-head);
+    font-size:27px;
+    font-weight:800;
+    color:var(--accent);
+    letter-spacing:0.02em;
+    padding:2px 10px;
+    border:2px solid rgba(200,241,53,0.35);
+    border-radius:8px;
+  }
+  .clue-sound-tag{
+    margin-top:2px;
+    font-family:var(--font-mono);
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:0.03em;
+    color:var(--accent);
+    background:rgba(200,241,53,0.1);
+    border:1px solid rgba(200,241,53,0.25);
+    padding:3px 9px;
+    border-radius:999px;
+  }
+
+  .solved-banner{
+    margin-top:14px;
+    padding-top:14px;
+    border-top:1px dashed var(--border);
+    font-family:var(--font-head);
+    font-size:15px;
+  }
+  .solved-banner .answer-reveal{
+    color:var(--accent);
+    font-size:22px;
+    font-weight:700;
+    margin-top:4px;
+  }
+
+  /* ---------- Guess form ---------- */
+  .guess-form{
+    display:flex;
+    gap:10px;
+    margin-bottom:8px;
+  }
+  .guess-input{
+    flex:1;
+    background:var(--elev-1);
+    border:1.5px solid var(--border);
+    color:var(--text);
+    font-size:16px;
+    font-weight:600;
+    padding:13px 16px;
+    border-radius:12px;
+    outline:none;
+    transition:border-color .15s,box-shadow .15s;
+    font-family:inherit;
+  }
+  .guess-input::placeholder{color:var(--text-faint);font-weight:500;}
+  .guess-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(200,241,53,0.15);}
+  .guess-input.shake{animation:shake .35s;}
+  .guess-input:disabled{opacity:0.6;}
+  @keyframes shake{
+    10%,90%{transform:translateX(-2px);}
+    20%,80%{transform:translateX(4px);}
+    30%,50%,70%{transform:translateX(-7px);}
+    40%,60%{transform:translateX(7px);}
+  }
+
+  .feedback-row{
+    min-height:22px;
+    margin-bottom:14px;
+    font-size:13.5px;
+    font-weight:700;
+  }
+  .feedback-wrong{color:var(--red);}
+  .feedback-right{color:var(--green);}
+
+  .action-row{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:8px;
+  }
+
+  /* ---------- Hints ---------- */
+  .hints-card{padding:18px 18px 20px;margin-top:20px;}
+  .hints-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+  .hints-head h3{font-family:var(--font-head);font-size:15px;margin:0;color:var(--text);}
+  .hints-counter{
+    font-size:11.5px;
+    color:var(--text-faint);
+    font-weight:700;
+    background:var(--elev-2);
+    padding:4px 10px;
+    border-radius:999px;
+  }
+  .hints-counter b{color:var(--purple);}
+  .hint-grid{display:flex;flex-wrap:wrap;gap:8px;}
+  .hint-btn{
+    background:var(--elev-2);
+    border:1px solid var(--border);
+    color:var(--text-dim);
+    font-size:12.5px;
+    font-weight:600;
+    padding:9px 13px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:all .15s;
+  }
+  .hint-btn:hover:not(:disabled){border-color:var(--purple);color:var(--purple);background:var(--purple-soft);}
+  .hint-btn:disabled{cursor:default;opacity:0.55;}
+  .hint-btn.used{
+    background:var(--purple-soft);
+    border-color:rgba(155,123,255,0.4);
+    color:var(--purple);
+  }
+  .hint-revealed-text{
+    margin-top:12px;
+    font-size:13px;
+    color:var(--text-dim);
+    background:var(--elev-2);
+    border-left:3px solid var(--purple);
+    padding:10px 13px;
+    border-radius:0 8px 8px 0;
+  }
+
+  /* ---------- Loading / error ---------- */
+  .center-pane{
+    text-align:center;
+    padding:60px 20px;
+  }
+  .spinner{
+    width:38px;height:38px;
+    border-radius:50%;
+    border:3px solid var(--elev-3);
+    border-top-color:var(--accent);
+    margin:0 auto 18px;
+    animation:spin 0.8s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .center-pane h3{font-family:var(--font-head);font-size:18px;margin:0 0 8px;}
+  .center-pane p{color:var(--text-dim);font-size:13.5px;max-width:380px;margin:0 auto 18px;}
+  .error-box{
+    background:var(--red-soft);
+    border:1px solid rgba(255,92,115,0.3);
+    color:#ffb3bd;
+    font-size:12.5px;
+    font-family:var(--font-mono);
+    padding:12px 14px;
+    border-radius:10px;
+    text-align:left;
+    max-width:460px;
+    margin:0 auto 18px;
+    word-break:break-word;
+  }
+
+  .completion-pane{text-align:center;padding:50px 20px;}
+  .completion-pane .glyph{font-size:52px;display:block;margin-bottom:14px;}
+  .completion-pane h2{font-family:var(--font-head);font-size:24px;margin:0 0 8px;}
+  .completion-pane p{color:var(--text-dim);margin:0 0 24px;}
+
+  .empty-note{color:var(--text-faint);font-size:12px;text-align:center;margin-top:26px;}
+  .footer-note{
+    text-align:center;
+    color:var(--text-faint);
+    font-size:11.5px;
+    margin-top:34px;
+  }
+
+  /* ---------- Completion modal ---------- */
+  .modal-backdrop{
+    position:fixed;
+    inset:0;
+    background:rgba(6,6,8,0.72);
+    backdrop-filter:blur(6px);
+    -webkit-backdrop-filter:blur(6px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    z-index:100;
+    animation:fadeIn .18s ease;
+  }
+  @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+  @keyframes popIn{
+    from{opacity:0;transform:translateY(14px) scale(0.96);}
+    to{opacity:1;transform:translateY(0) scale(1);}
+  }
+  .modal-card{
+    position:relative;
+    width:100%;
+    max-width:380px;
+    background:
+      radial-gradient(420px 220px at 50% -20%, rgba(200,241,53,0.16), transparent 60%),
+      var(--elev-1);
+    border:1px solid var(--border);
+    border-radius:24px;
+    padding:36px 26px 28px;
+    text-align:center;
+    box-shadow:0 24px 60px -12px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.03) inset;
+    animation:popIn .28s cubic-bezier(.2,.9,.3,1.3);
+  }
+  .modal-close{
+    position:absolute;
+    top:14px;
+    right:14px;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border:1px solid var(--border);
+    background:var(--elev-2);
+    color:var(--text-dim);
+    font-size:18px;
+    line-height:1;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:background .15s,color .15s;
+  }
+  .modal-close:hover{background:var(--elev-3);color:var(--text);}
+  .modal-icon{font-size:52px;line-height:1;margin-bottom:10px;filter:drop-shadow(0 4px 14px rgba(200,241,53,0.25));}
+  .modal-title{font-family:var(--font-head);font-weight:700;font-size:22px;margin-bottom:6px;}
+  .modal-answer{
+    font-family:var(--font-head);
+    font-weight:700;
+    font-size:26px;
+    color:var(--accent);
+    margin-bottom:20px;
+    word-break:break-word;
+  }
+  .modal-stats{
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    margin-bottom:20px;
+  }
+  .stat-pill{
+    flex:1;
+    max-width:140px;
+    background:var(--elev-2);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:14px 10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4px;
+  }
+  .stat-value{
+    font-family:var(--font-mono);
+    font-size:22px;
+    font-weight:700;
+    color:var(--purple);
+  }
+  .stat-label{
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:0.07em;
+    color:var(--text-faint);
+    font-weight:700;
+  }
+  .modal-summary{
+    color:var(--text-dim);
+    font-size:13.5px;
+    line-height:1.6;
+    margin:0 0 24px;
+  }
+  .modal-summary b{color:var(--text);}
+  .modal-actions{
+    display:flex;
+    gap:10px;
+  }
+  .modal-actions .btn{flex:1;}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* =========================================================
+     DATA — Classic Mode levels
+  ========================================================= */
+
+  function h(clueIdx, label){ return { label, ci: clueIdx }; }
+  function textHint(label, text){ return { label, ci: -1, text }; }
+  function allHint(){ return { label: "Reveal all sounds", ci: -2 }; }
+
+  function buildLevelHints(clueCount, flavorLabel, flavorText){
+    const hints = [];
+    for (let i = 0; i < clueCount; i++){
+      hints.push(h(i, "Reveal clue " + (i+1) + " sound"));
+    }
+    hints.push(textHint(flavorLabel, flavorText));
+    hints.push(allHint());
+    return hints;
+  }
+
+  const CLASSIC_LEVELS = [
+    {
+      level: 1,
+      answer: "Whiteboard",
+      category: "Object",
+      difficulty: "easy",
+      clues: [
+        { type: "text",   content: "Who what when where ___ the missing W", sound: "WHY" },
+        { type: "big",    content: "T", sound: "T" },
+        { type: "struck", content: "INTERESTED", sound: "BORED" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's something you write on with a dry-erase marker.")
+    },
+    {
+      level: 2,
+      answer: "Uzbekistan",
+      category: "Country",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "Lil _ _ i Vert, just the two blanks", sound: "UZ" },
+        { type: "text", content: "Nickname for Rebecca", sound: "BECK" },
+        { type: "text", content: "Grunkle ___ from Gravity Falls", sound: "STAN" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a country in Central Asia.")
+    },
+    {
+      level: 3,
+      answer: "Parasite",
+      category: "Film",
+      difficulty: "medium",
+      clues: [
+        { type: "emoji", content: "🍐", sound: "PEAR" },
+        { type: "text",  content: "What Playa Bowls serves, say it out loud", sound: "AH-SI" },
+        { type: "big",   content: "T", sound: "T" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's an Oscar-winning South Korean film about class divide.")
+    },
+    {
+      level: 4,
+      answer: "United States",
+      category: "Country",
+      difficulty: "hard",
+      clues: [
+        { type: "struck", content: "ME", sound: "YOU" },
+        { type: "struck", content: "DAY", sound: "NIGHT" },
+        { type: "text",   content: "Ed ___, famous ginger singer", sound: "ED" },
+        { type: "big",    content: "S", sound: "S" },
+        { type: "text",   content: "Tate's cookie brand, green bag", sound: "TATES" }
+      ],
+      hints: buildLevelHints(5, "Give me a hint", "It's a country in North America made up of 50 of these.")
+    },
+    {
+      level: 5,
+      answer: "Catcher in the Rye",
+      category: "Book",
+      difficulty: "hard",
+      clues: [
+        { type: "text",  content: "What a wide receiver does with the ball", sound: "CATCH" },
+        { type: "text",  content: "Main character in Attack on Titan", sound: "EREN" },
+        { type: "text",  content: "their / there / they're — grammar Nazi's favorite", sound: "THEIR" },
+        { type: "emoji", content: "👁️", sound: "EYE" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's a classic coming-of-age novel by J.D. Salinger.")
+    },
+    {
+      level: 6,
+      answer: "Cupcake",
+      category: "Food",
+      difficulty: "easy",
+      clues: [
+        { type: "text",  content: "The trophy soccer teams compete for, the World ___", sound: "CUP" },
+        { type: "emoji", content: "🎂", sound: "CAKE" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a small, single-serving dessert with frosting on top.")
+    },
+    {
+      level: 7,
+      answer: "Popcorn",
+      category: "Food",
+      difficulty: "easy",
+      clues: [
+        { type: "text",  content: "Music genre for artists like Taylor Swift or Ariana Grande", sound: "POP" },
+        { type: "emoji", content: "🌽", sound: "CORN" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a fluffy snack you eat at the movies.")
+    },
+    {
+      level: 8,
+      answer: "Starfish",
+      category: "Animal",
+      difficulty: "easy",
+      clues: [
+        { type: "emoji", content: "⭐", sound: "STAR" },
+        { type: "emoji", content: "🐟", sound: "FISH" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a spiny sea creature shaped like, well, its own name.")
+    },
+    {
+      level: 9,
+      answer: "Pineapple",
+      category: "Food",
+      difficulty: "easy",
+      clues: [
+        { type: "text",  content: "Tree famous for its cones and needles, as in a \"___ cone\"", sound: "PINE" },
+        { type: "emoji", content: "🍎", sound: "APPLE" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a spiky tropical fruit that famously does (or doesn't) belong on pizza.")
+    },
+    {
+      level: 10,
+      answer: "Snowman",
+      category: "Object",
+      difficulty: "easy",
+      clues: [
+        { type: "text",   content: "White frozen precipitation that piles up in winter storms", sound: "SNOW" },
+        { type: "struck", content: "WOMAN", sound: "MAN" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a wintertime figure built out of three frozen balls.")
+    },
+    {
+      level: 11,
+      answer: "Firefighter",
+      category: "Job",
+      difficulty: "easy",
+      clues: [
+        { type: "emoji", content: "🔥", sound: "FIRE" },
+        { type: "text",  content: "Someone who competes in boxing or MMA, as in \"street ___\"", sound: "FIGHTER" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a job where you rescue people and put out blazes.")
+    },
+    {
+      level: 12,
+      answer: "Basketball",
+      category: "Sport",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "To lie in the sun and soak up its warmth, as in \"___ in the glory\"", sound: "BASK" },
+        { type: "text", content: "Pronoun for an object, not a person", sound: "IT" },
+        { type: "text", content: "Round object you bounce or throw in sports", sound: "BALL" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a sport played with a hoop and an orange ball.")
+    },
+    {
+      level: 13,
+      answer: "Nightmare",
+      category: "Dream",
+      difficulty: "medium",
+      clues: [
+        { type: "struck", content: "DAY", sound: "NIGHT" },
+        { type: "text",   content: "Adult female horse", sound: "MARE" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a scary dream.")
+    },
+    {
+      level: 14,
+      answer: "Mustache",
+      category: "Object",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "Modal verb meaning \"have to\", as in \"you ___ be kidding\"", sound: "MUST" },
+        { type: "text", content: "Gray residue left after wood burns", sound: "ASH" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's facial hair grown above the upper lip.")
+    },
+    {
+      level: 15,
+      answer: "Dandelion",
+      category: "Plant",
+      difficulty: "medium",
+      clues: [
+        { type: "text",  content: "Old-fashioned word for a stylish, well-dressed man", sound: "DANDY" },
+        { type: "emoji", content: "🦁", sound: "LION" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a yellow weed that turns into a puffball you can blow on.")
+    },
+    {
+      level: 16,
+      answer: "Volleyball",
+      category: "Sport",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "In tennis, to hit the ball before it bounces", sound: "VOLLEY" },
+        { type: "text", content: "Round object you bounce or throw in sports", sound: "BALL" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a sport played over a net, often on a beach.")
+    },
+    {
+      level: 17,
+      answer: "Handstand",
+      category: "Move",
+      difficulty: "medium",
+      clues: [
+        { type: "emoji",  content: "✋", sound: "HAND" },
+        { type: "struck", content: "SIT", sound: "STAND" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a gymnastics move where you balance upside down on your arms.")
+    },
+    {
+      level: 18,
+      answer: "Committee",
+      category: "Group",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "To pledge your full effort to something, as in \"___ to a cause\"", sound: "COMMIT" },
+        { type: "text", content: "Hot drink brewed from leaves, especially popular in Britain", sound: "TEA" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a small group chosen to handle a specific task.")
+    },
+    {
+      level: 19,
+      answer: "Antarctica",
+      category: "Continent",
+      difficulty: "medium",
+      clues: [
+        { type: "emoji", content: "🐜", sound: "ANT" },
+        { type: "text",  content: "The icy region surrounding the North Pole", sound: "ARCTIC" },
+        { type: "big",   content: "A", sound: "A" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the icy, mostly-uninhabited continent at the South Pole.")
+    },
+    {
+      level: 20,
+      answer: "Frankenstein",
+      category: "Character",
+      difficulty: "hard",
+      clues: [
+        { type: "text",   content: "Informal word for a hot dog, or an adjective meaning \"very blunt and honest\"", sound: "FRANK" },
+        { type: "struck", content: "OUT", sound: "IN" },
+        { type: "text",   content: "German surname suffix, or a large glass beer mug", sound: "STEIN" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a classic monster stitched together from body parts.")
+    },
+    {
+      level: 21,
+      answer: "Pentagon",
+      category: "Building",
+      difficulty: "hard",
+      clues: [
+        { type: "text",   content: "Writing tool you refill with ink, unlike a pencil", sound: "PEN" },
+        { type: "text",   content: "Children's chasing game, or a label sewn into clothing", sound: "TAG" },
+        { type: "struck", content: "OFF", sound: "ON" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the five-sided U.S. military headquarters building.")
+    },
+    {
+      level: 22,
+      answer: "Night Owl",
+      category: "Idiom",
+      difficulty: "hard",
+      clues: [
+        { type: "struck", content: "DAY", sound: "NIGHT" },
+        { type: "emoji",  content: "🦉", sound: "OWL" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's a nickname for someone who's most active late at night.")
+    },
+    {
+      level: 23,
+      answer: "Wall Street",
+      category: "Place",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "Vertical structure that divides or encloses a room", sound: "WALL" },
+        { type: "text", content: "A paved road in a city, as in \"Sesame ___\"", sound: "STREET" }
+      ],
+      hints: buildLevelHints(2, "Give me a hint", "It's the New York street synonymous with the U.S. financial industry.")
+    },
+    {
+      level: 24,
+      answer: "Mockingjay",
+      category: "Book",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "To imitate someone in a cruel, taunting way, as in a \"___ trial\"", sound: "MOCK" },
+        { type: "big",  content: "-ING", sound: "ING" },
+        { type: "text", content: "Common nickname for the name Jason, or a loud blue bird", sound: "JAY" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the symbol of rebellion in a dystopian book/movie trilogy.")
+    },
+    {
+      level: 25,
+      answer: "New Zealand",
+      category: "Country",
+      difficulty: "hard",
+      clues: [
+        { type: "struck", content: "OLD", sound: "NEW" },
+        { type: "text",   content: "Passionate enthusiasm for a cause, as in a religious \"___ot\"", sound: "ZEAL" },
+        { type: "text",   content: "Conjunction linking two words, as in \"salt ___ pepper\"", sound: "AND" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's an island country near Australia, home to kiwis and Hobbiton.")
+    }
+  ];
+
+  const DAILY_DIFFS = ["easy", "medium", "hard"];
+
+  /* =========================================================
+     STORAGE
+  ========================================================= */
+
+  const LS_CLASSIC = "phoneticle_classic_progress_v1";
+  function lsDailyProgressKey(date){ return "phoneticle_daily_progress_" + date; }
+
+  function safeParse(raw, fallback){
+    if (!raw) return fallback;
+    try { return JSON.parse(raw); } catch(e){ return fallback; }
+  }
+
+  function loadClassicProgress(){
+    return safeParse(localStorage.getItem(LS_CLASSIC), { completed: [] });
+  }
+  function saveClassicProgress(p){
+    localStorage.setItem(LS_CLASSIC, JSON.stringify(p));
+  }
+
+  // Daily puzzle CONTENT is no longer cached client-side — puzzles.json is a
+  // free static fetch (generated once a day by GitHub Actions), not a
+  // metered API call, so there's no cost benefit to caching it. Only
+  // per-day PROGRESS (which difficulty tiers are solved) is persisted,
+  // keyed by the date embedded in puzzles.json itself.
+  function loadDailyProgress(date){
+    return safeParse(localStorage.getItem(lsDailyProgressKey(date)), {
+      easy: "active", medium: "locked", hard: "locked"
+    });
+  }
+  function saveDailyProgress(date, progress){
+    localStorage.setItem(lsDailyProgressKey(date), JSON.stringify(progress));
+  }
+
+  function getTodayKey(){
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth()+1).padStart(2,"0");
+    const day = String(d.getDate()).padStart(2,"0");
+    return y + "-" + m + "-" + day;
+  }
+
+  /* =========================================================
+     UTIL
+  ========================================================= */
+
+  function escapeHtml(str){
+    return String(str == null ? "" : str)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+
+  function normalizeAnswer(s){
+    return String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  }
+
+  function normWordUpper(s){
+    return String(s || "").toUpperCase().replace(/[^A-Z]/g, "");
+  }
+
+  // Safety net for "struck" clues: common, unambiguous antonym pairs used to
+  // auto-correct the model when it mislabels a clue's opposite (e.g. crossing
+  // out PUSH but giving a sound that isn't PULL).
+  const ANTONYM_PAIRS = [
+    ["UP","DOWN"],["HOT","COLD"],["PUSH","PULL"],["IN","OUT"],["ON","OFF"],
+    ["BIG","SMALL"],["FAST","SLOW"],["DAY","NIGHT"],["TRUE","FALSE"],["WET","DRY"],
+    ["OPEN","CLOSED"],["BUY","SELL"],["LOVE","HATE"],["HIGH","LOW"],["BLACK","WHITE"],
+    ["BOY","GIRL"],["MAN","WOMAN"],["YES","NO"],["LEFT","RIGHT"],["EARLY","LATE"],
+    ["HAPPY","SAD"],["FULL","EMPTY"],["RICH","POOR"],["OLD","NEW"],
+    ["STRONG","WEAK"],["LIGHT","DARK"],["LOUD","QUIET"],["NEAR","FAR"],["HARD","SOFT"],
+    ["THICK","THIN"],["WIDE","NARROW"],["DEEP","SHALLOW"],["CLEAN","DIRTY"],["SAFE","DANGEROUS"],
+    ["CHEAP","EXPENSIVE"],["EASY","DIFFICULT"],["BEGIN","END"],["START","STOP"],
+    ["LAUGH","CRY"],["AWAKE","ASLEEP"],["ALIVE","DEAD"],["BEFORE","AFTER"],["FIRST","LAST"],
+    ["TOP","BOTTOM"],["FRONT","BACK"],["INSIDE","OUTSIDE"],["MORE","LESS"],["ALWAYS","NEVER"],
+    ["SAME","DIFFERENT"],["GOOD","BAD"],["BEST","WORST"],["ME","YOU"],["HERE","THERE"],
+    ["ABOVE","BELOW"],["OVER","UNDER"],["ENTER","EXIT"],["ASK","ANSWER"],["BORROW","LEND"],
+    ["BUILD","DESTROY"],["FOUND","LOST"],["GIVE","TAKE"],["RAISE","LOWER"],["REMEMBER","FORGET"],
+    ["SIT","STAND"],["SPEAK","LISTEN"],["FRIEND","ENEMY"],["WAR","PEACE"],["SHARP","DULL"],
+    ["SMOOTH","ROUGH"],["SWEET","SOUR"],["TALL","SHORT"],["WORK","REST"],["INTERESTED","BORED"],
+    ["WIN","LOSE"],["ACCEPT","REJECT"],["ARRIVE","DEPART"],["ATTACK","DEFEND"],["INCREASE","DECREASE"]
+  ];
+  const ANTONYM_MAP = (function(){
+    const map = new Map();
+    // First occurrence wins; any later pair that tries to redefine an
+    // already-mapped word (an ambiguous antonym, e.g. OLD -> both NEW and
+    // YOUNG) is dropped with a warning instead of silently overwriting it —
+    // a silent overwrite here previously flipped a correct puzzle answer.
+    ANTONYM_PAIRS.forEach(function(pair){
+      [[pair[0], pair[1]], [pair[1], pair[0]]].forEach(function(kv){
+        if (map.has(kv[0]) && map.get(kv[0]) !== kv[1]) {
+          console.warn("ANTONYM_PAIRS ambiguous entry ignored:", kv[0], "already ->", map.get(kv[0]), "(tried ->", kv[1] + ")");
+          return;
+        }
+        map.set(kv[0], kv[1]);
+      });
+    });
+    return map;
+  })();
+
+  function capitalize(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+
+  function badgeHtml(difficulty){
+    const cls = { easy: "badge-easy", medium: "badge-medium", hard: "badge-hard" }[difficulty] || "badge-easy";
+    return '<span class="badge ' + cls + '"><span class="badge-dot"></span>' + escapeHtml(capitalize(difficulty)) + '</span>';
+  }
+
+  /* =========================================================
+     STATE
+  ========================================================= */
+
+  const state = {
+    screen: "home",          // home | classicSelect | dailySelect | puzzle | classicComplete | dailyComplete
+    puzzleSource: null,      // { mode: 'classic', level } | { mode: 'daily', difficulty }
+    daily: {
+      date: getTodayKey(),
+      status: "idle",        // idle | loading | ready | error
+      error: null,
+      puzzles: null,         // { easy, medium, hard }
+      progress: null
+    },
+    play: null                // ephemeral in-puzzle state
+  };
+
+  function freshPlayState(puzzle){
+    return {
+      puzzle: puzzle,
+      solved: false,
+      revealedAnswer: false,
+      guess: "",
+      feedback: null,          // { type: 'right'|'wrong', msg }
+      revealedClueIdx: new Set(),
+      hintsUsedIdx: new Set(),
+      hintText: null,
+      categoryRevealed: false,
+      shake: false,
+      startTime: Date.now(),
+      elapsedMs: 0,
+      showCompletionModal: false
+    };
+  }
+
+  function formatElapsed(ms){
+    const totalSec = Math.max(0, Math.floor(ms / 1000));
+    const m = Math.floor(totalSec / 60);
+    const s = totalSec % 60;
+    return String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
+  }
+
+  // Ticking puzzle timer — updates the #puzzle-timer span directly via the
+  // DOM instead of calling render(), so a full re-render every second
+  // doesn't steal focus out of the guess input while the player is typing.
+  let timerHandle = null;
+  function stopPuzzleTimer(){
+    if (timerHandle) { clearInterval(timerHandle); timerHandle = null; }
+  }
+  function startPuzzleTimer(){
+    stopPuzzleTimer();
+    timerHandle = setInterval(function(){
+      const el = document.getElementById("puzzle-timer");
+      if (!el || !state.play || state.play.solved || state.play.revealedAnswer) {
+        stopPuzzleTimer();
+        return;
+      }
+      el.textContent = formatElapsed(Date.now() - state.play.startTime);
+    }, 1000);
+  }
+
+  /* =========================================================
+     DAILY PUZZLE LOADING (static puzzles.json, generated by
+     generate-puzzles.js on a daily GitHub Actions schedule — see
+     .github/workflows/daily-puzzles.yml)
+  ========================================================= */
+
+  function defaultHintsFor(puzzle){
+    const n = Array.isArray(puzzle.clues) ? puzzle.clues.length : 0;
+    return buildLevelHints(n, "Give me a hint", "Category: " + (puzzle.category || "?"));
+  }
+
+  // Deterministic guardrail: if a "struck" clue's word is one we have a known,
+  // real antonym for, force the sound to that antonym — this is what catches
+  // errors like crossing out PUSH but labeling the sound CORN. Applied both
+  // to classic levels (see INIT below) and to whatever puzzles.json contains,
+  // as defense in depth even though generate-puzzles.js already applies it
+  // before writing the file.
+  function fixStruckClueAntonyms(puzzle){
+    if (!Array.isArray(puzzle.clues)) return;
+    puzzle.clues.forEach(function(clue){
+      if (!clue || clue.type !== "struck") return;
+      const knownOpposite = ANTONYM_MAP.get(normWordUpper(clue.content));
+      if (knownOpposite && normWordUpper(clue.sound) !== knownOpposite) {
+        clue.sound = knownOpposite;
+      }
+    });
+  }
+
+  function normalizeSinglePuzzle(parsed, expectedDifficulty){
+    if (!parsed || !parsed.answer || !Array.isArray(parsed.clues) || !parsed.clues.length) {
+      throw new Error("puzzles.json is missing a valid \"" + expectedDifficulty + "\" puzzle.");
+    }
+    parsed.difficulty = expectedDifficulty;
+    fixStruckClueAntonyms(parsed);
+    if (!Array.isArray(parsed.hints) || !parsed.hints.length) {
+      parsed.hints = defaultHintsFor(parsed);
+    }
+    if (!parsed.category) parsed.category = "Mystery";
+    return parsed;
+  }
+
+  // puzzles.json is a small static file (not a metered API call), so it's
+  // fetched fresh every time rather than cached client-side. cache: "no-store"
+  // avoids the browser serving yesterday's file right after midnight.
+  async function fetchDailyPuzzles(){
+    let res;
+    try {
+      res = await fetch("puzzles.json", { cache: "no-store" });
+    } catch (networkErr) {
+      throw new Error("Network error loading today's puzzles: " + networkErr.message);
+    }
+    if (!res.ok) {
+      throw new Error("Could not load puzzles.json (status " + res.status + "). Has the daily generator run yet?");
+    }
+    let data;
+    try {
+      data = await res.json();
+    } catch (parseErr) {
+      throw new Error("puzzles.json is not valid JSON: " + parseErr.message);
+    }
+    if (!data || !data.date) {
+      throw new Error('puzzles.json is missing a "date" field.');
+    }
+
+    const byDiff = {};
+    DAILY_DIFFS.forEach(function(diff){
+      byDiff[diff] = normalizeSinglePuzzle(data[diff], diff);
+    });
+    return { date: data.date, puzzles: byDiff };
+  }
+
+  async function ensureDailyLoaded(force){
+    if (!force && state.daily.status === "ready") return;
+
+    state.daily.status = "loading";
+    state.daily.error = null;
+    render();
+
+    try {
+      const result = await fetchDailyPuzzles();
+      state.daily.date = result.date;
+      state.daily.puzzles = result.puzzles;
+      state.daily.progress = loadDailyProgress(result.date);
+      state.daily.status = "ready";
+      saveDailyProgress(result.date, state.daily.progress);
+    } catch (err) {
+      state.daily.status = "error";
+      state.daily.error = (err && err.message) ? err.message : String(err);
+    }
+    render();
+  }
+
+  /* =========================================================
+     NAVIGATION
+  ========================================================= */
+
+  function goHome(){
+    stopPuzzleTimer();
+    state.screen = "home";
+    state.puzzleSource = null;
+    state.play = null;
+    render();
+  }
+
+  function goHowToPlay(){
+    state.screen = "howToPlay";
+    render();
+  }
+
+  function goClassicSelect(){
+    state.screen = "classicSelect";
+    render();
+  }
+
+  function goDailySelect(){
+    state.screen = "dailySelect";
+    render();
+    ensureDailyLoaded(false);
+  }
+
+  function startClassicLevel(levelNum){
+    const puzzle = CLASSIC_LEVELS.find(function(l){ return l.level === levelNum; });
+    if (!puzzle) return;
+    state.puzzleSource = { mode: "classic", level: levelNum };
+    state.play = freshPlayState(puzzle);
+    state.screen = "puzzle";
+    render();
+    startPuzzleTimer();
+  }
+
+  function startDailyPuzzle(difficulty){
+    if (!state.daily.puzzles) return;
+    const progress = state.daily.progress || loadDailyProgress(state.daily.date);
+    if (progress[difficulty] === "locked") return;
+    const puzzle = state.daily.puzzles[difficulty];
+    if (!puzzle) return;
+    state.puzzleSource = { mode: "daily", difficulty: difficulty };
+    state.play = freshPlayState(puzzle);
+    state.screen = "puzzle";
+    render();
+    startPuzzleTimer();
+  }
+
+  function advanceAfterSolve(){
+    const src = state.puzzleSource;
+    if (!src) { goHome(); return; }
+
+    if (src.mode === "classic") {
+      const progress = loadClassicProgress();
+      if (progress.completed.indexOf(src.level) === -1) progress.completed.push(src.level);
+      saveClassicProgress(progress);
+
+      if (progress.completed.length >= CLASSIC_LEVELS.length) {
+        state.screen = "classicComplete";
+        state.play = null;
+        render();
+      } else if (src.level < CLASSIC_LEVELS.length) {
+        startClassicLevel(src.level + 1);
+      } else {
+        // Last-numbered level, but other levels are still unfinished since
+        // all levels are playable in any order — send them back to pick one.
+        goClassicSelect();
+      }
+    } else if (src.mode === "daily") {
+      const idx = DAILY_DIFFS.indexOf(src.difficulty);
+      const progress = state.daily.progress || loadDailyProgress(state.daily.date);
+      progress[src.difficulty] = "complete";
+      const next = DAILY_DIFFS[idx + 1];
+      if (next) {
+        if (progress[next] === "locked") progress[next] = "active";
+        state.daily.progress = progress;
+        saveDailyProgress(state.daily.date, progress);
+        startDailyPuzzle(next);
+      } else {
+        state.daily.progress = progress;
+        saveDailyProgress(state.daily.date, progress);
+        state.screen = "dailyComplete";
+        state.play = null;
+        render();
+      }
+    }
+  }
+
+  /* =========================================================
+     PUZZLE INTERACTION
+  ========================================================= */
+
+  function submitGuess(rawGuess){
+    const play = state.play;
+    if (!play || play.solved || play.revealedAnswer) return;
+    const guess = normalizeAnswer(rawGuess);
+    const answer = normalizeAnswer(play.puzzle.answer);
+    if (!guess) return;
+
+    if (guess === answer) {
+      play.solved = true;
+      play.elapsedMs = Date.now() - play.startTime;
+      play.showCompletionModal = true;
+      play.feedback = { type: "right", msg: "Correct! 🎉" };
+      play.puzzle.clues.forEach(function(_, i){ play.revealedClueIdx.add(i); });
+    } else {
+      play.feedback = { type: "wrong", msg: "Not quite — try again." };
+      play.shake = true;
+    }
+    render();
+  }
+
+  function revealAnswer(){
+    const play = state.play;
+    if (!play || play.solved || play.revealedAnswer) return;
+    play.revealedAnswer = true;
+    play.elapsedMs = Date.now() - play.startTime;
+    play.showCompletionModal = true;
+    play.puzzle.clues.forEach(function(_, i){ play.revealedClueIdx.add(i); });
+    render();
+  }
+
+  function closeCompletionModal(){
+    if (!state.play) return;
+    state.play.showCompletionModal = false;
+    render();
+  }
+
+  function revealCategory(){
+    const play = state.play;
+    if (!play) return;
+    play.categoryRevealed = true;
+    render();
+  }
+
+  function useHint(hintIndex){
+    const play = state.play;
+    if (!play || play.solved || play.revealedAnswer) return;
+    if (play.hintsUsedIdx.has(hintIndex)) return;
+    const hint = play.puzzle.hints[hintIndex];
+    if (!hint) return;
+
+    play.hintsUsedIdx.add(hintIndex);
+
+    if (hint.ci === -2) {
+      play.puzzle.clues.forEach(function(_, i){ play.revealedClueIdx.add(i); });
+    } else if (hint.ci === -1) {
+      play.hintText = hint.text || "No extra info for this one.";
+    } else if (hint.ci >= 0) {
+      play.revealedClueIdx.add(hint.ci);
+    }
+    render();
+  }
+
+  /* =========================================================
+     RENDER — shared bits
+  ========================================================= */
+
+  function renderTopbar(showBack){
+    return (
+      '<div class="topbar">' +
+        '<div class="brand" data-action="go-home">' +
+          '<span class="brand-mark">Phoneticle</span>' +
+          '<span class="brand-tag">Say it out loud</span>' +
+        '</div>' +
+        '<div class="topbar-actions">' +
+          '<button class="icon-btn" data-action="how-to-play">&#10067; How to Play</button>' +
+          (showBack ? '<button class="icon-btn" data-action="go-home">&larr; Home</button>' : '') +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderClassicProgressBar(progress){
+    const completedSet = new Set(progress.completed);
+    let nextUp = null;
+    for (let i = 1; i <= CLASSIC_LEVELS.length; i++){
+      if (!completedSet.has(i)) { nextUp = i; break; }
+    }
+    let segs = "";
+    for (let i = 1; i <= CLASSIC_LEVELS.length; i++){
+      let cls = "progress-seg";
+      if (completedSet.has(i)) cls += " filled";
+      else if (i === nextUp) cls += " current";
+      segs += '<div class="' + cls + '"></div>';
+    }
+    return '<div class="progress-track">' + segs + '</div>';
+  }
+
+  function renderProgressDots(total, currentIdx, isFilledFn){
+    let dots = "";
+    for (let i = 0; i < total; i++){
+      let cls = "progress-dot";
+      if (isFilledFn(i)) cls += " filled";
+      if (i === currentIdx) cls += " current";
+      dots += '<span class="' + cls + '"></span>';
+    }
+    return '<div class="progress-dots">' + dots + '</div>';
+  }
+
+  /* =========================================================
+     RENDER — Home
+  ========================================================= */
+
+  function renderHome(){
+    const progress = loadClassicProgress();
+    const classicDone = progress.completed.length;
+    // Best-effort: progress is actually keyed by the date inside puzzles.json
+    // (reconciled once Daily Mode is opened), so this is just a quick local-date
+    // guess for the home screen badge.
+    const dp = loadDailyProgress(getTodayKey());
+    let dailyDoneCount = 0;
+    DAILY_DIFFS.forEach(function(d){ if (dp[d] === "complete") dailyDoneCount++; });
+
+    return (
+      renderTopbar(false) +
+      '<div class="card hero">' +
+        '<h1>🔤 Phoneticle</h1>' +
+        '<p>Sound out the clues, string them together out loud, and guess the answer they spell phonetically.</p>' +
+        '<button class="btn btn-secondary btn-sm" style="margin-top:16px;" data-action="how-to-play">&#10067; How to Play</button>' +
+      '</div>' +
+      '<div class="mode-grid">' +
+        '<div class="mode-card" data-action="go-classic">' +
+          '<span class="glyph">🧩</span>' +
+          '<h3>Classic Mode</h3>' +
+          '<p>' + CLASSIC_LEVELS.length + ' handcrafted levels — play any of them, any order.</p>' +
+          '<div class="progress-mini">' + classicDone + ' / ' + CLASSIC_LEVELS.length + ' levels complete</div>' +
+        '</div>' +
+        '<div class="mode-card" data-action="go-daily">' +
+          '<span class="glyph">📅</span>' +
+          '<h3>Daily Mode</h3>' +
+          '<p>3 fresh AI-generated puzzles every day — easy, medium, hard.</p>' +
+          '<div class="progress-mini purple">' + dailyDoneCount + ' / 3 solved today</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="footer-note">Progress is saved automatically in this browser.</div>'
+    );
+  }
+
+  /* =========================================================
+     RENDER — Classic select
+  ========================================================= */
+
+  function renderClassicSelect(){
+    const progress = loadClassicProgress();
+    const completedSet = new Set(progress.completed);
+    let nextUp = null;
+    for (let i = 1; i <= CLASSIC_LEVELS.length; i++){
+      if (!completedSet.has(i)) { nextUp = i; break; }
+    }
+    let items = "";
+    CLASSIC_LEVELS.forEach(function(lvl){
+      const isComplete = completedSet.has(lvl.level);
+      const isCurrent = !isComplete && lvl.level === nextUp;
+      let cls = "level-item";
+      if (isComplete) cls += " complete";
+      if (isCurrent) cls += " current";
+
+      const icon = isComplete ? "&#10003;" : "&#9654;";
+
+      items +=
+        '<div class="' + cls + '" data-action="start-classic" data-level="' + lvl.level + '">' +
+          '<div class="level-num">' + lvl.level + '</div>' +
+          '<div class="level-body">' +
+            '<div class="level-title">' + escapeHtml(lvl.category) + ' Puzzle</div>' +
+            '<div class="level-sub">' + badgeHtml(lvl.difficulty) + '</div>' +
+          '</div>' +
+          '<div class="level-status-icon">' + icon + '</div>' +
+        '</div>';
+    });
+
+    return (
+      renderTopbar(true) +
+      '<div class="section-head"><h2>Classic Mode</h2></div>' +
+      renderClassicProgressBar(progress) +
+      '<div class="empty-note" style="margin-top:-14px;margin-bottom:18px;">All levels are unlocked — play them in any order.</div>' +
+      '<div class="level-list">' + items + '</div>' +
+      (progress.completed.length === CLASSIC_LEVELS.length
+        ? '<div class="empty-note">You\'ve completed every classic level. Nice work!</div>'
+        : '')
+    );
+  }
+
+  /* =========================================================
+     RENDER — Daily select
+  ========================================================= */
+
+  function renderDailySelect(){
+    const body = renderTopbar(true) + '<div class="section-head"><h2>Daily Mode</h2></div>';
+
+    if (state.daily.status === "loading" || state.daily.status === "idle") {
+      return body + (
+        '<div class="card">' +
+          '<div class="center-pane">' +
+            '<div class="spinner"></div>' +
+            '<h3>Loading today\'s puzzles&hellip;</h3>' +
+            '<p>Fetching today\'s three rebus puzzles.</p>' +
+          '</div>' +
+        '</div>'
+      );
+    }
+
+    if (state.daily.status === "error") {
+      return body + (
+        '<div class="card">' +
+          '<div class="center-pane">' +
+            '<h3>Couldn\'t load today\'s puzzles</h3>' +
+            '<div class="error-box">' + escapeHtml(state.daily.error) + '</div>' +
+            '<div class="action-row" style="justify-content:center;">' +
+              '<button class="btn btn-primary" data-action="retry-daily">Try Again</button>' +
+            '</div>' +
+          '</div>' +
+        '</div>'
+      );
+    }
+
+    // ready
+    const progress = state.daily.progress || loadDailyProgress(state.daily.date);
+    let items = "";
+    DAILY_DIFFS.forEach(function(diff){
+      const puzzle = state.daily.puzzles[diff];
+      const status = progress[diff];
+      const isLocked = status === "locked";
+      const isComplete = status === "complete";
+      let cls = "diff-item";
+      if (isLocked) cls += " locked";
+      if (isComplete) cls += " complete";
+
+      const icon = isComplete ? "&#10003;" : (isLocked ? "&#128274;" : "&#9654;");
+
+      items +=
+        '<div class="' + cls + '" data-action="' + (isLocked ? "" : "start-daily") + '" data-diff="' + diff + '">' +
+          '<div class="level-num">' + (isComplete ? "&#10003;" : diff.charAt(0).toUpperCase()) + '</div>' +
+          '<div class="level-body">' +
+            '<div class="level-title">' + escapeHtml(puzzle.category || "Mystery") + '</div>' +
+            '<div class="level-sub">' + badgeHtml(diff) + '</div>' +
+          '</div>' +
+          '<div class="level-status-icon">' + icon + '</div>' +
+        '</div>';
+    });
+
+    return body + (
+      '<div class="diff-list">' + items + '</div>' +
+      '<div class="empty-note">Resets at midnight &middot; complete easy before medium, medium before hard.</div>'
+    );
+  }
+
+  /* =========================================================
+     RENDER — Puzzle screen
+  ========================================================= */
+
+  function clueBoxHtml(clue, idx, revealed){
+    let inner = "";
+    if (clue.type === "emoji") {
+      inner = '<div class="clue-emoji">' + escapeHtml(clue.content) + '</div>';
+    } else if (clue.type === "struck") {
+      inner =
+        '<div class="clue-struck-wrap">' +
+          '<div class="clue-struck">' + escapeHtml(clue.content) + '</div>' +
+          '<div class="clue-struck-label">opposite</div>' +
+        '</div>';
+    } else if (clue.type === "big") {
+      inner = '<div class="clue-big">' + escapeHtml(clue.content) + '</div>';
+    } else {
+      inner = '<div class="clue-text">&ldquo;' + escapeHtml(clue.content) + '&rdquo;</div>';
+    }
+
+    const soundTag = revealed
+      ? '<div class="clue-sound-tag">' + escapeHtml(clue.sound) + '</div>'
+      : "";
+
+    return (
+      '<div class="clue-box' + (revealed ? " is-revealed" : "") + '">' +
+        inner +
+        soundTag +
+      '</div>'
+    );
+  }
+
+  function renderPuzzleHeaderMeta(){
+    const src = state.puzzleSource;
+    const play = state.play;
+    const puzzle = play.puzzle;
+    let left = "";
+
+    if (src.mode === "classic") {
+      const progress = loadClassicProgress();
+      const completedSet = new Set(progress.completed);
+      left =
+        '<span class="puzzle-title">Level ' + src.level + ' / ' + CLASSIC_LEVELS.length + '</span>' +
+        renderProgressDots(CLASSIC_LEVELS.length, src.level - 1, function(i){ return completedSet.has(i + 1); });
+    } else {
+      const idx = DAILY_DIFFS.indexOf(src.difficulty);
+      left =
+        '<span class="puzzle-title">Daily &middot; ' + capitalize(src.difficulty) + '</span>' +
+        renderProgressDots(3, idx, function(i){ return i < idx; });
+    }
+
+    const timerDisplay = (play.solved || play.revealedAnswer)
+      ? formatElapsed(play.elapsedMs)
+      : formatElapsed(Date.now() - play.startTime);
+
+    return (
+      '<div class="puzzle-header">' +
+        '<div class="puzzle-header-left">' + left + '</div>' +
+        '<div class="puzzle-header-right">' +
+          '<span class="timer-badge">&#9201; <span id="puzzle-timer">' + timerDisplay + '</span></span>' +
+          badgeHtml(puzzle.difficulty) +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderPuzzle(){
+    const play = state.play;
+    const puzzle = play.puzzle;
+    const solvedOrRevealed = play.solved || play.revealedAnswer;
+
+    let clueRow = "";
+    puzzle.clues.forEach(function(clue, idx){
+      if (idx > 0) clueRow += '<div class="clue-plus">+</div>';
+      clueRow += clueBoxHtml(clue, idx, play.revealedClueIdx.has(idx));
+    });
+
+    let categoryChip = "";
+    if (play.categoryRevealed || solvedOrRevealed) {
+      categoryChip = '<div class="category-chip">Category&nbsp;<b>' + escapeHtml(puzzle.category) + '</b></div>';
+    } else {
+      categoryChip = '<button class="icon-btn" data-action="reveal-category" style="margin-bottom:18px;">👁 Reveal category</button>';
+    }
+
+    let solvedBanner = "";
+    if (solvedOrRevealed) {
+      solvedBanner =
+        '<div class="solved-banner">' +
+          (play.solved ? "Solved it! 🎉" : "Here's the answer:") +
+          '<div class="answer-reveal">' + escapeHtml(puzzle.answer) + '</div>' +
+        '</div>';
+    }
+
+    let guessArea = "";
+    if (!solvedOrRevealed) {
+      guessArea =
+        '<form class="guess-form" data-action-form="guess">' +
+          '<input type="text" class="guess-input' + (play.shake ? " shake" : "") + '" id="guess-input" placeholder="Type your answer&hellip;" autocomplete="off" autocapitalize="off" spellcheck="false" value="' + escapeHtml(play.guess) + '" />' +
+          '<button type="submit" class="btn btn-primary">Guess</button>' +
+        '</form>' +
+        '<div class="feedback-row' + (play.feedback ? (play.feedback.type === "right" ? " feedback-right" : " feedback-wrong") : "") + '">' +
+          (play.feedback ? escapeHtml(play.feedback.msg) : "") +
+        '</div>' +
+        '<div class="action-row">' +
+          '<button class="btn btn-danger-ghost btn-sm" data-action="skip-reveal">Skip / Reveal answer</button>' +
+        '</div>';
+    } else {
+      guessArea =
+        '<div class="action-row" style="margin-top:16px;">' +
+          '<button class="btn btn-primary btn-block" data-action="next-puzzle">Next &rarr;</button>' +
+        '</div>';
+    }
+
+    let hintsCard = "";
+    if (!solvedOrRevealed) {
+      let hintBtns = "";
+      puzzle.hints.forEach(function(hint, i){
+        const used = play.hintsUsedIdx.has(i);
+        let label = hint.label;
+        if (used) {
+          if (hint.ci >= 0) {
+            const clue = puzzle.clues[hint.ci];
+            label = "Clue " + (hint.ci + 1) + ": " + (clue ? clue.sound : "?");
+          } else if (hint.ci === -2) {
+            label = "All sounds revealed";
+          } else {
+            label = "Hint used";
+          }
+        }
+        hintBtns +=
+          '<button class="hint-btn' + (used ? " used" : "") + '" data-action="use-hint" data-hint="' + i + '" ' + (used ? "disabled" : "") + '>' +
+            escapeHtml(label) +
+          '</button>';
+      });
+
+      hintsCard =
+        '<div class="card hints-card">' +
+          '<div class="hints-head">' +
+            '<h3>Hints</h3>' +
+            '<span class="hints-counter">Used <b>' + play.hintsUsedIdx.size + '</b> / ' + puzzle.hints.length + '</span>' +
+          '</div>' +
+          '<div class="hint-grid">' + hintBtns + '</div>' +
+          (play.hintText ? '<div class="hint-revealed-text">' + escapeHtml(play.hintText) + '</div>' : '') +
+        '</div>';
+    }
+
+    let completionModal = "";
+    if (play.showCompletionModal) {
+      const hintCount = play.hintsUsedIdx.size;
+      completionModal =
+        '<div class="modal-backdrop">' +
+          '<div class="modal-card">' +
+            '<button class="modal-close" data-action="close-completion-modal" aria-label="Close">&times;</button>' +
+            '<div class="modal-icon">' + (play.solved ? "🎉" : "👀") + '</div>' +
+            '<div class="modal-title">' + (play.solved ? "Solved!" : "Answer Revealed") + '</div>' +
+            '<div class="modal-answer">' + escapeHtml(puzzle.answer) + '</div>' +
+            '<div class="modal-stats">' +
+              '<div class="stat-pill">' +
+                '<span class="stat-value">' + formatElapsed(play.elapsedMs) + '</span>' +
+                '<span class="stat-label">Time</span>' +
+              '</div>' +
+              '<div class="stat-pill">' +
+                '<span class="stat-value">' + hintCount + '</span>' +
+                '<span class="stat-label">Hint' + (hintCount === 1 ? "" : "s") + ' used</span>' +
+              '</div>' +
+            '</div>' +
+            '<p class="modal-summary">' +
+              (play.solved
+                ? 'You finished it in <b>' + formatElapsed(play.elapsedMs) + '</b> with <b>' + hintCount + ' hint' + (hintCount === 1 ? "" : "s") + '</b>.'
+                : 'You took <b>' + formatElapsed(play.elapsedMs) + '</b> and used <b>' + hintCount + ' hint' + (hintCount === 1 ? "" : "s") + '</b> before revealing.') +
+            '</p>' +
+            '<div class="modal-actions">' +
+              '<button class="btn btn-ghost" data-action="close-completion-modal">Review Puzzle</button>' +
+              '<button class="btn btn-primary" data-action="next-puzzle">Next &rarr;</button>' +
+            '</div>' +
+          '</div>' +
+        '</div>';
+    }
+
+    return (
+      renderTopbar(true) +
+      renderPuzzleHeaderMeta() +
+      categoryChip +
+      '<div class="card clue-card">' +
+        '<div class="clue-row">' + clueRow + '</div>' +
+        solvedBanner +
+      '</div>' +
+      guessArea +
+      hintsCard +
+      completionModal
+    );
+  }
+
+  /* =========================================================
+     RENDER — completion screens
+  ========================================================= */
+
+  function renderClassicComplete(){
+    return (
+      renderTopbar(true) +
+      '<div class="card">' +
+        '<div class="completion-pane">' +
+          '<span class="glyph">🏆</span>' +
+          '<h2>Classic Mode complete!</h2>' +
+          '<p>You solved all ' + CLASSIC_LEVELS.length + ' handcrafted levels. Try Daily Mode for fresh puzzles every day.</p>' +
+          '<div class="action-row" style="justify-content:center;">' +
+            '<button class="btn btn-secondary" data-action="go-classic">Replay levels</button>' +
+            '<button class="btn btn-primary" data-action="go-daily">Play Daily Mode</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderDailyComplete(){
+    return (
+      renderTopbar(true) +
+      '<div class="card">' +
+        '<div class="completion-pane">' +
+          '<span class="glyph">🎉</span>' +
+          '<h2>Daily puzzles complete!</h2>' +
+          '<p>You solved easy, medium, and hard for ' + escapeHtml(state.daily.date) + '. Come back after midnight for 3 new ones.</p>' +
+          '<div class="action-row" style="justify-content:center;">' +
+            '<button class="btn btn-secondary" data-action="go-classic">Play Classic Mode</button>' +
+            '<button class="btn btn-primary" data-action="go-home">Home</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  /* =========================================================
+     RENDER — How to Play
+  ========================================================= */
+
+  function renderHowToPlay(){
+    const exampleRow =
+      '<div class="clue-row" style="justify-content:flex-start;margin-top:10px;">' +
+        clueBoxHtml({ type: "emoji", content: "😡", sound: "MAD" }, 0, true) +
+        '<div class="clue-plus">+</div>' +
+        clueBoxHtml({ type: "text", content: "Where you fill up your car", sound: "GAS" }, 1, true) +
+        '<div class="clue-plus">+</div>' +
+        clueBoxHtml({ type: "text", content: "Vehicle with four wheels", sound: "CAR" }, 2, true) +
+      '</div>';
+
+    return (
+      renderTopbar(true) +
+      '<div class="section-head"><h2>How to Play</h2></div>' +
+      '<div class="card" style="padding:24px 20px;">' +
+        '<p style="color:var(--text-dim);font-size:14px;line-height:1.6;margin:0 0 6px;">Each puzzle shows a row of clues. Solve each one in your head, say the answers out loud back-to-back, and they blend together into one final word or phrase — that\'s your answer.</p>' +
+        '<div style="margin:16px 0 20px;">' +
+          '<b style="font-size:13px;">Example</b>' +
+          exampleRow +
+          '<p style="margin-top:10px;color:var(--text-dim);font-size:13px;">MAD + GAS + CAR, said quickly, sounds like <b style="color:var(--accent);">Madagascar</b>.</p>' +
+        '</div>' +
+        '<b style="font-size:13px;">Clue types</b>' +
+        '<ul style="color:var(--text-dim);font-size:13.5px;line-height:1.8;padding-left:20px;margin:8px 0 20px;">' +
+          '<li><b style="color:var(--text);">Emoji</b> — say the emoji\'s name out loud.</li>' +
+          '<li><b style="color:var(--text);">Text</b> — a short clue or fill-in-the-blank with one obvious answer.</li>' +
+          '<li><b style="color:var(--red);text-decoration:line-through;">Crossed-out word</b> — say its opposite instead.</li>' +
+          '<li><b style="color:var(--text);">Big letters</b> — an abbreviation or fragment, said out loud.</li>' +
+        '</ul>' +
+        '<b style="font-size:13px;">Tools while you play</b>' +
+        '<ul style="color:var(--text-dim);font-size:13.5px;line-height:1.8;padding-left:20px;margin:8px 0 20px;">' +
+          '<li>👁 Reveal the category if you want a nudge.</li>' +
+          '<li>Hints reveal one clue\'s sound at a time, give a text tip, or reveal everything — each use is tracked in your hint count.</li>' +
+          '<li>&#9201; Every puzzle is timed, and you\'ll see your time and hints used when you finish.</li>' +
+          '<li>Skip / Reveal answer if you\'re stuck — no penalty, just move on.</li>' +
+        '</ul>' +
+        '<b style="font-size:13px;">Modes</b>' +
+        '<ul style="color:var(--text-dim);font-size:13.5px;line-height:1.8;padding-left:20px;margin:8px 0 0;">' +
+          '<li><b style="color:var(--text);">Classic</b> — ' + CLASSIC_LEVELS.length + ' handcrafted levels, all unlocked from the start. Play them in any order.</li>' +
+          '<li><b style="color:var(--text);">Daily</b> — 3 fresh AI-generated puzzles every day (easy, medium, hard), solved in order. Resets at midnight.</li>' +
+        '</ul>' +
+      '</div>'
+    );
+  }
+
+  /* =========================================================
+     ROOT RENDER
+  ========================================================= */
+
+  function render(){
+    const app = document.getElementById("app");
+    let html = "";
+    switch (state.screen) {
+      case "classicSelect": html = renderClassicSelect(); break;
+      case "dailySelect": html = renderDailySelect(); break;
+      case "howToPlay": html = renderHowToPlay(); break;
+      case "puzzle": html = renderPuzzle(); break;
+      case "classicComplete": html = renderClassicComplete(); break;
+      case "dailyComplete": html = renderDailyComplete(); break;
+      default: html = renderHome();
+    }
+    app.innerHTML = html;
+
+    const guessInput = document.getElementById("guess-input");
+    if (guessInput) {
+      guessInput.focus();
+      const len = guessInput.value.length;
+      guessInput.setSelectionRange(len, len);
+      if (state.play && state.play.shake) {
+        state.play.shake = false;
+        // clear the flag after the animation has had a chance to be applied
+        setTimeout(function(){}, 0);
+      }
+    }
+  }
+
+  /* =========================================================
+     EVENT DELEGATION
+  ========================================================= */
+
+  document.addEventListener("click", function(e){
+    const target = e.target.closest("[data-action]");
+    if (!target) return;
+    const action = target.getAttribute("data-action");
+    if (!action) return;
+
+    switch (action) {
+      case "go-home": goHome(); break;
+      case "go-classic": goClassicSelect(); break;
+      case "go-daily": goDailySelect(); break;
+      case "start-classic": startClassicLevel(parseInt(target.getAttribute("data-level"), 10)); break;
+      case "start-daily": startDailyPuzzle(target.getAttribute("data-diff")); break;
+      case "retry-daily": ensureDailyLoaded(true); break;
+      case "reveal-category": revealCategory(); break;
+      case "skip-reveal": revealAnswer(); break;
+      case "next-puzzle": advanceAfterSolve(); break;
+      case "use-hint": useHint(parseInt(target.getAttribute("data-hint"), 10)); break;
+      case "how-to-play": goHowToPlay(); break;
+      case "close-completion-modal": closeCompletionModal(); break;
+    }
+  });
+
+  document.addEventListener("submit", function(e){
+    const guessForm = e.target.closest('[data-action-form="guess"]');
+    if (guessForm) {
+      e.preventDefault();
+      const input = guessForm.querySelector("#guess-input");
+      if (input) submitGuess(input.value);
+      return;
+    }
+  });
+
+  document.addEventListener("input", function(e){
+    if (e.target && e.target.id === "guess-input" && state.play) {
+      state.play.guess = e.target.value;
+      if (state.play.feedback && state.play.feedback.type === "wrong") {
+        // clear stale wrong-feedback once they start typing again
+        state.play.feedback = null;
+        const row = document.querySelector(".feedback-row");
+        if (row) { row.textContent = ""; row.className = "feedback-row"; }
+      }
+    }
+  });
+
+  /* =========================================================
+     INIT
+  ========================================================= */
+
+  // Safety net: force any classic-level "struck" clue to its real antonym
+  // in case a future edit introduces a mismatch (see fixStruckClueAntonyms).
+  CLASSIC_LEVELS.forEach(function(level){ fixStruckClueAntonyms(level); });
+
+  render();
+})();
+</script>
+</body>
+</html>
