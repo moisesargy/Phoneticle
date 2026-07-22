@@ -1398,10 +1398,7 @@
           '<span class="brand-mark">Phoneticle</span>' +
           '<span class="brand-tag">Say it out loud</span>' +
         '</div>' +
-        '<div class="topbar-actions">' +
-          '<button class="icon-btn" data-action="how-to-play">&#10067; How to Play</button>' +
-          (showBack ? '<button class="icon-btn" data-action="go-home">&larr; Home</button>' : '') +
-        '</div>' +
+        (showBack ? '<div class="topbar-actions"><button class="icon-btn" data-action="go-home">&larr; Home</button></div>' : '') +
       '</div>'
     );
   }
@@ -1440,19 +1437,13 @@
   function renderHome(){
     const progress = loadClassicProgress();
     const classicDone = progress.completed.length;
-    // Best-effort: progress is actually keyed by the date inside puzzles.json
-    // (reconciled once Daily Mode is opened), so this is just a quick local-date
-    // guess for the home screen badge.
-    const dp = loadDailyProgress(getTodayKey());
-    let dailyDoneCount = 0;
-    DAILY_DIFFS.forEach(function(d){ if (dp[d] === "complete") dailyDoneCount++; });
 
     return (
       renderTopbar(false) +
       '<div class="card hero">' +
         '<h1>🔤 Phoneticle</h1>' +
         '<p>Sound out the clues, string them together out loud, and guess the answer they spell phonetically.</p>' +
-        '<button class="btn btn-secondary btn-sm" style="margin-top:16px;" data-action="how-to-play">&#10067; How to Play</button>' +
+        '<button class="btn btn-secondary btn-sm" style="margin-top:16px;" data-action="go-daily">&#128197; Daily Mode</button>' +
       '</div>' +
       '<div class="mode-grid">' +
         '<div class="mode-card" data-action="go-classic">' +
@@ -1461,11 +1452,10 @@
           '<p>' + CLASSIC_LEVELS.length + ' handcrafted levels — play any of them, any order.</p>' +
           '<div class="progress-mini">' + classicDone + ' / ' + CLASSIC_LEVELS.length + ' levels complete</div>' +
         '</div>' +
-        '<div class="mode-card" data-action="go-daily">' +
-          '<span class="glyph">📅</span>' +
-          '<h3>Daily Mode</h3>' +
-          '<p>3 fresh AI-generated puzzles every day — easy, medium, hard.</p>' +
-          '<div class="progress-mini purple">' + dailyDoneCount + ' / 3 solved today</div>' +
+        '<div class="mode-card" data-action="how-to-play">' +
+          '<span class="glyph">&#10067;</span>' +
+          '<h3>How to Play</h3>' +
+          '<p>New here? See how the clues work and what each symbol means.</p>' +
         '</div>' +
       '</div>' +
       '<div class="footer-note">Progress is saved automatically in this browser.</div>'
