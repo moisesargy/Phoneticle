@@ -154,6 +154,15 @@
     padding:34px 22px 30px;
     margin-bottom:20px;
   }
+  .hero-clickable{
+    cursor:pointer;
+    transition:border-color .15s,background .15s,transform .1s;
+  }
+  .hero-clickable:hover{
+    border-color:#3c3c4c;
+    background:var(--elev-2);
+    transform:translateY(-2px);
+  }
   .hero h1{
     font-family:var(--font-head);
     font-size:clamp(26px,6vw,34px);
@@ -1440,10 +1449,9 @@
 
     return (
       renderTopbar(false) +
-      '<div class="card hero">' +
-        '<h1>🔤 Phoneticle</h1>' +
+      '<div class="card hero hero-clickable" data-action="go-daily">' +
+        '<h1>🔤 Daily Puzzles</h1>' +
         '<p>Sound out the clues, string them together out loud, and guess the answer they spell phonetically.</p>' +
-        '<button class="btn btn-secondary btn-sm" style="margin-top:16px;" data-action="go-daily">&#128197; Daily Mode</button>' +
       '</div>' +
       '<div class="mode-grid">' +
         '<div class="mode-card" data-action="go-classic">' +
