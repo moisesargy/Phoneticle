@@ -1,25 +1,25 @@
 {
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T02:38:18.034Z",
+  "generatedAt": "2026-07-22T03:05:31.310Z",
   "easy": {
-    "answer": "DINOSAUR",
-    "category": "Animal",
+    "answer": "BLACKBERRY",
+    "category": "Fruit",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🎲",
-        "sound": "DIE"
-      },
-      {
         "type": "struck",
-        "content": "YES",
-        "sound": "NO"
+        "content": "WHITE",
+        "sound": "BLACK"
       },
       {
         "type": "emoji",
-        "content": "🪚",
-        "sound": "SAW"
+        "content": "🐻",
+        "sound": "BEAR"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This giant prehistoric reptile ruled the Earth long before humans existed."
+        "text": "A small, dark fruit that grows on thorny canes and makes a wonderful summer jam or pie."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "MICROPHONE",
-    "category": "Object",
+    "answer": "DRAGONFLY",
+    "category": "Insect",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "struck",
-        "content": "YOUR",
-        "sound": "MY"
+        "type": "text",
+        "content": "RuPaul's ___ Race",
+        "sound": "DRAG"
       },
       {
-        "type": "text",
-        "content": "What a rooster does at dawn",
-        "sound": "CROW"
+        "type": "struck",
+        "content": "OFF",
+        "sound": "ON"
       },
       {
         "type": "emoji",
-        "content": "📱",
-        "sound": "PHONE"
+        "content": "🪰",
+        "sound": "FLY"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "Singers, podcasters, and public speakers all depend on this."
+        "text": "This creature is often spotted hovering over ponds, darting through the air with shimmering, iridescent wings."
       },
       {
         "label": "Reveal all sounds",
@@ -92,24 +92,24 @@
     ]
   },
   "hard": {
-    "answer": "Chernobyl",
-    "category": "Place",
+    "answer": "Kathmandu",
+    "category": "City",
     "difficulty": "hard",
     "clues": [
       {
         "type": "emoji",
-        "content": "🪑",
-        "sound": "CHAIR"
+        "content": "🐱",
+        "sound": "CAT"
       },
       {
-        "type": "struck",
-        "content": "YES",
-        "sound": "NO"
+        "type": "emoji",
+        "content": "👨",
+        "sound": "MAN"
       },
       {
         "type": "text",
-        "content": "___ Gates, Microsoft founder",
-        "sound": "BILL"
+        "content": "Scooby-___",
+        "sound": "DOO"
       }
     ],
     "hints": [
@@ -128,7 +128,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This place became a byword for nuclear catastrophe after a single night in April 1986."
+        "text": "This high-altitude capital city is the starting point for most Himalayan expeditions."
       },
       {
         "label": "Reveal all sounds",
