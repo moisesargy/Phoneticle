@@ -1,25 +1,25 @@
 {
-  "date": "2026-07-22",
-  "generatedAt": "2026-07-22T11:33:01.079Z",
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T11:25:04.441Z",
   "easy": {
-    "answer": "CARPENTRY",
-    "category": "Craft",
+    "answer": "Tokyo",
+    "category": "City",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🚗",
-        "sound": "CAR"
+        "content": "🦶",
+        "sound": "TOE"
       },
       {
         "type": "emoji",
-        "content": "🖊️",
-        "sound": "PEN"
+        "content": "🔑",
+        "sound": "KEY"
       },
       {
-        "type": "emoji",
-        "content": "🌳",
-        "sound": "TREE"
+        "type": "big",
+        "content": "O",
+        "sound": "OH"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "A skilled trade that turns wood into useful things"
+        "text": "This bustling metropolis is the capital of a nation famous for sushi, cherry blossoms, and bullet trains."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Carpentry",
-    "category": "Craft",
+    "answer": "Pinocchio",
+    "category": "Fictional Character",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🚗",
-        "sound": "CAR"
-      },
-      {
         "type": "text",
-        "content": "___ pal (a faraway friend you exchange letters with)",
-        "sound": "PEN"
+        "content": "bowling ___",
+        "sound": "PIN"
+      },
+      {
+        "type": "big",
+        "content": "O",
+        "sound": "OH"
       },
       {
         "type": "emoji",
-        "content": "🌳",
-        "sound": "TREE"
+        "content": "🔑",
+        "sound": "KEY"
+      },
+      {
+        "type": "big",
+        "content": "O",
+        "sound": "OH"
       }
     ],
     "hints": [
@@ -81,9 +86,13 @@
         "ci": 2
       },
       {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "A skilled trade where wood gets cut, shaped, and joined into something lasting."
+        "text": "This famous puppet's nose has a habit of growing at the worst possible moments."
       },
       {
         "label": "Reveal all sounds",
@@ -97,9 +106,9 @@
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "Sonny and ___",
-        "sound": "CHER"
+        "type": "emoji",
+        "content": "🪑",
+        "sound": "CHAIR"
       },
       {
         "type": "struck",
@@ -108,8 +117,8 @@
       },
       {
         "type": "text",
-        "content": "as in 'Red ___ energy drink'",
-        "sound": "BULL"
+        "content": "___ Gates, Microsoft co-founder",
+        "sound": "BILL"
       }
     ],
     "hints": [
@@ -128,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "A name forever linked to a catastrophic 1986 disaster in Ukraine."
+        "text": "This Ukrainian location is forever linked to one of history's worst nuclear disasters."
       },
       {
         "label": "Reveal all sounds",
