@@ -1,25 +1,25 @@
 {
-  "date": "2026-07-24",
-  "generatedAt": "2026-07-24T11:25:04.441Z",
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T10:18:55.808Z",
   "easy": {
-    "answer": "Tokyo",
-    "category": "City",
+    "answer": "SUNFLOWER",
+    "category": "Plant",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🦶",
-        "sound": "TOE"
+        "content": "☀️",
+        "sound": "SUN"
       },
       {
-        "type": "emoji",
-        "content": "🔑",
-        "sound": "KEY"
+        "type": "struck",
+        "content": "EBB",
+        "sound": "FLOW"
       },
       {
         "type": "big",
-        "content": "O",
-        "sound": "OH"
+        "content": "E.R.",
+        "sound": "ER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This bustling metropolis is the capital of a nation famous for sushi, cherry blossoms, and bullet trains."
+        "text": "This tall, bright bloom always faces the light."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Pinocchio",
-    "category": "Fictional Character",
+    "answer": "Porcupine",
+    "category": "Animal",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "struck",
+        "content": "RICH",
+        "sound": "POOR"
+      },
+      {
+        "type": "big",
+        "content": "Q",
+        "sound": "CUE"
+      },
+      {
         "type": "text",
-        "content": "bowling ___",
-        "sound": "PIN"
-      },
-      {
-        "type": "big",
-        "content": "O",
-        "sound": "OH"
-      },
-      {
-        "type": "emoji",
-        "content": "🔑",
-        "sound": "KEY"
-      },
-      {
-        "type": "big",
-        "content": "O",
-        "sound": "OH"
+        "content": "as in '___ cone'",
+        "sound": "PINE"
       }
     ],
     "hints": [
@@ -86,13 +81,9 @@
         "ci": 2
       },
       {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This famous puppet's nose has a habit of growing at the worst possible moments."
+        "text": "This slow-moving creature carries a built-in set of sharp defenses wherever it roams."
       },
       {
         "label": "Reveal all sounds",
@@ -101,24 +92,24 @@
     ]
   },
   "hard": {
-    "answer": "Chernobyl",
-    "category": "Historic Site",
+    "answer": "Kathmandu",
+    "category": "City",
     "difficulty": "hard",
     "clues": [
       {
         "type": "emoji",
-        "content": "🪑",
-        "sound": "CHAIR"
+        "content": "🐱",
+        "sound": "CAT"
       },
       {
         "type": "struck",
-        "content": "YES",
-        "sound": "NO"
+        "content": "WOMAN",
+        "sound": "MAN"
       },
       {
         "type": "text",
-        "content": "___ Gates, Microsoft co-founder",
-        "sound": "BILL"
+        "content": "Scooby-___",
+        "sound": "DOO"
       }
     ],
     "hints": [
@@ -137,7 +128,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This Ukrainian location is forever linked to one of history's worst nuclear disasters."
+        "text": "This place sits high in the Himalayas and is home to ancient temples and trekking legends."
       },
       {
         "label": "Reveal all sounds",
