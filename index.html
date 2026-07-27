@@ -1495,7 +1495,7 @@
         '<div class="' + cls + '" data-action="start-classic" data-level="' + lvl.level + '">' +
           '<div class="level-num">' + lvl.level + '</div>' +
           '<div class="level-body">' +
-            '<div class="level-title">' + escapeHtml(lvl.category) + ' Puzzle</div>' +
+            '<div class="level-title">Level ' + lvl.level + '</div>' +
             '<div class="level-sub">' + badgeHtml(lvl.difficulty) + '</div>' +
           '</div>' +
           '<div class="level-status-icon">' + icon + '</div>' +
@@ -1565,7 +1565,7 @@
         '<div class="' + cls + '" data-action="' + (isLocked ? "" : "start-daily") + '" data-diff="' + diff + '">' +
           '<div class="level-num">' + (isComplete ? "&#10003;" : diff.charAt(0).toUpperCase()) + '</div>' +
           '<div class="level-body">' +
-            '<div class="level-title">' + escapeHtml(puzzle.category || "Mystery") + '</div>' +
+            '<div class="level-title">' + capitalize(diff) + ' Puzzle</div>' +
             '<div class="level-sub">' + badgeHtml(diff) + '</div>' +
           '</div>' +
           '<div class="level-status-icon">' + icon + '</div>' +
@@ -1726,7 +1726,10 @@
 
     let completionModal = "";
     if (play.showCompletionModal) {
-      const hintCount = play.hintsUsedIdx.size;
+      // Revealing the category is its own hint-like assist, even though it's
+      // a separate button from the Hints panel — count it toward the total
+      // shown at the end.
+      const hintCount = play.hintsUsedIdx.size + (play.categoryRevealed ? 1 : 0);
       completionModal =
         '<div class="modal-backdrop">' +
           '<div class="modal-card">' +

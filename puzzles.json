@@ -1,15 +1,105 @@
 {
-  "date": "2026-07-22",
-  "generatedAt": "2026-07-22T03:05:31.310Z",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T01:39:15.711Z",
   "easy": {
-    "answer": "BLACKBERRY",
-    "category": "Fruit",
+    "answer": "SUNRISE",
+    "category": "Word",
     "difficulty": "easy",
     "clues": [
       {
+        "type": "emoji",
+        "content": "☀️",
+        "sound": "SUN"
+      },
+      {
         "type": "struck",
-        "content": "WHITE",
-        "sound": "BLACK"
+        "content": "FALL",
+        "sound": "RISE"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "Something many people set an alarm early to witness on a clear morning."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "medium": {
+    "answer": "WATERMELON",
+    "category": "Food",
+    "difficulty": "medium",
+    "clues": [
+      {
+        "type": "text",
+        "content": "unit of power, symbol W",
+        "sound": "WATT"
+      },
+      {
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
+      },
+      {
+        "type": "text",
+        "content": "___ Gibson, actor and director",
+        "sound": "MEL"
+      },
+      {
+        "type": "struck",
+        "content": "OFF",
+        "sound": "ON"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "A refreshing summer fruit you might find sliced at a backyard picnic."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Strawberry Shortcake",
+    "category": "Cartoon Character",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "the last ___, as in the breaking-point idiom",
+        "sound": "STRAW"
       },
       {
         "type": "emoji",
@@ -20,96 +110,16 @@
         "type": "big",
         "content": "E",
         "sound": "EE"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "A small, dark fruit that grows on thorny canes and makes a wonderful summer jam or pie."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "medium": {
-    "answer": "DRAGONFLY",
-    "category": "Insect",
-    "difficulty": "medium",
-    "clues": [
-      {
-        "type": "text",
-        "content": "RuPaul's ___ Race",
-        "sound": "DRAG"
       },
       {
         "type": "struck",
-        "content": "OFF",
-        "sound": "ON"
-      },
-      {
-        "type": "emoji",
-        "content": "🪰",
-        "sound": "FLY"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "This creature is often spotted hovering over ponds, darting through the air with shimmering, iridescent wings."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Kathmandu",
-    "category": "City",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "emoji",
-        "content": "🐱",
-        "sound": "CAT"
-      },
-      {
-        "type": "emoji",
-        "content": "👨",
-        "sound": "MAN"
+        "content": "TALL",
+        "sound": "SHORT"
       },
       {
         "type": "text",
-        "content": "Scooby-___",
-        "sound": "DOO"
+        "content": "you can't have your ___ and eat it too",
+        "sound": "CAKE"
       }
     ],
     "hints": [
@@ -126,9 +136,17 @@
         "ci": 2
       },
       {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Reveal clue 5 sound",
+        "ci": 4
+      },
+      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This high-altitude capital city is the starting point for most Himalayan expeditions."
+        "text": "A cheerful children's cartoon character who has been delighting kids since the 1970s and has quite a sweet-sounding name."
       },
       {
         "label": "Reveal all sounds",

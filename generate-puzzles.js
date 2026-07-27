@@ -112,9 +112,9 @@ function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
 // ---------- prompt (ported verbatim from index.html buildSinglePuzzlePrompt) ----------
 const DIFFICULTY_GUIDANCE = {
-  easy: "a short, very well-known answer with completely obvious clues",
-  medium: "a moderately well-known answer, or a longer/multi-word answer, with slightly trickier but still fair clues",
-  hard: "a more obscure and/or multi-word answer, with cleverer, less obvious clues"
+  easy: "a short, very well-known, everyday answer, assembled from about 2 to 3 clue pieces",
+  medium: "a well-known, everyday answer (not obscure) assembled from about 4 to 5 clue pieces — the larger number of pieces to track and blend, not an unfamiliar answer, is what makes it trickier than easy",
+  hard: "a well-known, everyday answer — still NOT obscure, technical, or niche; a typical adult should recognize it instantly once revealed — assembled from about 5 to 7 clue pieces (use 7 when a clean breakdown exists, but a strong 5-piece puzzle beats a forced 7-piece one). Difficulty must come from having more pieces to mentally hold and blend together, never from the answer itself being hard to know"
 };
 
 function buildSinglePuzzlePrompt(dateStr, difficulty) {
@@ -124,11 +124,11 @@ function buildSinglePuzzlePrompt(dateStr, difficulty) {
     '',
     'HOW A PUZZLE WORKS: players see a row of clues. Each clue, when solved and read aloud, produces a short SOUND. The sounds are strung together in order and, said quickly out loud, blend into the pronunciation of a single answer (a word or short phrase). Example: an angry-face emoji ("MAD") + a gas pump emoji ("GAS") + a car emoji ("CAR") = "Madagascar". Example: a bee emoji ("BEE") + the crossed-out word "OFF" meaning its opposite "ON" + the clue "what you do when you speak" ("SAY") = "Beyoncé".',
     '',
-    'Generate exactly ONE puzzle at difficulty "' + difficulty + '": ' + guidance + '.',
+    'Generate exactly ONE puzzle at difficulty "' + difficulty + '": ' + guidance + '. Difficulty comes only from the clue count, never from an obscure answer — even "hard" must use an everyday, instantly-recognizable answer.',
     '',
     'RULES:',
-    '- Pick an answer: a real word or short phrase (movie, country, celebrity, historical figure, brand, object, book, city, food, etc). Make it fresh — avoid the most common textbook examples like "Madagascar" or "Beyoncé".',
-    '- First work out the phonetic SOUNDS of the answer as spoken aloud (not the spelling), and split it into 3 to 7 sound chunks.',
+    '- Pick an answer: a real word or short phrase (movie, country, celebrity, historical figure, brand, object, book, city, food, etc) that a typical adult would immediately recognize. Make it fresh — avoid the most common textbook examples like "Madagascar" or "Beyoncé" — but freshness means a different everyday answer, not an obscure one.',
+    '- First work out the phonetic SOUNDS of the answer as spoken aloud (not the spelling), and split it into roughly the number of sound chunks called for by the difficulty above.',
     '- For every sound chunk invent one clue whose single, obvious solution — when said aloud — produces that sound. Prefer this order of clue types, and mix at least 2 different types per puzzle:',
     '  "emoji" (STRONGLY PREFERRED — use one whenever a sound has an emoji with an exact, unambiguous common one- or two-word spoken name) -> content is one emoji; sound is that exact common name, in capitals.',
     '  "big" -> content is a short, standard, unambiguous abbreviation/initial/fill-in fragment; sound is exactly how it is normally said aloud, in capitals.',
@@ -195,7 +195,7 @@ async function fetchSinglePuzzle(dateStr, difficulty) {
       },
       body: JSON.stringify({
         model: "claude-sonnet-4-6",
-        max_tokens: 6000,
+        max_tokens: 16000,
         thinking: { type: "adaptive" },
         output_config: { effort: "medium" },
         messages: [{ role: "user", content: prompt }]
