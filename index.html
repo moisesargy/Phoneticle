@@ -1588,7 +1588,11 @@
 
     if (src.mode === "classic") {
       const progress = loadClassicProgress();
-      if (progress.completed.indexOf(src.level) === -1) progress.completed.push(src.level);
+      // Keyed by answer, not level number — level numbers shift whenever
+      // levels are reordered/added, which would otherwise silently point
+      // old saved progress at the wrong puzzle.
+      const solvedId = state.play.puzzle.answer;
+      if (progress.completed.indexOf(solvedId) === -1) progress.completed.push(solvedId);
       saveClassicProgress(progress);
 
       if (progress.completed.length >= CLASSIC_LEVELS.length) {
@@ -1707,16 +1711,16 @@
   function renderClassicProgressBar(progress){
     const completedSet = new Set(progress.completed);
     let nextUp = null;
-    for (let i = 1; i <= CLASSIC_LEVELS.length; i++){
-      if (!completedSet.has(i)) { nextUp = i; break; }
+    for (let i = 0; i < CLASSIC_LEVELS.length; i++){
+      if (!completedSet.has(CLASSIC_LEVELS[i].answer)) { nextUp = CLASSIC_LEVELS[i].level; break; }
     }
     let segs = "";
-    for (let i = 1; i <= CLASSIC_LEVELS.length; i++){
+    CLASSIC_LEVELS.forEach(function(lvl){
       let cls = "progress-seg";
-      if (completedSet.has(i)) cls += " filled";
-      else if (i === nextUp) cls += " current";
+      if (completedSet.has(lvl.answer)) cls += " filled";
+      else if (lvl.level === nextUp) cls += " current";
       segs += '<div class="' + cls + '"></div>';
-    }
+    });
     return '<div class="progress-track">' + segs + '</div>';
   }
 
@@ -1770,12 +1774,12 @@
     const progress = loadClassicProgress();
     const completedSet = new Set(progress.completed);
     let nextUp = null;
-    for (let i = 1; i <= CLASSIC_LEVELS.length; i++){
-      if (!completedSet.has(i)) { nextUp = i; break; }
+    for (let i = 0; i < CLASSIC_LEVELS.length; i++){
+      if (!completedSet.has(CLASSIC_LEVELS[i].answer)) { nextUp = CLASSIC_LEVELS[i].level; break; }
     }
     let items = "";
     CLASSIC_LEVELS.forEach(function(lvl){
-      const isComplete = completedSet.has(lvl.level);
+      const isComplete = completedSet.has(lvl.answer);
       const isCurrent = !isComplete && lvl.level === nextUp;
       let cls = "level-item";
       if (isComplete) cls += " complete";
@@ -1913,7 +1917,7 @@
       const completedSet = new Set(progress.completed);
       left =
         '<span class="puzzle-title">Level ' + src.level + ' / ' + CLASSIC_LEVELS.length + '</span>' +
-        renderProgressDots(CLASSIC_LEVELS.length, src.level - 1, function(i){ return completedSet.has(i + 1); });
+        renderProgressDots(CLASSIC_LEVELS.length, src.level - 1, function(i){ return completedSet.has(CLASSIC_LEVELS[i].answer); });
     } else {
       const idx = DAILY_DIFFS.indexOf(src.difficulty);
       left =
