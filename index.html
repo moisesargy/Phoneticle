@@ -1268,6 +1268,31 @@
         { type: "big",  content: "PER", sound: "PER" }
       ],
       hints: buildLevelHints(3, "Give me a hint", "It's a jumping insect known for its strong hind legs.")
+    },
+    {
+      level: 51,
+      answer: "Game of Thrones",
+      category: "TV Show",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "Word for happy, or someone who identifies as LGBT", sound: "GAY" },
+        { type: "text", content: "When a punt returner drops the ball", sound: "MUFF" },
+        { type: "text", content: "What a quarterback does with the football", sound: "THROW" },
+        { type: "big",  content: "NS", sound: "NS" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's a hit fantasy book series and TV show full of political intrigue and dragons.")
+    },
+    {
+      level: 52,
+      answer: "Bibliophile",
+      category: "Word",
+      difficulty: "easy",
+      clues: [
+        { type: "text",  content: "Object babies use while eating around their neck", sound: "BIB" },
+        { type: "text",  content: "Zodiac sign that's also a common boy's name", sound: "LEO" },
+        { type: "emoji", content: "📁", sound: "FILE" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a word for someone who loves and collects books.")
     }
   ];
 
@@ -1317,6 +1342,18 @@
   /* =========================================================
      UTIL
   ========================================================= */
+
+  function getDailyResetTimeEastern(){
+    // Puzzles regenerate at 05:00 UTC daily — show that moment in US Eastern
+    // time, letting Intl handle the EST/EDT (daylight saving) offset.
+    const now = new Date();
+    const resetUtc = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 5, 0, 0));
+    return new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/New_York",
+      hour: "numeric",
+      hour12: true
+    }).format(resetUtc);
+  }
 
   function escapeHtml(str){
     return String(str == null ? "" : str)
@@ -2098,7 +2135,7 @@
         '<div class="completion-pane">' +
           '<span class="glyph">🎉</span>' +
           '<h2>Daily puzzles complete!</h2>' +
-          '<p>You solved easy, medium, and hard for ' + escapeHtml(state.daily.date) + '. Come back after midnight for 3 new ones.</p>' +
+          '<p>You solved easy, medium, and hard for ' + escapeHtml(state.daily.date) + '. Come back at ' + getDailyResetTimeEastern() + ' Eastern for 3 new ones.</p>' +
           '<div class="action-row" style="justify-content:center;">' +
             '<button class="btn btn-secondary" data-action="go-classic">Play Classic Mode</button>' +
             '<button class="btn btn-primary" data-action="go-home">Home</button>' +
