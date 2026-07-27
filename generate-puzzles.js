@@ -124,11 +124,13 @@ function buildSinglePuzzlePrompt(dateStr, difficulty) {
     '',
     'HOW A PUZZLE WORKS: players see a row of clues. Each clue, when solved and read aloud, produces a short SOUND. The sounds are strung together in order and, said quickly out loud, blend into the pronunciation of a single answer (a word or short phrase). Example: an angry-face emoji ("MAD") + a gas pump emoji ("GAS") + a car emoji ("CAR") = "Madagascar". Example: a bee emoji ("BEE") + the crossed-out word "OFF" meaning its opposite "ON" + the clue "what you do when you speak" ("SAY") = "Beyoncé".',
     '',
+    'BANNED PATTERN: for multi-word answers, do not clue each of the answer\'s own words one-for-one (e.g. "Two Birds, One Stone" clued as two/birds/one/stone) — that just restates the phrase, it is not a puzzle. Every clue\'s solution must be a different word/concept than the answer\'s own words, whose SOUND just happens to match a chunk of the answer. Example: "GAY" (LGBT) + "MUFF" (a muffed punt) + "THROW" (what a QB does) + "NS" = "Game of Thrones" — none of those clue words appear in the answer.',
+    '',
     'Generate exactly ONE puzzle at difficulty "' + difficulty + '": ' + guidance + '. Difficulty comes only from the clue count, never from an obscure answer — even "hard" must use an everyday, instantly-recognizable answer.',
     '',
     'RULES:',
     '- Pick an answer: a real word or short phrase (movie, country, celebrity, historical figure, brand, object, book, city, food, etc) that a typical adult would immediately recognize. Make it fresh — avoid the most common textbook examples like "Madagascar" or "Beyoncé" — but freshness means a different everyday answer, not an obscure one.',
-    '- First work out the phonetic SOUNDS of the answer as spoken aloud (not the spelling), and split it into roughly the number of sound chunks called for by the difficulty above.',
+    '- First work out the phonetic SOUNDS of the answer as spoken aloud (not the spelling), and split it into roughly the number of sound chunks called for by the difficulty above. For multi-word answers, do not default to one chunk per existing word — re-segment across word breaks so chunks don\'t line up with the answer\'s own words.',
     '- For every sound chunk invent one clue whose single, obvious solution — when said aloud — produces that sound. Prefer this order of clue types, and mix at least 2 different types per puzzle:',
     '  "emoji" (STRONGLY PREFERRED — use one whenever a sound has an emoji with an exact, unambiguous common one- or two-word spoken name) -> content is one emoji; sound is that exact common name, in capitals.',
     '  "big" -> content is a short, standard, unambiguous abbreviation/initial/fill-in fragment; sound is exactly how it is normally said aloud, in capitals.',
@@ -195,7 +197,7 @@ async function fetchSinglePuzzle(dateStr, difficulty) {
       },
       body: JSON.stringify({
         model: "claude-sonnet-4-6",
-        max_tokens: 16000,
+        max_tokens: 28000,
         thinking: { type: "adaptive" },
         output_config: { effort: "medium" },
         messages: [{ role: "user", content: prompt }]

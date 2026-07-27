@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generatedAt": "2026-07-27T01:39:15.711Z",
+  "generatedAt": "2026-07-27T03:50:00.783Z",
   "easy": {
     "answer": "SUNRISE",
     "category": "Word",
@@ -29,7 +29,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "Something many people set an alarm early to witness on a clear morning."
+        "text": "Something worth waking up early for on a clear morning."
       },
       {
         "label": "Reveal all sounds",
@@ -38,29 +38,29 @@
     ]
   },
   "medium": {
-    "answer": "WATERMELON",
-    "category": "Food",
+    "answer": "caterpillar",
+    "category": "Insect",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "emoji",
+        "content": "🐱",
+        "sound": "CAT"
+      },
+      {
+        "type": "big",
+        "content": "ER",
+        "sound": "ER"
+      },
+      {
+        "type": "emoji",
+        "content": "💊",
+        "sound": "PILL"
+      },
+      {
         "type": "text",
-        "content": "unit of power, symbol W",
-        "sound": "WATT"
-      },
-      {
-        "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
-      },
-      {
-        "type": "text",
-        "content": "___ Gibson, actor and director",
-        "sound": "MEL"
-      },
-      {
-        "type": "struck",
-        "content": "OFF",
-        "sound": "ON"
+        "content": "to ___ is human",
+        "sound": "ERR"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "A refreshing summer fruit you might find sliced at a backyard picnic."
+        "text": "This wriggly creature will one day sprout wings after spending time wrapped up in a cocoon."
       },
       {
         "label": "Reveal all sounds",
@@ -92,34 +92,34 @@
     ]
   },
   "hard": {
-    "answer": "Strawberry Shortcake",
-    "category": "Cartoon Character",
+    "answer": "Philadelphia",
+    "category": "City",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "the last ___, as in the breaking-point idiom",
-        "sound": "STRAW"
+        "type": "struck",
+        "content": "EMPTY",
+        "sound": "FULL"
       },
       {
         "type": "emoji",
-        "content": "🐻",
-        "sound": "BEAR"
+        "content": "🅰️",
+        "sound": "A"
       },
       {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
-      },
-      {
-        "type": "struck",
-        "content": "TALL",
-        "sound": "SHORT"
+        "content": "DEL",
+        "sound": "DEL"
       },
       {
         "type": "text",
-        "content": "you can't have your ___ and eat it too",
-        "sound": "CAKE"
+        "content": "___ fi fo fum",
+        "sound": "FEE"
+      },
+      {
+        "type": "emoji",
+        "content": "🅰️",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "A cheerful children's cartoon character who has been delighting kids since the 1970s and has quite a sweet-sounding name."
+        "text": "This major East Coast American city is nicknamed the 'City of Brotherly Love.'"
       },
       {
         "label": "Reveal all sounds",
