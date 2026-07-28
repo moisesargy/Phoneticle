@@ -1,0 +1,4664 @@
+{
+  "nextIndex": 1,
+  "days": [
+    {
+      "easy": {
+        "answer": "Cardi B",
+        "category": "Celebrity",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🚗",
+            "sound": "CAR"
+          },
+          {
+            "type": "big",
+            "content": "D",
+            "sound": "DEE"
+          },
+          {
+            "type": "emoji",
+            "content": "🐝",
+            "sound": "BEE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a rapper known for the hit song 'Bodak Yellow.'"
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Cauliflower",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To phone someone",
+            "sound": "CALL"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "text",
+            "content": "To move smoothly, like water in a stream",
+            "sound": "FLOW"
+          },
+          {
+            "type": "big",
+            "content": "ER",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a white vegetable that looks like edible clouds."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "DiCaprio",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "D",
+            "sound": "DEE"
+          },
+          {
+            "type": "text",
+            "content": "A hat, or to put a limit on something",
+            "sound": "CAP"
+          },
+          {
+            "type": "big",
+            "content": "REE",
+            "sound": "REE"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of realization",
+            "sound": "OH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the Oscar-winning actor who finally won for 'The Revenant.'"
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Dumbledore",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "struck",
+            "content": "SMART",
+            "sound": "DUMB"
+          },
+          {
+            "type": "emoji",
+            "content": "🐂",
+            "sound": "BULL"
+          },
+          {
+            "type": "emoji",
+            "content": "🚪",
+            "sound": "DOOR"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the wise, bearded headmaster of a famous wizarding school."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Ariana",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The gas you breathe to stay alive",
+            "sound": "AIR"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of realization",
+            "sound": "AH"
+          },
+          {
+            "type": "text",
+            "content": "Casual way to say no",
+            "sound": "NAH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the first name of a pop star known for a huge vocal range and a ponytail."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Tom Cruise",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Informal short name for Thomas",
+            "sound": "TOM"
+          },
+          {
+            "type": "big",
+            "content": "CR",
+            "sound": "CR"
+          },
+          {
+            "type": "text",
+            "content": "Pronoun for the person you're talking to",
+            "sound": "YOU"
+          },
+          {
+            "type": "big",
+            "content": "Z",
+            "sound": "Z"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the action star known for doing his own stunts in Mission: Impossible."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Nutella",
+        "category": "Brand",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Squirrels bury these to eat later",
+            "sound": "NUT"
+          },
+          {
+            "type": "text",
+            "content": "To say something out loud, or share information",
+            "sound": "TELL"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a chocolate hazelnut spread you put on toast."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Cleopatra",
+        "category": "Historical Figure",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A soft, moldable earth used in pottery",
+            "sound": "CLAY"
+          },
+          {
+            "type": "big",
+            "content": "OH",
+            "sound": "OH"
+          },
+          {
+            "type": "text",
+            "content": "To gently tap, as in \"___ on the back\"",
+            "sound": "PAT"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of cheer",
+            "sound": "RAH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the famous last pharaoh of ancient Egypt."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Will Smith",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A legal document dividing your estate, or determination",
+            "sound": "WILL"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "Informal word for a baseball glove",
+            "sound": "MITT"
+          },
+          {
+            "type": "big",
+            "content": "H",
+            "sound": "H"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the Fresh Prince turned movie star who slapped his way into headlines."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Walrus",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A vertical structure that encloses a room",
+            "sound": "WALL"
+          },
+          {
+            "type": "text",
+            "content": "Common nickname for the name Russell",
+            "sound": "RUSS"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a large Arctic sea mammal with long tusks."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Einstein",
+        "category": "Historical Figure",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
+          },
+          {
+            "type": "text",
+            "content": "A pigpen, or an inflamed bump on your eyelid",
+            "sound": "STY"
+          },
+          {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the physicist famous for the theory of relativity and wild hair."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Morgan Freeman",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "struck",
+            "content": "LESS",
+            "sound": "MORE"
+          },
+          {
+            "type": "emoji",
+            "content": "🔫",
+            "sound": "GUN"
+          },
+          {
+            "type": "struck",
+            "content": "PAID",
+            "sound": "FREE"
+          },
+          {
+            "type": "text",
+            "content": "Plural of \"man\"",
+            "sound": "MEN"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the actor with the deep, iconic voice used in countless narrations."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Yogi Bear",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Casual greeting, like \"___, what's up\"",
+            "sound": "YO"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of surprise, like \"___ whiz\"",
+            "sound": "GEE"
+          },
+          {
+            "type": "emoji",
+            "content": "🐻",
+            "sound": "BEAR"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a picnic-basket-stealing cartoon bear who's smarter than the average one."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Godzilla",
+        "category": "Character",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A supreme deity worshipped in religion",
+            "sound": "GOD"
+          },
+          {
+            "type": "big",
+            "content": "Z",
+            "sound": "Z"
+          },
+          {
+            "type": "struck",
+            "content": "HEALTHY",
+            "sound": "ILL"
+          },
+          {
+            "type": "text",
+            "content": "Hesitation sound people make while thinking",
+            "sound": "UH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a giant movie monster that stomps through Tokyo breathing fire."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Robert Downey",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To steal from someone",
+            "sound": "ROB"
+          },
+          {
+            "type": "big",
+            "content": "ER",
+            "sound": "ER"
+          },
+          {
+            "type": "struck",
+            "content": "UP",
+            "sound": "DOWN"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the actor best known for playing Iron Man."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Waffle",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Sound a crying baby makes",
+            "sound": "WAH"
+          },
+          {
+            "type": "struck",
+            "content": "EMPTY",
+            "sound": "FULL"
+          },
+          {
+            "type": "big",
+            "content": "L",
+            "sound": "L"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a breakfast food with a griddle pattern, great with syrup."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "King Kong",
+        "category": "Character",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A male monarch who rules a kingdom",
+            "sound": "KING"
+          },
+          {
+            "type": "struck",
+            "content": "PRO",
+            "sound": "CON"
+          },
+          {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
+            "type": "text",
+            "content": "Hesitation sound people make while thinking",
+            "sound": "UH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a giant movie ape who climbs skyscrapers."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Emma Watson",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "EM",
+            "sound": "EM"
+          },
+          {
+            "type": "text",
+            "content": "Hesitation sound people make while thinking",
+            "sound": "UH"
+          },
+          {
+            "type": "text",
+            "content": "Unit of electrical power, symbol W",
+            "sound": "WATT"
+          },
+          {
+            "type": "emoji",
+            "content": "☀️",
+            "sound": "SUN"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the actress who played Hermione Granger on screen."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Yogurt",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Casual greeting, like \"___, what's up\"",
+            "sound": "YO"
+          },
+          {
+            "type": "text",
+            "content": "Old-fashioned nickname for Gertrude",
+            "sound": "GERT"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a creamy, tangy dairy food often eaten with granola."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Eiffel Tower",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "struck",
+            "content": "EMPTY",
+            "sound": "FULL"
+          },
+          {
+            "type": "text",
+            "content": "To pull a vehicle behind another",
+            "sound": "TOW"
+          },
+          {
+            "type": "big",
+            "content": "ER",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the iron tower that's the symbol of Paris."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Chris Pratt",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "KRIS",
+            "sound": "KRIS"
+          },
+          {
+            "type": "big",
+            "content": "P",
+            "sound": "P"
+          },
+          {
+            "type": "emoji",
+            "content": "🐀",
+            "sound": "RAT"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the actor who went from 'Parks and Rec' to Guardians of the Galaxy."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Kiwi",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🔑",
+            "sound": "KEY"
+          },
+          {
+            "type": "text",
+            "content": "Pronoun for you and me together",
+            "sound": "WE"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "E"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a fuzzy brown fruit with bright green flesh inside."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Golden Gate",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A valuable yellow metal, symbol Au",
+            "sound": "GOLD"
+          },
+          {
+            "type": "struck",
+            "content": "OUT",
+            "sound": "IN"
+          },
+          {
+            "type": "text",
+            "content": "A barrier you open to enter or exit a property",
+            "sound": "GATE"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the famous orange-red suspension bridge in San Francisco."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "LeBron James",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Informal short name for Leonard",
+            "sound": "LEE"
+          },
+          {
+            "type": "text",
+            "content": "Physical strength or muscle",
+            "sound": "BRAWN"
+          },
+          {
+            "type": "text",
+            "content": "Common nickname for Jason, or a loud blue bird",
+            "sound": "JAY"
+          },
+          {
+            "type": "big",
+            "content": "MS",
+            "sound": "MS"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the basketball superstar often argued to be the GOAT."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Taco",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A small sharp pin, or a game plan",
+            "sound": "TACK"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of realization",
+            "sound": "OH"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a folded tortilla filled with meat, cheese, and salsa."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Miley Cyrus",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Belonging to me",
+            "sound": "MY"
+          },
+          {
+            "type": "text",
+            "content": "Informal short name for Leonard",
+            "sound": "LEE"
+          },
+          {
+            "type": "text",
+            "content": "To exhale slowly while showing disappointment",
+            "sound": "SIGH"
+          },
+          {
+            "type": "big",
+            "content": "RUS",
+            "sound": "RUS"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the pop star and former Disney star who sang 'Wrecking Ball.'"
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Harry Potter",
+        "category": "Book",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "What grows on your head",
+            "sound": "HAIR"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "text",
+            "content": "A round metal container you cook soup in",
+            "sound": "POT"
+          },
+          {
+            "type": "big",
+            "content": "ER",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the boy wizard who attends a school called Hogwarts."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Mustard",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Modal verb meaning \"have to\", as in \"you ___ be kidding\"",
+            "sound": "MUST"
+          },
+          {
+            "type": "text",
+            "content": "A group of cattle or sheep",
+            "sound": "HERD"
+          },
+          {
+            "type": "big",
+            "content": "D",
+            "sound": "D"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the yellow condiment you put on a hot dog."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Justin Bieber",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Only, merely, as in \"___ kidding\"",
+            "sound": "JUST"
+          },
+          {
+            "type": "struck",
+            "content": "OUT",
+            "sound": "IN"
+          },
+          {
+            "type": "emoji",
+            "content": "🐝",
+            "sound": "BEE"
+          },
+          {
+            "type": "big",
+            "content": "BER",
+            "sound": "BER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the Canadian pop star who started out on YouTube as a kid."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Sherlock Holmes",
+        "category": "Character",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A piece of clothing worn on your upper body",
+            "sound": "SHIRT"
+          },
+          {
+            "type": "text",
+            "content": "A device that secures a door",
+            "sound": "LOCK"
+          },
+          {
+            "type": "emoji",
+            "content": "🏠",
+            "sound": "HOME"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the famous detective known for his powers of deduction."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Hamster",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Informal word for a hot dog, or an overly dramatic actor",
+            "sound": "HAM"
+          },
+          {
+            "type": "big",
+            "content": "ST",
+            "sound": "ST"
+          },
+          {
+            "type": "struck",
+            "content": "HIM",
+            "sound": "HER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small, fuzzy pet rodent that loves running on a wheel."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Taylor Swift",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The appendage at the back of an animal",
+            "sound": "TAIL"
+          },
+          {
+            "type": "text",
+            "content": "Conjunction offering a choice, as in \"this ___ that\"",
+            "sound": "OR"
+          },
+          {
+            "type": "text",
+            "content": "Fast-moving, quick",
+            "sound": "SWIFT"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the pop star known for re-recording her own old albums."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Titanic",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To fasten with a necktie, or a game that ends in a draw",
+            "sound": "TIE"
+          },
+          {
+            "type": "text",
+            "content": "A bronzed skin tone from the sun",
+            "sound": "TAN"
+          },
+          {
+            "type": "big",
+            "content": "NIC",
+            "sound": "NIC"
+          },
+          {
+            "type": "big",
+            "content": "K",
+            "sound": "K"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the movie about a famous ship that sank on its first voyage."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Sunflower",
+        "category": "Plant",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "☀️",
+            "sound": "SUN"
+          },
+          {
+            "type": "text",
+            "content": "To move smoothly, like water in a stream",
+            "sound": "FLOW"
+          },
+          {
+            "type": "big",
+            "content": "ER",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a tall yellow flower that turns to follow the sun."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Ed Sheeran",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "E"
+          },
+          {
+            "type": "big",
+            "content": "D",
+            "sound": "D"
+          },
+          {
+            "type": "text",
+            "content": "Completely, utterly, as in \"___ luck\"",
+            "sound": "SHEER"
+          },
+          {
+            "type": "struck",
+            "content": "OUT",
+            "sound": "IN"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the famous ginger singer-songwriter known for looping his guitar live."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Toy Story",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🧸",
+            "sound": "TOY"
+          },
+          {
+            "type": "big",
+            "content": "ST",
+            "sound": "ST"
+          },
+          {
+            "type": "text",
+            "content": "A long pole used to row a boat",
+            "sound": "OAR"
+          },
+          {
+            "type": "big",
+            "content": "EE",
+            "sound": "EE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the animated movie about toys that come to life when nobody's looking."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Butterscotch",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Conjunction meaning \"however\", as in \"good ___ pricey\"",
+            "sound": "BUT"
+          },
+          {
+            "type": "big",
+            "content": "TER",
+            "sound": "TER"
+          },
+          {
+            "type": "text",
+            "content": "A type of whisky made in Scotland",
+            "sound": "SCOTCH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a sweet, buttery candy flavor often paired with caramel."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Harry Styles",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Covered in lots of body hair, like a werewolf",
+            "sound": "HAIRY"
+          },
+          {
+            "type": "text",
+            "content": "A pigpen, or an inflamed bump on your eyelid",
+            "sound": "STY"
+          },
+          {
+            "type": "emoji",
+            "content": "🦉",
+            "sound": "OWLS"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the former boy-band member turned solo pop star and fashion icon."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Finding Nemo",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To locate something you've lost",
+            "sound": "FIND"
+          },
+          {
+            "type": "big",
+            "content": "ING",
+            "sound": "ING"
+          },
+          {
+            "type": "text",
+            "content": "The joint between your thigh and shin",
+            "sound": "KNEE"
+          },
+          {
+            "type": "text",
+            "content": "Informal word for \"moment\", as in \"wait a ___\"",
+            "sound": "MO"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the animated movie about a clownfish searching for his son."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Broccoli",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Slang for \"brother\", as in \"what's up, ___\"",
+            "sound": "BRAH"
+          },
+          {
+            "type": "text",
+            "content": "Dog breed made famous by Lassie",
+            "sound": "COLLIE"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a green vegetable shaped like a little tree."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Selena",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To exchange something for money",
+            "sound": "SELL"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "text",
+            "content": "Casual word for no",
+            "sound": "NAH"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the first name of a pop star and beauty-brand founder, or a beloved Tejano singer."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Ice Age",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🧊",
+            "sound": "ICE"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation like \"___ caramba\"",
+            "sound": "AY"
+          },
+          {
+            "type": "big",
+            "content": "J",
+            "sound": "J"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "E"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the animated movie about a sabertooth, sloth, and mammoth in prehistoric times."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Panther",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A metal container used for frying food",
+            "sound": "PAN"
+          },
+          {
+            "type": "text",
+            "content": "Definite article, as in \"to the ___ end\"",
+            "sound": "THE"
+          },
+          {
+            "type": "big",
+            "content": "R",
+            "sound": "R"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a large, sleek black wildcat."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Bruno Mars",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To make coffee or beer",
+            "sound": "BREW"
+          },
+          {
+            "type": "struck",
+            "content": "YES",
+            "sound": "NO"
+          },
+          {
+            "type": "text",
+            "content": "A body of water surrounded by land, plural",
+            "sound": "MAR"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the singer behind 'Uptown Funk' known for his retro style."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Breaking Bad",
+        "category": "TV Show",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The pedal you press to stop a car",
+            "sound": "BRAKE"
+          },
+          {
+            "type": "text",
+            "content": "A male monarch who rules a kingdom",
+            "sound": "KING"
+          },
+          {
+            "type": "struck",
+            "content": "GOOD",
+            "sound": "BAD"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the show about a chemistry teacher who starts cooking meth."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Elmo",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "L",
+            "sound": "EL"
+          },
+          {
+            "type": "text",
+            "content": "Informal short word for a brief pause, as in \"hang on a ___\"",
+            "sound": "MO"
+          },
+          {
+            "type": "big",
+            "content": "O",
+            "sound": "OH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a fuzzy red Muppet with a high-pitched giggle."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Post Malone",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To share something online, or a mail delivery",
+            "sound": "POST"
+          },
+          {
+            "type": "text",
+            "content": "Informal word for mother",
+            "sound": "MA"
+          },
+          {
+            "type": "text",
+            "content": "Money that's borrowed and must be repaid",
+            "sound": "LOAN"
+          },
+          {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the face-tattooed singer known for blending rap and rock."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "The Office",
+        "category": "TV Show",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "THE",
+            "sound": "THUH"
+          },
+          {
+            "type": "struck",
+            "content": "ON",
+            "sound": "OFF"
+          },
+          {
+            "type": "emoji",
+            "content": "🧊",
+            "sound": "ICE"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the mockumentary sitcom set at a paper company in Scranton."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Cookie",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To prepare food using heat",
+            "sound": "COOK"
+          },
+          {
+            "type": "big",
+            "content": "IE",
+            "sound": "EE"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a sweet baked treat, often studded with chocolate chips."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Lady Gaga",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To place something down flat",
+            "sound": "LAY"
+          },
+          {
+            "type": "big",
+            "content": "D",
+            "sound": "DEE"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of frustration, like \"___, this is annoying\"",
+            "sound": "GAH"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of frustration, like \"___, this is annoying\"",
+            "sound": "GAH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the pop star famous for wearing a dress made of meat."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Stranger Things",
+        "category": "TV Show",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Unusual or weird",
+            "sound": "STRANGE"
+          },
+          {
+            "type": "big",
+            "content": "ER",
+            "sound": "ER"
+          },
+          {
+            "type": "text",
+            "content": "An object or item",
+            "sound": "THING"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the sci-fi show set in Hawkins, Indiana, full of monsters from the Upside Down."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Firefly",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🔥",
+            "sound": "FIRE"
+          },
+          {
+            "type": "text",
+            "content": "The zippered opening at the front of a pair of pants",
+            "sound": "FLY"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small bug that glows in the dark at night."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Elton John",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "L",
+            "sound": "EL"
+          },
+          {
+            "type": "text",
+            "content": "A unit of weight equal to 2,000 pounds",
+            "sound": "TON"
+          },
+          {
+            "type": "text",
+            "content": "Informal word for a bathroom, or a common male name",
+            "sound": "JOHN"
+          },
+          {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the flamboyant piano-playing singer behind 'Rocket Man.'"
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Seinfeld",
+        "category": "TV Show",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To exhale slowly showing disappointment",
+            "sound": "SIGH"
+          },
+          {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
+          },
+          {
+            "type": "text",
+            "content": "Past tense of \"feel\", or a soft fabric material",
+            "sound": "FELT"
+          },
+          {
+            "type": "big",
+            "content": "D",
+            "sound": "D"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the classic sitcom famously described as \"a show about nothing.\""
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Yeti",
+        "category": "Creature",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Conjunction meaning \"but\", as in \"small ___ mighty\"",
+            "sound": "YET"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a legendary ape-like creature said to live in the Himalayas."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Freddie Mercury",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A common man's name, like Fred Flintstone",
+            "sound": "FRED"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "text",
+            "content": "Dark and hard to see through, like murky water",
+            "sound": "MURK"
+          },
+          {
+            "type": "text",
+            "content": "Belonging to you",
+            "sound": "YOUR"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the legendary Queen frontman known for his soaring voice."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "The Simpsons",
+        "category": "TV Show",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "THE",
+            "sound": "THUH"
+          },
+          {
+            "type": "big",
+            "content": "SIM",
+            "sound": "SIM"
+          },
+          {
+            "type": "emoji",
+            "content": "☀️",
+            "sound": "SUN"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the long-running animated show about a yellow family in Springfield."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Genie",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A unit of heredity, or informal short word for Eugene",
+            "sound": "GENE"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "E"
+          },
+          {
+            "type": "text",
+            "content": "Joint between your thigh and shin",
+            "sound": "KNEE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the wish-granting spirit that lives inside a magic lamp."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Stevie Wonder",
+        "category": "Celebrity",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A common man's name",
+            "sound": "STEVE"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "struck",
+            "content": "LOST",
+            "sound": "WON"
+          },
+          {
+            "type": "big",
+            "content": "DER",
+            "sound": "DER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the blind soul legend behind 'Superstition' and 'Isn't She Lovely.'"
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Modern Family",
+        "category": "TV Show",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "MOD",
+            "sound": "MOD"
+          },
+          {
+            "type": "big",
+            "content": "ERN",
+            "sound": "ERN"
+          },
+          {
+            "type": "text",
+            "content": "Informal short word for \"family\"",
+            "sound": "FAM"
+          },
+          {
+            "type": "text",
+            "content": "Informal short name for Leonard",
+            "sound": "LEE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the mockumentary sitcom about three connected families."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Toucan",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "2️⃣",
+            "sound": "TWO"
+          },
+          {
+            "type": "emoji",
+            "content": "🥫",
+            "sound": "CAN"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a tropical bird famous for its enormous, colorful beak."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Enchilada",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "EN",
+            "sound": "EN"
+          },
+          {
+            "type": "text",
+            "content": "A spicy Mexican stew made with beans and meat",
+            "sound": "CHILI"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation like \"la-di-dah\"",
+            "sound": "LAH"
+          },
+          {
+            "type": "text",
+            "content": "Sound you make when stating something painfully obvious",
+            "sound": "DUH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a rolled tortilla covered in sauce and cheese, baked in the oven."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Avatar",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Popular girl's name, like actress Ava Gardner",
+            "sound": "AVA"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
+            "type": "big",
+            "content": "AR",
+            "sound": "AR"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the blockbuster sci-fi movie about blue aliens on the planet Pandora."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Zebra",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The last letter of the alphabet, American pronunciation",
+            "sound": "ZEE"
+          },
+          {
+            "type": "text",
+            "content": "Casual term for \"brother\"",
+            "sound": "BRUH"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a horse-like animal known for its black and white stripes."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Empanada",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "EM",
+            "sound": "EM"
+          },
+          {
+            "type": "text",
+            "content": "Exclamation of surprise",
+            "sound": "PAH"
+          },
+          {
+            "type": "text",
+            "content": "Casual word for no",
+            "sound": "NAH"
+          },
+          {
+            "type": "text",
+            "content": "Sound you make when stating something painfully obvious",
+            "sound": "DUH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a stuffed, folded pastry popular in Latin America."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Gladiator",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "struck",
+            "content": "SAD",
+            "sound": "GLAD"
+          },
+          {
+            "type": "big",
+            "content": "EE",
+            "sound": "EE"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          },
+          {
+            "type": "text",
+            "content": "Past tense of \"tear\", to rip",
+            "sound": "TORE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the movie about a Roman general forced to fight as a gladiator."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Walnut",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A vertical structure that encloses a room",
+            "sound": "WALL"
+          },
+          {
+            "type": "text",
+            "content": "Squirrels bury these to eat later",
+            "sound": "NUT"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a wrinkly brown nut often used in banana bread."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Yellowstone",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To shout loudly",
+            "sound": "YELL"
+          },
+          {
+            "type": "big",
+            "content": "OH",
+            "sound": "OH"
+          },
+          {
+            "type": "text",
+            "content": "A small rock, or Rolling ___s, the band",
+            "sound": "STONE"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the national park famous for Old Faithful and roaming bison."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Braveheart",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "struck",
+            "content": "COWARDLY",
+            "sound": "BRAVE"
+          },
+          {
+            "type": "text",
+            "content": "Pronoun for a male",
+            "sound": "HE"
+          },
+          {
+            "type": "text",
+            "content": "Creative work like paintings or sculpture",
+            "sound": "ART"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the historical epic where Mel Gibson yells 'Freedom!' before dying."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Pumpkin",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To inflate with air using a device, as in \"___ up a tire\"",
+            "sound": "PUMP"
+          },
+          {
+            "type": "text",
+            "content": "Your family members, as in \"next of ___\"",
+            "sound": "KIN"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the orange gourd people carve into jack-o'-lanterns."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Times Square",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "What a clock tells",
+            "sound": "TIME"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "A shape with four equal sides",
+            "sound": "SQUARE"
+          },
+          {
+            "type": "big",
+            "content": "R",
+            "sound": "R"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the bright, billboard-covered plaza in the middle of Manhattan."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Moana",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To cut grass with a lawnmower",
+            "sound": "MOW"
+          },
+          {
+            "type": "big",
+            "content": "AH",
+            "sound": "AH"
+          },
+          {
+            "type": "text",
+            "content": "Casual word for no",
+            "sound": "NAH"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the animated movie about a Polynesian girl who sails to save her island."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Napkin",
+        "category": "Object",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A short daytime sleep",
+            "sound": "NAP"
+          },
+          {
+            "type": "text",
+            "content": "Your family members, as in \"next of ___\"",
+            "sound": "KIN"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the cloth or paper you wipe your mouth with at dinner."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Central Park",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Past tense of \"send\"",
+            "sound": "SENT"
+          },
+          {
+            "type": "big",
+            "content": "RUL",
+            "sound": "RUL"
+          },
+          {
+            "type": "text",
+            "content": "A green outdoor space with grass and trees",
+            "sound": "PARK"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the huge green rectangle of park in the middle of New York City."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Encanto",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "EN",
+            "sound": "EN"
+          },
+          {
+            "type": "emoji",
+            "content": "🥫",
+            "sound": "CAN"
+          },
+          {
+            "type": "text",
+            "content": "A digit on your foot, unlike a finger",
+            "sound": "TOE"
+          },
+          {
+            "type": "big",
+            "content": "OH",
+            "sound": "OH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the animated movie about a magical Colombian family with special gifts."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Minnie Mouse",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "MIN",
+            "sound": "MIN"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "emoji",
+            "content": "🐭",
+            "sound": "MOUSE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's Mickey's polka-dot-bow-wearing girlfriend."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Mona Lisa",
+        "category": "Painting",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "To make a low sound of pain or complaint",
+            "sound": "MOAN"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          },
+          {
+            "type": "text",
+            "content": "Informal short name for Leonard",
+            "sound": "LEE"
+          },
+          {
+            "type": "text",
+            "content": "Past tense of \"see\"",
+            "sound": "SAW"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the famously mysterious, smiling portrait painted by da Vinci."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Zootopia",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A park where wild animals are kept for public viewing",
+            "sound": "ZOO"
+          },
+          {
+            "type": "text",
+            "content": "A digit on your foot, unlike a finger",
+            "sound": "TOE"
+          },
+          {
+            "type": "emoji",
+            "content": "🫛",
+            "sound": "PEA"
+          },
+          {
+            "type": "big",
+            "content": "UH",
+            "sound": "UH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the animated movie about a bunny cop and a fox in a city of animals."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Ariel",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The gas you breathe to stay alive",
+            "sound": "AIR"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "text",
+            "content": "A fashion magazine, or a common girl's name",
+            "sound": "ELLE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the mermaid princess who trades her voice for legs."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Van Gogh",
+        "category": "Painter",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A large vehicle for carrying cargo or passengers",
+            "sound": "VAN"
+          },
+          {
+            "type": "struck",
+            "content": "STOP",
+            "sound": "GO"
+          },
+          {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
+            "type": "big",
+            "content": "H",
+            "sound": "H"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the painter famous for 'Starry Night' and for cutting off his own ear."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Wreck-It Ralph",
+        "category": "Movie",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "struck",
+            "content": "FIX",
+            "sound": "WRECK"
+          },
+          {
+            "type": "text",
+            "content": "Pronoun for an object, not a person",
+            "sound": "IT"
+          },
+          {
+            "type": "text",
+            "content": "Informal slang for vomiting, or a common male name",
+            "sound": "RALPH"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the animated movie about a video game villain who wants to be a hero."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Simba",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "SIM",
+            "sound": "SIM"
+          },
+          {
+            "type": "text",
+            "content": "Scrooge's grumpy exclamation, \"___ humbug\"",
+            "sound": "BAH"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the lion cub destined to become king of the Pride Lands."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Great Wall of China",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A metal grid, or to shred cheese",
+            "sound": "GRATE"
+          },
+          {
+            "type": "text",
+            "content": "A vertical structure that encloses a room",
+            "sound": "WALL"
+          },
+          {
+            "type": "big",
+            "content": "OF",
+            "sound": "OF"
+          },
+          {
+            "type": "text",
+            "content": "The part of your face below your mouth",
+            "sound": "CHIN"
+          },
+          {
+            "type": "big",
+            "content": "UH",
+            "sound": "UH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Reveal clue 5 sound",
+            "ci": 4
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the massive ancient fortification stretching across northern China."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Will Ferrell",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A legal document dividing your estate, or determination",
+            "sound": "WILL"
+          },
+          {
+            "type": "struck",
+            "content": "UNFAIR",
+            "sound": "FAIR"
+          },
+          {
+            "type": "big",
+            "content": "L",
+            "sound": "L"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the comedian behind Ron Burgundy and Buddy the Elf."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Olaf",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "OH",
+            "sound": "OH"
+          },
+          {
+            "type": "text",
+            "content": "To make a sound expressing amusement",
+            "sound": "LAUGH"
+          },
+          {
+            "type": "big",
+            "content": "F",
+            "sound": "F"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the goofy snowman who loves warm hugs and summer."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Pyramid",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A person of equal social standing, as in \"jury of your ___s\"",
+            "sound": "PEER"
+          },
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          },
+          {
+            "type": "text",
+            "content": "The middle part of something, as in \"midway\"",
+            "sound": "MID"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the ancient triangular tomb structure found in Egypt."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Steve Carell",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A common man's name",
+            "sound": "STEVE"
+          },
+          {
+            "type": "text",
+            "content": "To feel concern for someone",
+            "sound": "CARE"
+          },
+          {
+            "type": "big",
+            "content": "L",
+            "sound": "L"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the comedian who played Michael Scott on 'The Office.'"
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Kermit",
+        "category": "Character",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The edge of a sidewalk, or to restrain something",
+            "sound": "CURB"
+          },
+          {
+            "type": "text",
+            "content": "Informal short word for a baseball glove",
+            "sound": "MIT"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the banjo-playing frog who says it isn't easy being green."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Stonehenge",
+        "category": "Landmark",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A small rock, or Rolling ___s, the band",
+            "sound": "STONE"
+          },
+          {
+            "type": "emoji",
+            "content": "🐔",
+            "sound": "HEN"
+          },
+          {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
+            "type": "big",
+            "content": "E",
+            "sound": "E"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the mysterious ring of giant standing stones in England."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Kevin Hart",
+        "category": "Celebrity",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "KEV",
+            "sound": "KEV"
+          },
+          {
+            "type": "struck",
+            "content": "OUT",
+            "sound": "IN"
+          },
+          {
+            "type": "emoji",
+            "content": "❤️",
+            "sound": "HEART"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the short, high-energy comedian known for action-comedy roles."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    }
+  ]
+}

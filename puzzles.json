@@ -1,20 +1,25 @@
 {
   "date": "2026-07-28",
-  "generatedAt": "2026-07-28T02:30:37.081Z",
+  "generatedAt": "2026-07-28T06:08:54.831Z",
   "easy": {
-    "answer": "SUNDAY",
-    "category": "Day of the week",
+    "answer": "Cardi B",
+    "category": "Celebrity",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "☀️",
-        "sound": "SUN"
+        "content": "🚗",
+        "sound": "CAR"
       },
       {
-        "type": "struck",
-        "content": "NIGHT",
-        "sound": "DAY"
+        "type": "big",
+        "content": "D",
+        "sound": "DEE"
+      },
+      {
+        "type": "emoji",
+        "content": "🐝",
+        "sound": "BEE"
       }
     ],
     "hints": [
@@ -27,9 +32,13 @@
         "ci": 1
       },
       {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "The one day when you probably sleep in a little."
+        "text": "It's a rapper known for the hit song 'Bodak Yellow.'"
       },
       {
         "label": "Reveal all sounds",
@@ -38,28 +47,82 @@
     ]
   },
   "medium": {
-    "answer": "Pinocchio",
-    "category": "Fictional Character",
+    "answer": "Cauliflower",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "📌",
-        "sound": "PIN"
-      },
-      {
-        "type": "struck",
-        "content": "YES",
-        "sound": "NO"
-      },
-      {
-        "type": "emoji",
-        "content": "🔑",
-        "sound": "KEY"
+        "type": "text",
+        "content": "To phone someone",
+        "sound": "CALL"
       },
       {
         "type": "big",
-        "content": "O",
+        "content": "E",
+        "sound": "EE"
+      },
+      {
+        "type": "text",
+        "content": "To move smoothly, like water in a stream",
+        "sound": "FLOW"
+      },
+      {
+        "type": "big",
+        "content": "ER",
+        "sound": "ER"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's a white vegetable that looks like edible clouds."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "DiCaprio",
+    "category": "Celebrity",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "big",
+        "content": "D",
+        "sound": "DEE"
+      },
+      {
+        "type": "text",
+        "content": "A hat, or to put a limit on something",
+        "sound": "CAP"
+      },
+      {
+        "type": "big",
+        "content": "REE",
+        "sound": "REE"
+      },
+      {
+        "type": "text",
+        "content": "Exclamation of realization",
         "sound": "OH"
       }
     ],
@@ -83,79 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This beloved character has a nose for trouble."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Happy Birthday to You",
-    "category": "Song",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "text",
-        "content": "___ hazard",
-        "sound": "HAP"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
-      },
-      {
-        "type": "text",
-        "content": "___ certificate",
-        "sound": "BIRTH"
-      },
-      {
-        "type": "struck",
-        "content": "NIGHT",
-        "sound": "DAY"
-      },
-      {
-        "type": "emoji",
-        "content": "2️⃣",
-        "sound": "TWO"
-      },
-      {
-        "type": "big",
-        "content": "U",
-        "sound": "YOU"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Reveal clue 5 sound",
-        "ci": 4
-      },
-      {
-        "label": "Reveal clue 6 sound",
-        "ci": 5
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "You've sung this at least once a year your entire life."
+        "text": "It's the Oscar-winning actor who finally won for 'The Revenant.'"
       },
       {
         "label": "Reveal all sounds",
