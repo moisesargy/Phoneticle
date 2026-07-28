@@ -397,6 +397,20 @@
     border:2px solid rgba(200,241,53,0.35);
     border-radius:8px;
   }
+  .clue-acronym{display:flex;gap:3px;font-family:var(--font-head);font-size:21px;font-weight:800;letter-spacing:0.02em;}
+  .acr-letter{color:var(--text-faint);}
+  .acr-highlight{color:var(--purple);position:relative;}
+  .acr-highlight::before{
+    content:"▾";
+    position:absolute;
+    top:-15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:12px;
+    color:var(--purple);
+  }
+  .clue-math{font-family:var(--font-mono);font-size:19px;font-weight:700;color:var(--green);letter-spacing:0.01em;}
+  .clue-math-eq{color:var(--text-faint);font-weight:600;}
   .clue-sound-tag{
     margin-top:2px;
     font-family:var(--font-mono);
@@ -687,15 +701,15 @@
     return hints;
   }
 
-  const CLASSIC_LEVELS = [
+    const CLASSIC_LEVELS = [
     {
       level: 1,
       answer: "Whiteboard",
       category: "Object",
       difficulty: "easy",
       clues: [
-        { type: "text",   content: "Who what when where ___ the missing W", sound: "WHY" },
-        { type: "big",    content: "T", sound: "T" },
+        { type: "text", content: "Who what when where ___ the missing W", sound: "WHY" },
+        { type: "big", content: "T", sound: "T" },
         { type: "struck", content: "INTERESTED", sound: "BORED" }
       ],
       hints: buildLevelHints(3, "Give me a hint", "It's something you write on with a dry-erase marker.")
@@ -707,8 +721,8 @@
       difficulty: "medium",
       clues: [
         { type: "emoji", content: "🍐", sound: "PEAR" },
-        { type: "text",  content: "What Playa Bowls serves, say it out loud", sound: "AH-SI" },
-        { type: "big",   content: "T", sound: "T" }
+        { type: "text", content: "What Playa Bowls serves, say it out loud", sound: "AH-SI" },
+        { type: "big", content: "T", sound: "T" }
       ],
       hints: buildLevelHints(3, "Give me a hint", "It's an Oscar-winning South Korean film about class divide.")
     },
@@ -720,188 +734,39 @@
       clues: [
         { type: "struck", content: "ME", sound: "YOU" },
         { type: "struck", content: "DAY", sound: "NIGHT" },
-        { type: "text",   content: "___ Sheeran, famous ginger singer", sound: "ED" },
-        { type: "big",    content: "S", sound: "S" },
-        { type: "text",   content: "Cookie brand in a green bag", sound: "TATES" }
+        { type: "text", content: "___ Sheeran, famous ginger singer", sound: "ED" },
+        { type: "big", content: "S", sound: "S" },
+        { type: "text", content: "Cookie brand in a green bag", sound: "TATES" }
       ],
       hints: buildLevelHints(5, "Give me a hint", "It's a country in North America made up of 50 of these.")
     },
     {
       level: 4,
-      answer: "Uzbekistan",
-      category: "Country",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Lil _ _ i Vert, just the two blanks", sound: "UZ" },
-        { type: "text", content: "Nickname for Rebecca", sound: "BECK" },
-        { type: "text", content: "Grunkle ___ from Gravity Falls", sound: "STAN" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a country in Central Asia.")
-    },
-    {
-      level: 5,
-      answer: "Nightmare",
-      category: "Dream",
-      difficulty: "medium",
-      clues: [
-        { type: "struck", content: "DAY", sound: "NIGHT" },
-        { type: "text",   content: "Adult female horse", sound: "MARE" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a scary dream.")
-    },
-    {
-      level: 6,
       answer: "Catcher in the Rye",
       category: "Book",
       difficulty: "hard",
       clues: [
-        { type: "text",  content: "What a wide receiver does with the ball", sound: "CATCH" },
-        { type: "text",  content: "Main character in Attack on Titan", sound: "EREN" },
-        { type: "text",  content: "Grammar Nazi's favorite word", sound: "THEIR" },
+        { type: "text", content: "What a wide receiver does with the ball", sound: "CATCH" },
+        { type: "text", content: "Main character in Attack on Titan", sound: "EREN" },
+        { type: "text", content: "Grammar Nazi's favorite word", sound: "THEIR" },
         { type: "emoji", content: "👁️", sound: "EYE" }
       ],
       hints: buildLevelHints(4, "Give me a hint", "It's a classic coming-of-age novel by J.D. Salinger.")
     },
     {
-      level: 7,
-      answer: "Mustache",
-      category: "Object",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "Modal verb meaning \"have to\", as in \"you ___ be kidding\"", sound: "MUST" },
-        { type: "text", content: "Gray residue left after wood burns", sound: "ASH" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's facial hair grown above the upper lip.")
-    },
-    {
-      level: 8,
-      answer: "Frankenstein",
-      category: "Character",
-      difficulty: "hard",
-      clues: [
-        { type: "text",   content: "Informal word for a hot dog, or an adjective meaning \"very blunt and honest\"", sound: "FRANK" },
-        { type: "struck", content: "OUT", sound: "IN" },
-        { type: "text",   content: "German surname suffix, or a large glass beer mug", sound: "STEIN" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a classic monster stitched together from body parts.")
-    },
-    {
-      level: 9,
-      answer: "Dandelion",
-      category: "Plant",
-      difficulty: "medium",
-      clues: [
-        { type: "text",  content: "Old-fashioned word for a stylish, well-dressed man", sound: "DANDY" },
-        { type: "emoji", content: "🦁", sound: "LION" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a yellow weed that turns into a puffball you can blow on.")
-    },
-    {
-      level: 10,
-      answer: "Pentagon",
-      category: "Building",
-      difficulty: "hard",
-      clues: [
-        { type: "text",   content: "Writing tool you refill with ink, unlike a pencil", sound: "PEN" },
-        { type: "text",   content: "Children's chasing game, or a label sewn into clothing", sound: "TAG" },
-        { type: "struck", content: "OFF", sound: "ON" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's the five-sided U.S. military headquarters building.")
-    },
-    {
-      level: 11,
-      answer: "Committee",
-      category: "Group",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "To pledge your full effort to something, as in \"___ to a cause\"", sound: "COMMIT" },
-        { type: "text", content: "Hot drink brewed from leaves, especially popular in Britain", sound: "TEA" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a small group chosen to handle a specific task.")
-    },
-    {
-      level: 12,
-      answer: "Mockingjay",
-      category: "Book",
-      difficulty: "hard",
-      clues: [
-        { type: "text", content: "To imitate someone in a cruel, taunting way, as in a \"___ trial\"", sound: "MOCK" },
-        { type: "big",  content: "ING", sound: "ING" },
-        { type: "text", content: "Common nickname for the name Jason, or a loud blue bird", sound: "JAY" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's the symbol of rebellion in a dystopian book/movie trilogy.")
-    },
-    {
-      level: 13,
+      level: 5,
       answer: "Antarctica",
       category: "Continent",
       difficulty: "medium",
       clues: [
         { type: "emoji", content: "🐜", sound: "ANT" },
-        { type: "text",  content: "The icy region surrounding the North Pole", sound: "ARCTIC" },
-        { type: "big",   content: "A", sound: "A" }
+        { type: "text", content: "The icy region surrounding the North Pole", sound: "ARCTIC" },
+        { type: "big", content: "A", sound: "A" }
       ],
       hints: buildLevelHints(3, "Give me a hint", "It's the icy, mostly-uninhabited continent at the South Pole.")
     },
     {
-      level: 14,
-      answer: "New Zealand",
-      category: "Country",
-      difficulty: "hard",
-      clues: [
-        { type: "struck", content: "OLD", sound: "NEW" },
-        { type: "text",   content: "Passionate enthusiasm for a cause, as in a religious \"___ot\"", sound: "ZEAL" },
-        { type: "text",   content: "Conjunction linking two words, as in \"salt ___ pepper\"", sound: "AND" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's an island country near Australia, home to kiwis and Hobbiton.")
-    },
-    {
-      level: 15,
-      answer: "Basketball",
-      category: "Sport",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "To lie in the sun and soak up its warmth, as in \"___ in the glory\"", sound: "BASK" },
-        { type: "text", content: "Pronoun for an object, not a person", sound: "IT" },
-        { type: "text", content: "Round object you bounce or throw in sports", sound: "BALL" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a sport played with a hoop and an orange ball.")
-    },
-    {
-      level: 16,
-      answer: "Handsome",
-      category: "Word",
-      difficulty: "medium",
-      clues: [
-        { type: "emoji", content: "✋", sound: "HAND" },
-        { type: "text",  content: "The result of adding numbers together", sound: "SUM" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a word used to describe an attractive man.")
-    },
-    {
-      level: 17,
-      answer: "Kindness",
-      category: "Virtue",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "Type or category, as in \"what ___ of dog is that\"", sound: "KIND" },
-        { type: "text", content: "Loch ___ Monster, aka Nessie", sound: "NESS" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's the quality of being generous and considerate to others.")
-    },
-    {
-      level: 18,
-      answer: "Sunscreen",
-      category: "Object",
-      difficulty: "easy",
-      clues: [
-        { type: "emoji", content: "☀️", sound: "SUN" },
-        { type: "text",  content: "The display on your phone or TV", sound: "SCREEN" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's the lotion you apply to protect your skin from sunburn.")
-    },
-    {
-      level: 19,
+      level: 6,
       answer: "Game of Thrones",
       category: "TV Show",
       difficulty: "hard",
@@ -909,46 +774,24 @@
         { type: "text", content: "Word for happy, or someone who identifies as LGBT", sound: "GAY" },
         { type: "text", content: "When a punt returner drops the ball", sound: "MUFF" },
         { type: "text", content: "What a quarterback does with the football", sound: "THROW" },
-        { type: "big",  content: "NS", sound: "NS" }
+        { type: "big", content: "NS", sound: "NS" }
       ],
       hints: buildLevelHints(4, "Give me a hint", "It's a hit fantasy book series and TV show full of political intrigue and dragons.")
     },
     {
-      level: 20,
+      level: 7,
       answer: "Bibliophile",
       category: "Word",
       difficulty: "easy",
       clues: [
-        { type: "text",  content: "Object babies use while eating around their neck", sound: "BIB" },
-        { type: "text",  content: "Zodiac sign that's also a common boy's name", sound: "LEO" },
+        { type: "text", content: "Object babies use while eating around their neck", sound: "BIB" },
+        { type: "text", content: "Zodiac sign that's also a common boy's name", sound: "LEO" },
         { type: "emoji", content: "📁", sound: "FILE" }
       ],
       hints: buildLevelHints(3, "Give me a hint", "It's a word for someone who loves and collects books.")
     },
     {
-      level: 21,
-      answer: "Avatar",
-      category: "Movie",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Popular girl's name, like actress Ava Gardner", sound: "AVA" },
-        { type: "text", content: "Black, sticky substance used to pave roads", sound: "TAR" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a blockbuster sci-fi film about blue aliens on the planet Pandora.")
-    },
-    {
-      level: 22,
-      answer: "Pokemon",
-      category: "Franchise",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "To jab someone with your finger, or to nudge them on Facebook", sound: "POKE" },
-        { type: "text", content: "Jamaican slang for \"friend\", as in \"no worries, ___\"", sound: "MON" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a franchise about catching and battling pocket monsters.")
-    },
-    {
-      level: 23,
+      level: 8,
       answer: "Kardashian",
       category: "Celebrity",
       difficulty: "hard",
@@ -961,7 +804,7 @@
       hints: buildLevelHints(4, "Give me a hint", "It's a famous reality-TV family surname.")
     },
     {
-      level: 24,
+      level: 9,
       answer: "Zendaya",
       category: "Celebrity",
       difficulty: "medium",
@@ -973,41 +816,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's the first name of a Spider-Man and Dune actress.")
     },
     {
-      level: 25,
-      answer: "Broccoli",
-      category: "Food",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Slang for \"brother\", as in \"what's up, ___\"", sound: "BRAH" },
-        { type: "text", content: "Dog breed made famous by Lassie", sound: "COLLIE" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a green vegetable shaped like a little tree.")
-    },
-    {
-      level: 26,
-      answer: "Chihuahua",
-      category: "Dog Breed",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Life-energy concept in Chinese philosophy, pronounced \"chee\"", sound: "CHI" },
-        { type: "text", content: "Sound a crying baby makes, said twice", sound: "WAWA" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's the world's smallest dog breed.")
-    },
-    {
-      level: 27,
-      answer: "Banana",
-      category: "Food",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "Scrooge's grumpy exclamation, \"___ humbug\"", sound: "BAH" },
-        { type: "text", content: "British nickname for your grandma", sound: "NAN" },
-        { type: "text", content: "Exclamation of realization, like \"___-ha!\"", sound: "AH" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a curved yellow fruit that monkeys love.")
-    },
-    {
-      level: 28,
+      level: 10,
       answer: "Volcano",
       category: "Landform",
       difficulty: "medium",
@@ -1019,76 +828,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's a mountain that can erupt with lava.")
     },
     {
-      level: 29,
-      answer: "Octopus",
-      category: "Animal",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "Abbreviation for the month before November", sound: "OCT" },
-        { type: "text", content: "Informal short word for a surgical operation", sound: "OP" },
-        { type: "text", content: "Pronoun for a group that includes yourself, opposite of \"them\"", sound: "US" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a sea creature with eight arms and three hearts.")
-    },
-    {
-      level: 30,
-      answer: "Alpaca",
-      category: "Animal",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "Common short nickname for the name Albert", sound: "AL" },
-        { type: "text", content: "To fill a suitcase, or a group of wolves", sound: "PACK" },
-        { type: "text", content: "Hesitation sound people make while thinking, like \"um\"", sound: "UH" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a fluffy South American animal related to the llama.")
-    },
-    {
-      level: 31,
-      answer: "Waffle",
-      category: "Food",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Sound a crying baby makes", sound: "WAH" },
-        { type: "struck", content: "EMPTY", sound: "FULL" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a breakfast food with a griddle pattern, great with syrup.")
-    },
-    {
-      level: 32,
-      answer: "Donut",
-      category: "Food",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Opposite of \"don't\"", sound: "DO" },
-        { type: "text", content: "Squirrels bury these to eat later", sound: "NUT" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a fried, ring-shaped pastry, often glazed or sprinkled.")
-    },
-    {
-      level: 33,
-      answer: "Sushi",
-      category: "Food",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Informal short name for Susan", sound: "SUE" },
-        { type: "text", content: "Pronoun for a female", sound: "SHE" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a Japanese dish often made with raw fish and rice.")
-    },
-    {
-      level: 34,
-      answer: "Pajamas",
-      category: "Clothing",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "Informal word for \"father\"", sound: "PA" },
-        { type: "text", content: "Sweet fruit spread you put on toast", sound: "JAM" },
-        { type: "text", content: "Pronoun for a group including yourself, opposite of \"them\"", sound: "US" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's the comfy outfit you sleep in.")
-    },
-    {
-      level: 35,
+      level: 11,
       answer: "Hermione",
       category: "Character",
       difficulty: "hard",
@@ -1101,7 +841,7 @@
       hints: buildLevelHints(4, "Give me a hint", "It's the brightest witch of her age in a famous book series.")
     },
     {
-      level: 36,
+      level: 12,
       answer: "Aladdin",
       category: "Character",
       difficulty: "medium",
@@ -1113,29 +853,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's a street urchin who finds a magic lamp with a genie inside.")
     },
     {
-      level: 37,
-      answer: "Werewolf",
-      category: "Creature",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "To have clothing on your body", sound: "WEAR" },
-        { type: "emoji", content: "🐺", sound: "WOLF" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a person who transforms into a beast under a full moon.")
-    },
-    {
-      level: 38,
-      answer: "Unicorn",
-      category: "Creature",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Informal short word for \"university\"", sound: "UNI" },
-        { type: "emoji", content: "🌽", sound: "CORN" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a mythical horse with a single horn on its head.")
-    },
-    {
-      level: 39,
+      level: 13,
       answer: "Dinosaur",
       category: "Animal",
       difficulty: "medium",
@@ -1147,53 +865,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's an ancient reptile that went extinct millions of years ago.")
     },
     {
-      level: 40,
-      answer: "Butterfly",
-      category: "Animal",
-      difficulty: "easy",
-      clues: [
-        { type: "emoji", content: "🧈", sound: "BUTTER" },
-        { type: "text", content: "The zippered opening at the front of a pair of pants", sound: "FLY" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a colorful winged insect that starts life as a caterpillar.")
-    },
-    {
-      level: 41,
-      answer: "Titanic",
-      category: "Movie",
-      difficulty: "medium",
-      clues: [
-        { type: "text", content: "To fasten with a necktie, or a game that ends in a draw", sound: "TIE" },
-        { type: "text", content: "A bronzed skin tone from the sun", sound: "TAN" },
-        { type: "text", content: "A small cut, or a nickname for Nicholas", sound: "NICK" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a movie about a famous ship that sank on its first voyage.")
-    },
-    {
-      level: 42,
-      answer: "Harry Potter",
-      category: "Book",
-      difficulty: "hard",
-      clues: [
-        { type: "text", content: "Covered in lots of body hair, like a werewolf", sound: "HAIRY" },
-        { type: "text", content: "A round metal container you cook soup in", sound: "POT" },
-        { type: "big", content: "ER", sound: "ER" }
-      ],
-      hints: buildLevelHints(3, "Give me a hint", "It's a boy wizard who attends a school called Hogwarts.")
-    },
-    {
-      level: 43,
-      answer: "Nike",
-      category: "Brand",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Last name of the TV host who counts down New Year's Eve", sound: "NYE" },
-        { type: "emoji", content: "🔑", sound: "KEY" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's the sportswear brand with the swoosh logo.")
-    },
-    {
-      level: 44,
+      level: 14,
       answer: "Doritos",
       category: "Brand",
       difficulty: "medium",
@@ -1205,7 +877,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's a brand of crunchy triangular tortilla chips.")
     },
     {
-      level: 45,
+      level: 15,
       answer: "Hurricane",
       category: "Weather",
       difficulty: "medium",
@@ -1217,18 +889,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's a massive rotating storm that forms over warm ocean water.")
     },
     {
-      level: 46,
-      answer: "Yoga",
-      category: "Activity",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Casual greeting, like \"___, what's up\"", sound: "YO" },
-        { type: "text", content: "U.S. state abbreviation for Georgia, home of Atlanta", sound: "GA" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's an exercise practice involving stretches and poses.")
-    },
-    {
-      level: 47,
+      level: 16,
       answer: "Karate",
       category: "Activity",
       difficulty: "medium",
@@ -1240,18 +901,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's a Japanese martial art known for chops and kicks.")
     },
     {
-      level: 48,
-      answer: "Yogurt",
-      category: "Food",
-      difficulty: "easy",
-      clues: [
-        { type: "text", content: "Casual greeting, like \"___, what's up\"", sound: "YO" },
-        { type: "text", content: "Old-fashioned nickname for Gertrude", sound: "GERT" }
-      ],
-      hints: buildLevelHints(2, "Give me a hint", "It's a creamy, tangy dairy food often eaten with granola.")
-    },
-    {
-      level: 49,
+      level: 17,
       answer: "Burrito",
       category: "Food",
       difficulty: "medium",
@@ -1263,7 +913,7 @@
       hints: buildLevelHints(3, "Give me a hint", "It's a Mexican dish of a tortilla wrapped around rice, beans, and meat.")
     },
     {
-      level: 50,
+      level: 18,
       answer: "Spaghetti",
       category: "Food",
       difficulty: "medium",
@@ -1274,6 +924,398 @@
       ],
       hints: buildLevelHints(3, "Give me a hint", "It's a long, thin type of pasta often served with tomato sauce.")
     },
+    {
+      level: 19,
+      answer: "Panda",
+      category: "Animal",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "Peter ___, the boy who never grows up", sound: "PAN" },
+        { type: "text", content: "Sound you make when stating something painfully obvious", sound: "DUH" },
+        { type: "big", content: "A", sound: "A" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a black-and-white bear that mostly eats bamboo.")
+    },
+    {
+      level: 20,
+      answer: "Canada",
+      category: "Country",
+      difficulty: "easy",
+      clues: [
+        { type: "emoji", content: "🥫", sound: "CAN" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "Sound you make when stating something painfully obvious", sound: "DUH" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the second-largest country in the world, known for maple syrup and hockey.")
+    },
+    {
+      level: 21,
+      answer: "Tennessee",
+      category: "U.S. State",
+      difficulty: "medium",
+      clues: [
+        { type: "math", content: "6 + 4", sound: "TEN" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "To use your eyes, or a homophone of the letter C", sound: "SEE" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the U.S. state home to Nashville and Memphis, birthplace of country music.")
+    },
+    {
+      level: 22,
+      answer: "Arizona",
+      category: "U.S. State",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "The gas you breathe to stay alive", sound: "AIR" },
+        { type: "big", content: "I", sound: "I" },
+        { type: "text", content: "A specific area or region, as in a \"no-parking ___\"", sound: "ZONE" },
+        { type: "text", content: "Hesitation sound people make while thinking", sound: "UH" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's the U.S. state home to the Grand Canyon.")
+    },
+    {
+      level: 23,
+      answer: "Florida",
+      category: "U.S. State",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "The ground level of a room, what you stand on", sound: "FLOOR" },
+        { type: "big", content: "I", sound: "I" },
+        { type: "text", content: "Sound you make when stating something painfully obvious", sound: "DUH" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the U.S. state shaped like a peninsula, home to Disney World and Miami.")
+    },
+    {
+      level: 24,
+      answer: "Ohio",
+      category: "U.S. State",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "Exclamation of surprise or realization", sound: "OH" },
+        { type: "struck", content: "LOW", sound: "HIGH" },
+        { type: "text", content: "Exclamation of surprise, as in \"___, I get it now\"", sound: "OH" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the U.S. state home to Cleveland and Cincinnati.")
+    },
+    {
+      level: 25,
+      answer: "Colorado",
+      category: "U.S. State",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "The property of light that makes things look red, blue, or green", sound: "COLOR" },
+        { type: "struck", content: "SUBTRACT", sound: "ADD" },
+        { type: "text", content: "Exclamation of realization, as in \"___, now I see\"", sound: "OH" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the U.S. state home to the Rocky Mountains.")
+    },
+    {
+      level: 26,
+      answer: "Popsicle",
+      category: "Food",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "Music genre for artists like Taylor Swift or Ariana Grande", sound: "POP" },
+        { type: "struck", content: "HEALTHY", sound: "SICK" },
+        { type: "big", content: "L", sound: "UL" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a frozen fruity treat on a stick, perfect for summer.")
+    },
+    {
+      level: 27,
+      answer: "Wisconsin",
+      category: "U.S. State",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "A kitchen tool used to beat eggs, sounds like \"whisk\"", sound: "WHISK" },
+        { type: "struck", content: "PRO", sound: "CON" },
+        { type: "text", content: "A wrongdoing, or something religious people confess", sound: "SIN" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the U.S. state famous for cheese and dairy farms.")
+    },
+    {
+      level: 28,
+      answer: "Armadillo",
+      category: "Animal",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "The limb between your shoulder and your hand", sound: "ARM" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "An herb used to flavor pickles", sound: "DILL" },
+        { type: "text", content: "Exclamation of realization", sound: "OH" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's an armored mammal that can roll itself into a ball.")
+    },
+    {
+      level: 29,
+      answer: "Caterpillar",
+      category: "Animal",
+      difficulty: "medium",
+      clues: [
+        { type: "emoji", content: "🐱", sound: "CAT" },
+        { type: "big", content: "ER", sound: "ER" },
+        { type: "text", content: "A large vertical column that holds up a building", sound: "PILLAR" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a crawling insect larva that transforms into a butterfly or moth.")
+    },
+    {
+      level: 30,
+      answer: "Antelope",
+      category: "Animal",
+      difficulty: "medium",
+      clues: [
+        { type: "emoji", content: "🐜", sound: "ANT" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "To run with a long, bounding stride", sound: "LOPE" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a fast, horned grazing animal found in Africa.")
+    },
+    {
+      level: 31,
+      answer: "Caramel",
+      category: "Food",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "To look after someone, or to feel concern", sound: "CARE" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "Common nickname for Melissa or Melvin", sound: "MEL" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a chewy, golden-brown candy made from melted sugar.")
+    },
+    {
+      level: 32,
+      answer: "Cinnamon",
+      category: "Food",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "A wrongdoing, or something religious people confess", sound: "SIN" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "Jamaican slang for \"friend\", as in \"no worries, ___\"", sound: "MON" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a warm, reddish-brown spice often sprinkled on toast.")
+    },
+    {
+      level: 33,
+      answer: "Asparagus",
+      category: "Food",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "Word meaning \"in the role of\", as in \"___ a matter of fact\"", sound: "AS" },
+        { type: "text", content: "Two of something, or partners in a relationship", sound: "PAIR" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "Common nickname for August or Augustus", sound: "GUS" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's a long green vegetable known for what it does to the smell of your urine.")
+    },
+    {
+      level: 34,
+      answer: "Mississippi",
+      category: "U.S. State",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "To fail to make contact with, opposite of hit", sound: "MISS" },
+        { type: "big", content: "I", sound: "I" },
+        { type: "text", content: "To drink something slowly, a little at a time", sound: "SIP" },
+        { type: "big", content: "I", sound: "I" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's the U.S. state that shares its name with the country's longest river.")
+    },
+    {
+      level: 35,
+      answer: "Connecticut",
+      category: "U.S. State",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "To join two things together", sound: "CONNECT" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "To slice something with scissors or a knife", sound: "CUT" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a small U.S. state in New England, home to Yale University.")
+    },
+    {
+      level: 36,
+      answer: "Kentucky",
+      category: "U.S. State",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "Informal short name for Kenneth, or Barbie's boyfriend", sound: "KEN" },
+        { type: "text", content: "To neatly fold fabric into place, as in \"___ in your shirt\"", sound: "TUCK" },
+        { type: "emoji", content: "🔑", sound: "KEY" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the U.S. state famous for fried chicken and the Kentucky Derby.")
+    },
+    {
+      level: 37,
+      answer: "Alfredo",
+      category: "Food",
+      difficulty: "medium",
+      clues: [
+        { type: "acronym", content: "GOAT", highlight: 2, sound: "ALL" },
+        { type: "text", content: "A common man's name, like Fred Flintstone", sound: "FRED" },
+        { type: "text", content: "Exclamation of realization", sound: "OH" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a creamy white pasta sauce made with butter and parmesan.")
+    },
+    {
+      level: 38,
+      answer: "Idaho",
+      category: "U.S. State",
+      difficulty: "easy",
+      clues: [
+        { type: "emoji", content: "👁️", sound: "EYE" },
+        { type: "text", content: "Sound you make when stating something painfully obvious", sound: "DUH" },
+        { type: "text", content: "A long-handled garden tool used for weeding soil", sound: "HOE" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the U.S. state famous for growing potatoes.")
+    },
+    {
+      level: 39,
+      answer: "Beethoven",
+      category: "Celebrity",
+      difficulty: "medium",
+      clues: [
+        { type: "emoji", content: "🐝", sound: "BEE" },
+        { type: "text", content: "A digit on your foot, unlike a finger", sound: "TOE" },
+        { type: "text", content: "A kitchen appliance used for baking", sound: "OVEN" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the deaf German composer famous for his Fifth Symphony.")
+    },
+    {
+      level: 40,
+      answer: "Mozart",
+      category: "Celebrity",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "Nickname for Maurice, or a famous Three Stooges member", sound: "MOE" },
+        { type: "text", content: "A Russian emperor, alternately spelled \"tsar\"", sound: "ZAR" },
+        { type: "big", content: "T", sound: "T" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the Austrian child-prodigy composer who wrote symphonies as a kid.")
+    },
+    {
+      level: 41,
+      answer: "Voldemort",
+      category: "Character",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "Short for \"volume\", as on a stereo dial", sound: "VOL" },
+        { type: "big", content: "DUH", sound: "DUH" },
+        { type: "text", content: "Latin root meaning death, as in \"mortal\"", sound: "MORT" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the snake-faced dark wizard who must not be named.")
+    },
+    {
+      level: 42,
+      answer: "Marshmallow",
+      category: "Food",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "A wet, swampy area of land", sound: "MARSH" },
+        { type: "text", content: "Common nickname for Melissa or Melvin", sound: "MEL" },
+        { type: "struck", content: "HIGH", sound: "LOW" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a squishy white treat you roast over a campfire.")
+    },
+    {
+      level: 43,
+      answer: "Alligator",
+      category: "Animal",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "Common short nickname for Albert", sound: "AL" },
+        { type: "big", content: "I", sound: "I" },
+        { type: "text", content: "A barrier you open to enter or exit a property", sound: "GATE" },
+        { type: "text", content: "Conjunction offering a choice, as in \"this ___ that\"", sound: "OR" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's a large reptile with a long snout, common in Florida swamps.")
+    },
+    {
+      level: 44,
+      answer: "Cheetos",
+      category: "Brand",
+      difficulty: "easy",
+      clues: [
+        { type: "text", content: "Life-energy concept in Chinese philosophy, pronounced \"chee\"", sound: "CHI" },
+        { type: "text", content: "A digit on your foot, unlike a finger", sound: "TOE" },
+        { type: "big", content: "S", sound: "S" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a brand of crunchy, cheesy orange snacks.")
+    },
+    {
+      level: 45,
+      answer: "Telescope",
+      category: "Object",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "To say something, or share information out loud", sound: "TELL" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "The range or extent of something, as in \"the ___ of the project\"", sound: "SCOPE" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's the instrument astronomers use to see distant stars and planets.")
+    },
+    {
+      level: 46,
+      answer: "Helicopter",
+      category: "Object",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "Frozen rain pellets that fall during a storm", sound: "HAIL" },
+        { type: "big", content: "A", sound: "A" },
+        { type: "text", content: "Informal word for a police officer", sound: "COP" },
+        { type: "big", content: "TER", sound: "TER" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's an aircraft with spinning blades on top instead of wings.")
+    },
+    {
+      level: 47,
+      answer: "Calculator",
+      category: "Object",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "Short nickname for Calvin", sound: "CAL" },
+        { type: "text", content: "A signal for an actor to start speaking their line", sound: "CUE" },
+        { type: "struck", content: "EARLY", sound: "LATE" },
+        { type: "text", content: "Conjunction offering a choice, as in \"this ___ that\"", sound: "OR" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's the device you use to solve math problems.")
+    },
+    {
+      level: 48,
+      answer: "Flamingo",
+      category: "Animal",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "A single tongue of burning fire, as in a candle's ___", sound: "FLAME" },
+        { type: "text", content: "A Chinese dynasty known for its blue-and-white pottery", sound: "MING" },
+        { type: "struck", content: "STOP", sound: "GO" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a tall pink wading bird known for standing on one leg.")
+    },
+    {
+      level: 49,
+      answer: "Rhinoceros",
+      category: "Animal",
+      difficulty: "hard",
+      clues: [
+        { type: "text", content: "A dark bread, or a type of whiskey", sound: "RYE" },
+        { type: "emoji", content: "👃", sound: "NOSE" },
+        { type: "big", content: "ER", sound: "ER" },
+        { type: "text", content: "Pronoun for a group that includes yourself, opposite of \"them\"", sound: "US" }
+      ],
+      hints: buildLevelHints(4, "Give me a hint", "It's a massive gray animal with one or two horns on its snout.")
+    },
+    {
+      level: 50,
+      answer: "Chameleon",
+      category: "Animal",
+      difficulty: "medium",
+      clues: [
+        { type: "text", content: "Informal short word for a camera, as in a security ___", sound: "CAM" },
+        { type: "text", content: "A long, slippery fish-like creature that can generate electric shocks", sound: "EEL" },
+        { type: "big", content: "YUN", sound: "YUN" }
+      ],
+      hints: buildLevelHints(3, "Give me a hint", "It's a lizard famous for changing colors to match its surroundings.")
+    }
   ];
 
   const DAILY_DIFFS = ["easy", "medium", "hard"];
@@ -1907,6 +1949,14 @@
         '</div>';
     } else if (clue.type === "big") {
       inner = '<div class="clue-big">' + escapeHtml(clue.content) + '</div>';
+    } else if (clue.type === "acronym") {
+      const chars = String(clue.content).split("");
+      const hi = typeof clue.highlight === "number" ? clue.highlight : 0;
+      inner = '<div class="clue-acronym">' + chars.map(function(ch, i){
+        return '<span class="acr-letter' + (i === hi ? " acr-highlight" : "") + '">' + escapeHtml(ch) + '</span>';
+      }).join("") + '</div>';
+    } else if (clue.type === "math") {
+      inner = '<div class="clue-math">' + escapeHtml(clue.content) + '<span class="clue-math-eq">&nbsp;=&nbsp;?</span></div>';
     } else {
       inner = '<div class="clue-text">&ldquo;' + escapeHtml(clue.content) + '&rdquo;</div>';
     }
@@ -2155,6 +2205,8 @@
           '<li><b style="color:var(--text);">Text</b> — a short clue or fill-in-the-blank with one obvious answer.</li>' +
           '<li><b style="color:var(--red);text-decoration:line-through;">Crossed-out word</b> — say its opposite instead.</li>' +
           '<li><b style="color:var(--text);">Big letters</b> — an abbreviation or fragment, said out loud.</li>' +
+          '<li><b style="color:var(--purple);">Highlighted letter</b> — say what the marked letter stands for in that word or acronym.</li>' +
+          '<li><b style="color:var(--green);">Math</b> — solve the equation, say the number out loud.</li>' +
         '</ul>' +
         '<b style="font-size:13px;">Tools while you play</b>' +
         '<ul style="color:var(--text-dim);font-size:13.5px;line-height:1.8;padding-left:20px;margin:8px 0 20px;">' +

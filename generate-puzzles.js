@@ -112,9 +112,9 @@ function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
 // ---------- prompt (ported verbatim from index.html buildSinglePuzzlePrompt) ----------
 const DIFFICULTY_GUIDANCE = {
-  easy: "a short, very well-known, everyday answer, assembled from about 2 to 3 clue pieces",
+  easy: "a short, very well-known, everyday answer, assembled from exactly 3 clue pieces (never fewer than 3)",
   medium: "a well-known, everyday answer (not obscure) assembled from about 4 to 5 clue pieces — the larger number of pieces to track and blend, not an unfamiliar answer, is what makes it trickier than easy",
-  hard: "a well-known, everyday answer — still NOT obscure, technical, or niche; a typical adult should recognize it instantly once revealed — assembled from about 5 to 7 clue pieces (use 7 when a clean breakdown exists, but a strong 5-piece puzzle beats a forced 7-piece one). Difficulty must come from having more pieces to mentally hold and blend together, never from the answer itself being hard to know"
+  hard: "a well-known, everyday answer — still NOT obscure, technical, or niche; a typical adult should recognize it instantly once revealed — assembled from at least 4, ideally 5 to 7, clue pieces (use 7 when a clean breakdown exists, but a strong 5-piece puzzle beats a forced 7-piece one). Never fewer than 4. Difficulty must come from having more pieces to mentally hold and blend together, never from the answer itself being hard to know"
 };
 
 function buildSinglePuzzlePrompt(dateStr, difficulty) {
@@ -131,10 +131,14 @@ function buildSinglePuzzlePrompt(dateStr, difficulty) {
     'RULES:',
     '- Pick an answer: a real word or short phrase (movie, country, celebrity, historical figure, brand, object, book, city, food, etc) that a typical adult would immediately recognize. Make it fresh — avoid the most common textbook examples like "Madagascar" or "Beyoncé" — but freshness means a different everyday answer, not an obscure one.',
     '- First work out the phonetic SOUNDS of the answer as spoken aloud (not the spelling), and split it into roughly the number of sound chunks called for by the difficulty above. For multi-word answers, do not default to one chunk per existing word — re-segment across word breaks so chunks don\'t line up with the answer\'s own words.',
-    '- For every sound chunk invent one clue whose single, obvious solution — when said aloud — produces that sound. Prefer this order of clue types, and mix at least 2 different types per puzzle:',
-    '  "emoji" (STRONGLY PREFERRED — use one whenever a sound has an emoji with an exact, unambiguous common one- or two-word spoken name) -> content is one emoji; sound is that exact common name, in capitals.',
+    '- CLUE COUNT IS A HARD MINIMUM, NOT A SUGGESTION: every puzzle needs at least 3 clue pieces — never 2, never 1. Hard puzzles need at least 4. If your first draft has fewer, find a way to split the answer into more chunks rather than shipping a short puzzle.',
+    '- CLUE TYPE DIVERSITY IS MANDATORY: a puzzle may never use only one clue type across all its pieces (e.g. all "text", or all "emoji", or three fill-in-the-blanks in a row). Every puzzle must mix at least 2 different types from the list below.',
+    '- For every sound chunk invent one clue whose single, obvious solution — when said aloud — produces that sound. Prefer this order of clue types:',
+    '  "emoji" (STRONGLY PREFERRED — use one whenever a sound has an emoji with an exact, unambiguous common one- or two-word spoken name — NOT a synonym or a shortened/informal version of the emoji\'s actual name, e.g. a peanut emoji reads as "peanut", not "nut"; a hot-beverage emoji is as likely to read "coffee" as "tea" — only use an emoji when its single, primary, unabbreviated spoken name is EXACTLY the sound needed) -> content is one emoji; sound is that exact common name, in capitals.',
     '  "big" -> content is a short, standard, unambiguous abbreviation/initial/fill-in fragment; sound is exactly how it is normally said aloud, in capitals.',
     '  "struck" -> content is a single common word to show crossed out; sound is its real dictionary OPPOSITE, in capitals.',
+    '  "acronym" -> content is a well-known acronym or initialism written as plain capital letters with no spaces or periods (e.g. "LGBT", "ASAP", "DIY", "GOAT"); "highlight" is the zero-indexed position of ONE letter in that string; sound is what that specific letter stands for in the acronym, said aloud, in capitals (e.g. content "LGBT" with highlight 1 marks the "G" -> sound "GAY"; content "DIY" with highlight 2 marks the "Y" -> sound "YOURSELF"). Use sparingly, only when the expansion is a short, common, unambiguous word.',
+    '  "math" -> content is a short arithmetic expression using digits and a symbol (e.g. "6 + 4", "9 - 2"); sound is the result written out as a number word, in capitals (e.g. "TEN", "SEVEN"). Use sparingly, only when the resulting number word is genuinely useful as a sound chunk.',
     '  "text" (use LAST, and sparingly — no more than about half the clues in a puzzle) -> content is a short clue with exactly ONE obvious answer.',
     '',
     'TIGHT-CLUE RULE FOR "text" CLUES — this is critical: a plain open-ended definition (e.g. "a container you drink coffee from") is BANNED because it usually has several equally valid one-word answers (CUP? MUG? GLASS?) and the player is left guessing which synonym you meant. Every "text" clue must instead be anchored so only one exact word can possibly complete it, using one of these techniques: (a) a fill-in-the-blank quote, idiom, or fixed phrase, e.g. "Ed ___, famous ginger singer" -> ED, or "as in \"mock ___\"" -> TRIAL-style anchoring; (b) a specific named pop-culture reference with one answer, e.g. "Grunkle ___ from Gravity Falls" -> STAN; (c) a term with no real synonym at all, e.g. "adult female horse" -> MARE. If you cannot anchor a definition this tightly, do not use a "text" clue for that sound — use "emoji", "big", or "struck" instead.',
@@ -144,8 +148,8 @@ function buildSinglePuzzlePrompt(dateStr, difficulty) {
     '- Before finalizing, briefly double-check every clue has one obvious answer, every struck word\'s sound is its true antonym, and the sounds blend into the answer when read quickly. Keep this check to a sentence or two, not an essay.',
     '- Today\'s date is ' + dateStr + ' — use only as loose inspiration for variety, never reference it in the puzzle.',
     '',
-    'Output ONLY valid JSON, no markdown fences, no commentary before or after it, in EXACTLY this shape:',
-    '{"answer":"...","category":"...","difficulty":"' + difficulty + '","clues":[{"type":"emoji","content":"😡","sound":"MAD"}],"hints":[{"label":"Reveal clue 1 sound","ci":0},{"label":"Give me a hint","ci":-1,"text":"A country in Africa"},{"label":"Reveal all sounds","ci":-2}]}'
+    'Output ONLY valid JSON, no markdown fences, no commentary before or after it, in EXACTLY this shape (this example shows the minimum 3 clues and 2 mixed types — yours must too, plus 4+ clues if difficulty is "hard"):',
+    '{"answer":"...","category":"...","difficulty":"' + difficulty + '","clues":[{"type":"emoji","content":"😡","sound":"MAD"},{"type":"text","content":"Where you fill up your car","sound":"GAS"},{"type":"emoji","content":"🚗","sound":"CAR"}],"hints":[{"label":"Reveal clue 1 sound","ci":0},{"label":"Reveal clue 2 sound","ci":1},{"label":"Reveal clue 3 sound","ci":2},{"label":"Give me a hint","ci":-1,"text":"A country in Africa"},{"label":"Reveal all sounds","ci":-2}]}'
   ].join("\n");
 }
 
@@ -175,6 +179,25 @@ function normalizeSinglePuzzle(parsed, expectedDifficulty) {
     throw new Error("Response is missing a valid puzzle.");
   }
   parsed.difficulty = expectedDifficulty;
+
+  // Safety net for the two hard structural rules: minimum clue count and
+  // type diversity. If the model didn't follow the prompt, fail loudly here
+  // so the retry loop (see main()) tries again rather than silently
+  // shipping a non-compliant puzzle.
+  const clueCount = parsed.clues.length;
+  const minCount = expectedDifficulty === "hard" ? 4 : 3;
+  if (clueCount < minCount) {
+    throw new Error(
+      capitalize(expectedDifficulty) + " puzzle has only " + clueCount + " clue(s), needs at least " + minCount + "."
+    );
+  }
+  const distinctTypes = new Set(parsed.clues.map(function (c) { return c && c.type; }));
+  if (distinctTypes.size < 2) {
+    throw new Error(
+      capitalize(expectedDifficulty) + " puzzle uses only one clue type (" + [...distinctTypes].join(", ") + ") across all clues — needs at least 2 different types."
+    );
+  }
+
   fixStruckClueAntonyms(parsed);
   if (!Array.isArray(parsed.hints) || !parsed.hints.length) {
     parsed.hints = defaultHintsFor(parsed);
@@ -204,7 +227,7 @@ async function fetchSinglePuzzle(dateStr, difficulty) {
       },
       body: JSON.stringify({
         model: "claude-sonnet-4-6",
-        max_tokens: 28000,
+        max_tokens: 36000,
         thinking: { type: "adaptive" },
         output_config: { effort: "medium" },
         stream: true,
