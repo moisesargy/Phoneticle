@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-27",
-  "generatedAt": "2026-07-27T03:50:00.783Z",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T02:30:37.081Z",
   "easy": {
-    "answer": "SUNRISE",
-    "category": "Word",
+    "answer": "SUNDAY",
+    "category": "Day of the week",
     "difficulty": "easy",
     "clues": [
       {
@@ -13,8 +13,8 @@
       },
       {
         "type": "struck",
-        "content": "FALL",
-        "sound": "RISE"
+        "content": "NIGHT",
+        "sound": "DAY"
       }
     ],
     "hints": [
@@ -29,7 +29,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "Something worth waking up early for on a clear morning."
+        "text": "The one day when you probably sleep in a little."
       },
       {
         "label": "Reveal all sounds",
@@ -38,29 +38,29 @@
     ]
   },
   "medium": {
-    "answer": "caterpillar",
-    "category": "Insect",
+    "answer": "Pinocchio",
+    "category": "Fictional Character",
     "difficulty": "medium",
     "clues": [
       {
         "type": "emoji",
-        "content": "🐱",
-        "sound": "CAT"
+        "content": "📌",
+        "sound": "PIN"
       },
       {
-        "type": "big",
-        "content": "ER",
-        "sound": "ER"
+        "type": "struck",
+        "content": "YES",
+        "sound": "NO"
       },
       {
         "type": "emoji",
-        "content": "💊",
-        "sound": "PILL"
+        "content": "🔑",
+        "sound": "KEY"
       },
       {
-        "type": "text",
-        "content": "to ___ is human",
-        "sound": "ERR"
+        "type": "big",
+        "content": "O",
+        "sound": "OH"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This wriggly creature will one day sprout wings after spending time wrapped up in a cocoon."
+        "text": "This beloved character has a nose for trouble."
       },
       {
         "label": "Reveal all sounds",
@@ -92,34 +92,39 @@
     ]
   },
   "hard": {
-    "answer": "Philadelphia",
-    "category": "City",
+    "answer": "Happy Birthday to You",
+    "category": "Song",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "struck",
-        "content": "EMPTY",
-        "sound": "FULL"
-      },
-      {
-        "type": "emoji",
-        "content": "🅰️",
-        "sound": "A"
+        "type": "text",
+        "content": "___ hazard",
+        "sound": "HAP"
       },
       {
         "type": "big",
-        "content": "DEL",
-        "sound": "DEL"
+        "content": "E",
+        "sound": "EE"
       },
       {
         "type": "text",
-        "content": "___ fi fo fum",
-        "sound": "FEE"
+        "content": "___ certificate",
+        "sound": "BIRTH"
+      },
+      {
+        "type": "struck",
+        "content": "NIGHT",
+        "sound": "DAY"
       },
       {
         "type": "emoji",
-        "content": "🅰️",
-        "sound": "A"
+        "content": "2️⃣",
+        "sound": "TWO"
+      },
+      {
+        "type": "big",
+        "content": "U",
+        "sound": "YOU"
       }
     ],
     "hints": [
@@ -144,9 +149,13 @@
         "ci": 4
       },
       {
+        "label": "Reveal clue 6 sound",
+        "ci": 5
+      },
+      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "This major East Coast American city is nicknamed the 'City of Brotherly Love.'"
+        "text": "You've sung this at least once a year your entire life."
       },
       {
         "label": "Reveal all sounds",

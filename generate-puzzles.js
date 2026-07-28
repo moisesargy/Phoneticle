@@ -183,7 +183,14 @@ function normalizeSinglePuzzle(parsed, expectedDifficulty) {
   return parsed;
 }
 
-// ---------- Claude API call (Node fetch — no browser-access header needed) ----------
+// ---------- Claude API call (Node fetch, streaming — no browser-access header needed) ----------
+// Streaming (rather than waiting for one large non-streaming response) is
+// required here: with the larger max_tokens + adaptive thinking this now
+// uses, a single request can take several minutes end-to-end, which trips
+// Node's default fetch headers timeout (UND_ERR_HEADERS_TIMEOUT) and risks
+// the Claude API's own duration limit for non-streaming requests. Streaming
+// opens the connection and starts receiving data immediately, sidestepping
+// both.
 async function fetchSinglePuzzle(dateStr, difficulty) {
   const prompt = buildSinglePuzzlePrompt(dateStr, difficulty);
   let res;
@@ -200,11 +207,13 @@ async function fetchSinglePuzzle(dateStr, difficulty) {
         max_tokens: 28000,
         thinking: { type: "adaptive" },
         output_config: { effort: "medium" },
+        stream: true,
         messages: [{ role: "user", content: prompt }]
       })
     });
   } catch (networkErr) {
-    throw new Error(capitalize(difficulty) + " puzzle — network error reaching the Claude API: " + networkErr.message);
+    const causeMsg = networkErr && networkErr.cause ? (" (" + (networkErr.cause.code || networkErr.cause.message || networkErr.cause) + ")") : "";
+    throw new Error(capitalize(difficulty) + " puzzle — network error reaching the Claude API: " + networkErr.message + causeMsg);
   }
 
   if (!res.ok) {
@@ -216,18 +225,42 @@ async function fetchSinglePuzzle(dateStr, difficulty) {
     throw new Error(capitalize(difficulty) + " puzzle — " + msg);
   }
 
-  const data = await res.json();
-  const blocks = data && Array.isArray(data.content) ? data.content : [];
-  const textBlock = blocks.find(function (b) { return b && b.type === "text" && b.text; });
-  const rawText = textBlock && textBlock.text;
+  let rawText = "";
+  let stopReason = null;
+  let apiError = null;
+  const decoder = new TextDecoder();
+  let buffer = "";
+  for await (const chunk of res.body) {
+    buffer += decoder.decode(chunk, { stream: true });
+    const lines = buffer.split("\n");
+    buffer = lines.pop(); // keep the last (possibly partial) line for the next chunk
+    for (const line of lines) {
+      if (!line.startsWith("data:")) continue;
+      const jsonStr = line.slice(5).trim();
+      if (!jsonStr) continue;
+      let evt;
+      try { evt = JSON.parse(jsonStr); } catch (e) { continue; }
+      if (evt.type === "content_block_delta" && evt.delta && evt.delta.type === "text_delta") {
+        rawText += evt.delta.text;
+      } else if (evt.type === "message_delta" && evt.delta && evt.delta.stop_reason) {
+        stopReason = evt.delta.stop_reason;
+      } else if (evt.type === "error") {
+        apiError = evt.error && evt.error.message ? evt.error.message : JSON.stringify(evt.error);
+      }
+    }
+  }
+
+  if (apiError) {
+    throw new Error(capitalize(difficulty) + " puzzle — " + apiError);
+  }
   if (!rawText) {
-    if (data && data.stop_reason === "refusal") {
+    if (stopReason === "refusal") {
       throw new Error(capitalize(difficulty) + " puzzle — Claude declined to generate it.");
     }
-    if (data && data.stop_reason === "max_tokens") {
+    if (stopReason === "max_tokens") {
       throw new Error(capitalize(difficulty) + " puzzle — Claude ran out of room before writing the final answer.");
     }
-    throw new Error(capitalize(difficulty) + " puzzle — API response did not contain any text content" + (data && data.stop_reason ? " (stop reason: " + data.stop_reason + ")." : "."));
+    throw new Error(capitalize(difficulty) + " puzzle — API response did not contain any text content" + (stopReason ? " (stop reason: " + stopReason + ")." : "."));
   }
 
   const parsed = parsePuzzleJSON(rawText);
@@ -252,6 +285,14 @@ async function main() {
       } catch (err) {
         lastErr = err;
         console.warn("  " + diff + " attempt " + i + " failed: " + (err && err.message ? err.message : err));
+        // Back off before retrying so a transient network blip (e.g. a
+        // momentary DNS/TLS hiccup reaching the Claude API from the runner)
+        // has time to clear instead of hitting the same failure instantly.
+        if (i < attempts) {
+          const delayMs = 3000 * i;
+          console.log("  waiting " + (delayMs / 1000) + "s before retrying " + diff + "...");
+          await new Promise(function (resolve) { setTimeout(resolve, delayMs); });
+        }
       }
     }
     throw lastErr;
