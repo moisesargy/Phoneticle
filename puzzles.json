@@ -1,25 +1,25 @@
 {
-  "date": "2026-07-29",
-  "generatedAt": "2026-07-29T12:32:11.926Z",
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T12:02:18.017Z",
   "easy": {
-    "answer": "Nutella",
-    "category": "Brand",
+    "answer": "Walrus",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Squirrels bury these to eat later",
-        "sound": "NUT"
+        "content": "A vertical structure that encloses a room",
+        "sound": "WALL"
       },
       {
         "type": "text",
-        "content": "To say something out loud, or share information",
-        "sound": "TELL"
+        "content": "Common nickname for the name Russell",
+        "sound": "RUSS"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a chocolate hazelnut spread you put on toast."
+        "text": "It's a large Arctic sea mammal with long tusks."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Cleopatra",
+    "answer": "Einstein",
     "category": "Historical Figure",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "A soft, moldable earth used in pottery",
-        "sound": "CLAY"
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "big",
-        "content": "OH",
-        "sound": "OH"
+        "content": "N",
+        "sound": "N"
       },
       {
         "type": "text",
-        "content": "To gently tap, as in \"___ on the back\"",
-        "sound": "PAT"
+        "content": "A pigpen, or an inflamed bump on your eyelid",
+        "sound": "STY"
       },
       {
-        "type": "text",
-        "content": "Exclamation of cheer",
-        "sound": "RAH"
+        "type": "big",
+        "content": "N",
+        "sound": "N"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the famous last pharaoh of ancient Egypt."
+        "text": "It's the physicist famous for the theory of relativity and wild hair."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Will Smith",
+    "answer": "Morgan Freeman",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "struck",
+        "content": "LESS",
+        "sound": "MORE"
+      },
+      {
+        "type": "emoji",
+        "content": "🔫",
+        "sound": "GUN"
+      },
+      {
+        "type": "struck",
+        "content": "PAID",
+        "sound": "FREE"
+      },
+      {
         "type": "text",
-        "content": "A legal document dividing your estate, or determination",
-        "sound": "WILL"
-      },
-      {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
-      },
-      {
-        "type": "text",
-        "content": "Informal word for a baseball glove",
-        "sound": "MITT"
-      },
-      {
-        "type": "big",
-        "content": "H",
-        "sound": "H"
+        "content": "Plural of \"man\"",
+        "sound": "MEN"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the Fresh Prince turned movie star who slapped his way into headlines."
+        "text": "It's the actor with the deep, iconic voice used in countless narrations."
       },
       {
         "label": "Reveal all sounds",
