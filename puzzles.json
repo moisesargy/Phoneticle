@@ -1,25 +1,25 @@
 {
-  "date": "2026-07-31",
-  "generatedAt": "2026-07-31T12:25:54.474Z",
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T10:49:49.570Z",
   "easy": {
-    "answer": "Yogi Bear",
-    "category": "Character",
+    "answer": "Waffle",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Casual greeting, like \"___, what's up\"",
-        "sound": "YO"
+        "content": "Sound a crying baby makes",
+        "sound": "WAH"
       },
       {
-        "type": "text",
-        "content": "Exclamation of surprise, like \"___ whiz\"",
-        "sound": "GEE"
+        "type": "struck",
+        "content": "EMPTY",
+        "sound": "FULL"
       },
       {
-        "type": "emoji",
-        "content": "🐻",
-        "sound": "BEAR"
+        "type": "big",
+        "content": "L",
+        "sound": "L"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a picnic-basket-stealing cartoon bear who's smarter than the average one."
+        "text": "It's a breakfast food with a griddle pattern, great with syrup."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Godzilla",
+    "answer": "King Kong",
     "category": "Character",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "A supreme deity worshipped in religion",
-        "sound": "GOD"
-      },
-      {
-        "type": "big",
-        "content": "Z",
-        "sound": "Z"
+        "content": "A male monarch who rules a kingdom",
+        "sound": "KING"
       },
       {
         "type": "struck",
-        "content": "HEALTHY",
-        "sound": "ILL"
+        "content": "PRO",
+        "sound": "CON"
+      },
+      {
+        "type": "big",
+        "content": "G",
+        "sound": "G"
       },
       {
         "type": "text",
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a giant movie monster that stomps through Tokyo breathing fire."
+        "text": "It's a giant movie ape who climbs skyscrapers."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Robert Downey",
+    "answer": "Emma Watson",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "big",
+        "content": "EM",
+        "sound": "EM"
+      },
+      {
         "type": "text",
-        "content": "To steal from someone",
-        "sound": "ROB"
+        "content": "Hesitation sound people make while thinking",
+        "sound": "UH"
       },
       {
-        "type": "big",
-        "content": "ER",
-        "sound": "ER"
+        "type": "text",
+        "content": "Unit of electrical power, symbol W",
+        "sound": "WATT"
       },
       {
-        "type": "struck",
-        "content": "UP",
-        "sound": "DOWN"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "emoji",
+        "content": "☀️",
+        "sound": "SUN"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the actor best known for playing Iron Man."
+        "text": "It's the actress who played Hermione Granger on screen."
       },
       {
         "label": "Reveal all sounds",
