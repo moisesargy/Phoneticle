@@ -1,70 +1,20 @@
 {
-  "date": "2026-08-03",
-  "generatedAt": "2026-08-03T13:59:57.144Z",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T12:24:38.278Z",
   "easy": {
-    "answer": "Kiwi",
+    "answer": "Taco",
     "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🔑",
-        "sound": "KEY"
+        "type": "text",
+        "content": "A small sharp pin, or a game plan",
+        "sound": "TACK"
       },
       {
         "type": "text",
-        "content": "Pronoun for you and me together",
-        "sound": "WE"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "E"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's a fuzzy brown fruit with bright green flesh inside."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "medium": {
-    "answer": "Golden Gate",
-    "category": "Landmark",
-    "difficulty": "medium",
-    "clues": [
-      {
-        "type": "text",
-        "content": "A valuable yellow metal, symbol Au",
-        "sound": "GOLD"
-      },
-      {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
-      },
-      {
-        "type": "text",
-        "content": "A barrier you open to enter or exit a property",
-        "sound": "GATE"
+        "content": "Exclamation of realization",
+        "sound": "OH"
       },
       {
         "type": "big",
@@ -86,13 +36,9 @@
         "ci": 2
       },
       {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the famous orange-red suspension bridge in San Francisco."
+        "text": "It's a folded tortilla filled with meat, cheese, and salsa."
       },
       {
         "label": "Reveal all sounds",
@@ -100,11 +46,16 @@
       }
     ]
   },
-  "hard": {
-    "answer": "LeBron James",
+  "medium": {
+    "answer": "Miley Cyrus",
     "category": "Celebrity",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "clues": [
+      {
+        "type": "text",
+        "content": "Belonging to me",
+        "sound": "MY"
+      },
       {
         "type": "text",
         "content": "Informal short name for Leonard",
@@ -112,18 +63,13 @@
       },
       {
         "type": "text",
-        "content": "Physical strength or muscle",
-        "sound": "BRAWN"
-      },
-      {
-        "type": "text",
-        "content": "Common nickname for Jason, or a loud blue bird",
-        "sound": "JAY"
+        "content": "To exhale slowly while showing disappointment",
+        "sound": "SIGH"
       },
       {
         "type": "big",
-        "content": "MS",
-        "sound": "MS"
+        "content": "RUS",
+        "sound": "RUS"
       }
     ],
     "hints": [
@@ -146,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the basketball superstar often argued to be the GOAT."
+        "text": "It's the pop star and former Disney star who sang 'Wrecking Ball.'"
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Harry Potter",
+    "category": "Book",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "What grows on your head",
+        "sound": "HAIR"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
+      },
+      {
+        "type": "text",
+        "content": "A round metal container you cook soup in",
+        "sound": "POT"
+      },
+      {
+        "type": "big",
+        "content": "ER",
+        "sound": "ER"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the boy wizard who attends a school called Hogwarts."
       },
       {
         "label": "Reveal all sounds",
