@@ -1,20 +1,124 @@
 {
-  "date": "2026-08-04",
-  "generatedAt": "2026-08-04T12:24:38.278Z",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T12:21:15.457Z",
   "easy": {
-    "answer": "Taco",
+    "answer": "Mustard",
     "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "A small sharp pin, or a game plan",
-        "sound": "TACK"
+        "content": "Modal verb meaning \"have to\", as in \"you ___ be kidding\"",
+        "sound": "MUST"
       },
       {
         "type": "text",
-        "content": "Exclamation of realization",
-        "sound": "OH"
+        "content": "A group of cattle or sheep",
+        "sound": "HERD"
+      },
+      {
+        "type": "big",
+        "content": "D",
+        "sound": "D"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the yellow condiment you put on a hot dog."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "medium": {
+    "answer": "Justin Bieber",
+    "category": "Celebrity",
+    "difficulty": "medium",
+    "clues": [
+      {
+        "type": "text",
+        "content": "Only, merely, as in \"___ kidding\"",
+        "sound": "JUST"
+      },
+      {
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
+      },
+      {
+        "type": "emoji",
+        "content": "🐝",
+        "sound": "BEE"
+      },
+      {
+        "type": "big",
+        "content": "BER",
+        "sound": "BER"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the Canadian pop star who started out on YouTube as a kid."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Sherlock Holmes",
+    "category": "Character",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "A piece of clothing worn on your upper body",
+        "sound": "SHIRT"
+      },
+      {
+        "type": "text",
+        "content": "A device that secures a door",
+        "sound": "LOCK"
+      },
+      {
+        "type": "emoji",
+        "content": "🏠",
+        "sound": "HOME"
       },
       {
         "type": "big",
@@ -36,117 +140,13 @@
         "ci": 2
       },
       {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's a folded tortilla filled with meat, cheese, and salsa."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "medium": {
-    "answer": "Miley Cyrus",
-    "category": "Celebrity",
-    "difficulty": "medium",
-    "clues": [
-      {
-        "type": "text",
-        "content": "Belonging to me",
-        "sound": "MY"
-      },
-      {
-        "type": "text",
-        "content": "Informal short name for Leonard",
-        "sound": "LEE"
-      },
-      {
-        "type": "text",
-        "content": "To exhale slowly while showing disappointment",
-        "sound": "SIGH"
-      },
-      {
-        "type": "big",
-        "content": "RUS",
-        "sound": "RUS"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
         "label": "Reveal clue 4 sound",
         "ci": 3
       },
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the pop star and former Disney star who sang 'Wrecking Ball.'"
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Harry Potter",
-    "category": "Book",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "text",
-        "content": "What grows on your head",
-        "sound": "HAIR"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
-      },
-      {
-        "type": "text",
-        "content": "A round metal container you cook soup in",
-        "sound": "POT"
-      },
-      {
-        "type": "big",
-        "content": "ER",
-        "sound": "ER"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the boy wizard who attends a school called Hogwarts."
+        "text": "It's the famous detective known for his powers of deduction."
       },
       {
         "label": "Reveal all sounds",
