@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-05",
-  "generatedAt": "2026-08-05T12:21:15.457Z",
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T12:24:19.493Z",
   "easy": {
-    "answer": "Mustard",
-    "category": "Food",
+    "answer": "Hamster",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Modal verb meaning \"have to\", as in \"you ___ be kidding\"",
-        "sound": "MUST"
-      },
-      {
-        "type": "text",
-        "content": "A group of cattle or sheep",
-        "sound": "HERD"
+        "content": "Informal word for a hot dog, or an overly dramatic actor",
+        "sound": "HAM"
       },
       {
         "type": "big",
-        "content": "D",
-        "sound": "D"
+        "content": "ST",
+        "sound": "ST"
+      },
+      {
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the yellow condiment you put on a hot dog."
+        "text": "It's a small, fuzzy pet rodent that loves running on a wheel."
       },
       {
         "label": "Reveal all sounds",
@@ -47,78 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Justin Bieber",
+    "answer": "Taylor Swift",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Only, merely, as in \"___ kidding\"",
-        "sound": "JUST"
-      },
-      {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
-      },
-      {
-        "type": "emoji",
-        "content": "🐝",
-        "sound": "BEE"
-      },
-      {
-        "type": "big",
-        "content": "BER",
-        "sound": "BER"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the Canadian pop star who started out on YouTube as a kid."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Sherlock Holmes",
-    "category": "Character",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "text",
-        "content": "A piece of clothing worn on your upper body",
-        "sound": "SHIRT"
+        "content": "The appendage at the back of an animal",
+        "sound": "TAIL"
       },
       {
         "type": "text",
-        "content": "A device that secures a door",
-        "sound": "LOCK"
+        "content": "Conjunction offering a choice, as in \"this ___ that\"",
+        "sound": "OR"
       },
       {
-        "type": "emoji",
-        "content": "🏠",
-        "sound": "HOME"
+        "type": "text",
+        "content": "Fast-moving, quick",
+        "sound": "SWIFT"
       },
       {
         "type": "big",
@@ -146,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the famous detective known for his powers of deduction."
+        "text": "It's the pop star known for re-recording her own old albums."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Titanic",
+    "category": "Movie",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "To fasten with a necktie, or a game that ends in a draw",
+        "sound": "TIE"
+      },
+      {
+        "type": "text",
+        "content": "A bronzed skin tone from the sun",
+        "sound": "TAN"
+      },
+      {
+        "type": "big",
+        "content": "NIC",
+        "sound": "NIC"
+      },
+      {
+        "type": "big",
+        "content": "K",
+        "sound": "K"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the movie about a famous ship that sank on its first voyage."
       },
       {
         "label": "Reveal all sounds",
