@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-06",
-  "generatedAt": "2026-08-06T12:24:19.493Z",
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T08:35:53.835Z",
   "easy": {
-    "answer": "Hamster",
-    "category": "Animal",
+    "answer": "Sunflower",
+    "category": "Plant",
     "difficulty": "easy",
     "clues": [
       {
+        "type": "emoji",
+        "content": "☀️",
+        "sound": "SUN"
+      },
+      {
         "type": "text",
-        "content": "Informal word for a hot dog, or an overly dramatic actor",
-        "sound": "HAM"
+        "content": "To move smoothly, like water in a stream",
+        "sound": "FLOW"
       },
       {
         "type": "big",
-        "content": "ST",
-        "sound": "ST"
-      },
-      {
-        "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
+        "content": "ER",
+        "sound": "ER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a small, fuzzy pet rodent that loves running on a wheel."
+        "text": "It's a tall yellow flower that turns to follow the sun."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Taylor Swift",
+    "answer": "Ed Sheeran",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "The appendage at the back of an animal",
-        "sound": "TAIL"
-      },
-      {
-        "type": "text",
-        "content": "Conjunction offering a choice, as in \"this ___ that\"",
-        "sound": "OR"
-      },
-      {
-        "type": "text",
-        "content": "Fast-moving, quick",
-        "sound": "SWIFT"
+        "type": "big",
+        "content": "E",
+        "sound": "E"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "D",
+        "sound": "D"
+      },
+      {
+        "type": "text",
+        "content": "Completely, utterly, as in \"___ luck\"",
+        "sound": "SHEER"
+      },
+      {
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the pop star known for re-recording her own old albums."
+        "text": "It's the famous ginger singer-songwriter known for looping his guitar live."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Titanic",
+    "answer": "Toy Story",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "To fasten with a necktie, or a game that ends in a draw",
-        "sound": "TIE"
-      },
-      {
-        "type": "text",
-        "content": "A bronzed skin tone from the sun",
-        "sound": "TAN"
+        "type": "emoji",
+        "content": "🧸",
+        "sound": "TOY"
       },
       {
         "type": "big",
-        "content": "NIC",
-        "sound": "NIC"
+        "content": "ST",
+        "sound": "ST"
+      },
+      {
+        "type": "text",
+        "content": "A long pole used to row a boat",
+        "sound": "OAR"
       },
       {
         "type": "big",
-        "content": "K",
-        "sound": "K"
+        "content": "EE",
+        "sound": "EE"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the movie about a famous ship that sank on its first voyage."
+        "text": "It's the animated movie about toys that come to life when nobody's looking."
       },
       {
         "label": "Reveal all sounds",
