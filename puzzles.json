@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-07",
-  "generatedAt": "2026-08-07T08:35:53.835Z",
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T07:36:46.743Z",
   "easy": {
-    "answer": "Sunflower",
-    "category": "Plant",
+    "answer": "Butterscotch",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "☀️",
-        "sound": "SUN"
-      },
-      {
         "type": "text",
-        "content": "To move smoothly, like water in a stream",
-        "sound": "FLOW"
+        "content": "Conjunction meaning \"however\", as in \"good ___ pricey\"",
+        "sound": "BUT"
       },
       {
         "type": "big",
-        "content": "ER",
-        "sound": "ER"
+        "content": "TER",
+        "sound": "TER"
+      },
+      {
+        "type": "text",
+        "content": "A type of whisky made in Scotland",
+        "sound": "SCOTCH"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a tall yellow flower that turns to follow the sun."
+        "text": "It's a sweet, buttery candy flavor often paired with caramel."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Ed Sheeran",
+    "answer": "Harry Styles",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "big",
-        "content": "E",
-        "sound": "E"
-      },
-      {
-        "type": "big",
-        "content": "D",
-        "sound": "D"
+        "type": "text",
+        "content": "Covered in lots of body hair, like a werewolf",
+        "sound": "HAIRY"
       },
       {
         "type": "text",
-        "content": "Completely, utterly, as in \"___ luck\"",
-        "sound": "SHEER"
+        "content": "A pigpen, or an inflamed bump on your eyelid",
+        "sound": "STY"
       },
       {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
+        "type": "emoji",
+        "content": "🦉",
+        "sound": "OWLS"
+      },
+      {
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the famous ginger singer-songwriter known for looping his guitar live."
+        "text": "It's the former boy-band member turned solo pop star and fashion icon."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Toy Story",
+    "answer": "Finding Nemo",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🧸",
-        "sound": "TOY"
+        "type": "text",
+        "content": "To locate something you've lost",
+        "sound": "FIND"
       },
       {
         "type": "big",
-        "content": "ST",
-        "sound": "ST"
+        "content": "ING",
+        "sound": "ING"
       },
       {
         "type": "text",
-        "content": "A long pole used to row a boat",
-        "sound": "OAR"
+        "content": "The joint between your thigh and shin",
+        "sound": "KNEE"
       },
       {
-        "type": "big",
-        "content": "EE",
-        "sound": "EE"
+        "type": "text",
+        "content": "Informal word for \"moment\", as in \"wait a ___\"",
+        "sound": "MO"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about toys that come to life when nobody's looking."
+        "text": "It's the animated movie about a clownfish searching for his son."
       },
       {
         "label": "Reveal all sounds",
