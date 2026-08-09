@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-08",
-  "generatedAt": "2026-08-08T07:36:46.743Z",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T07:57:37.331Z",
   "easy": {
-    "answer": "Butterscotch",
+    "answer": "Broccoli",
     "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Conjunction meaning \"however\", as in \"good ___ pricey\"",
-        "sound": "BUT"
-      },
-      {
-        "type": "big",
-        "content": "TER",
-        "sound": "TER"
+        "content": "Slang for \"brother\", as in \"what's up, ___\"",
+        "sound": "BRAH"
       },
       {
         "type": "text",
-        "content": "A type of whisky made in Scotland",
-        "sound": "SCOTCH"
+        "content": "Dog breed made famous by Lassie",
+        "sound": "COLLIE"
+      },
+      {
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a sweet, buttery candy flavor often paired with caramel."
+        "text": "It's a green vegetable shaped like a little tree."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Harry Styles",
+    "answer": "Selena",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Covered in lots of body hair, like a werewolf",
-        "sound": "HAIRY"
-      },
-      {
-        "type": "text",
-        "content": "A pigpen, or an inflamed bump on your eyelid",
-        "sound": "STY"
-      },
-      {
-        "type": "emoji",
-        "content": "🦉",
-        "sound": "OWLS"
+        "content": "To exchange something for money",
+        "sound": "SELL"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "E",
+        "sound": "EE"
+      },
+      {
+        "type": "text",
+        "content": "Casual word for no",
+        "sound": "NAH"
+      },
+      {
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the former boy-band member turned solo pop star and fashion icon."
+        "text": "It's the first name of a pop star and beauty-brand founder, or a beloved Tejano singer."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Finding Nemo",
+    "answer": "Ice Age",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "emoji",
+        "content": "🧊",
+        "sound": "ICE"
+      },
+      {
         "type": "text",
-        "content": "To locate something you've lost",
-        "sound": "FIND"
+        "content": "Exclamation like \"___ caramba\"",
+        "sound": "AY"
       },
       {
         "type": "big",
-        "content": "ING",
-        "sound": "ING"
+        "content": "J",
+        "sound": "J"
       },
       {
-        "type": "text",
-        "content": "The joint between your thigh and shin",
-        "sound": "KNEE"
-      },
-      {
-        "type": "text",
-        "content": "Informal word for \"moment\", as in \"wait a ___\"",
-        "sound": "MO"
+        "type": "big",
+        "content": "E",
+        "sound": "E"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a clownfish searching for his son."
+        "text": "It's the animated movie about a sabertooth, sloth, and mammoth in prehistoric times."
       },
       {
         "label": "Reveal all sounds",
