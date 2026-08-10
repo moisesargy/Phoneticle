@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-09",
-  "generatedAt": "2026-08-09T07:57:37.331Z",
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T10:00:20.049Z",
   "easy": {
-    "answer": "Broccoli",
-    "category": "Food",
+    "answer": "Panther",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Slang for \"brother\", as in \"what's up, ___\"",
-        "sound": "BRAH"
+        "content": "A metal container used for frying food",
+        "sound": "PAN"
       },
       {
         "type": "text",
-        "content": "Dog breed made famous by Lassie",
-        "sound": "COLLIE"
+        "content": "Definite article, as in \"to the ___ end\"",
+        "sound": "THE"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "R",
+        "sound": "R"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a green vegetable shaped like a little tree."
+        "text": "It's a large, sleek black wildcat."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Selena",
+    "answer": "Bruno Mars",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To exchange something for money",
-        "sound": "SELL"
+        "content": "To make coffee or beer",
+        "sound": "BREW"
       },
       {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "struck",
+        "content": "YES",
+        "sound": "NO"
       },
       {
         "type": "text",
-        "content": "Casual word for no",
-        "sound": "NAH"
+        "content": "A body of water surrounded by land, plural",
+        "sound": "MAR"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the first name of a pop star and beauty-brand founder, or a beloved Tejano singer."
+        "text": "It's the singer behind 'Uptown Funk' known for his retro style."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Ice Age",
-    "category": "Movie",
+    "answer": "Breaking Bad",
+    "category": "TV Show",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🧊",
-        "sound": "ICE"
+        "type": "text",
+        "content": "The pedal you press to stop a car",
+        "sound": "BRAKE"
       },
       {
         "type": "text",
-        "content": "Exclamation like \"___ caramba\"",
-        "sound": "AY"
+        "content": "A male monarch who rules a kingdom",
+        "sound": "KING"
+      },
+      {
+        "type": "struck",
+        "content": "GOOD",
+        "sound": "BAD"
       },
       {
         "type": "big",
-        "content": "J",
-        "sound": "J"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "E"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a sabertooth, sloth, and mammoth in prehistoric times."
+        "text": "It's the show about a chemistry teacher who starts cooking meth."
       },
       {
         "label": "Reveal all sounds",
