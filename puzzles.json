@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-10",
-  "generatedAt": "2026-08-10T10:00:20.049Z",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T08:16:43.446Z",
   "easy": {
-    "answer": "Panther",
-    "category": "Animal",
+    "answer": "Elmo",
+    "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "A metal container used for frying food",
-        "sound": "PAN"
+        "type": "big",
+        "content": "L",
+        "sound": "EL"
       },
       {
         "type": "text",
-        "content": "Definite article, as in \"to the ___ end\"",
-        "sound": "THE"
+        "content": "Informal short word for a brief pause, as in \"hang on a ___\"",
+        "sound": "MO"
       },
       {
         "type": "big",
-        "content": "R",
-        "sound": "R"
+        "content": "O",
+        "sound": "OH"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a large, sleek black wildcat."
+        "text": "It's a fuzzy red Muppet with a high-pitched giggle."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Bruno Mars",
+    "answer": "Post Malone",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To make coffee or beer",
-        "sound": "BREW"
-      },
-      {
-        "type": "struck",
-        "content": "YES",
-        "sound": "NO"
+        "content": "To share something online, or a mail delivery",
+        "sound": "POST"
       },
       {
         "type": "text",
-        "content": "A body of water surrounded by land, plural",
-        "sound": "MAR"
+        "content": "Informal word for mother",
+        "sound": "MA"
+      },
+      {
+        "type": "text",
+        "content": "Money that's borrowed and must be repaid",
+        "sound": "LOAN"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "N",
+        "sound": "N"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the singer behind 'Uptown Funk' known for his retro style."
+        "text": "It's the face-tattooed singer known for blending rap and rock."
       },
       {
         "label": "Reveal all sounds",
@@ -101,24 +101,24 @@
     ]
   },
   "hard": {
-    "answer": "Breaking Bad",
+    "answer": "The Office",
     "category": "TV Show",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "The pedal you press to stop a car",
-        "sound": "BRAKE"
-      },
-      {
-        "type": "text",
-        "content": "A male monarch who rules a kingdom",
-        "sound": "KING"
+        "type": "big",
+        "content": "THE",
+        "sound": "THUH"
       },
       {
         "type": "struck",
-        "content": "GOOD",
-        "sound": "BAD"
+        "content": "ON",
+        "sound": "OFF"
+      },
+      {
+        "type": "emoji",
+        "content": "🧊",
+        "sound": "ICE"
       },
       {
         "type": "big",
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the show about a chemistry teacher who starts cooking meth."
+        "text": "It's the mockumentary sitcom set at a paper company in Scranton."
       },
       {
         "label": "Reveal all sounds",
