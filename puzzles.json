@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-11",
-  "generatedAt": "2026-08-11T08:16:43.446Z",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T08:53:33.219Z",
   "easy": {
-    "answer": "Elmo",
-    "category": "Character",
+    "answer": "Cookie",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "big",
-        "content": "L",
-        "sound": "EL"
-      },
-      {
         "type": "text",
-        "content": "Informal short word for a brief pause, as in \"hang on a ___\"",
-        "sound": "MO"
+        "content": "To prepare food using heat",
+        "sound": "COOK"
       },
       {
         "type": "big",
-        "content": "O",
-        "sound": "OH"
+        "content": "IE",
+        "sound": "EE"
+      },
+      {
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a fuzzy red Muppet with a high-pitched giggle."
+        "text": "It's a sweet baked treat, often studded with chocolate chips."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Post Malone",
+    "answer": "Lady Gaga",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To share something online, or a mail delivery",
-        "sound": "POST"
-      },
-      {
-        "type": "text",
-        "content": "Informal word for mother",
-        "sound": "MA"
-      },
-      {
-        "type": "text",
-        "content": "Money that's borrowed and must be repaid",
-        "sound": "LOAN"
+        "content": "To place something down flat",
+        "sound": "LAY"
       },
       {
         "type": "big",
-        "content": "N",
-        "sound": "N"
+        "content": "D",
+        "sound": "DEE"
+      },
+      {
+        "type": "text",
+        "content": "Exclamation of frustration, like \"___, this is annoying\"",
+        "sound": "GAH"
+      },
+      {
+        "type": "text",
+        "content": "Exclamation of frustration, like \"___, this is annoying\"",
+        "sound": "GAH"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the face-tattooed singer known for blending rap and rock."
+        "text": "It's the pop star famous for wearing a dress made of meat."
       },
       {
         "label": "Reveal all sounds",
@@ -101,24 +101,24 @@
     ]
   },
   "hard": {
-    "answer": "The Office",
+    "answer": "Stranger Things",
     "category": "TV Show",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "text",
+        "content": "Unusual or weird",
+        "sound": "STRANGE"
+      },
+      {
         "type": "big",
-        "content": "THE",
-        "sound": "THUH"
+        "content": "ER",
+        "sound": "ER"
       },
       {
-        "type": "struck",
-        "content": "ON",
-        "sound": "OFF"
-      },
-      {
-        "type": "emoji",
-        "content": "🧊",
-        "sound": "ICE"
+        "type": "text",
+        "content": "An object or item",
+        "sound": "THING"
       },
       {
         "type": "big",
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the mockumentary sitcom set at a paper company in Scranton."
+        "text": "It's the sci-fi show set in Hawkins, Indiana, full of monsters from the Upside Down."
       },
       {
         "label": "Reveal all sounds",
