@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-12",
-  "generatedAt": "2026-08-12T08:53:33.219Z",
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T08:56:58.783Z",
   "easy": {
-    "answer": "Cookie",
-    "category": "Food",
+    "answer": "Firefly",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "To prepare food using heat",
-        "sound": "COOK"
+        "type": "emoji",
+        "content": "🔥",
+        "sound": "FIRE"
       },
       {
-        "type": "big",
-        "content": "IE",
-        "sound": "EE"
+        "type": "text",
+        "content": "The zippered opening at the front of a pair of pants",
+        "sound": "FLY"
       },
       {
         "type": "big",
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a sweet baked treat, often studded with chocolate chips."
+        "text": "It's a small bug that glows in the dark at night."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Lady Gaga",
+    "answer": "Elton John",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "big",
+        "content": "L",
+        "sound": "EL"
+      },
+      {
         "type": "text",
-        "content": "To place something down flat",
-        "sound": "LAY"
+        "content": "A unit of weight equal to 2,000 pounds",
+        "sound": "TON"
+      },
+      {
+        "type": "text",
+        "content": "Informal word for a bathroom, or a common male name",
+        "sound": "JOHN"
       },
       {
         "type": "big",
-        "content": "D",
-        "sound": "DEE"
-      },
-      {
-        "type": "text",
-        "content": "Exclamation of frustration, like \"___, this is annoying\"",
-        "sound": "GAH"
-      },
-      {
-        "type": "text",
-        "content": "Exclamation of frustration, like \"___, this is annoying\"",
-        "sound": "GAH"
+        "content": "N",
+        "sound": "N"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the pop star famous for wearing a dress made of meat."
+        "text": "It's the flamboyant piano-playing singer behind 'Rocket Man.'"
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Stranger Things",
+    "answer": "Seinfeld",
     "category": "TV Show",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "Unusual or weird",
-        "sound": "STRANGE"
+        "content": "To exhale slowly showing disappointment",
+        "sound": "SIGH"
       },
       {
         "type": "big",
-        "content": "ER",
-        "sound": "ER"
+        "content": "N",
+        "sound": "N"
       },
       {
         "type": "text",
-        "content": "An object or item",
-        "sound": "THING"
+        "content": "Past tense of \"feel\", or a soft fabric material",
+        "sound": "FELT"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "D",
+        "sound": "D"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the sci-fi show set in Hawkins, Indiana, full of monsters from the Upside Down."
+        "text": "It's the classic sitcom famously described as \"a show about nothing.\""
       },
       {
         "label": "Reveal all sounds",
