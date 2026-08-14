@@ -1,20 +1,124 @@
 {
-  "date": "2026-08-13",
-  "generatedAt": "2026-08-13T08:56:58.783Z",
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T08:48:03.391Z",
   "easy": {
-    "answer": "Firefly",
-    "category": "Animal",
+    "answer": "Yeti",
+    "category": "Creature",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🔥",
-        "sound": "FIRE"
+        "type": "text",
+        "content": "Conjunction meaning \"but\", as in \"small ___ mighty\"",
+        "sound": "YET"
+      },
+      {
+        "type": "big",
+        "content": "T",
+        "sound": "T"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's a legendary ape-like creature said to live in the Himalayas."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "medium": {
+    "answer": "Freddie Mercury",
+    "category": "Celebrity",
+    "difficulty": "medium",
+    "clues": [
+      {
+        "type": "text",
+        "content": "A common man's name, like Fred Flintstone",
+        "sound": "FRED"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
       },
       {
         "type": "text",
-        "content": "The zippered opening at the front of a pair of pants",
-        "sound": "FLY"
+        "content": "Dark and hard to see through, like murky water",
+        "sound": "MURK"
+      },
+      {
+        "type": "text",
+        "content": "Belonging to you",
+        "sound": "YOUR"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the legendary Queen frontman known for his soaring voice."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "The Simpsons",
+    "category": "TV Show",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "big",
+        "content": "THE",
+        "sound": "THUH"
+      },
+      {
+        "type": "big",
+        "content": "SIM",
+        "sound": "SIM"
+      },
+      {
+        "type": "emoji",
+        "content": "☀️",
+        "sound": "SUN"
       },
       {
         "type": "big",
@@ -36,117 +140,13 @@
         "ci": 2
       },
       {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's a small bug that glows in the dark at night."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "medium": {
-    "answer": "Elton John",
-    "category": "Celebrity",
-    "difficulty": "medium",
-    "clues": [
-      {
-        "type": "big",
-        "content": "L",
-        "sound": "EL"
-      },
-      {
-        "type": "text",
-        "content": "A unit of weight equal to 2,000 pounds",
-        "sound": "TON"
-      },
-      {
-        "type": "text",
-        "content": "Informal word for a bathroom, or a common male name",
-        "sound": "JOHN"
-      },
-      {
-        "type": "big",
-        "content": "N",
-        "sound": "N"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
         "label": "Reveal clue 4 sound",
         "ci": 3
       },
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the flamboyant piano-playing singer behind 'Rocket Man.'"
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Seinfeld",
-    "category": "TV Show",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "text",
-        "content": "To exhale slowly showing disappointment",
-        "sound": "SIGH"
-      },
-      {
-        "type": "big",
-        "content": "N",
-        "sound": "N"
-      },
-      {
-        "type": "text",
-        "content": "Past tense of \"feel\", or a soft fabric material",
-        "sound": "FELT"
-      },
-      {
-        "type": "big",
-        "content": "D",
-        "sound": "D"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the classic sitcom famously described as \"a show about nothing.\""
+        "text": "It's the long-running animated show about a yellow family in Springfield."
       },
       {
         "label": "Reveal all sounds",
