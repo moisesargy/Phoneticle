@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-14",
-  "generatedAt": "2026-08-14T08:48:03.391Z",
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T05:54:49.628Z",
   "easy": {
-    "answer": "Yeti",
-    "category": "Creature",
+    "answer": "Genie",
+    "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Conjunction meaning \"but\", as in \"small ___ mighty\"",
-        "sound": "YET"
-      },
-      {
-        "type": "big",
-        "content": "T",
-        "sound": "T"
+        "content": "A unit of heredity, or informal short word for Eugene",
+        "sound": "GENE"
       },
       {
         "type": "big",
         "content": "E",
-        "sound": "EE"
+        "sound": "E"
+      },
+      {
+        "type": "text",
+        "content": "Joint between your thigh and shin",
+        "sound": "KNEE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a legendary ape-like creature said to live in the Himalayas."
+        "text": "It's the wish-granting spirit that lives inside a magic lamp."
       },
       {
         "label": "Reveal all sounds",
@@ -47,14 +47,14 @@
     ]
   },
   "medium": {
-    "answer": "Freddie Mercury",
+    "answer": "Stevie Wonder",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "A common man's name, like Fred Flintstone",
-        "sound": "FRED"
+        "content": "A common man's name",
+        "sound": "STEVE"
       },
       {
         "type": "big",
@@ -62,14 +62,14 @@
         "sound": "EE"
       },
       {
-        "type": "text",
-        "content": "Dark and hard to see through, like murky water",
-        "sound": "MURK"
+        "type": "struck",
+        "content": "LOST",
+        "sound": "WON"
       },
       {
-        "type": "text",
-        "content": "Belonging to you",
-        "sound": "YOUR"
+        "type": "big",
+        "content": "DER",
+        "sound": "DER"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the legendary Queen frontman known for his soaring voice."
+        "text": "It's the blind soul legend behind 'Superstition' and 'Isn't She Lovely.'"
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "The Simpsons",
+    "answer": "Modern Family",
     "category": "TV Show",
     "difficulty": "hard",
     "clues": [
       {
         "type": "big",
-        "content": "THE",
-        "sound": "THUH"
+        "content": "MOD",
+        "sound": "MOD"
       },
       {
         "type": "big",
-        "content": "SIM",
-        "sound": "SIM"
+        "content": "ERN",
+        "sound": "ERN"
       },
       {
-        "type": "emoji",
-        "content": "☀️",
-        "sound": "SUN"
+        "type": "text",
+        "content": "Informal short word for \"family\"",
+        "sound": "FAM"
       },
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "type": "text",
+        "content": "Informal short name for Leonard",
+        "sound": "LEE"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the long-running animated show about a yellow family in Springfield."
+        "text": "It's the mockumentary sitcom about three connected families."
       },
       {
         "label": "Reveal all sounds",
