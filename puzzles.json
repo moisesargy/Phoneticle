@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-15",
-  "generatedAt": "2026-08-15T05:54:49.628Z",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T05:57:57.385Z",
   "easy": {
-    "answer": "Genie",
-    "category": "Character",
+    "answer": "Toucan",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "A unit of heredity, or informal short word for Eugene",
-        "sound": "GENE"
+        "type": "emoji",
+        "content": "2️⃣",
+        "sound": "TWO"
+      },
+      {
+        "type": "emoji",
+        "content": "🥫",
+        "sound": "CAN"
       },
       {
         "type": "big",
-        "content": "E",
-        "sound": "E"
-      },
-      {
-        "type": "text",
-        "content": "Joint between your thigh and shin",
-        "sound": "KNEE"
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the wish-granting spirit that lives inside a magic lamp."
+        "text": "It's a tropical bird famous for its enormous, colorful beak."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Stevie Wonder",
-    "category": "Celebrity",
+    "answer": "Enchilada",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "big",
+        "content": "EN",
+        "sound": "EN"
+      },
+      {
         "type": "text",
-        "content": "A common man's name",
-        "sound": "STEVE"
+        "content": "A spicy Mexican stew made with beans and meat",
+        "sound": "CHILI"
       },
       {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "text",
+        "content": "Exclamation like \"la-di-dah\"",
+        "sound": "LAH"
       },
       {
-        "type": "struck",
-        "content": "LOST",
-        "sound": "WON"
-      },
-      {
-        "type": "big",
-        "content": "DER",
-        "sound": "DER"
+        "type": "text",
+        "content": "Sound you make when stating something painfully obvious",
+        "sound": "DUH"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the blind soul legend behind 'Superstition' and 'Isn't She Lovely.'"
+        "text": "It's a rolled tortilla covered in sauce and cheese, baked in the oven."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Modern Family",
-    "category": "TV Show",
+    "answer": "Avatar",
+    "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "big",
-        "content": "MOD",
-        "sound": "MOD"
-      },
-      {
-        "type": "big",
-        "content": "ERN",
-        "sound": "ERN"
-      },
-      {
         "type": "text",
-        "content": "Informal short word for \"family\"",
-        "sound": "FAM"
+        "content": "Popular girl's name, like actress Ava Gardner",
+        "sound": "AVA"
       },
       {
-        "type": "text",
-        "content": "Informal short name for Leonard",
-        "sound": "LEE"
+        "type": "big",
+        "content": "T",
+        "sound": "T"
+      },
+      {
+        "type": "big",
+        "content": "AR",
+        "sound": "AR"
+      },
+      {
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the mockumentary sitcom about three connected families."
+        "text": "It's the blockbuster sci-fi movie about blue aliens on the planet Pandora."
       },
       {
         "label": "Reveal all sounds",
