@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-16",
-  "generatedAt": "2026-08-16T05:57:57.385Z",
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T06:04:20.737Z",
   "easy": {
-    "answer": "Toucan",
+    "answer": "Zebra",
     "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "2️⃣",
-        "sound": "TWO"
+        "type": "text",
+        "content": "The last letter of the alphabet, American pronunciation",
+        "sound": "ZEE"
       },
       {
-        "type": "emoji",
-        "content": "🥫",
-        "sound": "CAN"
+        "type": "text",
+        "content": "Casual term for \"brother\"",
+        "sound": "BRUH"
       },
       {
         "type": "big",
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a tropical bird famous for its enormous, colorful beak."
+        "text": "It's a horse-like animal known for its black and white stripes."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Enchilada",
+    "answer": "Empanada",
     "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
         "type": "big",
-        "content": "EN",
-        "sound": "EN"
+        "content": "EM",
+        "sound": "EM"
       },
       {
         "type": "text",
-        "content": "A spicy Mexican stew made with beans and meat",
-        "sound": "CHILI"
+        "content": "Exclamation of surprise",
+        "sound": "PAH"
       },
       {
         "type": "text",
-        "content": "Exclamation like \"la-di-dah\"",
-        "sound": "LAH"
+        "content": "Casual word for no",
+        "sound": "NAH"
       },
       {
         "type": "text",
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a rolled tortilla covered in sauce and cheese, baked in the oven."
+        "text": "It's a stuffed, folded pastry popular in Latin America."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Avatar",
+    "answer": "Gladiator",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "struck",
+        "content": "SAD",
+        "sound": "GLAD"
+      },
+      {
+        "type": "big",
+        "content": "EE",
+        "sound": "EE"
+      },
+      {
+        "type": "big",
+        "content": "A",
+        "sound": "A"
+      },
+      {
         "type": "text",
-        "content": "Popular girl's name, like actress Ava Gardner",
-        "sound": "AVA"
-      },
-      {
-        "type": "big",
-        "content": "T",
-        "sound": "T"
-      },
-      {
-        "type": "big",
-        "content": "AR",
-        "sound": "AR"
-      },
-      {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "Past tense of \"tear\", to rip",
+        "sound": "TORE"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the blockbuster sci-fi movie about blue aliens on the planet Pandora."
+        "text": "It's the movie about a Roman general forced to fight as a gladiator."
       },
       {
         "label": "Reveal all sounds",
