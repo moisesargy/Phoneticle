@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-17",
-  "generatedAt": "2026-08-17T06:04:20.737Z",
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T05:58:54.791Z",
   "easy": {
-    "answer": "Zebra",
-    "category": "Animal",
+    "answer": "Walnut",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "The last letter of the alphabet, American pronunciation",
-        "sound": "ZEE"
+        "content": "A vertical structure that encloses a room",
+        "sound": "WALL"
       },
       {
         "type": "text",
-        "content": "Casual term for \"brother\"",
-        "sound": "BRUH"
+        "content": "Squirrels bury these to eat later",
+        "sound": "NUT"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a horse-like animal known for its black and white stripes."
+        "text": "It's a wrinkly brown nut often used in banana bread."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Empanada",
-    "category": "Food",
+    "answer": "Yellowstone",
+    "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "text",
+        "content": "To shout loudly",
+        "sound": "YELL"
+      },
+      {
         "type": "big",
-        "content": "EM",
-        "sound": "EM"
+        "content": "OH",
+        "sound": "OH"
       },
       {
         "type": "text",
-        "content": "Exclamation of surprise",
-        "sound": "PAH"
+        "content": "A small rock, or Rolling ___s, the band",
+        "sound": "STONE"
       },
       {
-        "type": "text",
-        "content": "Casual word for no",
-        "sound": "NAH"
-      },
-      {
-        "type": "text",
-        "content": "Sound you make when stating something painfully obvious",
-        "sound": "DUH"
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a stuffed, folded pastry popular in Latin America."
+        "text": "It's the national park famous for Old Faithful and roaming bison."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Gladiator",
+    "answer": "Braveheart",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
         "type": "struck",
-        "content": "SAD",
-        "sound": "GLAD"
-      },
-      {
-        "type": "big",
-        "content": "EE",
-        "sound": "EE"
-      },
-      {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "COWARDLY",
+        "sound": "BRAVE"
       },
       {
         "type": "text",
-        "content": "Past tense of \"tear\", to rip",
-        "sound": "TORE"
+        "content": "Pronoun for a male",
+        "sound": "HE"
+      },
+      {
+        "type": "text",
+        "content": "Creative work like paintings or sculpture",
+        "sound": "ART"
+      },
+      {
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the movie about a Roman general forced to fight as a gladiator."
+        "text": "It's the historical epic where Mel Gibson yells 'Freedom!' before dying."
       },
       {
         "label": "Reveal all sounds",
