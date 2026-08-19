@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-18",
-  "generatedAt": "2026-08-18T05:58:54.791Z",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T06:00:25.031Z",
   "easy": {
-    "answer": "Walnut",
+    "answer": "Pumpkin",
     "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "A vertical structure that encloses a room",
-        "sound": "WALL"
+        "content": "To inflate with air using a device, as in \"___ up a tire\"",
+        "sound": "PUMP"
       },
       {
         "type": "text",
-        "content": "Squirrels bury these to eat later",
-        "sound": "NUT"
+        "content": "Your family members, as in \"next of ___\"",
+        "sound": "KIN"
       },
       {
         "type": "big",
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a wrinkly brown nut often used in banana bread."
+        "text": "It's the orange gourd people carve into jack-o'-lanterns."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Yellowstone",
+    "answer": "Times Square",
     "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To shout loudly",
-        "sound": "YELL"
-      },
-      {
-        "type": "big",
-        "content": "OH",
-        "sound": "OH"
-      },
-      {
-        "type": "text",
-        "content": "A small rock, or Rolling ___s, the band",
-        "sound": "STONE"
+        "content": "What a clock tells",
+        "sound": "TIME"
       },
       {
         "type": "big",
         "content": "S",
         "sound": "S"
+      },
+      {
+        "type": "text",
+        "content": "A shape with four equal sides",
+        "sound": "SQUARE"
+      },
+      {
+        "type": "big",
+        "content": "R",
+        "sound": "R"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the national park famous for Old Faithful and roaming bison."
+        "text": "It's the bright, billboard-covered plaza in the middle of Manhattan."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Braveheart",
+    "answer": "Moana",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "struck",
-        "content": "COWARDLY",
-        "sound": "BRAVE"
-      },
-      {
         "type": "text",
-        "content": "Pronoun for a male",
-        "sound": "HE"
-      },
-      {
-        "type": "text",
-        "content": "Creative work like paintings or sculpture",
-        "sound": "ART"
+        "content": "To cut grass with a lawnmower",
+        "sound": "MOW"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "AH",
+        "sound": "AH"
+      },
+      {
+        "type": "text",
+        "content": "Casual word for no",
+        "sound": "NAH"
+      },
+      {
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the historical epic where Mel Gibson yells 'Freedom!' before dying."
+        "text": "It's the animated movie about a Polynesian girl who sails to save her island."
       },
       {
         "label": "Reveal all sounds",
