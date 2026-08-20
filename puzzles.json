@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-19",
-  "generatedAt": "2026-08-19T06:00:25.031Z",
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T06:00:17.721Z",
   "easy": {
-    "answer": "Pumpkin",
-    "category": "Food",
+    "answer": "Napkin",
+    "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "To inflate with air using a device, as in \"___ up a tire\"",
-        "sound": "PUMP"
+        "content": "A short daytime sleep",
+        "sound": "NAP"
       },
       {
         "type": "text",
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the orange gourd people carve into jack-o'-lanterns."
+        "text": "It's the cloth or paper you wipe your mouth with at dinner."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Times Square",
+    "answer": "Central Park",
     "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "What a clock tells",
-        "sound": "TIME"
+        "content": "Past tense of \"send\"",
+        "sound": "SENT"
+      },
+      {
+        "type": "big",
+        "content": "RUL",
+        "sound": "RUL"
+      },
+      {
+        "type": "text",
+        "content": "A green outdoor space with grass and trees",
+        "sound": "PARK"
       },
       {
         "type": "big",
         "content": "S",
         "sound": "S"
-      },
-      {
-        "type": "text",
-        "content": "A shape with four equal sides",
-        "sound": "SQUARE"
-      },
-      {
-        "type": "big",
-        "content": "R",
-        "sound": "R"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the bright, billboard-covered plaza in the middle of Manhattan."
+        "text": "It's the huge green rectangle of park in the middle of New York City."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Moana",
+    "answer": "Encanto",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "big",
+        "content": "EN",
+        "sound": "EN"
+      },
+      {
+        "type": "emoji",
+        "content": "🥫",
+        "sound": "CAN"
+      },
+      {
         "type": "text",
-        "content": "To cut grass with a lawnmower",
-        "sound": "MOW"
+        "content": "A digit on your foot, unlike a finger",
+        "sound": "TOE"
       },
       {
         "type": "big",
-        "content": "AH",
-        "sound": "AH"
-      },
-      {
-        "type": "text",
-        "content": "Casual word for no",
-        "sound": "NAH"
-      },
-      {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "OH",
+        "sound": "OH"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a Polynesian girl who sails to save her island."
+        "text": "It's the animated movie about a magical Colombian family with special gifts."
       },
       {
         "label": "Reveal all sounds",
