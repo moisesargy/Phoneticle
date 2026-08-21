@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-20",
-  "generatedAt": "2026-08-20T06:00:17.721Z",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T06:02:43.624Z",
   "easy": {
-    "answer": "Napkin",
-    "category": "Object",
+    "answer": "Minnie Mouse",
+    "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "A short daytime sleep",
-        "sound": "NAP"
-      },
-      {
-        "type": "text",
-        "content": "Your family members, as in \"next of ___\"",
-        "sound": "KIN"
+        "type": "big",
+        "content": "MIN",
+        "sound": "MIN"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "E",
+        "sound": "EE"
+      },
+      {
+        "type": "emoji",
+        "content": "🐭",
+        "sound": "MOUSE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the cloth or paper you wipe your mouth with at dinner."
+        "text": "It's Mickey's polka-dot-bow-wearing girlfriend."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Central Park",
-    "category": "Landmark",
+    "answer": "Mona Lisa",
+    "category": "Painting",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Past tense of \"send\"",
-        "sound": "SENT"
+        "content": "To make a low sound of pain or complaint",
+        "sound": "MOAN"
       },
       {
         "type": "big",
-        "content": "RUL",
-        "sound": "RUL"
+        "content": "A",
+        "sound": "A"
       },
       {
         "type": "text",
-        "content": "A green outdoor space with grass and trees",
-        "sound": "PARK"
+        "content": "Informal short name for Leonard",
+        "sound": "LEE"
       },
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "type": "text",
+        "content": "Past tense of \"see\"",
+        "sound": "SAW"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the huge green rectangle of park in the middle of New York City."
+        "text": "It's the famously mysterious, smiling portrait painted by da Vinci."
       },
       {
         "label": "Reveal all sounds",
@@ -101,19 +101,14 @@
     ]
   },
   "hard": {
-    "answer": "Encanto",
+    "answer": "Zootopia",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "big",
-        "content": "EN",
-        "sound": "EN"
-      },
-      {
-        "type": "emoji",
-        "content": "🥫",
-        "sound": "CAN"
+        "type": "text",
+        "content": "A park where wild animals are kept for public viewing",
+        "sound": "ZOO"
       },
       {
         "type": "text",
@@ -121,9 +116,14 @@
         "sound": "TOE"
       },
       {
+        "type": "emoji",
+        "content": "🫛",
+        "sound": "PEA"
+      },
+      {
         "type": "big",
-        "content": "OH",
-        "sound": "OH"
+        "content": "UH",
+        "sound": "UH"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a magical Colombian family with special gifts."
+        "text": "It's the animated movie about a bunny cop and a fox in a city of animals."
       },
       {
         "label": "Reveal all sounds",
