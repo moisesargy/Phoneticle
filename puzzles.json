@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-21",
-  "generatedAt": "2026-08-21T06:02:43.624Z",
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T05:16:27.445Z",
   "easy": {
-    "answer": "Minnie Mouse",
+    "answer": "Ariel",
     "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "big",
-        "content": "MIN",
-        "sound": "MIN"
+        "type": "text",
+        "content": "The gas you breathe to stay alive",
+        "sound": "AIR"
       },
       {
         "type": "big",
@@ -17,9 +17,9 @@
         "sound": "EE"
       },
       {
-        "type": "emoji",
-        "content": "🐭",
-        "sound": "MOUSE"
+        "type": "text",
+        "content": "A fashion magazine, or a common girl's name",
+        "sound": "ELLE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's Mickey's polka-dot-bow-wearing girlfriend."
+        "text": "It's the mermaid princess who trades her voice for legs."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Mona Lisa",
-    "category": "Painting",
+    "answer": "Van Gogh",
+    "category": "Painter",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To make a low sound of pain or complaint",
-        "sound": "MOAN"
+        "content": "A large vehicle for carrying cargo or passengers",
+        "sound": "VAN"
+      },
+      {
+        "type": "struck",
+        "content": "STOP",
+        "sound": "GO"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "G",
+        "sound": "G"
       },
       {
-        "type": "text",
-        "content": "Informal short name for Leonard",
-        "sound": "LEE"
-      },
-      {
-        "type": "text",
-        "content": "Past tense of \"see\"",
-        "sound": "SAW"
+        "type": "big",
+        "content": "H",
+        "sound": "H"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the famously mysterious, smiling portrait painted by da Vinci."
+        "text": "It's the painter famous for 'Starry Night' and for cutting off his own ear."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Zootopia",
+    "answer": "Wreck-It Ralph",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "A park where wild animals are kept for public viewing",
-        "sound": "ZOO"
+        "type": "struck",
+        "content": "FIX",
+        "sound": "WRECK"
       },
       {
         "type": "text",
-        "content": "A digit on your foot, unlike a finger",
-        "sound": "TOE"
+        "content": "Pronoun for an object, not a person",
+        "sound": "IT"
       },
       {
-        "type": "emoji",
-        "content": "🫛",
-        "sound": "PEA"
+        "type": "text",
+        "content": "Informal slang for vomiting, or a common male name",
+        "sound": "RALPH"
       },
       {
         "type": "big",
-        "content": "UH",
-        "sound": "UH"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a bunny cop and a fox in a city of animals."
+        "text": "It's the animated movie about a video game villain who wants to be a hero."
       },
       {
         "label": "Reveal all sounds",
