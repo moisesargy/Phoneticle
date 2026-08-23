@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-22",
-  "generatedAt": "2026-08-22T05:16:27.445Z",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T05:18:40.129Z",
   "easy": {
-    "answer": "Ariel",
+    "answer": "Simba",
     "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
+        "type": "big",
+        "content": "SIM",
+        "sound": "SIM"
+      },
+      {
         "type": "text",
-        "content": "The gas you breathe to stay alive",
-        "sound": "AIR"
+        "content": "Scrooge's grumpy exclamation, \"___ humbug\"",
+        "sound": "BAH"
       },
       {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
-      },
-      {
-        "type": "text",
-        "content": "A fashion magazine, or a common girl's name",
-        "sound": "ELLE"
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the mermaid princess who trades her voice for legs."
+        "text": "It's the lion cub destined to become king of the Pride Lands."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,34 @@
     ]
   },
   "medium": {
-    "answer": "Van Gogh",
-    "category": "Painter",
+    "answer": "Great Wall of China",
+    "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "A large vehicle for carrying cargo or passengers",
-        "sound": "VAN"
+        "content": "A metal grid, or to shred cheese",
+        "sound": "GRATE"
       },
       {
-        "type": "struck",
-        "content": "STOP",
-        "sound": "GO"
-      },
-      {
-        "type": "big",
-        "content": "G",
-        "sound": "G"
+        "type": "text",
+        "content": "A vertical structure that encloses a room",
+        "sound": "WALL"
       },
       {
         "type": "big",
-        "content": "H",
-        "sound": "H"
+        "content": "OF",
+        "sound": "OF"
+      },
+      {
+        "type": "text",
+        "content": "The part of your face below your mouth",
+        "sound": "CHIN"
+      },
+      {
+        "type": "big",
+        "content": "UH",
+        "sound": "UH"
       }
     ],
     "hints": [
@@ -90,9 +95,13 @@
         "ci": 3
       },
       {
+        "label": "Reveal clue 5 sound",
+        "ci": 4
+      },
+      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the painter famous for 'Starry Night' and for cutting off his own ear."
+        "text": "It's the massive ancient fortification stretching across northern China."
       },
       {
         "label": "Reveal all sounds",
@@ -101,24 +110,24 @@
     ]
   },
   "hard": {
-    "answer": "Wreck-It Ralph",
-    "category": "Movie",
+    "answer": "Will Ferrell",
+    "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "text",
+        "content": "A legal document dividing your estate, or determination",
+        "sound": "WILL"
+      },
+      {
         "type": "struck",
-        "content": "FIX",
-        "sound": "WRECK"
+        "content": "UNFAIR",
+        "sound": "FAIR"
       },
       {
-        "type": "text",
-        "content": "Pronoun for an object, not a person",
-        "sound": "IT"
-      },
-      {
-        "type": "text",
-        "content": "Informal slang for vomiting, or a common male name",
-        "sound": "RALPH"
+        "type": "big",
+        "content": "L",
+        "sound": "L"
       },
       {
         "type": "big",
@@ -146,7 +155,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a video game villain who wants to be a hero."
+        "text": "It's the comedian behind Ron Burgundy and Buddy the Elf."
       },
       {
         "label": "Reveal all sounds",
