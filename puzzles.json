@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-23",
-  "generatedAt": "2026-08-23T05:18:40.129Z",
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T05:28:25.652Z",
   "easy": {
-    "answer": "Simba",
+    "answer": "Olaf",
     "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
         "type": "big",
-        "content": "SIM",
-        "sound": "SIM"
+        "content": "OH",
+        "sound": "OH"
       },
       {
         "type": "text",
-        "content": "Scrooge's grumpy exclamation, \"___ humbug\"",
-        "sound": "BAH"
+        "content": "To make a sound expressing amusement",
+        "sound": "LAUGH"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "F",
+        "sound": "F"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the lion cub destined to become king of the Pride Lands."
+        "text": "It's the goofy snowman who loves warm hugs and summer."
       },
       {
         "label": "Reveal all sounds",
@@ -47,34 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Great Wall of China",
+    "answer": "Pyramid",
     "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "A metal grid, or to shred cheese",
-        "sound": "GRATE"
-      },
-      {
-        "type": "text",
-        "content": "A vertical structure that encloses a room",
-        "sound": "WALL"
+        "content": "A person of equal social standing, as in \"jury of your ___s\"",
+        "sound": "PEER"
       },
       {
         "type": "big",
-        "content": "OF",
-        "sound": "OF"
+        "content": "A",
+        "sound": "A"
       },
       {
         "type": "text",
-        "content": "The part of your face below your mouth",
-        "sound": "CHIN"
+        "content": "The middle part of something, as in \"midway\"",
+        "sound": "MID"
       },
       {
         "type": "big",
-        "content": "UH",
-        "sound": "UH"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -95,13 +90,9 @@
         "ci": 3
       },
       {
-        "label": "Reveal clue 5 sound",
-        "ci": 4
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the massive ancient fortification stretching across northern China."
+        "text": "It's the ancient triangular tomb structure found in Egypt."
       },
       {
         "label": "Reveal all sounds",
@@ -110,19 +101,19 @@
     ]
   },
   "hard": {
-    "answer": "Will Ferrell",
+    "answer": "Steve Carell",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "A legal document dividing your estate, or determination",
-        "sound": "WILL"
+        "content": "A common man's name",
+        "sound": "STEVE"
       },
       {
-        "type": "struck",
-        "content": "UNFAIR",
-        "sound": "FAIR"
+        "type": "text",
+        "content": "To feel concern for someone",
+        "sound": "CARE"
       },
       {
         "type": "big",
@@ -155,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the comedian behind Ron Burgundy and Buddy the Elf."
+        "text": "It's the comedian who played Michael Scott on 'The Office.'"
       },
       {
         "label": "Reveal all sounds",
