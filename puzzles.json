@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-24",
-  "generatedAt": "2026-08-24T05:28:25.652Z",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T05:22:02.936Z",
   "easy": {
-    "answer": "Olaf",
+    "answer": "Kermit",
     "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "big",
-        "content": "OH",
-        "sound": "OH"
+        "type": "text",
+        "content": "The edge of a sidewalk, or to restrain something",
+        "sound": "CURB"
       },
       {
         "type": "text",
-        "content": "To make a sound expressing amusement",
-        "sound": "LAUGH"
+        "content": "Informal short word for a baseball glove",
+        "sound": "MIT"
       },
       {
         "type": "big",
-        "content": "F",
-        "sound": "F"
+        "content": "T",
+        "sound": "T"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the goofy snowman who loves warm hugs and summer."
+        "text": "It's the banjo-playing frog who says it isn't easy being green."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Pyramid",
+    "answer": "Stonehenge",
     "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "A person of equal social standing, as in \"jury of your ___s\"",
-        "sound": "PEER"
+        "content": "A small rock, or Rolling ___s, the band",
+        "sound": "STONE"
+      },
+      {
+        "type": "emoji",
+        "content": "🐔",
+        "sound": "HEN"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
-      },
-      {
-        "type": "text",
-        "content": "The middle part of something, as in \"midway\"",
-        "sound": "MID"
+        "content": "G",
+        "sound": "G"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "E",
+        "sound": "E"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the ancient triangular tomb structure found in Egypt."
+        "text": "It's the mysterious ring of giant standing stones in England."
       },
       {
         "label": "Reveal all sounds",
@@ -101,24 +101,24 @@
     ]
   },
   "hard": {
-    "answer": "Steve Carell",
+    "answer": "Kevin Hart",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "A common man's name",
-        "sound": "STEVE"
-      },
-      {
-        "type": "text",
-        "content": "To feel concern for someone",
-        "sound": "CARE"
-      },
-      {
         "type": "big",
-        "content": "L",
-        "sound": "L"
+        "content": "KEV",
+        "sound": "KEV"
+      },
+      {
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
+      },
+      {
+        "type": "emoji",
+        "content": "❤️",
+        "sound": "HEART"
       },
       {
         "type": "big",
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the comedian who played Michael Scott on 'The Office.'"
+        "text": "It's the short, high-energy comedian known for action-comedy roles."
       },
       {
         "label": "Reveal all sounds",
