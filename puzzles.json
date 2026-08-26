@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-25",
-  "generatedAt": "2026-08-25T05:22:02.936Z",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T05:22:28.275Z",
   "easy": {
-    "answer": "Kermit",
-    "category": "Character",
+    "answer": "Cardi B",
+    "category": "Celebrity",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "The edge of a sidewalk, or to restrain something",
-        "sound": "CURB"
-      },
-      {
-        "type": "text",
-        "content": "Informal short word for a baseball glove",
-        "sound": "MIT"
+        "type": "emoji",
+        "content": "🚗",
+        "sound": "CAR"
       },
       {
         "type": "big",
-        "content": "T",
-        "sound": "T"
+        "content": "D",
+        "sound": "DEE"
+      },
+      {
+        "type": "emoji",
+        "content": "🐝",
+        "sound": "BEE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the banjo-playing frog who says it isn't easy being green."
+        "text": "It's a rapper known for the hit song 'Bodak Yellow.'"
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Stonehenge",
-    "category": "Landmark",
+    "answer": "Cauliflower",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "A small rock, or Rolling ___s, the band",
-        "sound": "STONE"
-      },
-      {
-        "type": "emoji",
-        "content": "🐔",
-        "sound": "HEN"
-      },
-      {
-        "type": "big",
-        "content": "G",
-        "sound": "G"
+        "content": "To phone someone",
+        "sound": "CALL"
       },
       {
         "type": "big",
         "content": "E",
-        "sound": "E"
+        "sound": "EE"
+      },
+      {
+        "type": "text",
+        "content": "To move smoothly, like water in a stream",
+        "sound": "FLOW"
+      },
+      {
+        "type": "big",
+        "content": "ER",
+        "sound": "ER"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the mysterious ring of giant standing stones in England."
+        "text": "It's a white vegetable that looks like edible clouds."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Kevin Hart",
+    "answer": "DiCaprio",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
         "type": "big",
-        "content": "KEV",
-        "sound": "KEV"
+        "content": "D",
+        "sound": "DEE"
       },
       {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
-      },
-      {
-        "type": "emoji",
-        "content": "❤️",
-        "sound": "HEART"
+        "type": "text",
+        "content": "A hat, or to put a limit on something",
+        "sound": "CAP"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "REE",
+        "sound": "REE"
+      },
+      {
+        "type": "text",
+        "content": "Exclamation of realization",
+        "sound": "OH"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the short, high-energy comedian known for action-comedy roles."
+        "text": "It's the Oscar-winning actor who finally won for 'The Revenant.'"
       },
       {
         "label": "Reveal all sounds",
