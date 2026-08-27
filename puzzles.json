@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-26",
-  "generatedAt": "2026-08-26T05:22:28.275Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T15:57:41.111Z",
   "easy": {
-    "answer": "Cardi B",
-    "category": "Celebrity",
+    "answer": "Dumbledore",
+    "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🚗",
-        "sound": "CAR"
-      },
-      {
-        "type": "big",
-        "content": "D",
-        "sound": "DEE"
+        "type": "struck",
+        "content": "SMART",
+        "sound": "DUMB"
       },
       {
         "type": "emoji",
-        "content": "🐝",
-        "sound": "BEE"
+        "content": "🐂",
+        "sound": "BULL"
+      },
+      {
+        "type": "emoji",
+        "content": "🚪",
+        "sound": "DOOR"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a rapper known for the hit song 'Bodak Yellow.'"
+        "text": "It's the wise, bearded headmaster of a famous wizarding school."
       },
       {
         "label": "Reveal all sounds",
@@ -47,14 +47,14 @@
     ]
   },
   "medium": {
-    "answer": "Cauliflower",
-    "category": "Food",
+    "answer": "Ariana",
+    "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To phone someone",
-        "sound": "CALL"
+        "content": "The gas you breathe to stay alive",
+        "sound": "AIR"
       },
       {
         "type": "big",
@@ -63,13 +63,13 @@
       },
       {
         "type": "text",
-        "content": "To move smoothly, like water in a stream",
-        "sound": "FLOW"
+        "content": "Exclamation of realization",
+        "sound": "AH"
       },
       {
-        "type": "big",
-        "content": "ER",
-        "sound": "ER"
+        "type": "text",
+        "content": "Casual way to say no",
+        "sound": "NAH"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a white vegetable that looks like edible clouds."
+        "text": "It's the first name of a pop star known for a huge vocal range and a ponytail."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "DiCaprio",
+    "answer": "Tom Cruise",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "big",
-        "content": "D",
-        "sound": "DEE"
-      },
-      {
         "type": "text",
-        "content": "A hat, or to put a limit on something",
-        "sound": "CAP"
+        "content": "Informal short name for Thomas",
+        "sound": "TOM"
       },
       {
         "type": "big",
-        "content": "REE",
-        "sound": "REE"
+        "content": "CR",
+        "sound": "CR"
       },
       {
         "type": "text",
-        "content": "Exclamation of realization",
-        "sound": "OH"
+        "content": "Pronoun for the person you're talking to",
+        "sound": "YOU"
+      },
+      {
+        "type": "big",
+        "content": "Z",
+        "sound": "Z"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the Oscar-winning actor who finally won for 'The Revenant.'"
+        "text": "It's the action star known for doing his own stunts in Mission: Impossible."
       },
       {
         "label": "Reveal all sounds",
