@@ -123,7 +123,7 @@
           },
           {
             "type": "text",
-            "content": "Exclamation of realization",
+            "content": "Short cry when something suddenly makes sense",
             "sound": "OH"
           }
         ],
@@ -468,24 +468,24 @@
     },
     {
       "easy": {
-        "answer": "Walrus",
+        "answer": "Octopus",
         "category": "Animal",
         "difficulty": "easy",
         "clues": [
           {
             "type": "text",
-            "content": "A vertical structure that encloses a room",
-            "sound": "WALL"
-          },
-          {
-            "type": "text",
-            "content": "Common nickname for the name Russell",
-            "sound": "RUSS"
+            "content": "Common abbreviation for the tenth month",
+            "sound": "OCT"
           },
           {
             "type": "big",
-            "content": "S",
-            "sound": "S"
+            "content": "A",
+            "sound": "UH"
+          },
+          {
+            "type": "text",
+            "content": "Informal word for a house cat",
+            "sound": "PUSS"
           }
         ],
         "hints": [
@@ -504,7 +504,7 @@
           {
             "label": "Give me a hint",
             "ci": -1,
-            "text": "It's a large Arctic sea mammal with long tusks."
+            "text": "It's a sea creature with eight arms and three hearts."
           },
           {
             "label": "Reveal all sounds",
@@ -533,8 +533,8 @@
             "sound": "STY"
           },
           {
-            "type": "big",
-            "content": "N",
+            "type": "text",
+            "content": "Chemical symbol for the element Nitrogen",
             "sound": "N"
           }
         ],
@@ -778,24 +778,24 @@
     },
     {
       "easy": {
-        "answer": "Waffle",
+        "answer": "Ice Cream",
         "category": "Food",
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "Sound a crying baby makes",
-            "sound": "WAH"
-          },
-          {
-            "type": "struck",
-            "content": "EMPTY",
-            "sound": "FULL"
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
           },
           {
             "type": "big",
-            "content": "L",
-            "sound": "L"
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "To defeat someone badly, as in \"we're gonna ___ them\"",
+            "sound": "CREAM"
           }
         ],
         "hints": [
@@ -814,7 +814,7 @@
           {
             "label": "Give me a hint",
             "ci": -1,
-            "text": "It's a breakfast food with a griddle pattern, great with syrup."
+            "text": "It's a frozen dessert often served in a cone or a bowl."
           },
           {
             "label": "Reveal all sounds",
@@ -828,9 +828,14 @@
         "difficulty": "medium",
         "clues": [
           {
+            "type": "big",
+            "content": "K",
+            "sound": "K"
+          },
+          {
             "type": "text",
-            "content": "A male monarch who rules a kingdom",
-            "sound": "KING"
+            "content": "Common suffix added to verbs, as in \"running\" or \"jumping\"",
+            "sound": "ING"
           },
           {
             "type": "struck",
@@ -841,11 +846,6 @@
             "type": "big",
             "content": "G",
             "sound": "G"
-          },
-          {
-            "type": "text",
-            "content": "Hesitation sound people make while thinking",
-            "sound": "UH"
           }
         ],
         "hints": [
@@ -939,18 +939,18 @@
         "clues": [
           {
             "type": "text",
-            "content": "Casual greeting, like \"___, what's up\"",
-            "sound": "YO"
+            "content": "Modal verb meaning \"have to\", as in \"you ___ be kidding\"",
+            "sound": "MUST"
           },
           {
-            "type": "text",
-            "content": "Old-fashioned nickname for Gertrude",
-            "sound": "GERT"
+            "type": "struck",
+            "content": "HIM",
+            "sound": "HER"
           },
           {
             "type": "big",
-            "content": "T",
-            "sound": "T"
+            "content": "D",
+            "sound": "D"
           }
         ],
         "hints": [
@@ -1138,9 +1138,14 @@
         "difficulty": "medium",
         "clues": [
           {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
             "type": "text",
-            "content": "A valuable yellow metal, symbol Au",
-            "sound": "GOLD"
+            "content": "Not new; aged",
+            "sound": "OLD"
           },
           {
             "type": "struck",
@@ -1151,11 +1156,6 @@
             "type": "text",
             "content": "A barrier you open to enter or exit a property",
             "sound": "GATE"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -1248,19 +1248,19 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "A small sharp pin, or a game plan",
-            "sound": "TACK"
-          },
-          {
-            "type": "text",
-            "content": "Exclamation of realization",
-            "sound": "OH"
+            "type": "big",
+            "content": "T",
+            "sound": "T"
           },
           {
             "type": "big",
-            "content": "S",
-            "sound": "S"
+            "content": "A",
+            "sound": "AH"
+          },
+          {
+            "type": "text",
+            "content": "Common abbreviation for \"company\"",
+            "sound": "CO"
           }
         ],
         "hints": [
@@ -1299,7 +1299,7 @@
           },
           {
             "type": "text",
-            "content": "Informal short name for Leonard",
+            "content": "The sheltered side of a ship, away from the wind",
             "sound": "LEE"
           },
           {
@@ -1404,13 +1404,13 @@
         "clues": [
           {
             "type": "text",
-            "content": "Modal verb meaning \"have to\", as in \"you ___ be kidding\"",
+            "content": "Essential or required, as in \"a ___-see movie\"",
             "sound": "MUST"
           },
           {
             "type": "text",
-            "content": "A group of cattle or sheep",
-            "sound": "HERD"
+            "content": "Possessive pronoun for a female, as in \"that's ___ car\"",
+            "sound": "HER"
           },
           {
             "type": "big",
@@ -1453,8 +1453,8 @@
             "sound": "JUST"
           },
           {
-            "type": "struck",
-            "content": "OUT",
+            "type": "text",
+            "content": "Preposition meaning inside, as in \"___ the house\"",
             "sound": "IN"
           },
           {
@@ -1503,8 +1503,8 @@
         "clues": [
           {
             "type": "text",
-            "content": "A piece of clothing worn on your upper body",
-            "sound": "SHIRT"
+            "content": "To divide something and give portions to others",
+            "sound": "SHARE"
           },
           {
             "type": "text",
@@ -1603,9 +1603,14 @@
         "difficulty": "medium",
         "clues": [
           {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
             "type": "text",
-            "content": "The appendage at the back of an animal",
-            "sound": "TAIL"
+            "content": "To be sick or unwell, as in \"what ___s you\"",
+            "sound": "AIL"
           },
           {
             "type": "text",
@@ -1616,11 +1621,6 @@
             "type": "text",
             "content": "Fast-moving, quick",
             "sound": "SWIFT"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -1657,9 +1657,14 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "To fasten with a necktie, or a game that ends in a draw",
-            "sound": "TIE"
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
           },
           {
             "type": "text",
@@ -1670,11 +1675,6 @@
             "type": "big",
             "content": "NIC",
             "sound": "NIC"
-          },
-          {
-            "type": "big",
-            "content": "K",
-            "sound": "K"
           }
         ],
         "hints": [
@@ -1915,7 +1915,12 @@
           {
             "type": "text",
             "content": "Covered in lots of body hair, like a werewolf",
-            "sound": "HAIRY"
+            "sound": "HAIR"
+          },
+          {
+            "type": "big",
+            "content": "Y",
+            "sound": "EE"
           },
           {
             "type": "text",
@@ -1926,11 +1931,6 @@
             "type": "emoji",
             "content": "🦉",
             "sound": "OWLS"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -2023,19 +2023,19 @@
         "difficulty": "easy",
         "clues": [
           {
+            "type": "big",
+            "content": "B",
+            "sound": "B"
+          },
+          {
             "type": "text",
-            "content": "Slang for \"brother\", as in \"what's up, ___\"",
-            "sound": "BRAH"
+            "content": "Exclamation of cheer or excitement",
+            "sound": "RAH"
           },
           {
             "type": "text",
             "content": "Dog breed made famous by Lassie",
             "sound": "COLLIE"
-          },
-          {
-            "type": "big",
-            "content": "A",
-            "sound": "A"
           }
         ],
         "hints": [
@@ -2078,14 +2078,14 @@
             "sound": "EE"
           },
           {
-            "type": "text",
-            "content": "Casual word for no",
-            "sound": "NAH"
+            "type": "big",
+            "content": "N",
+            "sound": "N"
           },
           {
-            "type": "big",
-            "content": "A",
-            "sound": "A"
+            "type": "text",
+            "content": "Contented sigh when sinking into a warm bath",
+            "sound": "AH"
           }
         ],
         "hints": [
@@ -2123,8 +2123,13 @@
         "clues": [
           {
             "type": "emoji",
-            "content": "🧊",
-            "sound": "ICE"
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
           },
           {
             "type": "text",
@@ -2135,11 +2140,6 @@
             "type": "big",
             "content": "J",
             "sound": "J"
-          },
-          {
-            "type": "big",
-            "content": "E",
-            "sound": "E"
           }
         ],
         "hints": [
@@ -2282,19 +2282,19 @@
             "sound": "BRAKE"
           },
           {
+            "type": "big",
+            "content": "K",
+            "sound": "K"
+          },
+          {
             "type": "text",
-            "content": "A male monarch who rules a kingdom",
-            "sound": "KING"
+            "content": "Common suffix added to verbs, as in \"jumping\" or \"running\"",
+            "sound": "ING"
           },
           {
             "type": "struck",
             "content": "GOOD",
             "sound": "BAD"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -2338,13 +2338,13 @@
             "sound": "EL"
           },
           {
-            "type": "text",
-            "content": "Informal short word for a brief pause, as in \"hang on a ___\"",
-            "sound": "MO"
+            "type": "big",
+            "content": "M",
+            "sound": "M"
           },
           {
-            "type": "big",
-            "content": "O",
+            "type": "text",
+            "content": "Sound you make when something suddenly clicks",
             "sound": "OH"
           }
         ],
@@ -2383,19 +2383,19 @@
             "sound": "POST"
           },
           {
+            "type": "big",
+            "content": "M",
+            "sound": "M"
+          },
+          {
             "type": "text",
-            "content": "Informal word for mother",
-            "sound": "MA"
+            "content": "Sound of pleasant surprise or satisfaction",
+            "sound": "AH"
           },
           {
             "type": "text",
             "content": "Money that's borrowed and must be repaid",
             "sound": "LOAN"
-          },
-          {
-            "type": "big",
-            "content": "N",
-            "sound": "N"
           }
         ],
         "hints": [
@@ -2443,8 +2443,8 @@
           },
           {
             "type": "emoji",
-            "content": "🧊",
-            "sound": "ICE"
+            "content": "👁️",
+            "sound": "EYE"
           },
           {
             "type": "big",
@@ -2489,18 +2489,18 @@
         "clues": [
           {
             "type": "text",
-            "content": "To prepare food using heat",
-            "sound": "COOK"
+            "content": "Sound a pigeon or dove makes",
+            "sound": "COO"
+          },
+          {
+            "type": "big",
+            "content": "K",
+            "sound": "K"
           },
           {
             "type": "big",
             "content": "IE",
             "sound": "EE"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -2544,12 +2544,12 @@
           },
           {
             "type": "text",
-            "content": "Exclamation of frustration, like \"___, this is annoying\"",
+            "content": "Groan of exasperation, like when you drop your phone",
             "sound": "GAH"
           },
           {
-            "type": "text",
-            "content": "Exclamation of frustration, like \"___, this is annoying\"",
+            "type": "big",
+            "content": "GAH",
             "sound": "GAH"
           }
         ],
@@ -2643,19 +2643,19 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "emoji",
-            "content": "🔥",
-            "sound": "FIRE"
+            "type": "big",
+            "content": "F",
+            "sound": "F"
+          },
+          {
+            "type": "text",
+            "content": "Intense anger or fury",
+            "sound": "IRE"
           },
           {
             "type": "text",
             "content": "The zippered opening at the front of a pair of pants",
             "sound": "FLY"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -2693,19 +2693,19 @@
             "sound": "EL"
           },
           {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
             "type": "text",
-            "content": "A unit of weight equal to 2,000 pounds",
-            "sound": "TON"
+            "content": "Powered on, opposite of \"off\"",
+            "sound": "ON"
           },
           {
             "type": "text",
             "content": "Informal word for a bathroom, or a common male name",
             "sound": "JOHN"
-          },
-          {
-            "type": "big",
-            "content": "N",
-            "sound": "N"
           }
         ],
         "hints": [
@@ -2742,9 +2742,14 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "To exhale slowly showing disappointment",
-            "sound": "SIGH"
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
           },
           {
             "type": "big",
@@ -2755,11 +2760,6 @@
             "type": "text",
             "content": "Past tense of \"feel\", or a soft fabric material",
             "sound": "FELT"
-          },
-          {
-            "type": "big",
-            "content": "D",
-            "sound": "D"
           }
         ],
         "hints": [
@@ -2798,18 +2798,18 @@
         "difficulty": "easy",
         "clues": [
           {
+            "type": "big",
+            "content": "Y",
+            "sound": "Y"
+          },
+          {
             "type": "text",
-            "content": "Conjunction meaning \"but\", as in \"small ___ mighty\"",
-            "sound": "YET"
+            "content": "British informal past tense of \"eat\"",
+            "sound": "ET"
           },
           {
             "type": "big",
-            "content": "T",
-            "sound": "T"
-          },
-          {
-            "type": "big",
-            "content": "E",
+            "content": "IE",
             "sound": "EE"
           }
         ],
@@ -2948,24 +2948,24 @@
     },
     {
       "easy": {
-        "answer": "Genie",
+        "answer": "Unicorn",
         "category": "Character",
         "difficulty": "easy",
         "clues": [
           {
             "type": "text",
-            "content": "A unit of heredity, or informal short word for Eugene",
-            "sound": "GENE"
-          },
-          {
-            "type": "big",
-            "content": "E",
-            "sound": "E"
+            "content": "Pronoun for the person you're talking to",
+            "sound": "YOU"
           },
           {
             "type": "text",
             "content": "Joint between your thigh and shin",
             "sound": "KNEE"
+          },
+          {
+            "type": "emoji",
+            "content": "🌽",
+            "sound": "CORN"
           }
         ],
         "hints": [
@@ -2984,7 +2984,7 @@
           {
             "label": "Give me a hint",
             "ci": -1,
-            "text": "It's the wish-granting spirit that lives inside a magic lamp."
+            "text": "It's a mythical horse-like creature with a single horn on its head."
           },
           {
             "label": "Reveal all sounds",
@@ -3068,8 +3068,8 @@
           },
           {
             "type": "text",
-            "content": "Informal short name for Leonard",
-            "sound": "LEE"
+            "content": "Common suffix that turns an adjective into an adverb, as in \"quick-ly\"",
+            "sound": "LY"
           }
         ],
         "hints": [
@@ -3108,19 +3108,19 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "emoji",
-            "content": "2️⃣",
-            "sound": "TWO"
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
+            "type": "text",
+            "content": "Question word asking about a person's identity",
+            "sound": "WHO"
           },
           {
             "type": "emoji",
             "content": "🥫",
             "sound": "CAN"
-          },
-          {
-            "type": "big",
-            "content": "A",
-            "sound": "A"
           }
         ],
         "hints": [
@@ -3218,13 +3218,13 @@
           },
           {
             "type": "big",
-            "content": "AR",
-            "sound": "AR"
+            "content": "A",
+            "sound": "AH"
           },
           {
             "type": "big",
-            "content": "S",
-            "sound": "S"
+            "content": "R",
+            "sound": "R"
           }
         ],
         "hints": [
@@ -3263,19 +3263,19 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "The last letter of the alphabet, American pronunciation",
-            "sound": "ZEE"
+            "type": "big",
+            "content": "Z",
+            "sound": "Z"
+          },
+          {
+            "type": "big",
+            "content": "EE",
+            "sound": "EE"
           },
           {
             "type": "text",
             "content": "Casual term for \"brother\"",
             "sound": "BRUH"
-          },
-          {
-            "type": "big",
-            "content": "A",
-            "sound": "A"
           }
         ],
         "hints": [
@@ -3418,19 +3418,19 @@
         "difficulty": "easy",
         "clues": [
           {
+            "type": "big",
+            "content": "W",
+            "sound": "W"
+          },
+          {
             "type": "text",
-            "content": "A vertical structure that encloses a room",
-            "sound": "WALL"
+            "content": "Every one of them, the entire amount",
+            "sound": "ALL"
           },
           {
             "type": "text",
             "content": "Squirrels bury these to eat later",
             "sound": "NUT"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -3473,14 +3473,14 @@
             "sound": "OH"
           },
           {
-            "type": "text",
-            "content": "A small rock, or Rolling ___s, the band",
-            "sound": "STONE"
+            "type": "big",
+            "content": "ST",
+            "sound": "ST"
           },
           {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
+            "type": "text",
+            "content": "The number after zero",
+            "sound": "ONE"
           }
         ],
         "hints": [
@@ -3527,14 +3527,14 @@
             "sound": "HE"
           },
           {
-            "type": "text",
-            "content": "Creative work like paintings or sculpture",
-            "sound": "ART"
+            "type": "big",
+            "content": "AR",
+            "sound": "AR"
           },
           {
             "type": "big",
-            "content": "S",
-            "sound": "S"
+            "content": "T",
+            "sound": "T"
           }
         ],
         "hints": [
@@ -3573,19 +3573,19 @@
         "difficulty": "easy",
         "clues": [
           {
+            "type": "big",
+            "content": "P",
+            "sound": "P"
+          },
+          {
             "type": "text",
-            "content": "To inflate with air using a device, as in \"___ up a tire\"",
-            "sound": "PUMP"
+            "content": "Informal short word for a baseball umpire",
+            "sound": "UMP"
           },
           {
             "type": "text",
             "content": "Your family members, as in \"next of ___\"",
             "sound": "KIN"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -3619,8 +3619,13 @@
         "clues": [
           {
             "type": "text",
-            "content": "What a clock tells",
-            "sound": "TIME"
+            "content": "To fasten with a necktie, or a game ending in a draw",
+            "sound": "TIE"
+          },
+          {
+            "type": "big",
+            "content": "M",
+            "sound": "M"
           },
           {
             "type": "big",
@@ -3631,11 +3636,6 @@
             "type": "text",
             "content": "A shape with four equal sides",
             "sound": "SQUARE"
-          },
-          {
-            "type": "big",
-            "content": "R",
-            "sound": "R"
           }
         ],
         "hints": [
@@ -3728,19 +3728,19 @@
         "difficulty": "easy",
         "clues": [
           {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
+          },
+          {
             "type": "text",
-            "content": "A short daytime sleep",
-            "sound": "NAP"
+            "content": "Short slang for a phone application",
+            "sound": "AP"
           },
           {
             "type": "text",
             "content": "Your family members, as in \"next of ___\"",
             "sound": "KIN"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -3828,8 +3828,13 @@
         "clues": [
           {
             "type": "big",
-            "content": "EN",
-            "sound": "EN"
+            "content": "E",
+            "sound": "EE"
+          },
+          {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
           },
           {
             "type": "emoji",
@@ -3840,11 +3845,6 @@
             "type": "text",
             "content": "A digit on your foot, unlike a finger",
             "sound": "TOE"
-          },
-          {
-            "type": "big",
-            "content": "OH",
-            "sound": "OH"
           }
         ],
         "hints": [
@@ -3939,7 +3939,7 @@
           },
           {
             "type": "text",
-            "content": "Informal short name for Leonard",
+            "content": "Informal nickname for someone named Leon",
             "sound": "LEE"
           },
           {
@@ -4083,14 +4083,14 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "A large vehicle for carrying cargo or passengers",
-            "sound": "VAN"
+            "type": "big",
+            "content": "V",
+            "sound": "V"
           },
           {
-            "type": "struck",
-            "content": "STOP",
-            "sound": "GO"
+            "type": "text",
+            "content": "Indefinite article used before a vowel sound, as in \"___ apple\"",
+            "sound": "AN"
           },
           {
             "type": "big",
@@ -4098,9 +4098,9 @@
             "sound": "G"
           },
           {
-            "type": "big",
-            "content": "H",
-            "sound": "H"
+            "type": "text",
+            "content": "Sound of mild surprise, like spotting a friend across the room",
+            "sound": "OH"
           }
         ],
         "hints": [
@@ -4142,19 +4142,19 @@
             "sound": "WRECK"
           },
           {
-            "type": "text",
-            "content": "Pronoun for an object, not a person",
-            "sound": "IT"
+            "type": "big",
+            "content": "I",
+            "sound": "IH"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
           },
           {
             "type": "text",
             "content": "Informal slang for vomiting, or a common male name",
             "sound": "RALPH"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -4194,18 +4194,18 @@
         "clues": [
           {
             "type": "big",
-            "content": "SIM",
-            "sound": "SIM"
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "big",
+            "content": "IM",
+            "sound": "IM"
           },
           {
             "type": "text",
             "content": "Scrooge's grumpy exclamation, \"___ humbug\"",
             "sound": "BAH"
-          },
-          {
-            "type": "big",
-            "content": "A",
-            "sound": "A"
           }
         ],
         "hints": [
@@ -4301,9 +4301,14 @@
         "difficulty": "hard",
         "clues": [
           {
+            "type": "big",
+            "content": "W",
+            "sound": "W"
+          },
+          {
             "type": "text",
-            "content": "A legal document dividing your estate, or determination",
-            "sound": "WILL"
+            "content": "Sick or unwell",
+            "sound": "ILL"
           },
           {
             "type": "struck",
@@ -4314,11 +4319,6 @@
             "type": "big",
             "content": "L",
             "sound": "L"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -4402,9 +4402,14 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "A person of equal social standing, as in \"jury of your ___s\"",
-            "sound": "PEER"
+            "type": "big",
+            "content": "P",
+            "sound": "P"
+          },
+          {
+            "type": "emoji",
+            "content": "👂",
+            "sound": "EAR"
           },
           {
             "type": "big",
@@ -4415,11 +4420,6 @@
             "type": "text",
             "content": "The middle part of something, as in \"midway\"",
             "sound": "MID"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -4456,9 +4456,14 @@
         "difficulty": "hard",
         "clues": [
           {
+            "type": "big",
+            "content": "ST",
+            "sound": "ST"
+          },
+          {
             "type": "text",
-            "content": "A common man's name",
-            "sound": "STEVE"
+            "content": "The day before a holiday, as in Christmas ___",
+            "sound": "EVE"
           },
           {
             "type": "text",
@@ -4469,11 +4474,6 @@
             "type": "big",
             "content": "L",
             "sound": "L"
-          },
-          {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
           }
         ],
         "hints": [
@@ -4512,19 +4512,19 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "The edge of a sidewalk, or to restrain something",
-            "sound": "CURB"
-          },
-          {
-            "type": "text",
-            "content": "Informal short word for a baseball glove",
-            "sound": "MIT"
+            "type": "big",
+            "content": "KER",
+            "sound": "KER"
           },
           {
             "type": "big",
-            "content": "T",
-            "sound": "T"
+            "content": "M",
+            "sound": "M"
+          },
+          {
+            "type": "text",
+            "content": "Pronoun used for an object, not a person",
+            "sound": "IT"
           }
         ],
         "hints": [
@@ -4557,9 +4557,14 @@
         "difficulty": "medium",
         "clues": [
           {
+            "type": "big",
+            "content": "ST",
+            "sound": "ST"
+          },
+          {
             "type": "text",
-            "content": "A small rock, or Rolling ___s, the band",
-            "sound": "STONE"
+            "content": "The number after zero",
+            "sound": "ONE"
           },
           {
             "type": "emoji",
@@ -4568,13 +4573,8 @@
           },
           {
             "type": "big",
-            "content": "G",
-            "sound": "G"
-          },
-          {
-            "type": "big",
-            "content": "E",
-            "sound": "E"
+            "content": "NGE",
+            "sound": "NJ"
           }
         ],
         "hints": [
@@ -4616,19 +4616,19 @@
             "sound": "KEV"
           },
           {
-            "type": "struck",
-            "content": "OUT",
+            "type": "text",
+            "content": "Trendy or fashionable, as in \"that's so ___ right now\"",
             "sound": "IN"
           },
           {
-            "type": "emoji",
-            "content": "❤️",
-            "sound": "HEART"
+            "type": "text",
+            "content": "Pronoun for a male",
+            "sound": "HE"
           },
           {
-            "type": "big",
-            "content": "S",
-            "sound": "S"
+            "type": "text",
+            "content": "Creative work like paintings or sculpture",
+            "sound": "ART"
           }
         ],
         "hints": [
