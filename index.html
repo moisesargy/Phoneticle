@@ -476,6 +476,7 @@
   }
   .feedback-wrong{color:var(--red);}
   .feedback-right{color:var(--green);}
+  .feedback-close{color:var(--yellow);}
 
   .action-row{
     display:flex;
@@ -1439,6 +1440,34 @@
     return String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
   }
 
+  // Levenshtein edit distance, used to detect a near-miss guess (typo/misspelling)
+  function editDistance(a, b){
+    const m = a.length, n = b.length;
+    const dp = new Array(n + 1);
+    for (let j = 0; j <= n; j++) dp[j] = j;
+    for (let i = 1; i <= m; i++){
+      let prev = dp[0];
+      dp[0] = i;
+      for (let j = 1; j <= n; j++){
+        const tmp = dp[j];
+        dp[j] = a[i - 1] === b[j - 1]
+          ? prev
+          : 1 + Math.min(prev, dp[j], dp[j - 1]);
+        prev = tmp;
+      }
+    }
+    return dp[n];
+  }
+
+  function isCloseGuess(guess, answer){
+    if (!guess || !answer || guess === answer) return false;
+    const dist = editDistance(guess, answer);
+    // Allow more slack on longer answers, but always require the guess to be
+    // recognizably close (not just short and coincidentally within range).
+    const maxDist = answer.length <= 4 ? 1 : answer.length <= 8 ? 2 : 3;
+    return dist > 0 && dist <= maxDist;
+  }
+
   function normWordUpper(s){
     return String(s || "").toUpperCase().replace(/[^A-Z]/g, "");
   }
@@ -1754,6 +1783,9 @@
       play.showCompletionModal = true;
       play.feedback = { type: "right", msg: "Correct! 🎉" };
       play.puzzle.clues.forEach(function(_, i){ play.revealedClueIdx.add(i); });
+    } else if (isCloseGuess(guess, answer)) {
+      play.feedback = { type: "close", msg: "So close! Check your spelling." };
+      play.shake = true;
     } else {
       play.feedback = { type: "wrong", msg: "Not quite — try again." };
       play.shake = true;
@@ -2093,7 +2125,7 @@
           '<input type="text" class="guess-input' + (play.shake ? " shake" : "") + '" id="guess-input" placeholder="Type your answer&hellip;" autocomplete="off" autocapitalize="off" spellcheck="false" value="' + escapeHtml(play.guess) + '" />' +
           '<button type="submit" class="btn btn-primary">Guess</button>' +
         '</form>' +
-        '<div class="feedback-row' + (play.feedback ? (play.feedback.type === "right" ? " feedback-right" : " feedback-wrong") : "") + '">' +
+        '<div class="feedback-row' + (play.feedback ? " feedback-" + play.feedback.type : "") + '">' +
           (play.feedback ? escapeHtml(play.feedback.msg) : "") +
         '</div>' +
         '<div class="action-row">' +
@@ -2346,8 +2378,8 @@
   document.addEventListener("input", function(e){
     if (e.target && e.target.id === "guess-input" && state.play) {
       state.play.guess = e.target.value;
-      if (state.play.feedback && state.play.feedback.type === "wrong") {
-        // clear stale wrong-feedback once they start typing again
+      if (state.play.feedback && state.play.feedback.type !== "right") {
+        // clear stale wrong/close feedback once they start typing again
         state.play.feedback = null;
         const row = document.querySelector(".feedback-row");
         if (row) { row.textContent = ""; row.className = "feedback-row"; }
