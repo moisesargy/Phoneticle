@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-27",
-  "generatedAt": "2026-08-27T15:57:41.111Z",
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T16:58:30.498Z",
   "easy": {
-    "answer": "Dumbledore",
-    "category": "Character",
+    "answer": "Nutella",
+    "category": "Brand",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "struck",
-        "content": "SMART",
-        "sound": "DUMB"
+        "type": "text",
+        "content": "Squirrels bury these to eat later",
+        "sound": "NUT"
       },
       {
-        "type": "emoji",
-        "content": "🐂",
-        "sound": "BULL"
+        "type": "text",
+        "content": "To say something out loud, or share information",
+        "sound": "TELL"
       },
       {
-        "type": "emoji",
-        "content": "🚪",
-        "sound": "DOOR"
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the wise, bearded headmaster of a famous wizarding school."
+        "text": "It's a chocolate hazelnut spread you put on toast."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Ariana",
-    "category": "Celebrity",
+    "answer": "Cleopatra",
+    "category": "Historical Figure",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "The gas you breathe to stay alive",
-        "sound": "AIR"
+        "content": "A soft, moldable earth used in pottery",
+        "sound": "CLAY"
       },
       {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "content": "OH",
+        "sound": "OH"
       },
       {
         "type": "text",
-        "content": "Exclamation of realization",
-        "sound": "AH"
+        "content": "To gently tap, as in \"___ on the back\"",
+        "sound": "PAT"
       },
       {
         "type": "text",
-        "content": "Casual way to say no",
-        "sound": "NAH"
+        "content": "Exclamation of cheer",
+        "sound": "RAH"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the first name of a pop star known for a huge vocal range and a ponytail."
+        "text": "It's the famous last pharaoh of ancient Egypt."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Tom Cruise",
+    "answer": "Will Smith",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "Informal short name for Thomas",
-        "sound": "TOM"
+        "content": "A legal document dividing your estate, or determination",
+        "sound": "WILL"
       },
       {
         "type": "big",
-        "content": "CR",
-        "sound": "CR"
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "Pronoun for the person you're talking to",
-        "sound": "YOU"
+        "content": "Informal word for a baseball glove",
+        "sound": "MITT"
       },
       {
         "type": "big",
-        "content": "Z",
-        "sound": "Z"
+        "content": "H",
+        "sound": "H"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the action star known for doing his own stunts in Mission: Impossible."
+        "text": "It's the Fresh Prince turned movie star who slapped his way into headlines."
       },
       {
         "label": "Reveal all sounds",
