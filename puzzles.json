@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-30",
-  "generatedAt": "2026-08-30T10:09:54.344Z",
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T11:12:37.388Z",
   "easy": {
-    "answer": "Yogi Bear",
-    "category": "Character",
+    "answer": "Ice Cream",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "Casual greeting, like \"___, what's up\"",
-        "sound": "YO"
-      },
-      {
-        "type": "text",
-        "content": "Exclamation of surprise, like \"___ whiz\"",
-        "sound": "GEE"
-      },
-      {
         "type": "emoji",
-        "content": "🐻",
-        "sound": "BEAR"
+        "content": "👁️",
+        "sound": "EYE"
+      },
+      {
+        "type": "big",
+        "content": "S",
+        "sound": "S"
+      },
+      {
+        "type": "text",
+        "content": "To defeat someone badly, as in \"we're gonna ___ them\"",
+        "sound": "CREAM"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a picnic-basket-stealing cartoon bear who's smarter than the average one."
+        "text": "It's a frozen dessert often served in a cone or a bowl."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Godzilla",
+    "answer": "King Kong",
     "category": "Character",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "A supreme deity worshipped in religion",
-        "sound": "GOD"
+        "type": "big",
+        "content": "K",
+        "sound": "K"
       },
       {
-        "type": "big",
-        "content": "Z",
-        "sound": "Z"
+        "type": "text",
+        "content": "Common suffix added to verbs, as in \"running\" or \"jumping\"",
+        "sound": "ING"
       },
       {
         "type": "struck",
-        "content": "HEALTHY",
-        "sound": "ILL"
+        "content": "PRO",
+        "sound": "CON"
       },
       {
-        "type": "text",
-        "content": "Hesitation sound people make while thinking",
-        "sound": "UH"
+        "type": "big",
+        "content": "G",
+        "sound": "G"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a giant movie monster that stomps through Tokyo breathing fire."
+        "text": "It's a giant movie ape who climbs skyscrapers."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Robert Downey",
+    "answer": "Emma Watson",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "big",
+        "content": "EM",
+        "sound": "EM"
+      },
+      {
         "type": "text",
-        "content": "To steal from someone",
-        "sound": "ROB"
+        "content": "Hesitation sound people make while thinking",
+        "sound": "UH"
       },
       {
-        "type": "big",
-        "content": "ER",
-        "sound": "ER"
+        "type": "text",
+        "content": "Unit of electrical power, symbol W",
+        "sound": "WATT"
       },
       {
-        "type": "struck",
-        "content": "UP",
-        "sound": "DOWN"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "emoji",
+        "content": "☀️",
+        "sound": "SUN"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the actor best known for playing Iron Man."
+        "text": "It's the actress who played Hermione Granger on screen."
       },
       {
         "label": "Reveal all sounds",
