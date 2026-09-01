@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-31",
-  "generatedAt": "2026-08-31T11:12:37.388Z",
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T09:38:39.626Z",
   "easy": {
-    "answer": "Ice Cream",
+    "answer": "Yogurt",
     "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
+        "type": "text",
+        "content": "Modal verb meaning \"have to\", as in \"you ___ be kidding\"",
+        "sound": "MUST"
+      },
+      {
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
-      },
-      {
-        "type": "text",
-        "content": "To defeat someone badly, as in \"we're gonna ___ them\"",
-        "sound": "CREAM"
+        "content": "D",
+        "sound": "D"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a frozen dessert often served in a cone or a bowl."
+        "text": "It's a creamy, tangy dairy food often eaten with granola."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "King Kong",
-    "category": "Character",
+    "answer": "Eiffel Tower",
+    "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "big",
-        "content": "K",
-        "sound": "K"
-      },
-      {
-        "type": "text",
-        "content": "Common suffix added to verbs, as in \"running\" or \"jumping\"",
-        "sound": "ING"
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "struck",
-        "content": "PRO",
-        "sound": "CON"
+        "content": "EMPTY",
+        "sound": "FULL"
+      },
+      {
+        "type": "text",
+        "content": "To pull a vehicle behind another",
+        "sound": "TOW"
       },
       {
         "type": "big",
-        "content": "G",
-        "sound": "G"
+        "content": "ER",
+        "sound": "ER"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a giant movie ape who climbs skyscrapers."
+        "text": "It's the iron tower that's the symbol of Paris."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Emma Watson",
+    "answer": "Chris Pratt",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
         "type": "big",
-        "content": "EM",
-        "sound": "EM"
+        "content": "KRIS",
+        "sound": "KRIS"
       },
       {
-        "type": "text",
-        "content": "Hesitation sound people make while thinking",
-        "sound": "UH"
-      },
-      {
-        "type": "text",
-        "content": "Unit of electrical power, symbol W",
-        "sound": "WATT"
+        "type": "big",
+        "content": "P",
+        "sound": "P"
       },
       {
         "type": "emoji",
-        "content": "☀️",
-        "sound": "SUN"
+        "content": "🐀",
+        "sound": "RAT"
+      },
+      {
+        "type": "big",
+        "content": "T",
+        "sound": "T"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the actress who played Hermione Granger on screen."
+        "text": "It's the actor who went from 'Parks and Rec' to Guardians of the Galaxy."
       },
       {
         "label": "Reveal all sounds",
