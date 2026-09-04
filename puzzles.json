@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-03",
-  "generatedAt": "2026-09-03T09:16:48.505Z",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T09:10:31.936Z",
   "easy": {
-    "answer": "Taco",
+    "answer": "Mustard",
     "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "big",
-        "content": "T",
-        "sound": "T"
-      },
-      {
-        "type": "big",
-        "content": "A",
-        "sound": "AH"
+        "type": "text",
+        "content": "Essential or required, as in \"a ___-see movie\"",
+        "sound": "MUST"
       },
       {
         "type": "text",
-        "content": "Common abbreviation for \"company\"",
-        "sound": "CO"
+        "content": "Possessive pronoun for a female, as in \"that's ___ car\"",
+        "sound": "HER"
+      },
+      {
+        "type": "big",
+        "content": "D",
+        "sound": "D"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a folded tortilla filled with meat, cheese, and salsa."
+        "text": "It's the yellow condiment you put on a hot dog."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Miley Cyrus",
+    "answer": "Justin Bieber",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Belonging to me",
-        "sound": "MY"
+        "content": "Only, merely, as in \"___ kidding\"",
+        "sound": "JUST"
       },
       {
         "type": "text",
-        "content": "The sheltered side of a ship, away from the wind",
-        "sound": "LEE"
+        "content": "Preposition meaning inside, as in \"___ the house\"",
+        "sound": "IN"
       },
       {
-        "type": "text",
-        "content": "To exhale slowly while showing disappointment",
-        "sound": "SIGH"
+        "type": "emoji",
+        "content": "🐝",
+        "sound": "BEE"
       },
       {
         "type": "big",
-        "content": "RUS",
-        "sound": "RUS"
+        "content": "BER",
+        "sound": "BER"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the pop star and former Disney star who sang 'Wrecking Ball.'"
+        "text": "It's the Canadian pop star who started out on YouTube as a kid."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Harry Potter",
-    "category": "Book",
+    "answer": "Sherlock Holmes",
+    "category": "Character",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "What grows on your head",
-        "sound": "HAIR"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "content": "To divide something and give portions to others",
+        "sound": "SHARE"
       },
       {
         "type": "text",
-        "content": "A round metal container you cook soup in",
-        "sound": "POT"
+        "content": "A device that secures a door",
+        "sound": "LOCK"
+      },
+      {
+        "type": "emoji",
+        "content": "🏠",
+        "sound": "HOME"
       },
       {
         "type": "big",
-        "content": "ER",
-        "sound": "ER"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the boy wizard who attends a school called Hogwarts."
+        "text": "It's the famous detective known for his powers of deduction."
       },
       {
         "label": "Reveal all sounds",
