@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T09:10:31.936Z",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T08:41:29.143Z",
   "easy": {
-    "answer": "Mustard",
-    "category": "Food",
+    "answer": "Hamster",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Essential or required, as in \"a ___-see movie\"",
-        "sound": "MUST"
-      },
-      {
-        "type": "text",
-        "content": "Possessive pronoun for a female, as in \"that's ___ car\"",
-        "sound": "HER"
+        "content": "Informal word for a hot dog, or an overly dramatic actor",
+        "sound": "HAM"
       },
       {
         "type": "big",
-        "content": "D",
-        "sound": "D"
+        "content": "ST",
+        "sound": "ST"
+      },
+      {
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the yellow condiment you put on a hot dog."
+        "text": "It's a small, fuzzy pet rodent that loves running on a wheel."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Justin Bieber",
+    "answer": "Taylor Swift",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "Only, merely, as in \"___ kidding\"",
-        "sound": "JUST"
-      },
-      {
-        "type": "text",
-        "content": "Preposition meaning inside, as in \"___ the house\"",
-        "sound": "IN"
-      },
-      {
-        "type": "emoji",
-        "content": "🐝",
-        "sound": "BEE"
-      },
-      {
         "type": "big",
-        "content": "BER",
-        "sound": "BER"
+        "content": "T",
+        "sound": "T"
+      },
+      {
+        "type": "text",
+        "content": "To be sick or unwell, as in \"what ___s you\"",
+        "sound": "AIL"
+      },
+      {
+        "type": "text",
+        "content": "Conjunction offering a choice, as in \"this ___ that\"",
+        "sound": "OR"
+      },
+      {
+        "type": "text",
+        "content": "Fast-moving, quick",
+        "sound": "SWIFT"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the Canadian pop star who started out on YouTube as a kid."
+        "text": "It's the pop star known for re-recording her own old albums."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Sherlock Holmes",
-    "category": "Character",
+    "answer": "Titanic",
+    "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "To divide something and give portions to others",
-        "sound": "SHARE"
-      },
-      {
-        "type": "text",
-        "content": "A device that secures a door",
-        "sound": "LOCK"
+        "type": "big",
+        "content": "T",
+        "sound": "T"
       },
       {
         "type": "emoji",
-        "content": "🏠",
-        "sound": "HOME"
+        "content": "👁️",
+        "sound": "EYE"
+      },
+      {
+        "type": "text",
+        "content": "A bronzed skin tone from the sun",
+        "sound": "TAN"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "NIC",
+        "sound": "NIC"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the famous detective known for his powers of deduction."
+        "text": "It's the movie about a famous ship that sank on its first voyage."
       },
       {
         "label": "Reveal all sounds",
