@@ -53,8 +53,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "To phone someone",
+            "type": "big",
+            "content": "CALL",
             "sound": "CALL"
           },
           {
@@ -113,7 +113,7 @@
           },
           {
             "type": "text",
-            "content": "A hat, or to put a limit on something",
+            "content": "A hat, or a spending limit",
             "sound": "CAP"
           },
           {
@@ -223,8 +223,8 @@
             "sound": "AH"
           },
           {
-            "type": "text",
-            "content": "Casual way to say no",
+            "type": "big",
+            "content": "NAH",
             "sound": "NAH"
           }
         ],
@@ -262,8 +262,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "Informal short name for Thomas",
+            "type": "big",
+            "content": "TOM",
             "sound": "TOM"
           },
           {
@@ -318,8 +318,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "Squirrels bury these to eat later",
+            "type": "big",
+            "content": "NUT",
             "sound": "NUT"
           },
           {
@@ -373,8 +373,8 @@
             "sound": "OH"
           },
           {
-            "type": "text",
-            "content": "To gently tap, as in \"___ on the back\"",
+            "type": "big",
+            "content": "PAT",
             "sound": "PAT"
           },
           {
@@ -427,8 +427,8 @@
             "sound": "S"
           },
           {
-            "type": "text",
-            "content": "Informal word for a baseball glove",
+            "type": "big",
+            "content": "MITT",
             "sound": "MITT"
           },
           {
@@ -483,8 +483,8 @@
             "sound": "UH"
           },
           {
-            "type": "text",
-            "content": "Informal word for a house cat",
+            "type": "big",
+            "content": "PUSS",
             "sound": "PUSS"
           }
         ],
@@ -529,7 +529,7 @@
           },
           {
             "type": "text",
-            "content": "A pigpen, or an inflamed bump on your eyelid",
+            "content": "A pigpen, or an eyelid bump",
             "sound": "STY"
           },
           {
@@ -794,7 +794,7 @@
           },
           {
             "type": "text",
-            "content": "To defeat someone badly, as in \"we're gonna ___ them\"",
+            "content": "To defeat someone badly",
             "sound": "CREAM"
           }
         ],
@@ -834,7 +834,7 @@
           },
           {
             "type": "text",
-            "content": "Common suffix added to verbs, as in \"running\" or \"jumping\"",
+            "content": "Suffix added to verbs, like \"running\"",
             "sound": "ING"
           },
           {
@@ -939,7 +939,7 @@
         "clues": [
           {
             "type": "text",
-            "content": "Modal verb meaning \"have to\", as in \"you ___ be kidding\"",
+            "content": "Modal verb meaning \"have to\"",
             "sound": "MUST"
           },
           {
@@ -1143,8 +1143,8 @@
             "sound": "G"
           },
           {
-            "type": "text",
-            "content": "Not new; aged",
+            "type": "big",
+            "content": "OLD",
             "sound": "OLD"
           },
           {
@@ -1154,7 +1154,7 @@
           },
           {
             "type": "text",
-            "content": "A barrier you open to enter or exit a property",
+            "content": "A barrier at a property's entrance",
             "sound": "GATE"
           }
         ],
@@ -1192,18 +1192,18 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "Informal short name for Leonard",
+            "type": "big",
+            "content": "LEE",
             "sound": "LEE"
           },
           {
-            "type": "text",
-            "content": "Physical strength or muscle",
+            "type": "big",
+            "content": "BRAWN",
             "sound": "BRAWN"
           },
           {
             "type": "text",
-            "content": "Common nickname for Jason, or a loud blue bird",
+            "content": "Nickname for Jason, or a blue bird",
             "sound": "JAY"
           },
           {
@@ -1293,18 +1293,18 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "Belonging to me",
+            "type": "big",
+            "content": "MY",
             "sound": "MY"
           },
           {
             "type": "text",
-            "content": "The sheltered side of a ship, away from the wind",
+            "content": "The sheltered side of a ship",
             "sound": "LEE"
           },
           {
-            "type": "text",
-            "content": "To exhale slowly while showing disappointment",
+            "type": "big",
+            "content": "SIGH",
             "sound": "SIGH"
           },
           {
@@ -1347,8 +1347,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "What grows on your head",
+            "type": "big",
+            "content": "HAIR",
             "sound": "HAIR"
           },
           {
@@ -1403,13 +1403,13 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "Essential or required, as in \"a ___-see movie\"",
+            "type": "big",
+            "content": "MUST",
             "sound": "MUST"
           },
           {
             "type": "text",
-            "content": "Possessive pronoun for a female, as in \"that's ___ car\"",
+            "content": "Possessive pronoun for a female",
             "sound": "HER"
           },
           {
@@ -1448,8 +1448,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "Only, merely, as in \"___ kidding\"",
+            "type": "big",
+            "content": "JUST",
             "sound": "JUST"
           },
           {
@@ -1507,8 +1507,8 @@
             "sound": "SHARE"
           },
           {
-            "type": "text",
-            "content": "A device that secures a door",
+            "type": "big",
+            "content": "LOCK",
             "sound": "LOCK"
           },
           {
@@ -1559,7 +1559,7 @@
         "clues": [
           {
             "type": "text",
-            "content": "Informal word for a hot dog, or an overly dramatic actor",
+            "content": "Slang for hot dog, or a dramatic actor",
             "sound": "HAM"
           },
           {
@@ -1608,18 +1608,18 @@
             "sound": "T"
           },
           {
-            "type": "text",
-            "content": "To be sick or unwell, as in \"what ___s you\"",
+            "type": "big",
+            "content": "AIL",
             "sound": "AIL"
           },
           {
             "type": "text",
-            "content": "Conjunction offering a choice, as in \"this ___ that\"",
+            "content": "Conjunction offering a choice",
             "sound": "OR"
           },
           {
-            "type": "text",
-            "content": "Fast-moving, quick",
+            "type": "big",
+            "content": "SWIFT",
             "sound": "SWIFT"
           }
         ],
@@ -1878,8 +1878,8 @@
             "sound": "TER"
           },
           {
-            "type": "text",
-            "content": "A type of whisky made in Scotland",
+            "type": "big",
+            "content": "SCOTCH",
             "sound": "SCOTCH"
           }
         ],
@@ -1914,7 +1914,7 @@
         "clues": [
           {
             "type": "text",
-            "content": "Covered in lots of body hair, like a werewolf",
+            "content": "Covered in lots of body hair",
             "sound": "HAIR"
           },
           {
@@ -1923,8 +1923,8 @@
             "sound": "EE"
           },
           {
-            "type": "text",
-            "content": "A pigpen, or an inflamed bump on your eyelid",
+            "type": "big",
+            "content": "STY",
             "sound": "STY"
           },
           {
@@ -1967,8 +1967,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "To locate something you've lost",
+            "type": "big",
+            "content": "FIND",
             "sound": "FIND"
           },
           {
@@ -1977,13 +1977,13 @@
             "sound": "ING"
           },
           {
-            "type": "text",
-            "content": "The joint between your thigh and shin",
+            "type": "big",
+            "content": "KNEE",
             "sound": "KNEE"
           },
           {
             "type": "text",
-            "content": "Informal word for \"moment\", as in \"wait a ___\"",
+            "content": "Informal word for \"moment\"",
             "sound": "MO"
           }
         ],
@@ -2069,7 +2069,7 @@
         "clues": [
           {
             "type": "text",
-            "content": "A type of fish, or a low musical tone",
+            "content": "A type of fish, or low tone",
             "sound": "BASS"
           },
           {
@@ -2078,8 +2078,8 @@
             "sound": "K"
           },
           {
-            "type": "text",
-            "content": "Pronoun for an object, not a person",
+            "type": "big",
+            "content": "IT",
             "sound": "IT"
           },
           {
@@ -2178,8 +2178,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "A metal container used for frying food",
+            "type": "big",
+            "content": "PAN",
             "sound": "PAN"
           },
           {
@@ -2223,8 +2223,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "To make coffee or beer",
+            "type": "big",
+            "content": "BREW",
             "sound": "BREW"
           },
           {
@@ -2277,8 +2277,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "The pedal you press to stop a car",
+            "type": "big",
+            "content": "BRAKE",
             "sound": "BRAKE"
           },
           {
@@ -2288,7 +2288,7 @@
           },
           {
             "type": "text",
-            "content": "Common suffix added to verbs, as in \"jumping\" or \"running\"",
+            "content": "Suffix added to verbs, like \"jumping\"",
             "sound": "ING"
           },
           {
@@ -2393,8 +2393,8 @@
             "sound": "AH"
           },
           {
-            "type": "text",
-            "content": "Money that's borrowed and must be repaid",
+            "type": "big",
+            "content": "LOAN",
             "sound": "LOAN"
           }
         ],
@@ -2587,8 +2587,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "Unusual or weird",
+            "type": "big",
+            "content": "STRANGE",
             "sound": "STRANGE"
           },
           {
@@ -2648,13 +2648,13 @@
             "sound": "F"
           },
           {
-            "type": "text",
-            "content": "Intense anger or fury",
+            "type": "big",
+            "content": "IRE",
             "sound": "IRE"
           },
           {
             "type": "text",
-            "content": "The zippered opening at the front of a pair of pants",
+            "content": "The zippered opening on pants",
             "sound": "FLY"
           }
         ],
@@ -2698,13 +2698,13 @@
             "sound": "T"
           },
           {
-            "type": "text",
-            "content": "Powered on, opposite of \"off\"",
+            "type": "big",
+            "content": "ON",
             "sound": "ON"
           },
           {
             "type": "text",
-            "content": "Informal word for a bathroom, or a common male name",
+            "content": "Informal word for a bathroom",
             "sound": "JOHN"
           }
         ],
@@ -2758,7 +2758,7 @@
           },
           {
             "type": "text",
-            "content": "Past tense of \"feel\", or a soft fabric material",
+            "content": "Past tense of \"feel\"",
             "sound": "FELT"
           }
         ],
@@ -2843,8 +2843,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "A common man's name, like Fred Flintstone",
+            "type": "big",
+            "content": "FRED",
             "sound": "FRED"
           },
           {
@@ -2854,12 +2854,12 @@
           },
           {
             "type": "text",
-            "content": "Dark and hard to see through, like murky water",
+            "content": "Dark and hard to see through",
             "sound": "MURK"
           },
           {
-            "type": "text",
-            "content": "Belonging to you",
+            "type": "big",
+            "content": "YOUR",
             "sound": "YOUR"
           }
         ],
@@ -2958,8 +2958,8 @@
             "sound": "YOU"
           },
           {
-            "type": "text",
-            "content": "Joint between your thigh and shin",
+            "type": "big",
+            "content": "KNEE",
             "sound": "KNEE"
           },
           {
@@ -3062,13 +3062,13 @@
             "sound": "ERN"
           },
           {
-            "type": "text",
-            "content": "Informal short word for \"family\"",
+            "type": "big",
+            "content": "FAM",
             "sound": "FAM"
           },
           {
             "type": "text",
-            "content": "Common suffix that turns an adjective into an adverb, as in \"quick-ly\"",
+            "content": "Suffix that turns adjectives into adverbs",
             "sound": "LY"
           }
         ],
@@ -3159,7 +3159,7 @@
           },
           {
             "type": "text",
-            "content": "A spicy Mexican stew made with beans and meat",
+            "content": "A spicy Mexican stew",
             "sound": "CHILI"
           },
           {
@@ -3428,8 +3428,8 @@
             "sound": "ALL"
           },
           {
-            "type": "text",
-            "content": "Squirrels bury these to eat later",
+            "type": "big",
+            "content": "NUT",
             "sound": "NUT"
           }
         ],
@@ -3463,8 +3463,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "To shout loudly",
+            "type": "big",
+            "content": "YELL",
             "sound": "YELL"
           },
           {
@@ -3583,8 +3583,8 @@
             "sound": "UMP"
           },
           {
-            "type": "text",
-            "content": "Your family members, as in \"next of ___\"",
+            "type": "big",
+            "content": "KIN",
             "sound": "KIN"
           }
         ],
@@ -3619,7 +3619,7 @@
         "clues": [
           {
             "type": "text",
-            "content": "To fasten with a necktie, or a game ending in a draw",
+            "content": "To fasten with a necktie",
             "sound": "TIE"
           },
           {
@@ -3633,8 +3633,8 @@
             "sound": "S"
           },
           {
-            "type": "text",
-            "content": "A shape with four equal sides",
+            "type": "big",
+            "content": "SQUARE",
             "sound": "SQUARE"
           }
         ],
@@ -3682,8 +3682,8 @@
             "sound": "AH"
           },
           {
-            "type": "text",
-            "content": "Casual word for no",
+            "type": "big",
+            "content": "NAH",
             "sound": "NAH"
           },
           {
@@ -3733,8 +3733,8 @@
             "sound": "N"
           },
           {
-            "type": "text",
-            "content": "Short slang for a phone application",
+            "type": "big",
+            "content": "AP",
             "sound": "AP"
           },
           {
@@ -3773,8 +3773,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "Past tense of \"send\"",
+            "type": "big",
+            "content": "SENT",
             "sound": "SENT"
           },
           {
@@ -3929,7 +3929,7 @@
         "clues": [
           {
             "type": "text",
-            "content": "To make a low sound of pain or complaint",
+            "content": "To groan in pain or complaint",
             "sound": "MOAN"
           },
           {
@@ -3938,13 +3938,13 @@
             "sound": "A"
           },
           {
-            "type": "text",
-            "content": "Informal nickname for someone named Leon",
+            "type": "big",
+            "content": "LEE",
             "sound": "LEE"
           },
           {
-            "type": "text",
-            "content": "Past tense of \"see\"",
+            "type": "big",
+            "content": "SAW",
             "sound": "SAW"
           }
         ],
@@ -3983,12 +3983,12 @@
         "clues": [
           {
             "type": "text",
-            "content": "A park where wild animals are kept for public viewing",
+            "content": "A park for viewing wild animals",
             "sound": "ZOO"
           },
           {
-            "type": "text",
-            "content": "A digit on your foot, unlike a finger",
+            "type": "big",
+            "content": "TOE",
             "sound": "TOE"
           },
           {
@@ -4038,8 +4038,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "text",
-            "content": "The gas you breathe to stay alive",
+            "type": "big",
+            "content": "AIR",
             "sound": "AIR"
           },
           {
@@ -4089,7 +4089,7 @@
           },
           {
             "type": "text",
-            "content": "Indefinite article used before a vowel sound, as in \"___ apple\"",
+            "content": "Indefinite article before a vowel",
             "sound": "AN"
           },
           {
@@ -4153,7 +4153,7 @@
           },
           {
             "type": "text",
-            "content": "Informal slang for vomiting, or a common male name",
+            "content": "Slang for vomiting, or a name",
             "sound": "RALPH"
           }
         ],
@@ -4238,8 +4238,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "A metal grid, or to shred cheese",
+            "type": "big",
+            "content": "GRATE",
             "sound": "GRATE"
           },
           {
@@ -4253,8 +4253,8 @@
             "sound": "OF"
           },
           {
-            "type": "text",
-            "content": "The part of your face below your mouth",
+            "type": "big",
+            "content": "CHIN",
             "sound": "CHIN"
           },
           {
@@ -4462,12 +4462,12 @@
           },
           {
             "type": "text",
-            "content": "The day before a holiday, as in Christmas ___",
+            "content": "The day before a holiday",
             "sound": "EVE"
           },
           {
-            "type": "text",
-            "content": "To feel concern for someone",
+            "type": "big",
+            "content": "CARE",
             "sound": "CARE"
           },
           {
@@ -4617,17 +4617,17 @@
           },
           {
             "type": "text",
-            "content": "Trendy or fashionable, as in \"that's so ___ right now\"",
+            "content": "Trendy or fashionable",
             "sound": "IN"
           },
           {
-            "type": "text",
-            "content": "Pronoun for a male",
+            "type": "big",
+            "content": "HE",
             "sound": "HE"
           },
           {
-            "type": "text",
-            "content": "Creative work like paintings or sculpture",
+            "type": "big",
+            "content": "ART",
             "sound": "ART"
           }
         ],
