@@ -122,8 +122,8 @@
             "sound": "REE"
           },
           {
-            "type": "text",
-            "content": "Short cry when something suddenly makes sense",
+            "type": "big",
+            "content": "O",
             "sound": "OH"
           }
         ],
@@ -218,8 +218,8 @@
             "sound": "EE"
           },
           {
-            "type": "text",
-            "content": "Exclamation of realization",
+            "type": "big",
+            "content": "A",
             "sound": "AH"
           },
           {
@@ -378,8 +378,8 @@
             "sound": "PAT"
           },
           {
-            "type": "text",
-            "content": "Exclamation of cheer",
+            "type": "big",
+            "content": "RAH",
             "sound": "RAH"
           }
         ],
@@ -633,8 +633,8 @@
             "sound": "YO"
           },
           {
-            "type": "text",
-            "content": "Exclamation of surprise, like \"___ whiz\"",
+            "type": "big",
+            "content": "G",
             "sound": "GEE"
           },
           {
@@ -688,8 +688,8 @@
             "sound": "ILL"
           },
           {
-            "type": "text",
-            "content": "Hesitation sound people make while thinking",
+            "type": "big",
+            "content": "UH",
             "sound": "UH"
           }
         ],
@@ -887,8 +887,8 @@
             "sound": "EM"
           },
           {
-            "type": "text",
-            "content": "Hesitation sound people make while thinking",
+            "type": "big",
+            "content": "UH",
             "sound": "UH"
           },
           {
@@ -2028,8 +2028,8 @@
             "sound": "B"
           },
           {
-            "type": "text",
-            "content": "Exclamation of cheer or excitement",
+            "type": "big",
+            "content": "RAH",
             "sound": "RAH"
           },
           {
@@ -2063,29 +2063,29 @@
         ]
       },
       "medium": {
-        "answer": "Selena",
-        "category": "Celebrity",
+        "answer": "Basketball",
+        "category": "Sport",
         "difficulty": "medium",
         "clues": [
           {
             "type": "text",
-            "content": "To exchange something for money",
-            "sound": "SELL"
+            "content": "A type of fish, or a low musical tone",
+            "sound": "BASS"
           },
           {
             "type": "big",
-            "content": "E",
-            "sound": "EE"
-          },
-          {
-            "type": "big",
-            "content": "N",
-            "sound": "N"
+            "content": "K",
+            "sound": "K"
           },
           {
             "type": "text",
-            "content": "Contented sigh when sinking into a warm bath",
-            "sound": "AH"
+            "content": "Pronoun for an object, not a person",
+            "sound": "IT"
+          },
+          {
+            "type": "emoji",
+            "content": "🏀",
+            "sound": "BALL"
           }
         ],
         "hints": [
@@ -2108,7 +2108,7 @@
           {
             "label": "Give me a hint",
             "ci": -1,
-            "text": "It's the first name of a pop star and beauty-brand founder, or a beloved Tejano singer."
+            "text": "It's a sport where players shoot a ball through a hoop."
           },
           {
             "label": "Reveal all sounds",
@@ -2132,8 +2132,8 @@
             "sound": "S"
           },
           {
-            "type": "text",
-            "content": "Exclamation like \"___ caramba\"",
+            "type": "big",
+            "content": "A",
             "sound": "AY"
           },
           {
@@ -2328,24 +2328,24 @@
     },
     {
       "easy": {
-        "answer": "Elmo",
-        "category": "Character",
+        "answer": "Penguin",
+        "category": "Animal",
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "L",
-            "sound": "EL"
+            "type": "emoji",
+            "content": "🖊️",
+            "sound": "PEN"
           },
           {
             "type": "big",
-            "content": "M",
-            "sound": "M"
+            "content": "GU",
+            "sound": "GU"
           },
           {
             "type": "text",
-            "content": "Sound you make when something suddenly clicks",
-            "sound": "OH"
+            "content": "Preposition meaning inside",
+            "sound": "IN"
           }
         ],
         "hints": [
@@ -2364,7 +2364,7 @@
           {
             "label": "Give me a hint",
             "ci": -1,
-            "text": "It's a fuzzy red Muppet with a high-pitched giggle."
+            "text": "It's a flightless bird that waddles on ice and swims well."
           },
           {
             "label": "Reveal all sounds",
@@ -2388,8 +2388,8 @@
             "sound": "M"
           },
           {
-            "type": "text",
-            "content": "Sound of pleasant surprise or satisfaction",
+            "type": "big",
+            "content": "A",
             "sound": "AH"
           },
           {
@@ -2528,29 +2528,29 @@
         ]
       },
       "medium": {
-        "answer": "Lady Gaga",
-        "category": "Celebrity",
+        "answer": "Lighthouse",
+        "category": "Landmark",
         "difficulty": "medium",
         "clues": [
           {
-            "type": "text",
-            "content": "To place something down flat",
-            "sound": "LAY"
+            "type": "big",
+            "content": "L",
+            "sound": "L"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
           },
           {
             "type": "big",
-            "content": "D",
-            "sound": "DEE"
+            "content": "T",
+            "sound": "T"
           },
           {
-            "type": "text",
-            "content": "Groan of exasperation, like when you drop your phone",
-            "sound": "GAH"
-          },
-          {
-            "type": "big",
-            "content": "GAH",
-            "sound": "GAH"
+            "type": "emoji",
+            "content": "🏠",
+            "sound": "HOUSE"
           }
         ],
         "hints": [
@@ -2573,7 +2573,7 @@
           {
             "label": "Give me a hint",
             "ci": -1,
-            "text": "It's the pop star famous for wearing a dress made of meat."
+            "text": "It's a tall tower with a bright light that guides ships at night."
           },
           {
             "label": "Reveal all sounds",
@@ -3163,13 +3163,13 @@
             "sound": "CHILI"
           },
           {
-            "type": "text",
-            "content": "Exclamation like \"la-di-dah\"",
+            "type": "big",
+            "content": "LAH",
             "sound": "LAH"
           },
           {
-            "type": "text",
-            "content": "Sound you make when stating something painfully obvious",
+            "type": "big",
+            "content": "DUH",
             "sound": "DUH"
           }
         ],
@@ -3313,8 +3313,8 @@
             "sound": "EM"
           },
           {
-            "type": "text",
-            "content": "Exclamation of surprise",
+            "type": "big",
+            "content": "PAH",
             "sound": "PAH"
           },
           {
@@ -3323,8 +3323,8 @@
             "sound": "NAH"
           },
           {
-            "type": "text",
-            "content": "Sound you make when stating something painfully obvious",
+            "type": "big",
+            "content": "DUH",
             "sound": "DUH"
           }
         ],
@@ -4098,8 +4098,8 @@
             "sound": "G"
           },
           {
-            "type": "text",
-            "content": "Sound of mild surprise, like spotting a friend across the room",
+            "type": "big",
+            "content": "O",
             "sound": "OH"
           }
         ],
@@ -4188,24 +4188,24 @@
     },
     {
       "easy": {
-        "answer": "Simba",
-        "category": "Character",
+        "answer": "Dolphin",
+        "category": "Animal",
         "difficulty": "easy",
         "clues": [
           {
             "type": "big",
-            "content": "S",
-            "sound": "S"
+            "content": "D",
+            "sound": "D"
           },
           {
             "type": "big",
-            "content": "IM",
-            "sound": "IM"
+            "content": "OLL",
+            "sound": "OLL"
           },
           {
             "type": "text",
-            "content": "Scrooge's grumpy exclamation, \"___ humbug\"",
-            "sound": "BAH"
+            "content": "A fish's pointed swimming appendage",
+            "sound": "FIN"
           }
         ],
         "hints": [
@@ -4224,7 +4224,7 @@
           {
             "label": "Give me a hint",
             "ci": -1,
-            "text": "It's the lion cub destined to become king of the Pride Lands."
+            "text": "It's a playful, intelligent sea mammal known for clicking and whistling."
           },
           {
             "label": "Reveal all sounds",
