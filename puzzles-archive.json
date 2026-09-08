@@ -53,8 +53,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "CALL",
+            "type": "text",
+            "content": "To phone someone",
             "sound": "CALL"
           },
           {
@@ -68,8 +68,8 @@
             "sound": "FLOW"
           },
           {
-            "type": "big",
-            "content": "ER",
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
             "sound": "ER"
           }
         ],
@@ -117,13 +117,13 @@
             "sound": "CAP"
           },
           {
-            "type": "big",
-            "content": "REE",
+            "type": "text",
+            "content": "The second note in do-re-mi",
             "sound": "REE"
           },
           {
-            "type": "big",
-            "content": "O",
+            "type": "text",
+            "content": "To owe money, as in you ___ me",
             "sound": "OH"
           }
         ],
@@ -213,8 +213,8 @@
             "sound": "AIR"
           },
           {
-            "type": "big",
-            "content": "E",
+            "type": "text",
+            "content": "The letter after D",
             "sound": "EE"
           },
           {
@@ -223,8 +223,8 @@
             "sound": "AH"
           },
           {
-            "type": "big",
-            "content": "NAH",
+            "type": "text",
+            "content": "Casual way to say no",
             "sound": "NAH"
           }
         ],
@@ -262,8 +262,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "TOM",
+            "type": "text",
+            "content": "Informal short name for Thomas",
             "sound": "TOM"
           },
           {
@@ -277,8 +277,8 @@
             "sound": "YOU"
           },
           {
-            "type": "big",
-            "content": "Z",
+            "type": "text",
+            "content": "The last letter of the alphabet",
             "sound": "Z"
           }
         ],
@@ -318,8 +318,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "NUT",
+            "type": "text",
+            "content": "Squirrels bury these to eat later",
             "sound": "NUT"
           },
           {
@@ -373,13 +373,13 @@
             "sound": "OH"
           },
           {
-            "type": "big",
-            "content": "PAT",
+            "type": "text",
+            "content": "To gently tap, as in \"___ on the back\"",
             "sound": "PAT"
           },
           {
-            "type": "big",
-            "content": "RAH",
+            "type": "text",
+            "content": "To shout loudly in support of a team",
             "sound": "RAH"
           }
         ],
@@ -427,13 +427,13 @@
             "sound": "S"
           },
           {
-            "type": "big",
-            "content": "MITT",
+            "type": "text",
+            "content": "Informal word for a baseball glove",
             "sound": "MITT"
           },
           {
-            "type": "big",
-            "content": "H",
+            "type": "text",
+            "content": "The letter that comes after G",
             "sound": "H"
           }
         ],
@@ -483,8 +483,8 @@
             "sound": "UH"
           },
           {
-            "type": "big",
-            "content": "PUSS",
+            "type": "text",
+            "content": "Informal word for a house cat",
             "sound": "PUSS"
           }
         ],
@@ -688,8 +688,8 @@
             "sound": "ILL"
           },
           {
-            "type": "big",
-            "content": "UH",
+            "type": "text",
+            "content": "Short vowel sound of the letter U",
             "sound": "UH"
           }
         ],
@@ -742,8 +742,8 @@
             "sound": "DOWN"
           },
           {
-            "type": "big",
-            "content": "E",
+            "type": "text",
+            "content": "The letter after D",
             "sound": "EE"
           }
         ],
@@ -828,8 +828,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "K",
+            "type": "text",
+            "content": "The letter that comes after J",
             "sound": "K"
           },
           {
@@ -887,8 +887,8 @@
             "sound": "EM"
           },
           {
-            "type": "big",
-            "content": "UH",
+            "type": "text",
+            "content": "Short vowel sound of the letter U",
             "sound": "UH"
           },
           {
@@ -1042,8 +1042,8 @@
             "sound": "KRIS"
           },
           {
-            "type": "big",
-            "content": "P",
+            "type": "text",
+            "content": "The letter after O",
             "sound": "P"
           },
           {
@@ -1052,8 +1052,8 @@
             "sound": "RAT"
           },
           {
-            "type": "big",
-            "content": "T",
+            "type": "text",
+            "content": "The letter after S",
             "sound": "T"
           }
         ],
@@ -1143,8 +1143,8 @@
             "sound": "G"
           },
           {
-            "type": "big",
-            "content": "OLD",
+            "type": "text",
+            "content": "Not new; aged",
             "sound": "OLD"
           },
           {
@@ -1192,13 +1192,13 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "LEE",
+            "type": "text",
+            "content": "Informal short name for Leonard",
             "sound": "LEE"
           },
           {
-            "type": "big",
-            "content": "BRAWN",
+            "type": "text",
+            "content": "Physical strength or muscle",
             "sound": "BRAWN"
           },
           {
@@ -1253,8 +1253,8 @@
             "sound": "T"
           },
           {
-            "type": "big",
-            "content": "A",
+            "type": "text",
+            "content": "The first letter of the alphabet",
             "sound": "AH"
           },
           {
@@ -1293,8 +1293,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "MY",
+            "type": "text",
+            "content": "Belonging to me",
             "sound": "MY"
           },
           {
@@ -1303,8 +1303,8 @@
             "sound": "LEE"
           },
           {
-            "type": "big",
-            "content": "SIGH",
+            "type": "text",
+            "content": "To exhale slowly while showing disappointment",
             "sound": "SIGH"
           },
           {
@@ -1347,13 +1347,13 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "HAIR",
+            "type": "text",
+            "content": "What grows on your head",
             "sound": "HAIR"
           },
           {
-            "type": "big",
-            "content": "E",
+            "type": "text",
+            "content": "The letter after D",
             "sound": "EE"
           },
           {
@@ -1403,8 +1403,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "MUST",
+            "type": "text",
+            "content": "Essential or required, as in \"a ___-see movie\"",
             "sound": "MUST"
           },
           {
@@ -1448,8 +1448,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "JUST",
+            "type": "text",
+            "content": "Only, merely, as in \"___ kidding\"",
             "sound": "JUST"
           },
           {
@@ -1507,8 +1507,8 @@
             "sound": "SHARE"
           },
           {
-            "type": "big",
-            "content": "LOCK",
+            "type": "text",
+            "content": "A device that secures a door",
             "sound": "LOCK"
           },
           {
@@ -1608,8 +1608,8 @@
             "sound": "T"
           },
           {
-            "type": "big",
-            "content": "AIL",
+            "type": "text",
+            "content": "To be sick or unwell, as in \"what ___s you\"",
             "sound": "AIL"
           },
           {
@@ -1618,8 +1618,8 @@
             "sound": "OR"
           },
           {
-            "type": "big",
-            "content": "SWIFT",
+            "type": "text",
+            "content": "Fast-moving, quick",
             "sound": "SWIFT"
           }
         ],
@@ -1672,8 +1672,8 @@
             "sound": "TAN"
           },
           {
-            "type": "big",
-            "content": "NIC",
+            "type": "text",
+            "content": "Common nickname for Nicholas",
             "sound": "NIC"
           }
         ],
@@ -1758,8 +1758,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "E",
+            "type": "text",
+            "content": "The letter after D",
             "sound": "E"
           },
           {
@@ -1827,8 +1827,8 @@
             "sound": "OAR"
           },
           {
-            "type": "big",
-            "content": "EE",
+            "type": "text",
+            "content": "Sounds like the letter E",
             "sound": "EE"
           }
         ],
@@ -1878,8 +1878,8 @@
             "sound": "TER"
           },
           {
-            "type": "big",
-            "content": "SCOTCH",
+            "type": "text",
+            "content": "A type of whisky made in Scotland",
             "sound": "SCOTCH"
           }
         ],
@@ -1923,8 +1923,8 @@
             "sound": "EE"
           },
           {
-            "type": "big",
-            "content": "STY",
+            "type": "text",
+            "content": "A pigpen, or an inflamed bump on your eyelid",
             "sound": "STY"
           },
           {
@@ -1967,8 +1967,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "FIND",
+            "type": "text",
+            "content": "To locate something you've lost",
             "sound": "FIND"
           },
           {
@@ -1977,8 +1977,8 @@
             "sound": "ING"
           },
           {
-            "type": "big",
-            "content": "KNEE",
+            "type": "text",
+            "content": "The joint between your thigh and shin",
             "sound": "KNEE"
           },
           {
@@ -2028,8 +2028,8 @@
             "sound": "B"
           },
           {
-            "type": "big",
-            "content": "RAH",
+            "type": "text",
+            "content": "To shout loudly in support of a team",
             "sound": "RAH"
           },
           {
@@ -2078,8 +2078,8 @@
             "sound": "K"
           },
           {
-            "type": "big",
-            "content": "IT",
+            "type": "text",
+            "content": "Pronoun for an object, not a person",
             "sound": "IT"
           },
           {
@@ -2132,13 +2132,13 @@
             "sound": "S"
           },
           {
-            "type": "big",
-            "content": "A",
+            "type": "text",
+            "content": "A sailor's word for yes, as in \"___, captain\"",
             "sound": "AY"
           },
           {
-            "type": "big",
-            "content": "J",
+            "type": "text",
+            "content": "The letter after I",
             "sound": "J"
           }
         ],
@@ -2178,8 +2178,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "PAN",
+            "type": "text",
+            "content": "A metal container used for frying food",
             "sound": "PAN"
           },
           {
@@ -2223,8 +2223,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "BREW",
+            "type": "text",
+            "content": "To make coffee or beer",
             "sound": "BREW"
           },
           {
@@ -2277,8 +2277,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "BRAKE",
+            "type": "text",
+            "content": "The pedal you press to stop a car",
             "sound": "BRAKE"
           },
           {
@@ -2388,13 +2388,13 @@
             "sound": "M"
           },
           {
-            "type": "big",
-            "content": "A",
+            "type": "text",
+            "content": "Open vowel sound, as in \"father\"",
             "sound": "AH"
           },
           {
-            "type": "big",
-            "content": "LOAN",
+            "type": "text",
+            "content": "Money that's borrowed and must be repaid",
             "sound": "LOAN"
           }
         ],
@@ -2447,8 +2447,8 @@
             "sound": "EYE"
           },
           {
-            "type": "big",
-            "content": "S",
+            "type": "text",
+            "content": "The letter after R",
             "sound": "S"
           }
         ],
@@ -2498,8 +2498,8 @@
             "sound": "K"
           },
           {
-            "type": "big",
-            "content": "IE",
+            "type": "text",
+            "content": "Sounds like the letter E",
             "sound": "EE"
           }
         ],
@@ -2543,8 +2543,8 @@
             "sound": "EYE"
           },
           {
-            "type": "big",
-            "content": "T",
+            "type": "text",
+            "content": "The letter after S",
             "sound": "T"
           },
           {
@@ -2587,8 +2587,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "STRANGE",
+            "type": "text",
+            "content": "Unusual or weird",
             "sound": "STRANGE"
           },
           {
@@ -2602,8 +2602,8 @@
             "sound": "THING"
           },
           {
-            "type": "big",
-            "content": "S",
+            "type": "text",
+            "content": "The letter after R",
             "sound": "S"
           }
         ],
@@ -2648,8 +2648,8 @@
             "sound": "F"
           },
           {
-            "type": "big",
-            "content": "IRE",
+            "type": "text",
+            "content": "Intense anger or fury",
             "sound": "IRE"
           },
           {
@@ -2693,13 +2693,13 @@
             "sound": "EL"
           },
           {
-            "type": "big",
-            "content": "T",
+            "type": "text",
+            "content": "The letter after S",
             "sound": "T"
           },
           {
-            "type": "big",
-            "content": "ON",
+            "type": "text",
+            "content": "Powered on, opposite of \"off\"",
             "sound": "ON"
           },
           {
@@ -2752,8 +2752,8 @@
             "sound": "EYE"
           },
           {
-            "type": "big",
-            "content": "N",
+            "type": "text",
+            "content": "The letter after M",
             "sound": "N"
           },
           {
@@ -2808,8 +2808,8 @@
             "sound": "ET"
           },
           {
-            "type": "big",
-            "content": "IE",
+            "type": "text",
+            "content": "Sounds like the letter E",
             "sound": "EE"
           }
         ],
@@ -2843,8 +2843,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "FRED",
+            "type": "text",
+            "content": "A common man's name, like Fred Flintstone",
             "sound": "FRED"
           },
           {
@@ -2858,8 +2858,8 @@
             "sound": "MURK"
           },
           {
-            "type": "big",
-            "content": "YOUR",
+            "type": "text",
+            "content": "Belonging to you",
             "sound": "YOUR"
           }
         ],
@@ -2902,8 +2902,8 @@
             "sound": "THUH"
           },
           {
-            "type": "big",
-            "content": "SIM",
+            "type": "text",
+            "content": "Short for \"simulation\", as in a phone ___ card",
             "sound": "SIM"
           },
           {
@@ -2912,8 +2912,8 @@
             "sound": "SUN"
           },
           {
-            "type": "big",
-            "content": "S",
+            "type": "text",
+            "content": "The letter after R",
             "sound": "S"
           }
         ],
@@ -2958,8 +2958,8 @@
             "sound": "YOU"
           },
           {
-            "type": "big",
-            "content": "KNEE",
+            "type": "text",
+            "content": "Joint between your thigh and shin",
             "sound": "KNEE"
           },
           {
@@ -3013,8 +3013,8 @@
             "sound": "WON"
           },
           {
-            "type": "big",
-            "content": "DER",
+            "type": "text",
+            "content": "Rhymes with \"blur\"",
             "sound": "DER"
           }
         ],
@@ -3057,13 +3057,13 @@
             "sound": "MOD"
           },
           {
-            "type": "big",
-            "content": "ERN",
+            "type": "text",
+            "content": "A sea eagle, also spelled \"erne\"",
             "sound": "ERN"
           },
           {
-            "type": "big",
-            "content": "FAM",
+            "type": "text",
+            "content": "Informal short word for \"family\"",
             "sound": "FAM"
           },
           {
@@ -3163,13 +3163,13 @@
             "sound": "CHILI"
           },
           {
-            "type": "big",
-            "content": "LAH",
+            "type": "text",
+            "content": "The sixth note in do-re-mi-fa-so-la",
             "sound": "LAH"
           },
           {
-            "type": "big",
-            "content": "DUH",
+            "type": "text",
+            "content": "Casual word meaning \"obviously\"",
             "sound": "DUH"
           }
         ],
@@ -3217,13 +3217,13 @@
             "sound": "T"
           },
           {
-            "type": "big",
-            "content": "A",
+            "type": "text",
+            "content": "Open vowel sound, as in \"father\"",
             "sound": "AH"
           },
           {
-            "type": "big",
-            "content": "R",
+            "type": "text",
+            "content": "The letter after Q",
             "sound": "R"
           }
         ],
@@ -3268,8 +3268,8 @@
             "sound": "Z"
           },
           {
-            "type": "big",
-            "content": "EE",
+            "type": "text",
+            "content": "Sounds like the letter E",
             "sound": "EE"
           },
           {
@@ -3313,8 +3313,8 @@
             "sound": "EM"
           },
           {
-            "type": "big",
-            "content": "PAH",
+            "type": "text",
+            "content": "Informal word for father",
             "sound": "PAH"
           },
           {
@@ -3323,8 +3323,8 @@
             "sound": "NAH"
           },
           {
-            "type": "big",
-            "content": "DUH",
+            "type": "text",
+            "content": "Casual word meaning \"obviously\"",
             "sound": "DUH"
           }
         ],
@@ -3367,8 +3367,8 @@
             "sound": "GLAD"
           },
           {
-            "type": "big",
-            "content": "EE",
+            "type": "text",
+            "content": "Sounds like the letter E",
             "sound": "EE"
           },
           {
@@ -3428,8 +3428,8 @@
             "sound": "ALL"
           },
           {
-            "type": "big",
-            "content": "NUT",
+            "type": "text",
+            "content": "Squirrels bury these to eat later",
             "sound": "NUT"
           }
         ],
@@ -3463,13 +3463,13 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "YELL",
+            "type": "text",
+            "content": "To shout loudly",
             "sound": "YELL"
           },
           {
-            "type": "big",
-            "content": "OH",
+            "type": "text",
+            "content": "To owe money, as in you ___ me",
             "sound": "OH"
           },
           {
@@ -3532,8 +3532,8 @@
             "sound": "AR"
           },
           {
-            "type": "big",
-            "content": "T",
+            "type": "text",
+            "content": "The letter after S",
             "sound": "T"
           }
         ],
@@ -3583,8 +3583,8 @@
             "sound": "UMP"
           },
           {
-            "type": "big",
-            "content": "KIN",
+            "type": "text",
+            "content": "Your family members, as in \"next of ___\"",
             "sound": "KIN"
           }
         ],
@@ -3628,13 +3628,13 @@
             "sound": "M"
           },
           {
-            "type": "big",
-            "content": "S",
+            "type": "text",
+            "content": "The letter after R",
             "sound": "S"
           },
           {
-            "type": "big",
-            "content": "SQUARE",
+            "type": "text",
+            "content": "A shape with four equal sides",
             "sound": "SQUARE"
           }
         ],
@@ -3677,13 +3677,13 @@
             "sound": "MOW"
           },
           {
-            "type": "big",
-            "content": "AH",
+            "type": "text",
+            "content": "Open vowel sound, as in \"father\"",
             "sound": "AH"
           },
           {
-            "type": "big",
-            "content": "NAH",
+            "type": "text",
+            "content": "Casual word for no",
             "sound": "NAH"
           },
           {
@@ -3733,8 +3733,8 @@
             "sound": "N"
           },
           {
-            "type": "big",
-            "content": "AP",
+            "type": "text",
+            "content": "Short slang for a phone application",
             "sound": "AP"
           },
           {
@@ -3773,13 +3773,13 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "SENT",
+            "type": "text",
+            "content": "Past tense of \"send\"",
             "sound": "SENT"
           },
           {
-            "type": "big",
-            "content": "RUL",
+            "type": "text",
+            "content": "Rhymes with \"school\"",
             "sound": "RUL"
           },
           {
@@ -3827,8 +3827,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "E",
+            "type": "text",
+            "content": "Sounds like the letter E",
             "sound": "EE"
           },
           {
@@ -3883,8 +3883,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "MIN",
+            "type": "text",
+            "content": "Common abbreviation for \"minute\"",
             "sound": "MIN"
           },
           {
@@ -3938,13 +3938,13 @@
             "sound": "A"
           },
           {
-            "type": "big",
-            "content": "LEE",
+            "type": "text",
+            "content": "Informal nickname for someone named Leon",
             "sound": "LEE"
           },
           {
-            "type": "big",
-            "content": "SAW",
+            "type": "text",
+            "content": "Past tense of \"see\"",
             "sound": "SAW"
           }
         ],
@@ -3987,8 +3987,8 @@
             "sound": "ZOO"
           },
           {
-            "type": "big",
-            "content": "TOE",
+            "type": "text",
+            "content": "A digit on your foot, unlike a finger",
             "sound": "TOE"
           },
           {
@@ -4038,8 +4038,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "AIR",
+            "type": "text",
+            "content": "The gas you breathe to stay alive",
             "sound": "AIR"
           },
           {
@@ -4093,13 +4093,13 @@
             "sound": "AN"
           },
           {
-            "type": "big",
-            "content": "G",
+            "type": "text",
+            "content": "The letter after F",
             "sound": "G"
           },
           {
-            "type": "big",
-            "content": "O",
+            "type": "text",
+            "content": "To owe money, as in you ___ me",
             "sound": "OH"
           }
         ],
@@ -4147,8 +4147,8 @@
             "sound": "IH"
           },
           {
-            "type": "big",
-            "content": "T",
+            "type": "text",
+            "content": "The letter after S",
             "sound": "T"
           },
           {
@@ -4198,8 +4198,8 @@
             "sound": "D"
           },
           {
-            "type": "big",
-            "content": "OLL",
+            "type": "text",
+            "content": "Rhymes with \"tall\"",
             "sound": "OLL"
           },
           {
@@ -4238,8 +4238,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "GRATE",
+            "type": "text",
+            "content": "A metal grid, or to shred cheese",
             "sound": "GRATE"
           },
           {
@@ -4253,13 +4253,13 @@
             "sound": "OF"
           },
           {
-            "type": "big",
-            "content": "CHIN",
+            "type": "text",
+            "content": "The part of your face below your mouth",
             "sound": "CHIN"
           },
           {
-            "type": "big",
-            "content": "UH",
+            "type": "text",
+            "content": "Short vowel sound of the letter U",
             "sound": "UH"
           }
         ],
@@ -4301,8 +4301,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "W",
+            "type": "text",
+            "content": "The letter after V",
             "sound": "W"
           },
           {
@@ -4357,8 +4357,8 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "OH",
+            "type": "text",
+            "content": "To owe money, as in you ___ me",
             "sound": "OH"
           },
           {
@@ -4412,8 +4412,8 @@
             "sound": "EAR"
           },
           {
-            "type": "big",
-            "content": "A",
+            "type": "text",
+            "content": "A common vowel sound, as in \"about\"",
             "sound": "A"
           },
           {
@@ -4466,13 +4466,13 @@
             "sound": "EVE"
           },
           {
-            "type": "big",
-            "content": "CARE",
+            "type": "text",
+            "content": "To feel concern for someone",
             "sound": "CARE"
           },
           {
-            "type": "big",
-            "content": "L",
+            "type": "text",
+            "content": "The letter after K",
             "sound": "L"
           }
         ],
@@ -4517,8 +4517,8 @@
             "sound": "KER"
           },
           {
-            "type": "big",
-            "content": "M",
+            "type": "text",
+            "content": "The letter after L",
             "sound": "M"
           },
           {
@@ -4572,8 +4572,8 @@
             "sound": "HEN"
           },
           {
-            "type": "big",
-            "content": "NGE",
+            "type": "text",
+            "content": "Rhymes with \"hinge\"",
             "sound": "NJ"
           }
         ],
@@ -4621,13 +4621,13 @@
             "sound": "IN"
           },
           {
-            "type": "big",
-            "content": "HE",
+            "type": "text",
+            "content": "Pronoun for a male",
             "sound": "HE"
           },
           {
-            "type": "big",
-            "content": "ART",
+            "type": "text",
+            "content": "Creative work like paintings or sculpture",
             "sound": "ART"
           }
         ],
