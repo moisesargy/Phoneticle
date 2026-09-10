@@ -6209,6 +6209,1574 @@
           }
         ]
       }
+    },
+    {
+      "easy": {
+        "answer": "Cupcake",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "C",
+            "sound": "C"
+          },
+          {
+            "type": "text",
+            "content": "Opposite of down",
+            "sound": "UP"
+          },
+          {
+            "type": "emoji",
+            "content": "🎂",
+            "sound": "CAKE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small, single-serving dessert often topped with frosting."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Blueberry",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🔵",
+            "sound": "BLUE"
+          },
+          {
+            "type": "big",
+            "content": "B",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"tea\"",
+            "sound": "EE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small, round, deep-blue fruit that grows in clusters."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Skyscraper",
+        "category": "Landmark",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The consonant blend at the start of \"stop\"",
+            "sound": "SK"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "text",
+            "content": "To rub roughly against a rough surface",
+            "sound": "SCRAPE"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's an extremely tall building found in big cities."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Pancake",
+        "category": "Food",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "P",
+            "sound": "P"
+          },
+          {
+            "type": "text",
+            "content": "Indefinite article used before a vowel sound",
+            "sound": "AN"
+          },
+          {
+            "type": "emoji",
+            "content": "🎂",
+            "sound": "CAKE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a flat, round breakfast food often stacked and topped with syrup."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Strawberry",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The consonant blend at the start of \"stop\"",
+            "sound": "ST"
+          },
+          {
+            "type": "text",
+            "content": "Uncooked, or unrefined",
+            "sound": "RAW"
+          },
+          {
+            "type": "big",
+            "content": "B",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"very\"",
+            "sound": "ERRY"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small red fruit covered in tiny seeds."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Rollercoaster",
+        "category": "Object",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "R",
+            "sound": "R"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"pole\"",
+            "sound": "OLE"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          },
+          {
+            "type": "text",
+            "content": "To glide along without much effort",
+            "sound": "COAST"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"blur\"",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Reveal clue 5 sound",
+            "ci": 4
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a thrilling amusement-park ride full of loops and drops."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Rainbow",
+        "category": "Nature",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A narrow beam of light",
+            "sound": "RAY"
+          },
+          {
+            "type": "big",
+            "content": "N",
+            "sound": "N"
+          },
+          {
+            "type": "emoji",
+            "content": "🎀",
+            "sound": "BOW"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a colorful arc that appears in the sky after rain."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Chipmunk",
+        "category": "Animal",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The consonant sound at the start of \"cheese\"",
+            "sound": "CH"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"zip\"",
+            "sound": "IP"
+          },
+          {
+            "type": "big",
+            "content": "M",
+            "sound": "M"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"honk\"",
+            "sound": "ONK"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small, striped rodent that stuffs its cheeks with food."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Thunderstorm",
+        "category": "Nature",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The consonant sound at the start of \"think\"",
+            "sound": "TH"
+          },
+          {
+            "type": "text",
+            "content": "Prefix meaning \"not\"",
+            "sound": "UN"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"blur\"",
+            "sound": "DER"
+          },
+          {
+            "type": "emoji",
+            "content": "⛈️",
+            "sound": "STORM"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a storm with loud booms and flashes of light in the sky."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Butterfly",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "B",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "To speak, or complete and total",
+            "sound": "UTTER"
+          },
+          {
+            "type": "emoji",
+            "content": "🪰",
+            "sound": "FLY"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a winged insect that starts life as a caterpillar."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Peacock",
+        "category": "Animal",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "P",
+            "sound": "P"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"tea\"",
+            "sound": "EA"
+          },
+          {
+            "type": "text",
+            "content": "The letter after B",
+            "sound": "C"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"sock\"",
+            "sound": "OCK"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a bird famous for its huge, colorful tail feathers."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Hamburger",
+        "category": "Food",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "H",
+            "sound": "H"
+          },
+          {
+            "type": "text",
+            "content": "To be, as in \"I ___ here\"",
+            "sound": "AM"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"berg\", as in iceberg",
+            "sound": "BURG"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a beef patty served in a round bun."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Beehive",
+        "category": "Nature",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🐝",
+            "sound": "BEE"
+          },
+          {
+            "type": "text",
+            "content": "Elevated, tall",
+            "sound": "HIGH"
+          },
+          {
+            "type": "big",
+            "content": "V",
+            "sound": "V"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the structure where a colony of bees lives and makes honey."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Volleyball",
+        "category": "Sport",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "V",
+            "sound": "V"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"dole\"",
+            "sound": "OL"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"tea\"",
+            "sound": "EE"
+          },
+          {
+            "type": "emoji",
+            "content": "🏐",
+            "sound": "BALL"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a sport where players hit a ball over a net."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Crocodile",
+        "category": "Animal",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "C",
+            "sound": "C"
+          },
+          {
+            "type": "text",
+            "content": "A stone, or a music genre",
+            "sound": "ROCK"
+          },
+          {
+            "type": "text",
+            "content": "The letter after N",
+            "sound": "O"
+          },
+          {
+            "type": "text",
+            "content": "The face of a clock or gauge",
+            "sound": "DIAL"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a large reptile with powerful jaws that lurks in rivers."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Bluebird",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "B",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "Informal British word for a bathroom",
+            "sound": "LOO"
+          },
+          {
+            "type": "emoji",
+            "content": "🐦",
+            "sound": "BIRD"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small songbird with vivid blue feathers."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Popcorn",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "P",
+            "sound": "P"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"top\"",
+            "sound": "OP"
+          },
+          {
+            "type": "text",
+            "content": "The letter after B",
+            "sound": "C"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"born\"",
+            "sound": "ORN"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a fluffy snack made by heating kernels until they burst."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Microscope",
+        "category": "Object",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "M",
+            "sound": "M"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"grow\"",
+            "sound": "CRO"
+          },
+          {
+            "type": "emoji",
+            "content": "🔬",
+            "sound": "SCOPE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a scientific instrument used to view extremely tiny things."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Redwood",
+        "category": "Nature",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🔴",
+            "sound": "RED"
+          },
+          {
+            "type": "big",
+            "content": "W",
+            "sound": "W"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"good\"",
+            "sound": "OOD"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a towering evergreen tree found along the California coast."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Grasshopper",
+        "category": "Animal",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"class\"",
+            "sound": "RASS"
+          },
+          {
+            "type": "text",
+            "content": "To jump on one foot",
+            "sound": "HOP"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a jumping insect with long back legs, common in fields."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Woodpecker",
+        "category": "Animal",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "W",
+            "sound": "W"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"good\"",
+            "sound": "OOD"
+          },
+          {
+            "type": "text",
+            "content": "To strike repeatedly with a beak",
+            "sound": "PECK"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a bird that drums its beak against tree trunks."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Blackbird",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "B",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "To be without something needed",
+            "sound": "LACK"
+          },
+          {
+            "type": "emoji",
+            "content": "🐦",
+            "sound": "BIRD"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a common dark-feathered songbird."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Toothbrush",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"truth\"",
+            "sound": "OOTH"
+          },
+          {
+            "type": "text",
+            "content": "Consonant blend at the start of \"brown\"",
+            "sound": "BR"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"gush\"",
+            "sound": "USH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small brush used to clean your teeth."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Dandelion",
+        "category": "Nature",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "D",
+            "sound": "D"
+          },
+          {
+            "type": "text",
+            "content": "Indefinite article used before a vowel sound",
+            "sound": "AN"
+          },
+          {
+            "type": "text",
+            "content": "A shop selling prepared foods",
+            "sound": "DELI"
+          },
+          {
+            "type": "text",
+            "content": "Powered on, opposite of \"off\"",
+            "sound": "ON"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a yellow weed that turns into a puffy seed ball."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Goldfish",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
+            "type": "text",
+            "content": "Not new; aged",
+            "sound": "OLD"
+          },
+          {
+            "type": "emoji",
+            "content": "🐟",
+            "sound": "FISH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small orange fish commonly kept as a pet."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Handshake",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "H",
+            "sound": "H"
+          },
+          {
+            "type": "text",
+            "content": "Conjunction joining two things together",
+            "sound": "AND"
+          },
+          {
+            "type": "text",
+            "content": "The consonant sound that starts \"shop\"",
+            "sound": "SH"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"cake\"",
+            "sound": "AKE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a greeting where two people grip and shake hands."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Chimpanzee",
+        "category": "Animal",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The consonant sound at the start of \"chip\"",
+            "sound": "CH"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"him\", without the h",
+            "sound": "IM"
+          },
+          {
+            "type": "emoji",
+            "content": "🥘",
+            "sound": "PAN"
+          },
+          {
+            "type": "big",
+            "content": "Z",
+            "sound": "Z"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"tea\"",
+            "sound": "EE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Reveal clue 5 sound",
+            "ci": 4
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a highly intelligent great ape found in African forests."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Catfish",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "C",
+            "sound": "C"
+          },
+          {
+            "type": "text",
+            "content": "Preposition indicating location",
+            "sound": "AT"
+          },
+          {
+            "type": "emoji",
+            "content": "🐟",
+            "sound": "FISH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a whiskered fish that lurks near riverbeds."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Jellybean",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "J",
+            "sound": "J"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"Kelly\"",
+            "sound": "ELLY"
+          },
+          {
+            "type": "text",
+            "content": "The letter after A",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"lean\"",
+            "sound": "EAN"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small, colorful candy shaped like a bean."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Elephant",
+        "category": "Animal",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "L",
+            "sound": "EL"
+          },
+          {
+            "type": "text",
+            "content": "The letter after T",
+            "sound": "UH"
+          },
+          {
+            "type": "text",
+            "content": "Enjoyable, entertaining",
+            "sound": "FUN"
+          },
+          {
+            "type": "text",
+            "content": "The letter after S",
+            "sound": "T"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the largest land animal, known for its trunk and big ears."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
     }
   ]
 }
