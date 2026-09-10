@@ -1,5 +1,58 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T19:27:15.967Z",
-  "puzzle": null
+  "generatedAt": "2026-09-10T19:34:32.174Z",
+  "puzzle": {
+    "answer": "Kendrick Lamar",
+    "category": "Celebrity",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "The male version of Barbie",
+        "sound": "KEN"
+      },
+      {
+        "type": "text",
+        "content": "Drake's real first and last name",
+        "sound": "DRAKE"
+      },
+      {
+        "type": "emoji",
+        "content": "🐑",
+        "sound": "LAMB"
+      },
+      {
+        "type": "text",
+        "content": "Automatic rifle, for short",
+        "sound": "AR"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's a Pulitzer Prize-winning rapper from Compton."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  }
 }
