@@ -267,8 +267,8 @@
             "sound": "TOM"
           },
           {
-            "type": "big",
-            "content": "CR",
+            "type": "text",
+            "content": "The consonant blend at the start of \"crab\"",
             "sound": "CR"
           },
           {
@@ -277,8 +277,8 @@
             "sound": "YOU"
           },
           {
-            "type": "text",
-            "content": "The last letter of the alphabet",
+            "type": "big",
+            "content": "Z",
             "sound": "Z"
           }
         ],
@@ -369,7 +369,7 @@
           },
           {
             "type": "big",
-            "content": "OH",
+            "content": "O",
             "sound": "OH"
           },
           {
@@ -732,8 +732,8 @@
             "sound": "ROB"
           },
           {
-            "type": "big",
-            "content": "ER",
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
             "sound": "ER"
           },
           {
@@ -882,8 +882,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "EM",
+            "type": "text",
+            "content": "The letter after L",
             "sound": "EM"
           },
           {
@@ -998,8 +998,8 @@
             "sound": "TOW"
           },
           {
-            "type": "big",
-            "content": "ER",
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
             "sound": "ER"
           }
         ],
@@ -1037,8 +1037,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "KRIS",
+            "type": "text",
+            "content": "Rhymes with \"Swiss\"",
             "sound": "KRIS"
           },
           {
@@ -1197,8 +1197,8 @@
             "sound": "LEE"
           },
           {
-            "type": "text",
-            "content": "Physical strength or muscle",
+            "type": "struck",
+            "content": "WEAK",
             "sound": "BRAWN"
           },
           {
@@ -1207,8 +1207,8 @@
             "sound": "JAY"
           },
           {
-            "type": "big",
-            "content": "MS",
+            "type": "text",
+            "content": "A title used before a woman's name",
             "sound": "MS"
           }
         ],
@@ -1303,13 +1303,13 @@
             "sound": "LEE"
           },
           {
-            "type": "text",
-            "content": "To exhale slowly while showing disappointment",
+            "type": "emoji",
+            "content": "😮‍💨",
             "sound": "SIGH"
           },
           {
-            "type": "big",
-            "content": "RUS",
+            "type": "text",
+            "content": "Rhymes with \"plus\"",
             "sound": "RUS"
           }
         ],
@@ -1352,8 +1352,8 @@
             "sound": "HAIR"
           },
           {
-            "type": "text",
-            "content": "The letter after D",
+            "type": "big",
+            "content": "E",
             "sound": "EE"
           },
           {
@@ -1362,8 +1362,8 @@
             "sound": "POT"
           },
           {
-            "type": "big",
-            "content": "ER",
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
             "sound": "ER"
           }
         ],
@@ -1463,8 +1463,8 @@
             "sound": "BEE"
           },
           {
-            "type": "big",
-            "content": "BER",
+            "type": "text",
+            "content": "Rhymes with \"purr\"",
             "sound": "BER"
           }
         ],
@@ -1563,8 +1563,8 @@
             "sound": "HAM"
           },
           {
-            "type": "big",
-            "content": "ST",
+            "type": "text",
+            "content": "The consonant blend at the start of \"stop\"",
             "sound": "ST"
           },
           {
@@ -1723,8 +1723,8 @@
             "sound": "FLOW"
           },
           {
-            "type": "big",
-            "content": "ER",
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
             "sound": "ER"
           }
         ],
@@ -1817,8 +1817,8 @@
             "sound": "TOY"
           },
           {
-            "type": "big",
-            "content": "ST",
+            "type": "text",
+            "content": "The consonant blend at the start of \"stop\"",
             "sound": "ST"
           },
           {
@@ -1873,13 +1873,13 @@
             "sound": "BUT"
           },
           {
-            "type": "big",
-            "content": "TER",
+            "type": "text",
+            "content": "Rhymes with \"stir\"",
             "sound": "TER"
           },
           {
-            "type": "text",
-            "content": "A type of whisky made in Scotland",
+            "type": "emoji",
+            "content": "🥃",
             "sound": "SCOTCH"
           }
         ],
@@ -1967,13 +1967,13 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "text",
-            "content": "To locate something you've lost",
+            "type": "struck",
+            "content": "LOSE",
             "sound": "FIND"
           },
           {
-            "type": "big",
-            "content": "ING",
+            "type": "text",
+            "content": "Common suffix added to verbs, as in \"running\"",
             "sound": "ING"
           },
           {
@@ -2338,8 +2338,8 @@
             "sound": "PEN"
           },
           {
-            "type": "big",
-            "content": "GU",
+            "type": "text",
+            "content": "A sticky, gooey substance",
             "sound": "GU"
           },
           {
@@ -2432,8 +2432,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "THE",
+            "type": "text",
+            "content": "The definite article, as in \"___ dog\"",
             "sound": "THUH"
           },
           {
@@ -2592,8 +2592,8 @@
             "sound": "STRANGE"
           },
           {
-            "type": "big",
-            "content": "ER",
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
             "sound": "ER"
           },
           {
@@ -2602,8 +2602,8 @@
             "sound": "THING"
           },
           {
-            "type": "text",
-            "content": "The letter after R",
+            "type": "big",
+            "content": "S",
             "sound": "S"
           }
         ],
@@ -2897,8 +2897,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "THE",
+            "type": "text",
+            "content": "The definite article, as in \"___ dog\"",
             "sound": "THUH"
           },
           {
@@ -3052,8 +3052,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "MOD",
+            "type": "text",
+            "content": "Short for \"modification\", as in a video game ___",
             "sound": "MOD"
           },
           {
@@ -3062,8 +3062,8 @@
             "sound": "ERN"
           },
           {
-            "type": "text",
-            "content": "Informal short word for \"family\"",
+            "type": "emoji",
+            "content": "👪",
             "sound": "FAM"
           },
           {
@@ -3154,7 +3154,7 @@
         "clues": [
           {
             "type": "big",
-            "content": "EN",
+            "content": "N",
             "sound": "EN"
           },
           {
@@ -3309,7 +3309,7 @@
         "clues": [
           {
             "type": "big",
-            "content": "EM",
+            "content": "M",
             "sound": "EM"
           },
           {
@@ -3468,13 +3468,13 @@
             "sound": "YELL"
           },
           {
-            "type": "text",
-            "content": "To owe money, as in you ___ me",
+            "type": "big",
+            "content": "O",
             "sound": "OH"
           },
           {
-            "type": "big",
-            "content": "ST",
+            "type": "text",
+            "content": "The consonant blend at the start of \"stop\"",
             "sound": "ST"
           },
           {
@@ -3527,8 +3527,8 @@
             "sound": "HE"
           },
           {
-            "type": "big",
-            "content": "AR",
+            "type": "text",
+            "content": "The letter after Q",
             "sound": "AR"
           },
           {
@@ -3997,8 +3997,8 @@
             "sound": "PEA"
           },
           {
-            "type": "big",
-            "content": "UH",
+            "type": "text",
+            "content": "The letter after T",
             "sound": "UH"
           }
         ],
@@ -4248,8 +4248,8 @@
             "sound": "WALL"
           },
           {
-            "type": "big",
-            "content": "OF",
+            "type": "text",
+            "content": "Belonging to, or made from, as in \"a cup ___ tea\"",
             "sound": "OF"
           },
           {
@@ -4258,8 +4258,8 @@
             "sound": "CHIN"
           },
           {
-            "type": "text",
-            "content": "The letter after T",
+            "type": "big",
+            "content": "U",
             "sound": "UH"
           }
         ],
@@ -4456,8 +4456,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "ST",
+            "type": "text",
+            "content": "The consonant blend at the start of \"stop\"",
             "sound": "ST"
           },
           {
@@ -4471,8 +4471,8 @@
             "sound": "CARE"
           },
           {
-            "type": "text",
-            "content": "The letter after K",
+            "type": "big",
+            "content": "L",
             "sound": "L"
           }
         ],
@@ -4512,13 +4512,13 @@
         "difficulty": "easy",
         "clues": [
           {
-            "type": "big",
-            "content": "KER",
+            "type": "text",
+            "content": "Rhymes with \"her\"",
             "sound": "KER"
           },
           {
-            "type": "text",
-            "content": "The letter after L",
+            "type": "big",
+            "content": "M",
             "sound": "M"
           },
           {
@@ -4557,8 +4557,8 @@
         "difficulty": "medium",
         "clues": [
           {
-            "type": "big",
-            "content": "ST",
+            "type": "text",
+            "content": "The consonant blend at the start of \"stop\"",
             "sound": "ST"
           },
           {
@@ -4611,8 +4611,8 @@
         "difficulty": "hard",
         "clues": [
           {
-            "type": "big",
-            "content": "KEV",
+            "type": "text",
+            "content": "Rhymes with \"rev\"",
             "sound": "KEV"
           },
           {
@@ -4626,8 +4626,8 @@
             "sound": "HE"
           },
           {
-            "type": "text",
-            "content": "Creative work like paintings or sculpture",
+            "type": "emoji",
+            "content": "🎨",
             "sound": "ART"
           }
         ],
