@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-09",
-  "generatedAt": "2026-09-09T09:16:56.227Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T09:15:28.240Z",
   "easy": {
-    "answer": "Panther",
+    "answer": "Penguin",
     "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "A metal container used for frying food",
-        "sound": "PAN"
-      },
-      {
-        "type": "text",
-        "content": "Definite article, as in \"to the ___ end\"",
-        "sound": "THE"
+        "type": "emoji",
+        "content": "🖊️",
+        "sound": "PEN"
       },
       {
         "type": "big",
-        "content": "R",
-        "sound": "R"
+        "content": "GU",
+        "sound": "GU"
+      },
+      {
+        "type": "text",
+        "content": "Preposition meaning inside",
+        "sound": "IN"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a large, sleek black wildcat."
+        "text": "It's a flightless bird that waddles on ice and swims well."
       },
       {
         "label": "Reveal all sounds",
@@ -47,28 +47,82 @@
     ]
   },
   "medium": {
-    "answer": "Bruno Mars",
+    "answer": "Post Malone",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To make coffee or beer",
-        "sound": "BREW"
-      },
-      {
-        "type": "struck",
-        "content": "YES",
-        "sound": "NO"
-      },
-      {
-        "type": "text",
-        "content": "A body of water surrounded by land, plural",
-        "sound": "MAR"
+        "content": "To share something online, or a mail delivery",
+        "sound": "POST"
       },
       {
         "type": "big",
-        "content": "S",
+        "content": "M",
+        "sound": "M"
+      },
+      {
+        "type": "text",
+        "content": "Open vowel sound, as in \"father\"",
+        "sound": "AH"
+      },
+      {
+        "type": "text",
+        "content": "Money that's borrowed and must be repaid",
+        "sound": "LOAN"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the face-tattooed singer known for blending rap and rock."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "The Office",
+    "category": "TV Show",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "big",
+        "content": "THE",
+        "sound": "THUH"
+      },
+      {
+        "type": "struck",
+        "content": "ON",
+        "sound": "OFF"
+      },
+      {
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
+      },
+      {
+        "type": "text",
+        "content": "The letter after R",
         "sound": "S"
       }
     ],
@@ -92,61 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the singer behind 'Uptown Funk' known for his retro style."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Breaking Bad",
-    "category": "TV Show",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "text",
-        "content": "The pedal you press to stop a car",
-        "sound": "BRAKE"
-      },
-      {
-        "type": "big",
-        "content": "K",
-        "sound": "K"
-      },
-      {
-        "type": "text",
-        "content": "Suffix added to verbs, like \"jumping\"",
-        "sound": "ING"
-      },
-      {
-        "type": "struck",
-        "content": "GOOD",
-        "sound": "BAD"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the show about a chemistry teacher who starts cooking meth."
+        "text": "It's the mockumentary sitcom set at a paper company in Scranton."
       },
       {
         "label": "Reveal all sounds",
