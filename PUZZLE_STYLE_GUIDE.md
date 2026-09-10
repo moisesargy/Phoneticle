@@ -85,3 +85,43 @@ When no emoji/struck/real-word clue fits a fragment:
   (single char), ≤1 text clue where feasible, ≤8 words per clue, no
   duplicate clues/answers, clue-count minimums met, 2+ clue types.
 - Verify JS/JSON syntax is still valid before committing.
+
+## Weekly Daily-archive top-up (recurring)
+
+A scheduled task runs every **Saturday morning** and adds **10 new
+days (30 puzzles: 10 easy + 10 medium + 10 hard)** to
+`puzzles-archive.json`. This keeps the archive's day count growing
+faster than the rotation consumes it (1 day/day = 7/week; 10/week
+added), so the "which day repeats when" cycle described in
+`activate-daily-puzzle.js` never actually has to wrap.
+
+Process for that run (or for any manual batch-authoring session):
+
+1. Read this whole file first.
+2. Use `tools/gen_helpers.js` to author 10 new `day()` objects (30
+   puzzles) as a batch script — see `tools/gen_helpers.js` for the
+   `pz`/`day`/`t`/`e`/`b`/`s` builder functions.
+3. **Manually read every single puzzle's clue sequence and confirm it
+   phonetically reconstructs the answer when spoken aloud in order.**
+   This is the step that actually catches real bugs — a redundant
+   clue that overlaps a chunk already covered by an earlier clue (e.g.
+   an emoji for "BLUE" plus a separate clue that also tries to
+   produce part of "blue") is a common mistake that no automated
+   check below can catch on its own.
+4. Run `node tools/validate_batch.js <yourBatch.js>` — this only
+   catches structural issues (duplicate answers/clues, clue-count
+   minimums, the single-letter big-clue cap, word-length cap, banned
+   clue patterns, type diversity). A clean run here is necessary but
+   NOT sufficient — step 3 still has to happen.
+5. Fix anything flagged, re-run steps 3-4 until clean.
+6. `git fetch`/merge first (the daily-activation cron may have pushed
+   same-day), then `node tools/merge_batch.js <yourBatch.js>`.
+7. Run the full-archive validation (same checks as step 4, but against
+   the whole `puzzles-archive.json`, not just the new batch) to catch
+   anything the merge could have disturbed.
+8. Commit and push.
+
+If a week's run is ever skipped or fails, nothing breaks immediately —
+`activate-daily-puzzle.js` just wraps to day 0 once the buffer runs
+out, same as it always has. The buffer built up week over week is the
+safety margin for exactly that scenario.
