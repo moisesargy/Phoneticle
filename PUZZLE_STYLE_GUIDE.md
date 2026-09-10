@@ -154,3 +154,19 @@ writing new Daily-archive content (the weekly top-up run included),
 skim the current entries in `author-puzzles-archive.json` if any
 exist, and lean toward matching that style where this document doesn't
 already dictate something specific.
+
+**Observed style notes** (update this list as more entries come in):
+
+- Comfortable stacking celebrity/pop-culture trivia across every clue
+  in a puzzle (e.g. "Kendrick Lamar" = male Barbie + Drake's real name
+  + a lamb emoji + "automatic rifle, for short") even when that means
+  every remaining clue is "text" type. The 2+ clue-type rule bent for
+  this puzzle only because a clean, non-forced emoji fit (🐑 for LAMB)
+  was available — the fix was "use the one that's obviously better,"
+  not "hit the type quota." Don't force a type-diversity fix that
+  waters down a clue just to satisfy the rule; ask first if no natural
+  fit exists, the way this one got resolved.
+- Willing to lean on layered, moderately obscure trivia (an NFL wide
+  receiver's first name, a rapper's legal name) rather than sticking
+  to widely-known facts — depth over accessibility, for this mode at
+  least.
