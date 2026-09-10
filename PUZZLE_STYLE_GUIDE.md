@@ -125,3 +125,32 @@ If a week's run is ever skipped or fails, nothing breaks immediately —
 `activate-daily-puzzle.js` just wraps to day 0 once the buffer runs
 out, same as it always has. The buffer built up week over week is the
 safety margin for exactly that scenario.
+
+## Author's Pick mode
+
+A third mode alongside Classic and Daily: one hand-authored puzzle a
+day, written by Phoneticle's creator (not generated). Data lives in
+`author-puzzles-archive.json` (same `{days, nextIndex}` rotation shape
+as the Daily archive, but each entry is a single puzzle object, not an
+easy/medium/hard set), activated daily into `author-puzzle.json` by
+`activate-author-puzzle.js` in the same GitHub Actions workflow as
+Daily Mode. If the archive is empty, activation writes a null puzzle
+and the site shows a "no puzzles yet" state rather than erroring.
+
+**How entries get added:** the creator describes a new puzzle in a
+chat session; whoever's assisting (Claude) encodes it into the
+correct format, validates it the same way as any other puzzle (see
+"Before shipping any puzzle-content change" above — still applies
+here even though there's no batch/rotation-buffer concern for a
+single entry), appends it to `author-puzzles-archive.json`, and
+commits. There's no in-app authoring form.
+
+**These entries are also a style reference.** Because they're written
+by the person who set every rule in this document, they're the
+clearest signal available for what "good" looks like beyond the
+written rules — which clue types get reached for, how terse the
+wording is, what kind of wordplay gets used for a given sound. Before
+writing new Daily-archive content (the weekly top-up run included),
+skim the current entries in `author-puzzles-archive.json` if any
+exist, and lean toward matching that style where this document doesn't
+already dictate something specific.
