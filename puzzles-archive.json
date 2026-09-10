@@ -4659,6 +4659,1556 @@
           }
         ]
       }
+    },
+    {
+      "easy": {
+        "answer": "Doghouse",
+        "category": "Object",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🐶",
+            "sound": "DOG"
+          },
+          {
+            "type": "text",
+            "content": "In what way, as in \"___ are you?\"",
+            "sound": "HOW"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a small outdoor shelter built for a pet."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Cantaloupe",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🥫",
+            "sound": "CAN"
+          },
+          {
+            "type": "text",
+            "content": "Informal British word for \"thank you\"",
+            "sound": "TA"
+          },
+          {
+            "type": "big",
+            "content": "L",
+            "sound": "L"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"hope\"",
+            "sound": "OPE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's an orange-fleshed melon with a rough, netted rind."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Firefighter",
+        "category": "Occupation",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "F",
+            "sound": "F"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "text",
+            "content": "To physically struggle against someone",
+            "sound": "FIGHT"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's someone whose job is putting out dangerous blazes."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Bathtub",
+        "category": "Object",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "B",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"math\"",
+            "sound": "ATH"
+          },
+          {
+            "type": "emoji",
+            "content": "🛁",
+            "sound": "TUB"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a large basin you fill with water to wash yourself."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Motorcycle",
+        "category": "Vehicle",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Informal short word for a moment",
+            "sound": "MO"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          },
+          {
+            "type": "text",
+            "content": "Conjunction offering a choice",
+            "sound": "OR"
+          },
+          {
+            "type": "text",
+            "content": "To exhale slowly showing disappointment",
+            "sound": "SIGH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a two-wheeled vehicle with an engine, popular for open-road rides."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Astronaut",
+        "category": "Occupation",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "In the role of, or equally",
+            "sound": "AS"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"grow\"",
+            "sound": "TRO"
+          },
+          {
+            "type": "text",
+            "content": "Casual word for no",
+            "sound": "NAW"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's someone trained to travel and work in outer space."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Toothpaste",
+        "category": "Object",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🦷",
+            "sound": "TOOTH"
+          },
+          {
+            "type": "text",
+            "content": "Speed of movement",
+            "sound": "PACE"
+          },
+          {
+            "type": "big",
+            "content": "T",
+            "sound": "T"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the minty gel you squeeze onto a toothbrush."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Waterfall",
+        "category": "Nature",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "W",
+            "sound": "W"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"later\"",
+            "sound": "ATER"
+          },
+          {
+            "type": "text",
+            "content": "The letter after E",
+            "sound": "F"
+          },
+          {
+            "type": "text",
+            "content": "Every one of them, the entire amount",
+            "sound": "ALL"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a place where a river drops suddenly over a cliff."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Grandmother",
+        "category": "Family",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
+            "type": "text",
+            "content": "Impressive or large in scale",
+            "sound": "RAND"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"duh\"",
+            "sound": "MUH"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"blur\"",
+            "sound": "THER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's the woman who is your parent's mother."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Seahorse",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"tea\"",
+            "sound": "EA"
+          },
+          {
+            "type": "emoji",
+            "content": "🐴",
+            "sound": "HORSE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a tiny fish shaped like the chess piece knight."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Sandcastle",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "Conjunction joining two things together",
+            "sound": "AND"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"class\"",
+            "sound": "CASS"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"dull\"",
+            "sound": "UL"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a beach structure built with wet sand and a bucket."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Pineapple",
+        "category": "Food",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "P",
+            "sound": "P"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "text",
+            "content": "The letter after M",
+            "sound": "N"
+          },
+          {
+            "type": "text",
+            "content": "A common fruit, or a tech company",
+            "sound": "APPLE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a spiky tropical fruit with sweet, juicy yellow flesh."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Starfish",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "⭐",
+            "sound": "STAR"
+          },
+          {
+            "type": "big",
+            "content": "F",
+            "sound": "F"
+          },
+          {
+            "type": "text",
+            "content": "Suffix meaning \"somewhat\", as in \"reddish\"",
+            "sound": "ISH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a spiny ocean creature shaped like its name."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Fireworks",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "F",
+            "sound": "F"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "text",
+            "content": "A job or task, or to function properly",
+            "sound": "WORK"
+          },
+          {
+            "type": "text",
+            "content": "The letter after R",
+            "sound": "S"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a colorful, loud display shot into the sky to celebrate."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Cheeseburger",
+        "category": "Food",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "🧀",
+            "sound": "CHEESE"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"fur\"",
+            "sound": "BUR"
+          },
+          {
+            "type": "big",
+            "content": "G",
+            "sound": "G"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a sandwich of ground beef topped with a melted dairy slice."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Snowball",
+        "category": "Object",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "At this moment, opposite of later",
+            "sound": "NOW"
+          },
+          {
+            "type": "emoji",
+            "content": "⚽",
+            "sound": "BALL"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a clump of packed snow, often thrown in a fight."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Snowman",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "At this moment, opposite of later",
+            "sound": "NOW"
+          },
+          {
+            "type": "text",
+            "content": "Informal word for mother",
+            "sound": "MA"
+          },
+          {
+            "type": "text",
+            "content": "The letter after M",
+            "sound": "N"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a chilly figure built from three stacked snowballs."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Submarine",
+        "category": "Vehicle",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"cub\"",
+            "sound": "UB"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"duh\"",
+            "sound": "MUH"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"green\"",
+            "sound": "REEN"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a vessel built to travel underwater for long stretches."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Sunrise",
+        "category": "Nature",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "☀️",
+            "sound": "SUN"
+          },
+          {
+            "type": "big",
+            "content": "R",
+            "sound": "R"
+          },
+          {
+            "type": "emoji",
+            "content": "👀",
+            "sound": "EYES"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's when the sun first appears over the horizon each morning."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Barbecue",
+        "category": "Food",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "The letter after A",
+            "sound": "B"
+          },
+          {
+            "type": "text",
+            "content": "The letter after Q",
+            "sound": "AR"
+          },
+          {
+            "type": "emoji",
+            "content": "🐝",
+            "sound": "BEE"
+          },
+          {
+            "type": "big",
+            "content": "Q",
+            "sound": "CUE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a meal of meat grilled outdoors over an open flame."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Wristwatch",
+        "category": "Object",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "R",
+            "sound": "R"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"fist\"",
+            "sound": "IST"
+          },
+          {
+            "type": "text",
+            "content": "The letter after V",
+            "sound": "W"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"catch\"",
+            "sound": "ATCH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a timepiece worn strapped around your forearm."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Sunset",
+        "category": "Nature",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "☀️",
+            "sound": "SUN"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "British informal past tense of \"eat\"",
+            "sound": "ET"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's when the sun dips below the horizon each evening."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Accordion",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "A",
+            "sound": "A"
+          },
+          {
+            "type": "text",
+            "content": "A thick string, or a musical chord",
+            "sound": "CORD"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"tea\"",
+            "sound": "EE"
+          },
+          {
+            "type": "text",
+            "content": "Powered on, opposite of \"off\"",
+            "sound": "ON"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a squeezebox instrument with bellows and buttons."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Chocolate",
+        "category": "Food",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "U",
+            "sound": "UH"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"sock\"",
+            "sound": "OCK"
+          },
+          {
+            "type": "text",
+            "content": "The consonant blend at the start of \"chip\"",
+            "sound": "CH"
+          },
+          {
+            "type": "text",
+            "content": "Tardy, not on time",
+            "sound": "LATE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a sweet treat made from cacao beans, often shaped into bars."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Housefly",
+        "category": "Animal",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "text",
+            "content": "In what way, as in \"___ are you?\"",
+            "sound": "HOW"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "emoji",
+            "content": "🪰",
+            "sound": "FLY"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a common buzzing insect that gathers around food."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Xylophone",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "big",
+            "content": "Z",
+            "sound": "Z"
+          },
+          {
+            "type": "emoji",
+            "content": "👁️",
+            "sound": "EYE"
+          },
+          {
+            "type": "text",
+            "content": "Not high, opposite of up",
+            "sound": "LOW"
+          },
+          {
+            "type": "text",
+            "content": "A device used to make calls to people",
+            "sound": "PHONE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a musical instrument with wooden bars you strike with mallets."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Peppermint",
+        "category": "Food",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "text",
+            "content": "Energy and enthusiasm",
+            "sound": "PEP"
+          },
+          {
+            "type": "text",
+            "content": "A comparative suffix, as in \"faster\"",
+            "sound": "ER"
+          },
+          {
+            "type": "big",
+            "content": "M",
+            "sound": "M"
+          },
+          {
+            "type": "text",
+            "content": "Rhymes with \"hint\"",
+            "sound": "INT"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a cool, sharp-flavored herb often used in candy canes."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
+    },
+    {
+      "easy": {
+        "answer": "Bookshelf",
+        "category": "Object",
+        "difficulty": "easy",
+        "clues": [
+          {
+            "type": "emoji",
+            "content": "📖",
+            "sound": "BOOK"
+          },
+          {
+            "type": "text",
+            "content": "The consonant sound that starts \"shop\"",
+            "sound": "SH"
+          },
+          {
+            "type": "emoji",
+            "content": "🧝",
+            "sound": "ELF"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a piece of furniture with flat surfaces for storing books."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "medium": {
+        "answer": "Saxophone",
+        "category": "Object",
+        "difficulty": "medium",
+        "clues": [
+          {
+            "type": "text",
+            "content": "A bag for carrying items",
+            "sound": "SACK"
+          },
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "The letter after N",
+            "sound": "O"
+          },
+          {
+            "type": "text",
+            "content": "A device used to make calls to people",
+            "sound": "PHONE"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's a brass wind instrument popular in jazz music."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      },
+      "hard": {
+        "answer": "Sandwich",
+        "category": "Food",
+        "difficulty": "hard",
+        "clues": [
+          {
+            "type": "big",
+            "content": "S",
+            "sound": "S"
+          },
+          {
+            "type": "text",
+            "content": "Conjunction joining two things together",
+            "sound": "AND"
+          },
+          {
+            "type": "text",
+            "content": "The letter after V",
+            "sound": "W"
+          },
+          {
+            "type": "text",
+            "content": "An irritating skin sensation",
+            "sound": "ITCH"
+          }
+        ],
+        "hints": [
+          {
+            "label": "Reveal clue 1 sound",
+            "ci": 0
+          },
+          {
+            "label": "Reveal clue 2 sound",
+            "ci": 1
+          },
+          {
+            "label": "Reveal clue 3 sound",
+            "ci": 2
+          },
+          {
+            "label": "Reveal clue 4 sound",
+            "ci": 3
+          },
+          {
+            "label": "Give me a hint",
+            "ci": -1,
+            "text": "It's two slices of bread with fillings in between."
+          },
+          {
+            "label": "Reveal all sounds",
+            "ci": -2
+          }
+        ]
+      }
     }
   ]
 }
