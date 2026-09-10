@@ -1722,8 +1722,18 @@
     return { date: data.date, puzzle: normalizeSinglePuzzle(data.puzzle, data.puzzle.difficulty || "medium") };
   }
 
+  // Author's Puzzle has no difficulty picker — there's only one puzzle — so
+  // unlike Daily Mode's select screen, landing here should never require a
+  // second tap. Once a puzzle is loaded (or was already cached from an
+  // earlier load), jump straight into it; "authorSelect" only stays on
+  // screen for the loading/error/empty states.
   async function ensureAuthorLoaded(force){
-    if (!force && (state.author.status === "ready" || state.author.status === "empty")) return;
+    if (!force && (state.author.status === "ready" || state.author.status === "empty")) {
+      if (state.author.status === "ready" && state.author.puzzle && state.screen === "authorSelect") {
+        startAuthorPuzzle();
+      }
+      return;
+    }
 
     state.author.status = "loading";
     state.author.error = null;
@@ -1744,7 +1754,12 @@
       state.author.status = "error";
       state.author.error = (err && err.message) ? err.message : String(err);
     }
-    render();
+
+    if (state.author.status === "ready" && state.author.puzzle && state.screen === "authorSelect") {
+      startAuthorPuzzle();
+    } else {
+      render();
+    }
   }
 
   /* =========================================================
