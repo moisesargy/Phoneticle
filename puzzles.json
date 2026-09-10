@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-08",
-  "generatedAt": "2026-09-08T09:13:17.098Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T09:15:28.240Z",
   "easy": {
-    "answer": "Broccoli",
-    "category": "Food",
+    "answer": "Penguin",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
+        "type": "emoji",
+        "content": "🖊️",
+        "sound": "PEN"
+      },
+      {
         "type": "big",
-        "content": "B",
-        "sound": "B"
+        "content": "GU",
+        "sound": "GU"
       },
       {
         "type": "text",
-        "content": "Exclamation of cheer or excitement",
-        "sound": "RAH"
-      },
-      {
-        "type": "text",
-        "content": "Dog breed made famous by Lassie",
-        "sound": "COLLIE"
+        "content": "Preposition meaning inside",
+        "sound": "IN"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a green vegetable shaped like a little tree."
+        "text": "It's a flightless bird that waddles on ice and swims well."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Selena",
+    "answer": "Post Malone",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To exchange something for money",
-        "sound": "SELL"
+        "content": "To share something online, or a mail delivery",
+        "sound": "POST"
       },
       {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
-      },
-      {
-        "type": "big",
-        "content": "N",
-        "sound": "N"
+        "content": "M",
+        "sound": "M"
       },
       {
         "type": "text",
-        "content": "Contented sigh when sinking into a warm bath",
+        "content": "Open vowel sound, as in \"father\"",
         "sound": "AH"
+      },
+      {
+        "type": "text",
+        "content": "Money that's borrowed and must be repaid",
+        "sound": "LOAN"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the first name of a pop star and beauty-brand founder, or a beloved Tejano singer."
+        "text": "It's the face-tattooed singer known for blending rap and rock."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Ice Age",
-    "category": "Movie",
+    "answer": "The Office",
+    "category": "TV Show",
     "difficulty": "hard",
     "clues": [
+      {
+        "type": "big",
+        "content": "THE",
+        "sound": "THUH"
+      },
+      {
+        "type": "struck",
+        "content": "ON",
+        "sound": "OFF"
+      },
       {
         "type": "emoji",
         "content": "👁️",
         "sound": "EYE"
       },
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
-      },
-      {
         "type": "text",
-        "content": "Exclamation like \"___ caramba\"",
-        "sound": "AY"
-      },
-      {
-        "type": "big",
-        "content": "J",
-        "sound": "J"
+        "content": "The letter after R",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a sabertooth, sloth, and mammoth in prehistoric times."
+        "text": "It's the mockumentary sitcom set at a paper company in Scranton."
       },
       {
         "label": "Reveal all sounds",
