@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-10",
-  "generatedAt": "2026-09-10T09:15:28.240Z",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T09:14:13.733Z",
   "easy": {
-    "answer": "Penguin",
-    "category": "Animal",
+    "answer": "Cookie",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🖊️",
-        "sound": "PEN"
+        "type": "text",
+        "content": "Sound a pigeon or dove makes",
+        "sound": "COO"
       },
       {
         "type": "big",
-        "content": "GU",
-        "sound": "GU"
+        "content": "K",
+        "sound": "K"
       },
       {
         "type": "text",
-        "content": "Preposition meaning inside",
-        "sound": "IN"
+        "content": "Sounds like the letter E",
+        "sound": "EE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a flightless bird that waddles on ice and swims well."
+        "text": "It's a sweet baked treat, often studded with chocolate chips."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Post Malone",
-    "category": "Celebrity",
+    "answer": "Lighthouse",
+    "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "To share something online, or a mail delivery",
-        "sound": "POST"
-      },
-      {
         "type": "big",
-        "content": "M",
-        "sound": "M"
+        "content": "L",
+        "sound": "L"
+      },
+      {
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "text",
-        "content": "Open vowel sound, as in \"father\"",
-        "sound": "AH"
+        "content": "The letter after S",
+        "sound": "T"
       },
       {
-        "type": "text",
-        "content": "Money that's borrowed and must be repaid",
-        "sound": "LOAN"
+        "type": "emoji",
+        "content": "🏠",
+        "sound": "HOUSE"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the face-tattooed singer known for blending rap and rock."
+        "text": "It's a tall tower with a bright light that guides ships at night."
       },
       {
         "label": "Reveal all sounds",
@@ -101,28 +101,28 @@
     ]
   },
   "hard": {
-    "answer": "The Office",
+    "answer": "Stranger Things",
     "category": "TV Show",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "big",
-        "content": "THE",
-        "sound": "THUH"
-      },
-      {
-        "type": "struck",
-        "content": "ON",
-        "sound": "OFF"
-      },
-      {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
+        "type": "text",
+        "content": "Unusual or weird",
+        "sound": "STRANGE"
       },
       {
         "type": "text",
-        "content": "The letter after R",
+        "content": "A comparative suffix, as in \"faster\"",
+        "sound": "ER"
+      },
+      {
+        "type": "text",
+        "content": "An object or item",
+        "sound": "THING"
+      },
+      {
+        "type": "big",
+        "content": "S",
         "sound": "S"
       }
     ],
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the mockumentary sitcom set at a paper company in Scranton."
+        "text": "It's the sci-fi show set in Hawkins, Indiana, full of monsters from the Upside Down."
       },
       {
         "label": "Reveal all sounds",
