@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-11T09:14:13.733Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T08:55:15.491Z",
   "easy": {
-    "answer": "Cookie",
-    "category": "Food",
+    "answer": "Firefly",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "Sound a pigeon or dove makes",
-        "sound": "COO"
-      },
-      {
         "type": "big",
-        "content": "K",
-        "sound": "K"
+        "content": "F",
+        "sound": "F"
       },
       {
         "type": "text",
-        "content": "Sounds like the letter E",
-        "sound": "EE"
+        "content": "Intense anger or fury",
+        "sound": "IRE"
+      },
+      {
+        "type": "text",
+        "content": "The zippered opening on pants",
+        "sound": "FLY"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a sweet baked treat, often studded with chocolate chips."
+        "text": "It's a small bug that glows in the dark at night."
       },
       {
         "label": "Reveal all sounds",
@@ -47,19 +47,14 @@
     ]
   },
   "medium": {
-    "answer": "Lighthouse",
-    "category": "Landmark",
+    "answer": "Elton John",
+    "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
         "type": "big",
         "content": "L",
-        "sound": "L"
-      },
-      {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
+        "sound": "EL"
       },
       {
         "type": "text",
@@ -67,9 +62,14 @@
         "sound": "T"
       },
       {
-        "type": "emoji",
-        "content": "🏠",
-        "sound": "HOUSE"
+        "type": "text",
+        "content": "Powered on, opposite of \"off\"",
+        "sound": "ON"
+      },
+      {
+        "type": "text",
+        "content": "Informal word for a bathroom",
+        "sound": "JOHN"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a tall tower with a bright light that guides ships at night."
+        "text": "It's the flamboyant piano-playing singer behind 'Rocket Man.'"
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Stranger Things",
+    "answer": "Seinfeld",
     "category": "TV Show",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "Unusual or weird",
-        "sound": "STRANGE"
-      },
-      {
-        "type": "text",
-        "content": "A comparative suffix, as in \"faster\"",
-        "sound": "ER"
-      },
-      {
-        "type": "text",
-        "content": "An object or item",
-        "sound": "THING"
-      },
-      {
         "type": "big",
         "content": "S",
         "sound": "S"
+      },
+      {
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
+      },
+      {
+        "type": "text",
+        "content": "The letter after M",
+        "sound": "N"
+      },
+      {
+        "type": "text",
+        "content": "Past tense of \"feel\"",
+        "sound": "FELT"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the sci-fi show set in Hawkins, Indiana, full of monsters from the Upside Down."
+        "text": "It's the classic sitcom famously described as \"a show about nothing.\""
       },
       {
         "label": "Reveal all sounds",
