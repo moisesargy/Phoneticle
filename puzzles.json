@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-14",
-  "generatedAt": "2026-09-14T10:10:54.400Z",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T09:40:34.699Z",
   "easy": {
-    "answer": "Unicorn",
-    "category": "Character",
+    "answer": "Toucan",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "Pronoun for the person you're talking to",
-        "sound": "YOU"
+        "type": "big",
+        "content": "T",
+        "sound": "T"
       },
       {
         "type": "text",
-        "content": "Joint between your thigh and shin",
-        "sound": "KNEE"
+        "content": "Question word asking about a person's identity",
+        "sound": "WHO"
       },
       {
         "type": "emoji",
-        "content": "🌽",
-        "sound": "CORN"
+        "content": "🥫",
+        "sound": "CAN"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a mythical horse-like creature with a single horn on its head."
+        "text": "It's a tropical bird famous for its enormous, colorful beak."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Stevie Wonder",
-    "category": "Celebrity",
+    "answer": "Enchilada",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "A common man's name",
-        "sound": "STEVE"
-      },
-      {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
-      },
-      {
-        "type": "struck",
-        "content": "LOST",
-        "sound": "WON"
+        "content": "N",
+        "sound": "EN"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"blur\"",
-        "sound": "DER"
+        "content": "A spicy Mexican stew",
+        "sound": "CHILI"
+      },
+      {
+        "type": "text",
+        "content": "The sixth note in do-re-mi-fa-so-la",
+        "sound": "LAH"
+      },
+      {
+        "type": "text",
+        "content": "Casual word meaning \"obviously\"",
+        "sound": "DUH"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the blind soul legend behind 'Superstition' and 'Isn't She Lovely.'"
+        "text": "It's a rolled tortilla covered in sauce and cheese, baked in the oven."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Modern Family",
-    "category": "TV Show",
+    "answer": "Avatar",
+    "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "Short for \"modification\", as in a video game ___",
-        "sound": "MOD"
+        "content": "Popular girl's name, like actress Ava Gardner",
+        "sound": "AVA"
+      },
+      {
+        "type": "big",
+        "content": "T",
+        "sound": "T"
       },
       {
         "type": "text",
-        "content": "A sea eagle, also spelled \"erne\"",
-        "sound": "ERN"
-      },
-      {
-        "type": "emoji",
-        "content": "👪",
-        "sound": "FAM"
+        "content": "The first letter of the alphabet",
+        "sound": "AH"
       },
       {
         "type": "text",
-        "content": "Suffix that turns adjectives into adverbs",
-        "sound": "LY"
+        "content": "The letter after Q",
+        "sound": "R"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the mockumentary sitcom about three connected families."
+        "text": "It's the blockbuster sci-fi movie about blue aliens on the planet Pandora."
       },
       {
         "label": "Reveal all sounds",
