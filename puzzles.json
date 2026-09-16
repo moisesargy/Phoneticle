@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-15",
-  "generatedAt": "2026-09-15T09:40:34.699Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T09:34:32.893Z",
   "easy": {
-    "answer": "Toucan",
+    "answer": "Zebra",
     "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
         "type": "big",
-        "content": "T",
-        "sound": "T"
+        "content": "Z",
+        "sound": "Z"
       },
       {
         "type": "text",
-        "content": "Question word asking about a person's identity",
-        "sound": "WHO"
+        "content": "Sounds like the letter E",
+        "sound": "EE"
       },
       {
-        "type": "emoji",
-        "content": "🥫",
-        "sound": "CAN"
+        "type": "text",
+        "content": "Casual term for \"brother\"",
+        "sound": "BRUH"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a tropical bird famous for its enormous, colorful beak."
+        "text": "It's a horse-like animal known for its black and white stripes."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Enchilada",
+    "answer": "Empanada",
     "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
         "type": "big",
-        "content": "N",
-        "sound": "EN"
+        "content": "M",
+        "sound": "EM"
       },
       {
         "type": "text",
-        "content": "A spicy Mexican stew",
-        "sound": "CHILI"
+        "content": "Informal word for father",
+        "sound": "PAH"
       },
       {
         "type": "text",
-        "content": "The sixth note in do-re-mi-fa-so-la",
-        "sound": "LAH"
+        "content": "Casual word for no",
+        "sound": "NAH"
       },
       {
         "type": "text",
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a rolled tortilla covered in sauce and cheese, baked in the oven."
+        "text": "It's a stuffed, folded pastry popular in Latin America."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Avatar",
+    "answer": "Gladiator",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "struck",
+        "content": "SAD",
+        "sound": "GLAD"
+      },
+      {
         "type": "text",
-        "content": "Popular girl's name, like actress Ava Gardner",
-        "sound": "AVA"
+        "content": "Sounds like the letter E",
+        "sound": "EE"
       },
       {
         "type": "big",
-        "content": "T",
-        "sound": "T"
+        "content": "A",
+        "sound": "A"
       },
       {
         "type": "text",
-        "content": "The first letter of the alphabet",
-        "sound": "AH"
-      },
-      {
-        "type": "text",
-        "content": "The letter after Q",
-        "sound": "R"
+        "content": "Past tense of \"tear\", to rip",
+        "sound": "TORE"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the blockbuster sci-fi movie about blue aliens on the planet Pandora."
+        "text": "It's the movie about a Roman general forced to fight as a gladiator."
       },
       {
         "label": "Reveal all sounds",
