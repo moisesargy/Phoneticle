@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-16",
-  "generatedAt": "2026-09-16T09:34:32.893Z",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T09:42:57.656Z",
   "easy": {
-    "answer": "Zebra",
-    "category": "Animal",
+    "answer": "Walnut",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "big",
-        "content": "Z",
-        "sound": "Z"
+        "content": "W",
+        "sound": "W"
       },
       {
         "type": "text",
-        "content": "Sounds like the letter E",
-        "sound": "EE"
+        "content": "Every one of them, the entire amount",
+        "sound": "ALL"
       },
       {
         "type": "text",
-        "content": "Casual term for \"brother\"",
-        "sound": "BRUH"
+        "content": "Squirrels bury these to eat later",
+        "sound": "NUT"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a horse-like animal known for its black and white stripes."
+        "text": "It's a wrinkly brown nut often used in banana bread."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Empanada",
-    "category": "Food",
+    "answer": "Yellowstone",
+    "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "text",
+        "content": "To shout loudly",
+        "sound": "YELL"
+      },
+      {
         "type": "big",
-        "content": "M",
-        "sound": "EM"
+        "content": "O",
+        "sound": "OH"
       },
       {
         "type": "text",
-        "content": "Informal word for father",
-        "sound": "PAH"
+        "content": "The consonant blend at the start of \"stop\"",
+        "sound": "ST"
       },
       {
         "type": "text",
-        "content": "Casual word for no",
-        "sound": "NAH"
-      },
-      {
-        "type": "text",
-        "content": "Casual word meaning \"obviously\"",
-        "sound": "DUH"
+        "content": "The number after zero",
+        "sound": "ONE"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a stuffed, folded pastry popular in Latin America."
+        "text": "It's the national park famous for Old Faithful and roaming bison."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Gladiator",
+    "answer": "Braveheart",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
         "type": "struck",
-        "content": "SAD",
-        "sound": "GLAD"
+        "content": "COWARDLY",
+        "sound": "BRAVE"
       },
       {
         "type": "text",
-        "content": "Sounds like the letter E",
-        "sound": "EE"
-      },
-      {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "Pronoun for a male",
+        "sound": "HE"
       },
       {
         "type": "text",
-        "content": "Past tense of \"tear\", to rip",
-        "sound": "TORE"
+        "content": "The letter after Q",
+        "sound": "AR"
+      },
+      {
+        "type": "text",
+        "content": "The letter after S",
+        "sound": "T"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the movie about a Roman general forced to fight as a gladiator."
+        "text": "It's the historical epic where Mel Gibson yells 'Freedom!' before dying."
       },
       {
         "label": "Reveal all sounds",
