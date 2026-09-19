@@ -1,20 +1,20 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-18T09:16:31.370Z",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T09:02:44.338Z",
   "easy": {
-    "answer": "Pumpkin",
-    "category": "Food",
+    "answer": "Napkin",
+    "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
         "type": "big",
-        "content": "P",
-        "sound": "P"
+        "content": "N",
+        "sound": "N"
       },
       {
         "type": "text",
-        "content": "Informal short word for a baseball umpire",
-        "sound": "UMP"
+        "content": "Short slang for a phone application",
+        "sound": "AP"
       },
       {
         "type": "text",
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the orange gourd people carve into jack-o'-lanterns."
+        "text": "It's the cloth or paper you wipe your mouth with at dinner."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Times Square",
+    "answer": "Central Park",
     "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "To fasten with a necktie",
-        "sound": "TIE"
+        "content": "Past tense of \"send\"",
+        "sound": "SENT"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"school\"",
+        "sound": "RUL"
+      },
+      {
+        "type": "text",
+        "content": "A green outdoor space with grass and trees",
+        "sound": "PARK"
       },
       {
         "type": "big",
-        "content": "M",
-        "sound": "M"
-      },
-      {
-        "type": "text",
-        "content": "The letter after R",
+        "content": "S",
         "sound": "S"
-      },
-      {
-        "type": "text",
-        "content": "A shape with four equal sides",
-        "sound": "SQUARE"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the bright, billboard-covered plaza in the middle of Manhattan."
+        "text": "It's the huge green rectangle of park in the middle of New York City."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Moana",
+    "answer": "Encanto",
     "category": "Movie",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "To cut grass with a lawnmower",
-        "sound": "MOW"
-      },
-      {
-        "type": "text",
-        "content": "The first letter of the alphabet",
-        "sound": "AH"
-      },
-      {
-        "type": "text",
-        "content": "Casual word for no",
-        "sound": "NAH"
+        "content": "Sounds like the letter E",
+        "sound": "EE"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "N",
+        "sound": "N"
+      },
+      {
+        "type": "emoji",
+        "content": "🥫",
+        "sound": "CAN"
+      },
+      {
+        "type": "text",
+        "content": "A digit on your foot, unlike a finger",
+        "sound": "TOE"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a Polynesian girl who sails to save her island."
+        "text": "It's the animated movie about a magical Colombian family with special gifts."
       },
       {
         "label": "Reveal all sounds",
