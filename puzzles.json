@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-21",
-  "generatedAt": "2026-09-21T10:16:32.135Z",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T09:32:01.891Z",
   "easy": {
-    "answer": "Ariel",
-    "category": "Character",
+    "answer": "Dolphin",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "The gas you breathe to stay alive",
-        "sound": "AIR"
-      },
-      {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "content": "D",
+        "sound": "D"
       },
       {
         "type": "text",
-        "content": "A fashion magazine, or a common girl's name",
-        "sound": "ELLE"
+        "content": "Rhymes with \"tall\"",
+        "sound": "OLL"
+      },
+      {
+        "type": "text",
+        "content": "A fish's pointed swimming appendage",
+        "sound": "FIN"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the mermaid princess who trades her voice for legs."
+        "text": "It's a playful, intelligent sea mammal known for clicking and whistling."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,34 @@
     ]
   },
   "medium": {
-    "answer": "Van Gogh",
-    "category": "Painter",
+    "answer": "Great Wall of China",
+    "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "text",
+        "content": "A metal grid, or to shred cheese",
+        "sound": "GRATE"
+      },
+      {
+        "type": "text",
+        "content": "A vertical structure that encloses a room",
+        "sound": "WALL"
+      },
+      {
+        "type": "text",
+        "content": "Belonging to, or made from, as in \"a cup ___ tea\"",
+        "sound": "OF"
+      },
+      {
+        "type": "text",
+        "content": "The part of your face below your mouth",
+        "sound": "CHIN"
+      },
+      {
         "type": "big",
-        "content": "V",
-        "sound": "V"
-      },
-      {
-        "type": "text",
-        "content": "Indefinite article before a vowel",
-        "sound": "AN"
-      },
-      {
-        "type": "text",
-        "content": "The letter after F",
-        "sound": "G"
-      },
-      {
-        "type": "text",
-        "content": "To owe money, as in you ___ me",
-        "sound": "OH"
+        "content": "U",
+        "sound": "UH"
       }
     ],
     "hints": [
@@ -90,9 +95,13 @@
         "ci": 3
       },
       {
+        "label": "Reveal clue 5 sound",
+        "ci": 4
+      },
+      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the painter famous for 'Starry Night' and for cutting off his own ear."
+        "text": "It's the massive ancient fortification stretching across northern China."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +110,29 @@
     ]
   },
   "hard": {
-    "answer": "Wreck-It Ralph",
-    "category": "Movie",
+    "answer": "Will Ferrell",
+    "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "text",
+        "content": "The letter after V",
+        "sound": "W"
+      },
+      {
+        "type": "text",
+        "content": "Sick or unwell",
+        "sound": "ILL"
+      },
+      {
         "type": "struck",
-        "content": "FIX",
-        "sound": "WRECK"
+        "content": "UNFAIR",
+        "sound": "FAIR"
       },
       {
         "type": "big",
-        "content": "I",
-        "sound": "IH"
-      },
-      {
-        "type": "text",
-        "content": "The letter after S",
-        "sound": "T"
-      },
-      {
-        "type": "text",
-        "content": "Slang for vomiting, or a name",
-        "sound": "RALPH"
+        "content": "L",
+        "sound": "L"
       }
     ],
     "hints": [
@@ -146,7 +155,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated movie about a video game villain who wants to be a hero."
+        "text": "It's the comedian behind Ron Burgundy and Buddy the Elf."
       },
       {
         "label": "Reveal all sounds",
