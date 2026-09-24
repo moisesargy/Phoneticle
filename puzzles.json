@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-23T09:37:07.232Z",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T09:36:53.266Z",
   "easy": {
-    "answer": "Olaf",
+    "answer": "Kermit",
     "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "To owe money, as in you ___ me",
-        "sound": "OH"
-      },
-      {
-        "type": "text",
-        "content": "To make a sound expressing amusement",
-        "sound": "LAUGH"
+        "content": "Rhymes with \"her\"",
+        "sound": "KER"
       },
       {
         "type": "big",
-        "content": "F",
-        "sound": "F"
+        "content": "M",
+        "sound": "M"
+      },
+      {
+        "type": "text",
+        "content": "Pronoun used for an object, not a person",
+        "sound": "IT"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the goofy snowman who loves warm hugs and summer."
+        "text": "It's the banjo-playing frog who says it isn't easy being green."
       },
       {
         "label": "Reveal all sounds",
@@ -47,63 +47,9 @@
     ]
   },
   "medium": {
-    "answer": "Pyramid",
+    "answer": "Stonehenge",
     "category": "Landmark",
     "difficulty": "medium",
-    "clues": [
-      {
-        "type": "big",
-        "content": "P",
-        "sound": "P"
-      },
-      {
-        "type": "emoji",
-        "content": "👂",
-        "sound": "EAR"
-      },
-      {
-        "type": "text",
-        "content": "The first letter of the alphabet",
-        "sound": "A"
-      },
-      {
-        "type": "text",
-        "content": "The middle part of something, as in \"midway\"",
-        "sound": "MID"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the ancient triangular tomb structure found in Egypt."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Steve Carell",
-    "category": "Celebrity",
-    "difficulty": "hard",
     "clues": [
       {
         "type": "text",
@@ -112,18 +58,18 @@
       },
       {
         "type": "text",
-        "content": "The day before a holiday",
-        "sound": "EVE"
+        "content": "The number after zero",
+        "sound": "ONE"
+      },
+      {
+        "type": "emoji",
+        "content": "🐔",
+        "sound": "HEN"
       },
       {
         "type": "text",
-        "content": "To feel concern for someone",
-        "sound": "CARE"
-      },
-      {
-        "type": "big",
-        "content": "L",
-        "sound": "L"
+        "content": "Rhymes with \"hinge\"",
+        "sound": "NJ"
       }
     ],
     "hints": [
@@ -146,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the comedian who played Michael Scott on 'The Office.'"
+        "text": "It's the mysterious ring of giant standing stones in England."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Kevin Hart",
+    "category": "Celebrity",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "Rhymes with \"rev\"",
+        "sound": "KEV"
+      },
+      {
+        "type": "text",
+        "content": "Trendy or fashionable",
+        "sound": "IN"
+      },
+      {
+        "type": "text",
+        "content": "Pronoun for a male",
+        "sound": "HE"
+      },
+      {
+        "type": "emoji",
+        "content": "🎨",
+        "sound": "ART"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the short, high-energy comedian known for action-comedy roles."
       },
       {
         "label": "Reveal all sounds",
