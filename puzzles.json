@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-25T09:53:45.673Z",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T09:36:32.988Z",
   "easy": {
-    "answer": "Doghouse",
+    "answer": "Bathtub",
     "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🐶",
-        "sound": "DOG"
+        "type": "big",
+        "content": "B",
+        "sound": "B"
       },
       {
         "type": "text",
-        "content": "In what way, as in \"___ are you?\"",
-        "sound": "HOW"
+        "content": "Rhymes with \"math\"",
+        "sound": "ATH"
       },
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "type": "emoji",
+        "content": "🛁",
+        "sound": "TUB"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a small outdoor shelter built for a pet."
+        "text": "It's a large basin you fill with water to wash yourself."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Cantaloupe",
-    "category": "Food",
+    "answer": "Motorcycle",
+    "category": "Vehicle",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🥫",
-        "sound": "CAN"
-      },
-      {
         "type": "text",
-        "content": "Informal British word for \"thank you\"",
-        "sound": "TA"
+        "content": "Informal short word for a moment",
+        "sound": "MO"
       },
       {
         "type": "big",
-        "content": "L",
-        "sound": "L"
+        "content": "T",
+        "sound": "T"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"hope\"",
-        "sound": "OPE"
+        "content": "Conjunction offering a choice",
+        "sound": "OR"
+      },
+      {
+        "type": "text",
+        "content": "To exhale slowly showing disappointment",
+        "sound": "SIGH"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's an orange-fleshed melon with a rough, netted rind."
+        "text": "It's a two-wheeled vehicle with an engine, popular for open-road rides."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Firefighter",
+    "answer": "Astronaut",
     "category": "Occupation",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "text",
+        "content": "In the role of, or equally",
+        "sound": "AS"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"grow\"",
+        "sound": "TRO"
+      },
+      {
+        "type": "text",
+        "content": "Casual word for no",
+        "sound": "NAW"
+      },
+      {
         "type": "big",
-        "content": "F",
-        "sound": "F"
-      },
-      {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
-      },
-      {
-        "type": "text",
-        "content": "To physically struggle against someone",
-        "sound": "FIGHT"
-      },
-      {
-        "type": "text",
-        "content": "A comparative suffix, as in \"faster\"",
-        "sound": "ER"
+        "content": "T",
+        "sound": "T"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's someone whose job is putting out dangerous blazes."
+        "text": "It's someone trained to travel and work in outer space."
       },
       {
         "label": "Reveal all sounds",
