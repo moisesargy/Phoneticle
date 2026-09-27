@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T09:36:32.988Z",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T10:15:45.186Z",
   "easy": {
-    "answer": "Bathtub",
+    "answer": "Toothpaste",
     "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "big",
-        "content": "B",
-        "sound": "B"
+        "type": "emoji",
+        "content": "🦷",
+        "sound": "TOOTH"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"math\"",
-        "sound": "ATH"
+        "content": "Speed of movement",
+        "sound": "PACE"
       },
       {
-        "type": "emoji",
-        "content": "🛁",
-        "sound": "TUB"
+        "type": "big",
+        "content": "T",
+        "sound": "T"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a large basin you fill with water to wash yourself."
+        "text": "It's the minty gel you squeeze onto a toothbrush."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Motorcycle",
-    "category": "Vehicle",
+    "answer": "Waterfall",
+    "category": "Nature",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "Informal short word for a moment",
-        "sound": "MO"
-      },
-      {
         "type": "big",
-        "content": "T",
-        "sound": "T"
+        "content": "W",
+        "sound": "W"
       },
       {
         "type": "text",
-        "content": "Conjunction offering a choice",
-        "sound": "OR"
+        "content": "Rhymes with \"later\"",
+        "sound": "ATER"
       },
       {
         "type": "text",
-        "content": "To exhale slowly showing disappointment",
-        "sound": "SIGH"
+        "content": "The letter after E",
+        "sound": "F"
+      },
+      {
+        "type": "text",
+        "content": "Every one of them, the entire amount",
+        "sound": "ALL"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a two-wheeled vehicle with an engine, popular for open-road rides."
+        "text": "It's a place where a river drops suddenly over a cliff."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Astronaut",
-    "category": "Occupation",
+    "answer": "Grandmother",
+    "category": "Family",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "In the role of, or equally",
-        "sound": "AS"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"grow\"",
-        "sound": "TRO"
-      },
-      {
-        "type": "text",
-        "content": "Casual word for no",
-        "sound": "NAW"
-      },
-      {
         "type": "big",
-        "content": "T",
-        "sound": "T"
+        "content": "G",
+        "sound": "G"
+      },
+      {
+        "type": "text",
+        "content": "Impressive or large in scale",
+        "sound": "RAND"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"duh\"",
+        "sound": "MUH"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"blur\"",
+        "sound": "THER"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's someone trained to travel and work in outer space."
+        "text": "It's the woman who is your parent's mother."
       },
       {
         "label": "Reveal all sounds",
