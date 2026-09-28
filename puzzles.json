@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-27",
-  "generatedAt": "2026-09-27T10:15:45.186Z",
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T11:19:11.548Z",
   "easy": {
-    "answer": "Toothpaste",
-    "category": "Object",
+    "answer": "Seahorse",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🦷",
-        "sound": "TOOTH"
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "Speed of movement",
-        "sound": "PACE"
+        "content": "Rhymes with \"tea\"",
+        "sound": "EA"
       },
       {
-        "type": "big",
-        "content": "T",
-        "sound": "T"
+        "type": "emoji",
+        "content": "🐴",
+        "sound": "HORSE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the minty gel you squeeze onto a toothbrush."
+        "text": "It's a tiny fish shaped like the chess piece knight."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Waterfall",
-    "category": "Nature",
+    "answer": "Sandcastle",
+    "category": "Object",
     "difficulty": "medium",
     "clues": [
       {
         "type": "big",
-        "content": "W",
-        "sound": "W"
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"later\"",
-        "sound": "ATER"
+        "content": "Conjunction joining two things together",
+        "sound": "AND"
       },
       {
         "type": "text",
-        "content": "The letter after E",
-        "sound": "F"
+        "content": "Rhymes with \"class\"",
+        "sound": "CASS"
       },
       {
         "type": "text",
-        "content": "Every one of them, the entire amount",
-        "sound": "ALL"
+        "content": "Rhymes with \"dull\"",
+        "sound": "UL"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a place where a river drops suddenly over a cliff."
+        "text": "It's a beach structure built with wet sand and a bucket."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Grandmother",
-    "category": "Family",
+    "answer": "Pineapple",
+    "category": "Food",
     "difficulty": "hard",
     "clues": [
       {
         "type": "big",
-        "content": "G",
-        "sound": "G"
+        "content": "P",
+        "sound": "P"
+      },
+      {
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "text",
-        "content": "Impressive or large in scale",
-        "sound": "RAND"
+        "content": "The letter after M",
+        "sound": "N"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"duh\"",
-        "sound": "MUH"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"blur\"",
-        "sound": "THER"
+        "content": "A common fruit, or a tech company",
+        "sound": "APPLE"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the woman who is your parent's mother."
+        "text": "It's a spiky tropical fruit with sweet, juicy yellow flesh."
       },
       {
         "label": "Reveal all sounds",
