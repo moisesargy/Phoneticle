@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-28",
-  "generatedAt": "2026-09-28T11:19:11.548Z",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T10:57:41.120Z",
   "easy": {
-    "answer": "Seahorse",
+    "answer": "Starfish",
     "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
+        "type": "emoji",
+        "content": "⭐",
+        "sound": "STAR"
+      },
+      {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "F",
+        "sound": "F"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"tea\"",
-        "sound": "EA"
-      },
-      {
-        "type": "emoji",
-        "content": "🐴",
-        "sound": "HORSE"
+        "content": "Suffix meaning \"somewhat\", as in \"reddish\"",
+        "sound": "ISH"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a tiny fish shaped like the chess piece knight."
+        "text": "It's a spiny ocean creature shaped like its name."
       },
       {
         "label": "Reveal all sounds",
@@ -47,68 +47,14 @@
     ]
   },
   "medium": {
-    "answer": "Sandcastle",
+    "answer": "Fireworks",
     "category": "Object",
     "difficulty": "medium",
     "clues": [
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
-      },
-      {
-        "type": "text",
-        "content": "Conjunction joining two things together",
-        "sound": "AND"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"class\"",
-        "sound": "CASS"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"dull\"",
-        "sound": "UL"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's a beach structure built with wet sand and a bucket."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Pineapple",
-    "category": "Food",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "big",
-        "content": "P",
-        "sound": "P"
+        "content": "F",
+        "sound": "F"
       },
       {
         "type": "emoji",
@@ -117,13 +63,13 @@
       },
       {
         "type": "text",
-        "content": "The letter after M",
-        "sound": "N"
+        "content": "A job or task, or to function properly",
+        "sound": "WORK"
       },
       {
         "type": "text",
-        "content": "A common fruit, or a tech company",
-        "sound": "APPLE"
+        "content": "The letter after R",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a spiky tropical fruit with sweet, juicy yellow flesh."
+        "text": "It's a colorful, loud display shot into the sky to celebrate."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Cheeseburger",
+    "category": "Food",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "emoji",
+        "content": "🧀",
+        "sound": "CHEESE"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"fur\"",
+        "sound": "BUR"
+      },
+      {
+        "type": "big",
+        "content": "G",
+        "sound": "G"
+      },
+      {
+        "type": "text",
+        "content": "A comparative suffix, as in \"faster\"",
+        "sound": "ER"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's a sandwich of ground beef topped with a melted dairy slice."
       },
       {
         "label": "Reveal all sounds",
