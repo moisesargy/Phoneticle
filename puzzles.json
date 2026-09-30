@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-29T10:57:41.120Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T10:47:51.294Z",
   "easy": {
-    "answer": "Starfish",
-    "category": "Animal",
+    "answer": "Snowball",
+    "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "⭐",
-        "sound": "STAR"
-      },
-      {
         "type": "big",
-        "content": "F",
-        "sound": "F"
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "Suffix meaning \"somewhat\", as in \"reddish\"",
-        "sound": "ISH"
+        "content": "At this moment, opposite of later",
+        "sound": "NOW"
+      },
+      {
+        "type": "emoji",
+        "content": "⚽",
+        "sound": "BALL"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a spiny ocean creature shaped like its name."
+        "text": "It's a clump of packed snow, often thrown in a fight."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Fireworks",
+    "answer": "Snowman",
     "category": "Object",
     "difficulty": "medium",
     "clues": [
       {
         "type": "big",
-        "content": "F",
-        "sound": "F"
-      },
-      {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
-      },
-      {
-        "type": "text",
-        "content": "A job or task, or to function properly",
-        "sound": "WORK"
-      },
-      {
-        "type": "text",
-        "content": "The letter after R",
+        "content": "S",
         "sound": "S"
+      },
+      {
+        "type": "text",
+        "content": "At this moment, opposite of later",
+        "sound": "NOW"
+      },
+      {
+        "type": "text",
+        "content": "Informal word for mother",
+        "sound": "MA"
+      },
+      {
+        "type": "text",
+        "content": "The letter after M",
+        "sound": "N"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a colorful, loud display shot into the sky to celebrate."
+        "text": "It's a chilly figure built from three stacked snowballs."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Cheeseburger",
-    "category": "Food",
+    "answer": "Submarine",
+    "category": "Vehicle",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🧀",
-        "sound": "CHEESE"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"fur\"",
-        "sound": "BUR"
-      },
-      {
         "type": "big",
-        "content": "G",
-        "sound": "G"
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "A comparative suffix, as in \"faster\"",
-        "sound": "ER"
+        "content": "Rhymes with \"cub\"",
+        "sound": "UB"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"duh\"",
+        "sound": "MUH"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"green\"",
+        "sound": "REEN"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a sandwich of ground beef topped with a melted dairy slice."
+        "text": "It's a vessel built to travel underwater for long stretches."
       },
       {
         "label": "Reveal all sounds",
