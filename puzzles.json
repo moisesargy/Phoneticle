@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-30T10:47:51.294Z",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T11:14:13.192Z",
   "easy": {
-    "answer": "Snowball",
-    "category": "Object",
+    "answer": "Sunrise",
+    "category": "Nature",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "type": "emoji",
+        "content": "☀️",
+        "sound": "SUN"
       },
       {
-        "type": "text",
-        "content": "At this moment, opposite of later",
-        "sound": "NOW"
+        "type": "big",
+        "content": "R",
+        "sound": "R"
       },
       {
         "type": "emoji",
-        "content": "⚽",
-        "sound": "BALL"
+        "content": "👀",
+        "sound": "EYES"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a clump of packed snow, often thrown in a fight."
+        "text": "It's when the sun first appears over the horizon each morning."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Snowman",
-    "category": "Object",
+    "answer": "Barbecue",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "text",
+        "content": "The letter after A",
+        "sound": "B"
+      },
+      {
+        "type": "text",
+        "content": "The letter after Q",
+        "sound": "AR"
+      },
+      {
+        "type": "emoji",
+        "content": "🐝",
+        "sound": "BEE"
+      },
+      {
         "type": "big",
-        "content": "S",
-        "sound": "S"
-      },
-      {
-        "type": "text",
-        "content": "At this moment, opposite of later",
-        "sound": "NOW"
-      },
-      {
-        "type": "text",
-        "content": "Informal word for mother",
-        "sound": "MA"
-      },
-      {
-        "type": "text",
-        "content": "The letter after M",
-        "sound": "N"
+        "content": "Q",
+        "sound": "CUE"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a chilly figure built from three stacked snowballs."
+        "text": "It's a meal of meat grilled outdoors over an open flame."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Submarine",
-    "category": "Vehicle",
+    "answer": "Wristwatch",
+    "category": "Object",
     "difficulty": "hard",
     "clues": [
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "R",
+        "sound": "R"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"cub\"",
-        "sound": "UB"
+        "content": "Rhymes with \"fist\"",
+        "sound": "IST"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"duh\"",
-        "sound": "MUH"
+        "content": "The letter after V",
+        "sound": "W"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"green\"",
-        "sound": "REEN"
+        "content": "Rhymes with \"catch\"",
+        "sound": "ATCH"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a vessel built to travel underwater for long stretches."
+        "text": "It's a timepiece worn strapped around your forearm."
       },
       {
         "label": "Reveal all sounds",
