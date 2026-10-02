@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-10-01T11:14:13.192Z",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:46:59.808Z",
   "easy": {
-    "answer": "Sunrise",
+    "answer": "Sunset",
     "category": "Nature",
     "difficulty": "easy",
     "clues": [
@@ -13,13 +13,13 @@
       },
       {
         "type": "big",
-        "content": "R",
-        "sound": "R"
+        "content": "S",
+        "sound": "S"
       },
       {
-        "type": "emoji",
-        "content": "👀",
-        "sound": "EYES"
+        "type": "text",
+        "content": "British informal past tense of \"eat\"",
+        "sound": "ET"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's when the sun first appears over the horizon each morning."
+        "text": "It's when the sun dips below the horizon each evening."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Barbecue",
-    "category": "Food",
+    "answer": "Accordion",
+    "category": "Object",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "The letter after A",
-        "sound": "B"
-      },
-      {
-        "type": "text",
-        "content": "The letter after Q",
-        "sound": "AR"
-      },
-      {
-        "type": "emoji",
-        "content": "🐝",
-        "sound": "BEE"
-      },
-      {
         "type": "big",
-        "content": "Q",
-        "sound": "CUE"
+        "content": "A",
+        "sound": "A"
+      },
+      {
+        "type": "text",
+        "content": "A thick string, or a musical chord",
+        "sound": "CORD"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"tea\"",
+        "sound": "EE"
+      },
+      {
+        "type": "text",
+        "content": "Powered on, opposite of \"off\"",
+        "sound": "ON"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a meal of meat grilled outdoors over an open flame."
+        "text": "It's a squeezebox instrument with bellows and buttons."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Wristwatch",
-    "category": "Object",
+    "answer": "Chocolate",
+    "category": "Food",
     "difficulty": "hard",
     "clues": [
       {
         "type": "big",
-        "content": "R",
-        "sound": "R"
+        "content": "U",
+        "sound": "UH"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"fist\"",
-        "sound": "IST"
+        "content": "Rhymes with \"sock\"",
+        "sound": "OCK"
       },
       {
         "type": "text",
-        "content": "The letter after V",
-        "sound": "W"
+        "content": "The consonant blend at the start of \"chip\"",
+        "sound": "CH"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"catch\"",
-        "sound": "ATCH"
+        "content": "Tardy, not on time",
+        "sound": "LATE"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a timepiece worn strapped around your forearm."
+        "text": "It's a sweet treat made from cacao beans, often shaped into bars."
       },
       {
         "label": "Reveal all sounds",
