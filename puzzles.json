@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-02T10:46:59.808Z",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:07:02.656Z",
   "easy": {
-    "answer": "Sunset",
-    "category": "Nature",
+    "answer": "Housefly",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "☀️",
-        "sound": "SUN"
+        "type": "text",
+        "content": "In what way, as in \"___ are you?\"",
+        "sound": "HOW"
       },
       {
         "type": "big",
@@ -17,9 +17,9 @@
         "sound": "S"
       },
       {
-        "type": "text",
-        "content": "British informal past tense of \"eat\"",
-        "sound": "ET"
+        "type": "emoji",
+        "content": "🪰",
+        "sound": "FLY"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's when the sun dips below the horizon each evening."
+        "text": "It's a common buzzing insect that gathers around food."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Accordion",
+    "answer": "Xylophone",
     "category": "Object",
     "difficulty": "medium",
     "clues": [
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "Z",
+        "sound": "Z"
+      },
+      {
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "text",
-        "content": "A thick string, or a musical chord",
-        "sound": "CORD"
+        "content": "Not high, opposite of up",
+        "sound": "LOW"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"tea\"",
-        "sound": "EE"
-      },
-      {
-        "type": "text",
-        "content": "Powered on, opposite of \"off\"",
-        "sound": "ON"
+        "content": "A device used to make calls to people",
+        "sound": "PHONE"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a squeezebox instrument with bellows and buttons."
+        "text": "It's a musical instrument with wooden bars you strike with mallets."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Chocolate",
+    "answer": "Peppermint",
     "category": "Food",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "text",
+        "content": "Energy and enthusiasm",
+        "sound": "PEP"
+      },
+      {
+        "type": "text",
+        "content": "A comparative suffix, as in \"faster\"",
+        "sound": "ER"
+      },
+      {
         "type": "big",
-        "content": "U",
-        "sound": "UH"
+        "content": "M",
+        "sound": "M"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"sock\"",
-        "sound": "OCK"
-      },
-      {
-        "type": "text",
-        "content": "The consonant blend at the start of \"chip\"",
-        "sound": "CH"
-      },
-      {
-        "type": "text",
-        "content": "Tardy, not on time",
-        "sound": "LATE"
+        "content": "Rhymes with \"hint\"",
+        "sound": "INT"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a sweet treat made from cacao beans, often shaped into bars."
+        "text": "It's a cool, sharp-flavored herb often used in candy canes."
       },
       {
         "label": "Reveal all sounds",
