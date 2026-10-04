@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-03",
-  "generatedAt": "2026-10-03T10:07:02.656Z",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T10:47:49.331Z",
   "easy": {
-    "answer": "Housefly",
-    "category": "Animal",
+    "answer": "Bookshelf",
+    "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "In what way, as in \"___ are you?\"",
-        "sound": "HOW"
+        "type": "emoji",
+        "content": "📖",
+        "sound": "BOOK"
       },
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "type": "text",
+        "content": "The consonant sound that starts \"shop\"",
+        "sound": "SH"
       },
       {
         "type": "emoji",
-        "content": "🪰",
-        "sound": "FLY"
+        "content": "🧝",
+        "sound": "ELF"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a common buzzing insect that gathers around food."
+        "text": "It's a piece of furniture with flat surfaces for storing books."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Xylophone",
+    "answer": "Saxophone",
     "category": "Object",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "big",
-        "content": "Z",
-        "sound": "Z"
+        "type": "text",
+        "content": "A bag for carrying items",
+        "sound": "SACK"
       },
       {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "Not high, opposite of up",
-        "sound": "LOW"
+        "content": "The letter after N",
+        "sound": "O"
       },
       {
         "type": "text",
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a musical instrument with wooden bars you strike with mallets."
+        "text": "It's a brass wind instrument popular in jazz music."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Peppermint",
+    "answer": "Sandwich",
     "category": "Food",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "Energy and enthusiasm",
-        "sound": "PEP"
-      },
-      {
-        "type": "text",
-        "content": "A comparative suffix, as in \"faster\"",
-        "sound": "ER"
-      },
-      {
         "type": "big",
-        "content": "M",
-        "sound": "M"
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"hint\"",
-        "sound": "INT"
+        "content": "Conjunction joining two things together",
+        "sound": "AND"
+      },
+      {
+        "type": "text",
+        "content": "The letter after V",
+        "sound": "W"
+      },
+      {
+        "type": "text",
+        "content": "An irritating skin sensation",
+        "sound": "ITCH"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a cool, sharp-flavored herb often used in candy canes."
+        "text": "It's two slices of bread with fillings in between."
       },
       {
         "label": "Reveal all sounds",
