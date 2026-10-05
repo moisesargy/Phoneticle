@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T10:47:49.331Z",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T11:54:29.828Z",
   "easy": {
-    "answer": "Bookshelf",
-    "category": "Object",
+    "answer": "Cupcake",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "📖",
-        "sound": "BOOK"
+        "type": "big",
+        "content": "C",
+        "sound": "C"
       },
       {
         "type": "text",
-        "content": "The consonant sound that starts \"shop\"",
-        "sound": "SH"
+        "content": "Opposite of down",
+        "sound": "UP"
       },
       {
         "type": "emoji",
-        "content": "🧝",
-        "sound": "ELF"
+        "content": "🎂",
+        "sound": "CAKE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a piece of furniture with flat surfaces for storing books."
+        "text": "It's a small, single-serving dessert often topped with frosting."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Saxophone",
-    "category": "Object",
+    "answer": "Blueberry",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "A bag for carrying items",
-        "sound": "SACK"
+        "type": "emoji",
+        "content": "🔵",
+        "sound": "BLUE"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "B",
+        "sound": "B"
       },
       {
         "type": "text",
-        "content": "The letter after N",
-        "sound": "O"
+        "content": "A comparative suffix, as in \"faster\"",
+        "sound": "ER"
       },
       {
         "type": "text",
-        "content": "A device used to make calls to people",
-        "sound": "PHONE"
+        "content": "Rhymes with \"tea\"",
+        "sound": "EE"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a brass wind instrument popular in jazz music."
+        "text": "It's a small, round, deep-blue fruit that grows in clusters."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Sandwich",
-    "category": "Food",
+    "answer": "Skyscraper",
+    "category": "Landmark",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "type": "text",
+        "content": "The consonant blend at the start of \"stop\"",
+        "sound": "SK"
+      },
+      {
+        "type": "emoji",
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "text",
-        "content": "Conjunction joining two things together",
-        "sound": "AND"
+        "content": "To rub roughly against a rough surface",
+        "sound": "SCRAPE"
       },
       {
         "type": "text",
-        "content": "The letter after V",
-        "sound": "W"
-      },
-      {
-        "type": "text",
-        "content": "An irritating skin sensation",
-        "sound": "ITCH"
+        "content": "A comparative suffix, as in \"faster\"",
+        "sound": "ER"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's two slices of bread with fillings in between."
+        "text": "It's an extremely tall building found in big cities."
       },
       {
         "label": "Reveal all sounds",
