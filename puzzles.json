@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-05",
-  "generatedAt": "2026-10-05T11:54:29.828Z",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T11:34:50.099Z",
   "easy": {
-    "answer": "Cupcake",
+    "answer": "Pancake",
     "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "big",
-        "content": "C",
-        "sound": "C"
+        "content": "P",
+        "sound": "P"
       },
       {
         "type": "text",
-        "content": "Opposite of down",
-        "sound": "UP"
+        "content": "Indefinite article used before a vowel sound",
+        "sound": "AN"
       },
       {
         "type": "emoji",
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a small, single-serving dessert often topped with frosting."
+        "text": "It's a flat, round breakfast food often stacked and topped with syrup."
       },
       {
         "label": "Reveal all sounds",
@@ -47,14 +47,19 @@
     ]
   },
   "medium": {
-    "answer": "Blueberry",
+    "answer": "Strawberry",
     "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🔵",
-        "sound": "BLUE"
+        "type": "text",
+        "content": "The consonant blend at the start of \"stop\"",
+        "sound": "ST"
+      },
+      {
+        "type": "text",
+        "content": "Uncooked, or unrefined",
+        "sound": "RAW"
       },
       {
         "type": "big",
@@ -63,13 +68,8 @@
       },
       {
         "type": "text",
-        "content": "A comparative suffix, as in \"faster\"",
-        "sound": "ER"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"tea\"",
-        "sound": "EE"
+        "content": "Rhymes with \"very\"",
+        "sound": "ERRY"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a small, round, deep-blue fruit that grows in clusters."
+        "text": "It's a small red fruit covered in tiny seeds."
       },
       {
         "label": "Reveal all sounds",
@@ -101,28 +101,33 @@
     ]
   },
   "hard": {
-    "answer": "Skyscraper",
-    "category": "Landmark",
+    "answer": "Rollercoaster",
+    "category": "Object",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "The consonant blend at the start of \"stop\"",
-        "sound": "SK"
-      },
-      {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
+        "type": "big",
+        "content": "R",
+        "sound": "R"
       },
       {
         "type": "text",
-        "content": "To rub roughly against a rough surface",
-        "sound": "SCRAPE"
+        "content": "Rhymes with \"pole\"",
+        "sound": "OLE"
       },
       {
         "type": "text",
         "content": "A comparative suffix, as in \"faster\"",
+        "sound": "ER"
+      },
+      {
+        "type": "text",
+        "content": "To glide along without much effort",
+        "sound": "COAST"
+      },
+      {
+        "type": "text",
+        "content": "Rhymes with \"blur\"",
         "sound": "ER"
       }
     ],
@@ -144,9 +149,13 @@
         "ci": 3
       },
       {
+        "label": "Reveal clue 5 sound",
+        "ci": 4
+      },
+      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's an extremely tall building found in big cities."
+        "text": "It's a thrilling amusement-park ride full of loops and drops."
       },
       {
         "label": "Reveal all sounds",
