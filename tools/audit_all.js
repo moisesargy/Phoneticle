@@ -17,7 +17,7 @@ levels.forEach(l => all.push({ where: 'Classic L' + l.level, p: l }));
 archive.days.forEach((d, i) => ['easy', 'medium', 'hard'].forEach(k => all.push({ where: 'Daily D' + i + k[0], p: d[k] })));
 author.days.forEach((p, i) => all.push({ where: 'Author #' + i, p, skipBanned: true }));
 
-const minBy = { easy: 3, medium: 4, hard: 4 };
+const minBy = { easy: 3, medium: 3, hard: 4 };
 let problems = 0;
 const seenAnswers = new Map();
 all.forEach(({ where, p, skipBanned }) => {

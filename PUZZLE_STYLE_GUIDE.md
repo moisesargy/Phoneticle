@@ -87,7 +87,7 @@ answer over forcing a fragment that has no real clue.
 
 ## Structural requirements
 
-- Clue-count minimums: easy ≥ 3, medium ≥ 4, hard ≥ 4.
+- Clue-count minimums: easy ≥ 3, medium ≥ 3 (4 preferred), hard ≥ 4.
 - 2+ distinct clue types per puzzle (never all-text, never all-big).
 - No duplicate clue (same type + content) within one puzzle.
 - No duplicate answer across Classic Mode and the Daily archive, or

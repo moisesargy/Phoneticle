@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-06",
-  "generatedAt": "2026-10-06T11:34:50.099Z",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T03:00:30.135Z",
   "easy": {
-    "answer": "Pancake",
-    "category": "Food",
+    "answer": "Butterfly",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
         "type": "big",
-        "content": "P",
-        "sound": "P"
+        "content": "B",
+        "sound": "BEE"
       },
       {
         "type": "text",
-        "content": "Indefinite article used before a vowel sound",
-        "sound": "AN"
+        "content": "Complete: ___ nonsense",
+        "sound": "UTTER"
       },
       {
         "type": "emoji",
-        "content": "🎂",
-        "sound": "CAKE"
+        "content": "🪰",
+        "sound": "FLY"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a flat, round breakfast food often stacked and topped with syrup."
+        "text": "It's a colorful insect that starts life as a caterpillar."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Strawberry",
-    "category": "Food",
+    "answer": "Oklahoma",
+    "category": "Place",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "The consonant blend at the start of \"stop\"",
-        "sound": "ST"
+        "type": "emoji",
+        "content": "🌳",
+        "sound": "OAK"
       },
       {
         "type": "text",
-        "content": "Uncooked, or unrefined",
-        "sound": "RAW"
+        "content": "City of Angels, for short",
+        "sound": "LA"
+      },
+      {
+        "type": "emoji",
+        "content": "🏠",
+        "sound": "HOME"
       },
       {
         "type": "big",
-        "content": "B",
-        "sound": "B"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"very\"",
-        "sound": "ERRY"
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a small red fruit covered in tiny seeds."
+        "text": "It's the U.S. state with Tulsa and Oklahoma City, known for the musical named after it."
       },
       {
         "label": "Reveal all sounds",
@@ -101,34 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Rollercoaster",
-    "category": "Object",
+    "answer": "Justin Timberlake",
+    "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "big",
-        "content": "R",
-        "sound": "R"
+        "type": "text",
+        "content": "Fair and honest, like a ___ judge",
+        "sound": "JUST"
+      },
+      {
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
       },
       {
         "type": "text",
-        "content": "Rhymes with \"pole\"",
-        "sound": "OLE"
+        "content": "What lumberjacks yell",
+        "sound": "TIMBER"
       },
       {
         "type": "text",
-        "content": "A comparative suffix, as in \"faster\"",
-        "sound": "ER"
-      },
-      {
-        "type": "text",
-        "content": "To glide along without much effort",
-        "sound": "COAST"
-      },
-      {
-        "type": "text",
-        "content": "Rhymes with \"blur\"",
-        "sound": "ER"
+        "content": "Calm body of freshwater",
+        "sound": "LAKE"
       }
     ],
     "hints": [
@@ -149,13 +144,9 @@
         "ci": 3
       },
       {
-        "label": "Reveal clue 5 sound",
-        "ci": 4
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a thrilling amusement-park ride full of loops and drops."
+        "text": "It's the singer who brought 'SexyBack' and left NSYNC."
       },
       {
         "label": "Reveal all sounds",
