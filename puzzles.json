@@ -1,25 +1,25 @@
 {
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T03:00:30.135Z",
+  "generatedAt": "2026-10-07T11:24:29.424Z",
   "easy": {
-    "answer": "Butterfly",
-    "category": "Animal",
+    "answer": "Cardi B",
+    "category": "Celebrity",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "big",
-        "content": "B",
-        "sound": "BEE"
+        "type": "emoji",
+        "content": "🚗",
+        "sound": "CAR"
       },
       {
-        "type": "text",
-        "content": "Complete: ___ nonsense",
-        "sound": "UTTER"
+        "type": "big",
+        "content": "D",
+        "sound": "DEE"
       },
       {
         "type": "emoji",
-        "content": "🪰",
-        "sound": "FLY"
+        "content": "🐝",
+        "sound": "BEE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a colorful insect that starts life as a caterpillar."
+        "text": "It's a rapper known for the hit song 'Bodak Yellow.'"
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Oklahoma",
-    "category": "Place",
+    "answer": "Goldilocks",
+    "category": "Character",
     "difficulty": "medium",
     "clues": [
       {
         "type": "emoji",
-        "content": "🌳",
-        "sound": "OAK"
-      },
-      {
-        "type": "text",
-        "content": "City of Angels, for short",
-        "sound": "LA"
+        "content": "🥇",
+        "sound": "GOLD"
       },
       {
         "type": "emoji",
-        "content": "🏠",
-        "sound": "HOME"
+        "content": "👁️",
+        "sound": "EYE"
+      },
+      {
+        "type": "emoji",
+        "content": "🔒",
+        "sound": "LOCK"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -92,7 +92,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the U.S. state with Tulsa and Oklahoma City, known for the musical named after it."
+        "text": "It's the fairy-tale girl who tried three bears' porridge, chairs, and beds."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +101,29 @@
     ]
   },
   "hard": {
-    "answer": "Justin Timberlake",
-    "category": "Celebrity",
+    "answer": "Mona Lisa",
+    "category": "Painting",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "Fair and honest, like a ___ judge",
-        "sound": "JUST"
+        "content": "Groan unhappily",
+        "sound": "MOAN"
       },
       {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
-      },
-      {
-        "type": "text",
-        "content": "What lumberjacks yell",
-        "sound": "TIMBER"
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       },
       {
         "type": "text",
-        "content": "Calm body of freshwater",
-        "sound": "LAKE"
+        "content": "Bruce ___, kung fu legend",
+        "sound": "LEE"
+      },
+      {
+        "type": "emoji",
+        "content": "🪚",
+        "sound": "SAW"
       }
     ],
     "hints": [
@@ -146,7 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the singer who brought 'SexyBack' and left NSYNC."
+        "text": "It's the most famous painting in the world, hanging in the Louvre."
       },
       {
         "label": "Reveal all sounds",
