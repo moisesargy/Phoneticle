@@ -369,6 +369,8 @@
   }
   .clue-box.is-revealed{border-color:rgba(200,241,53,0.4);background:#191f10;}
   .clue-emoji{font-size:42px;line-height:1;}
+  .clue-image{display:block;width:128px;height:auto;}
+  .clue-box:has(.clue-image){max-width:160px;}
   .clue-text{font-size:13px;font-style:italic;color:var(--text);line-height:1.35;}
   .clue-struck-wrap{display:flex;flex-direction:column;align-items:center;gap:3px;}
   .clue-struck{
@@ -1346,7 +1348,7 @@
       category: "TV Show",
       difficulty: "hard",
       clues: [
-        { type: "text", content: "Old word for cheerful", sound: "GAY" },
+        { type: "image", content: "images/lgbt-arrow-g.svg", alt: "The letters L G B T with an arrow pointing at the G", sound: "GAY" },
         { type: "text", content: "When a punt returner drops the ball", sound: "MUFF" },
         { type: "emoji", content: "🏈", sound: "THROWN" },
         { type: "big", content: "S", sound: "S" }
@@ -2204,6 +2206,8 @@
     let inner = "";
     if (clue.type === "emoji") {
       inner = '<div class="clue-emoji">' + escapeHtml(clue.content) + '</div>';
+    } else if (clue.type === "image") {
+      inner = '<img class="clue-image" src="' + escapeHtml(clue.content) + '" alt="' + escapeHtml(clue.alt || "Picture clue") + '" draggable="false">';
     } else if (clue.type === "struck") {
       inner =
         '<div class="clue-struck-wrap">' +

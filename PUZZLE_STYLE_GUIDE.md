@@ -22,6 +22,20 @@ be asked to update it.
   feasible. Favor emoji, a struck-antonym pair, or the one allowed
   big letter instead. Text is fine when nothing else fits — just cap
   it at one.
+
+## Picture clues (`"image"` type)
+
+- Shape: `{ type: "image", content: "images/<file>.svg", alt: "<what it shows>", sound: "WORD" }`.
+  Files live in `images/` (SVG preferred; PNG/WebP fine). Any source is OK
+  — hand-made SVG, AI art, clip art — as long as the picture is instantly
+  understandable on its own and reads clearly at about 130px wide.
+- A picture clue is for things emoji can't say: a labelled diagram, a
+  word with an arrow or circle on one part, a unique drawing. Use dark-
+  theme colors (light letters, lime `#c8f135` for pointers/highlights).
+- Keep one idea per picture. If you need a sentence to explain it, it's
+  not a good picture clue.
+- First one: Classic level 53 (`images/lgbt-arrow-g.svg`: "LGBT" with an
+  arrow at the G, sound GAY).
 - Text clue wording: **max ~8 words**. Cut long "as in ___" examples
   when the core definition alone already nails it.
 - **One clue = one idea, no exceptions.** Never stack a definition
