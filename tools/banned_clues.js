@@ -8,6 +8,7 @@ const PATTERNS = [
   [/exclamation of|hesitation sound|sound you make when/i, 'exclamation/filler'],
   [/sounds? like the letter|like the letter [A-Z]\b/i, 'letter-sound confirmation'],
   [/\bdo-re-mi\b|alternately spelled|also spelled/i, 'obscure trivia'],
+  [/\bcasual (word|way|term|greeting)\b|\binformal (word|short|name|nickname|slang)\b|\b(common )?nickname for\b|\bslang for\b|\bshort for\b|\b(common )?abbreviation for\b|\bobviously\b/i, 'vague slang/nickname/abbreviation clue'],
 ];
 
 function bannedReason(clue) {
