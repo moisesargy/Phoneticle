@@ -28,17 +28,46 @@ be asked to update it.
   with a redundant confirmation, e.g. "To use your eyes, like the
   letter C" — the second half adds nothing; cut to "To use your eyes."
 
+## The golden rule
+
+**Every clue must be something an ordinary player can read once and
+immediately think of ONE specific word, picture, or thing.** If a
+player would have to decode the clue before they could even guess at
+it, or if the clue is a nonsense stand-in for a sound fragment, the
+clue is bad — and so is the puzzle, even if it passes every
+mechanical check. Read each clue cold, as a player would, and ask "what
+would I say out loud?" If the honest answer is "no idea what this means,"
+rewrite the clue or pick a different answer. Prefer swapping the
+answer over forcing a fragment that has no real clue.
+
 ## Banned clue content
 
+- **"Rhymes with ___" clues are banned outright, no exceptions.**
+- **Grammar/linguistics jargon is banned**: nobody knows what these
+  mean. No "indefinite/definite article", "suffix", "prefix",
+  "comparative", "conjunction", "preposition", "pronoun", "modal
+  verb", "consonant blend/sound", "vowel sound", "Latin root", etc.
+  If the sound is a tiny function word (a, the, in, or, us...), find a
+  plain real-world clue for it, restructure the puzzle so it isn't
+  needed, or pick a different answer.
 - No "Exclamation of X" clues, no "hesitation sound", no "sound you
   make when..." — cheap filler that doesn't require real thought.
 - No bare vowel-sound-quality descriptions ("Open vowel sound, as in
-  'father'", "Short vowel sound of the letter U") — same category as
-  the exclamation ban, just dressed up.
-- **Letter-identity clues are the allowed fallback** for a lone
-  letter or vowel sound: "The letter after D", "The first letter of
-  the alphabet", "The letter that comes before Q". These require
-  actually knowing the alphabet, unlike a vowel-quality description.
+  'father'", "Short vowel sound of the letter U").
+- No fake letter riddles ("The letter after T" for a sound that isn't
+  that letter's name, "the first letter of the alphabet" for "ah").
+  A genuine single big letter is fine; a riddle about the alphabet is
+  not. Don't use "The letter after X" at all.
+- No obscure trivia nobody would know unless it's the point of the
+  puzzle (e.g. "a sea eagle, also spelled erne", "the sixth note in
+  do-re-mi", "a Russian emperor, alternately spelled tsar").
+- No nickname clues that are ambiguous ("Common nickname for Melissa
+  or Melvin" could be anything). A clue must point to ONE answer.
+- **Never reword, "tighten," or "improve" a clue the author wrote
+  themselves.** In Author's Puzzle entries, use the author's clue text
+  verbatim, character for character. Rewording one clue ("Aubrey
+  Graham" -> "Drake's real name") gave away the answer and ruined the
+  puzzle. If a clue seems off, ask — don't fix it silently.
 - No literal restating of the answer's real meaning.
 - No spelling out a chunk of a proper noun's actual name via multiple
   "big" fragments (e.g. "KRIS" for Chris, "DEZ" for Mendes) — not
@@ -69,15 +98,16 @@ be asked to update it.
   with an extra sound that doesn't belong just to hit the clue-count
   minimum — that's how a puzzle stops making sense.
 
-## Fallback techniques for stubborn fragments
+## How to build a puzzle that actually works
 
-When no emoji/struck/real-word clue fits a fragment:
-
-- Rhyme: "Rhymes with 'stir'"
-- Letter identity: "The letter after T"
-- Consonant blend: "The consonant blend at the start of 'stop'"
-- Prefer emoji over text whenever a natural pictograph exists for the
-  sound — it's the most visual, least-reading option.
+There are no fallback tricks for stubborn fragments. If a chunk of the
+answer has no clean clue (an emoji, a struck antonym, a plain short
+definition of a real common word, a well-known name or title, or a
+single bold letter), **choose a different answer** rather than forcing
+it. Pick answers that split naturally into whole, familiar words or
+pictures, e.g. Hot Air Balloon (struck COLD -> HOT + 💨 + 🎈), Big Bad
+Wolf, Goldilocks (🥇 + I + 🔒), Peanut Butter (🫛 + 🥜 + butter).
+Prefer emoji whenever a natural pictograph exists.
 
 ## Before shipping any puzzle-content change
 

@@ -11,6 +11,7 @@
 // full required process.
 const fs = require('fs');
 const path = require('path');
+const { bannedReason } = require('./banned_clues');
 
 const batchPath = process.argv[2];
 if (!batchPath) {
@@ -52,7 +53,8 @@ newDays.forEach((day, di) => {
       seenClue.add(k);
       if (c.type === 'big' && c.content.length > 1) { console.log('MULTI-LETTER BIG', di, diff, p.answer, c.content); issues++; }
       if (c.type === 'text' && c.content.split(/\s+/).length > 8) { console.log('TOO LONG', di, diff, p.answer, c.content); issues++; }
-      if (c.type === 'text' && /exclamation of|hesitation sound|sound you make when/i.test(c.content)) { console.log('BANNED PATTERN', di, diff, p.answer, c.content); issues++; }
+      const bannedWhy = bannedReason(c);
+      if (bannedWhy) { console.log('BANNED (' + bannedWhy + ')', di, diff, p.answer, c.content); issues++; }
     });
     if (new Set(p.clues.map(c => c.type)).size < 2) { console.log('TYPE DIVERSITY', di, diff, p.answer); issues++; }
     const bigCount = p.clues.filter(c => c.type === 'big').length;
