@@ -23,7 +23,7 @@ penalty.
 |---|---|---|
 | Classic | `CLASSIC_LEVELS` array inline in `index.html` (54 levels) | Fixed order, shuffled so categories don't run in a row. Progress is stored by *answer text*, not level number. |
 | Daily | `puzzles.json` (today's set), fed from `puzzles-archive.json` | 3 puzzles a day: easy, medium, hard. Must be solved in that order. Resets at midnight. |
-| Author's Puzzle | `author-puzzle.json`, fed from `author-puzzles-archive.json` | One hand-crafted puzzle a day by the owner. Opens straight into the puzzle. If the archive is empty the site shows a "no puzzles yet" state. |
+| Author's Puzzle | `author-puzzles-archive.json` (`{ days: [...] }`, oldest first) | Hand-crafted by the owner. No rotation: the **last** entry is the current puzzle, earlier ones appear under "Past puzzles". Opens straight into the latest puzzle. No text hint, category reveal only. |
 
 The app is a single-file vanilla JS SPA (`index.html`): a `state` object, a
 `render()` function, delegated click handlers using `data-action`. No
@@ -35,9 +35,10 @@ lowercasing and stripping everything except a-z and 0-9; near-misses get a
 
 - `puzzles-archive.json` = `{ days: [{easy, medium, hard}, ...], nextIndex }`.
 - A GitHub Actions cron (`.github/workflows/daily-puzzles.yml`, 05:00 UTC)
-  runs `activate-daily-puzzle.js` and `activate-author-puzzle.js`. They copy
-  the next archive entry into `puzzles.json` / `author-puzzle.json`, advance
-  `nextIndex`, then commit and push.
+  runs `activate-daily-puzzle.js`. It copies the next archive entry into
+  `puzzles.json`, advances `nextIndex`, then commits and pushes. (Author's
+  Puzzle is not part of this; to publish one, append it to
+  `author-puzzles-archive.json`.)
 - When the archive runs out, activation wraps to day 0 (a repeat). The owner
   does **not** want repeats, so the archive must always stay ahead of the
   rotation pointer.

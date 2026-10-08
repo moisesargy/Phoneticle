@@ -170,16 +170,22 @@ If a week's run is ever skipped or fails, nothing breaks immediately —
 out, same as it always has. The buffer built up week over week is the
 safety margin for exactly that scenario.
 
-## Author's Pick mode
+## Author's Puzzle mode
 
-A third mode alongside Classic and Daily: one hand-authored puzzle a
-day, written by Phoneticle's creator (not generated). Data lives in
-`author-puzzles-archive.json` (same `{days, nextIndex}` rotation shape
-as the Daily archive, but each entry is a single puzzle object, not an
-easy/medium/hard set), activated daily into `author-puzzle.json` by
-`activate-author-puzzle.js` in the same GitHub Actions workflow as
-Daily Mode. If the archive is empty, activation writes a null puzzle
-and the site shows a "no puzzles yet" state rather than erroring.
+A third mode alongside Classic and Daily: hand-authored puzzles written
+by Phoneticle's creator (not generated). Data lives in
+`author-puzzles-archive.json` as `{ days: [...] }`, oldest first, each
+entry a single puzzle object. **There is no rotation and no cron job for
+this mode.** The newest entry (the last one in `days`) is the current
+puzzle; the owner makes new ones whenever they like, and every earlier
+entry shows up under the "Past puzzles" button on the Author's Puzzle
+screen. To publish a new one, append it to the end of `days`. If the
+archive is empty the site shows a "no puzzles yet" state.
+
+**Author puzzles have no "Give me a hint" text hint** — only the
+category reveal (just the category word, e.g. "Animal") and the sound
+reveals. The owner found a descriptive hint far too specific. Don't add
+a text hint to author entries.
 
 **How entries get added:** the creator describes a new puzzle in a
 chat session; whoever's assisting (Claude) encodes it into the

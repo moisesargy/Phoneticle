@@ -44,11 +44,6 @@
           "ci": 3
         },
         {
-          "label": "Give me a hint",
-          "ci": -1,
-          "text": "It's a Pulitzer Prize-winning rapper from Compton."
-        },
-        {
           "label": "Reveal all sounds",
           "ci": -2
         }
@@ -71,8 +66,8 @@
         },
         {
           "type": "image",
-          "content": "images/rag.svg",
-          "alt": "A worn, frayed cleaning rag",
+          "content": "images/rag.jpg",
+          "alt": "A green cleaning rag held up by a hand",
           "sound": "RAG"
         },
         {
@@ -99,16 +94,10 @@
           "ci": 3
         },
         {
-          "label": "Give me a hint",
-          "ci": -1,
-          "text": "It's the world's largest living lizard, found on a few islands in Indonesia."
-        },
-        {
           "label": "Reveal all sounds",
           "ci": -2
         }
       ]
     }
-  ],
-  "nextIndex": 1
+  ]
 }
