@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-07",
-  "generatedAt": "2026-10-07T11:24:29.424Z",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T11:40:09.660Z",
   "easy": {
-    "answer": "Cardi B",
-    "category": "Celebrity",
+    "answer": "Hamburger",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🚗",
-        "sound": "CAR"
+        "type": "text",
+        "content": "Pork cut used in sandwiches",
+        "sound": "HAM"
       },
       {
-        "type": "big",
-        "content": "D",
-        "sound": "DEE"
+        "type": "text",
+        "content": "A small town",
+        "sound": "BURG"
       },
       {
-        "type": "emoji",
-        "content": "🐝",
-        "sound": "BEE"
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a rapper known for the hit song 'Bodak Yellow.'"
+        "text": "It's a beef patty in a bun."
       },
       {
         "label": "Reveal all sounds",
@@ -47,68 +47,14 @@
     ]
   },
   "medium": {
-    "answer": "Goldilocks",
-    "category": "Character",
+    "answer": "Delaware",
+    "category": "Place",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🥇",
-        "sound": "GOLD"
-      },
-      {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
-      },
-      {
-        "type": "emoji",
-        "content": "🔒",
-        "sound": "LOCK"
-      },
-      {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the fairy-tale girl who tried three bears' porridge, chairs, and beds."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Mona Lisa",
-    "category": "Painting",
-    "difficulty": "hard",
-    "clues": [
-      {
         "type": "text",
-        "content": "Groan unhappily",
-        "sound": "MOAN"
+        "content": "Computer maker",
+        "sound": "DELL"
       },
       {
         "type": "big",
@@ -117,13 +63,58 @@
       },
       {
         "type": "text",
-        "content": "Bruce ___, kung fu legend",
-        "sound": "LEE"
+        "content": "Put on clothes",
+        "sound": "WEAR"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the first U.S. state to ratify the Constitution."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Zootopia",
+    "category": "Movie",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "Place to see lions and giraffes",
+        "sound": "ZOO"
+      },
+      {
+        "type": "text",
+        "content": "Digit on your foot",
+        "sound": "TOE"
       },
       {
         "type": "emoji",
-        "content": "🪚",
-        "sound": "SAW"
+        "content": "🫛",
+        "sound": "PEA"
+      },
+      {
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -146,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the most famous painting in the world, hanging in the Louvre."
+        "text": "It's the animated Disney movie about a bunny cop in a city of animals."
       },
       {
         "label": "Reveal all sounds",
