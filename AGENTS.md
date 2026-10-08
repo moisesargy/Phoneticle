@@ -38,7 +38,8 @@ lowercasing and stripping everything except a-z and 0-9; near-misses get a
   runs `activate-daily-puzzle.js`. It copies the next archive entry into
   `puzzles.json`, advances `nextIndex`, then commits and pushes. (Author's
   Puzzle is not part of this; to publish one, append it to
-  `author-puzzles-archive.json`.)
+  `author-puzzles-archive.json`, optionally with a `"date": "YYYY-MM-DD"`
+  go-live day.)
 - When the archive runs out, activation wraps to day 0 (a repeat). The owner
   does **not** want repeats, so the archive must always stay ahead of the
   rotation pointer.

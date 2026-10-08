@@ -179,7 +179,10 @@ entry a single puzzle object. **There is no rotation and no cron job for
 this mode.** The newest entry (the last one in `days`) is the current
 puzzle; the owner makes new ones whenever they like, and every earlier
 entry shows up under the "Past puzzles" button on the Author's Puzzle
-screen. To publish a new one, append it to the end of `days`. If the
+screen. To publish a new one, append it to the end of `days`. An entry
+may have an optional `"date": "YYYY-MM-DD"` — it stays hidden until that
+day (use this to line one up for tomorrow); with no date it is live
+immediately. If the
 archive is empty the site shows a "no puzzles yet" state.
 
 **Author puzzles have no "Give me a hint" text hint** — only the

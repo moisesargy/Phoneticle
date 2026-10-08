@@ -98,6 +98,57 @@
           "ci": -2
         }
       ]
+    },
+    {
+      "answer": "Patrick Mahomes",
+      "date": "2026-10-09",
+      "category": "Athlete",
+      "difficulty": "hard",
+      "clues": [
+        {
+          "type": "text",
+          "content": "Pennsylvania abbreviation",
+          "sound": "PA"
+        },
+        {
+          "type": "text",
+          "content": "_____ or treat",
+          "sound": "TRICK"
+        },
+        {
+          "type": "text",
+          "content": "Mater, (for short)",
+          "sound": "MA"
+        },
+        {
+          "type": "image",
+          "content": "images/sherlock-holmes.webp",
+          "alt": "A detective in a deerstalker hat with a pipe and magnifying glass",
+          "sound": "HOLMES"
+        }
+      ],
+      "hints": [
+        {
+          "label": "Reveal clue 1 sound",
+          "ci": 0
+        },
+        {
+          "label": "Reveal clue 2 sound",
+          "ci": 1
+        },
+        {
+          "label": "Reveal clue 3 sound",
+          "ci": 2
+        },
+        {
+          "label": "Reveal clue 4 sound",
+          "ci": 3
+        },
+        {
+          "label": "Reveal all sounds",
+          "ci": -2
+        }
+      ]
     }
   ]
 }
