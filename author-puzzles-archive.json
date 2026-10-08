@@ -53,7 +53,62 @@
           "ci": -2
         }
       ]
+    },
+    {
+      "answer": "Komodo Dragon",
+      "category": "Animal",
+      "difficulty": "hard",
+      "clues": [
+        {
+          "type": "text",
+          "content": "How most websites end",
+          "sound": "COM"
+        },
+        {
+          "type": "text",
+          "content": "Famous extinct bird, but backwards",
+          "sound": "ODOD"
+        },
+        {
+          "type": "image",
+          "content": "images/rag.svg",
+          "alt": "A worn, frayed cleaning rag",
+          "sound": "RAG"
+        },
+        {
+          "type": "struck",
+          "content": "OFF",
+          "sound": "ON"
+        }
+      ],
+      "hints": [
+        {
+          "label": "Reveal clue 1 sound",
+          "ci": 0
+        },
+        {
+          "label": "Reveal clue 2 sound",
+          "ci": 1
+        },
+        {
+          "label": "Reveal clue 3 sound",
+          "ci": 2
+        },
+        {
+          "label": "Reveal clue 4 sound",
+          "ci": 3
+        },
+        {
+          "label": "Give me a hint",
+          "ci": -1,
+          "text": "It's the world's largest living lizard, found on a few islands in Indonesia."
+        },
+        {
+          "label": "Reveal all sounds",
+          "ci": -2
+        }
+      ]
     }
   ],
-  "nextIndex": 0
+  "nextIndex": 1
 }
