@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-08T11:40:09.660Z",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T11:33:38.923Z",
   "easy": {
-    "answer": "Hamburger",
-    "category": "Food",
+    "answer": "Bookshelf",
+    "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "Pork cut used in sandwiches",
-        "sound": "HAM"
+        "type": "emoji",
+        "content": "📖",
+        "sound": "BOOK"
       },
       {
         "type": "text",
-        "content": "A small town",
-        "sound": "BURG"
+        "content": "What a librarian says: \"___!\"",
+        "sound": "SH"
       },
       {
-        "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
+        "type": "emoji",
+        "content": "🧝",
+        "sound": "ELF"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a beef patty in a bun."
+        "text": "It's a piece of furniture where you keep your novels."
       },
       {
         "label": "Reveal all sounds",
@@ -47,14 +47,14 @@
     ]
   },
   "medium": {
-    "answer": "Delaware",
+    "answer": "Oregon",
     "category": "Place",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Computer maker",
-        "sound": "DELL"
+        "content": "Raw metal rock",
+        "sound": "ORE"
       },
       {
         "type": "big",
@@ -62,9 +62,9 @@
         "sound": "A"
       },
       {
-        "type": "text",
-        "content": "Put on clothes",
-        "sound": "WEAR"
+        "type": "emoji",
+        "content": "🔫",
+        "sound": "GUN"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the first U.S. state to ratify the Constitution."
+        "text": "It's a U.S. state on the Pacific coast with Portland."
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Zootopia",
-    "category": "Movie",
+    "answer": "SpongeBob SquarePants",
+    "category": "Cartoon",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "Place to see lions and giraffes",
-        "sound": "ZOO"
+        "type": "emoji",
+        "content": "🧽",
+        "sound": "SPONGE"
       },
       {
         "type": "text",
-        "content": "Digit on your foot",
-        "sound": "TOE"
+        "content": "Haircut that ends at your chin",
+        "sound": "BOB"
       },
       {
         "type": "emoji",
-        "content": "🫛",
-        "sound": "PEA"
+        "content": "🟦",
+        "sound": "SQUARE"
       },
       {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
+        "type": "emoji",
+        "content": "👖",
+        "sound": "PANTS"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the animated Disney movie about a bunny cop in a city of animals."
+        "text": "It's a cheerful cartoon sponge who lives in a pineapple under the sea."
       },
       {
         "label": "Reveal all sounds",
