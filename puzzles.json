@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-09T11:33:38.923Z",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T10:51:34.984Z",
   "easy": {
-    "answer": "Bookshelf",
-    "category": "Object",
+    "answer": "Cauliflower",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "📖",
-        "sound": "BOOK"
-      },
-      {
         "type": "text",
-        "content": "What a librarian says: \"___!\"",
-        "sound": "SH"
+        "content": "Phone someone",
+        "sound": "CALL"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
       },
       {
         "type": "emoji",
-        "content": "🧝",
-        "sound": "ELF"
+        "content": "🌸",
+        "sound": "FLOWER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a piece of furniture where you keep your novels."
+        "text": "It's a white vegetable that looks like a brain-shaped cloud."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Oregon",
-    "category": "Place",
+    "answer": "Matilda",
+    "category": "Movie",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Raw metal rock",
-        "sound": "ORE"
+        "content": "Welcome ___ at the door",
+        "sound": "MAT"
       },
       {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
+        "type": "struck",
+        "content": "WELL",
+        "sound": "ILL"
       },
       {
-        "type": "emoji",
-        "content": "🔫",
-        "sound": "GUN"
+        "type": "text",
+        "content": "Russian word for yes",
+        "sound": "DA"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a U.S. state on the Pacific coast with Portland."
+        "text": "It's the story of a girl with telekinetic powers and a terrible headmistress."
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "SpongeBob SquarePants",
-    "category": "Cartoon",
+    "answer": "Robin Williams",
+    "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🧽",
-        "sound": "SPONGE"
+        "type": "text",
+        "content": "Steal from",
+        "sound": "ROB"
+      },
+      {
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
       },
       {
         "type": "text",
-        "content": "Haircut that ends at your chin",
-        "sound": "BOB"
+        "content": "Last ___ and testament",
+        "sound": "WILL"
       },
       {
         "type": "emoji",
-        "content": "🟦",
-        "sound": "SQUARE"
-      },
-      {
-        "type": "emoji",
-        "content": "👖",
-        "sound": "PANTS"
+        "content": "🍠",
+        "sound": "YAMS"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a cheerful cartoon sponge who lives in a pineapple under the sea."
+        "text": "It's the comedian who voiced the Genie in Aladdin and starred in Mrs. Doubtfire."
       },
       {
         "label": "Reveal all sounds",
