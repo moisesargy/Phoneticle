@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-10T10:51:34.984Z",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T11:04:26.613Z",
   "easy": {
-    "answer": "Cauliflower",
-    "category": "Food",
+    "answer": "Grasshopper",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "Phone someone",
-        "sound": "CALL"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
-      },
-      {
         "type": "emoji",
-        "content": "🌸",
-        "sound": "FLOWER"
+        "content": "🌱",
+        "sound": "GRASS"
+      },
+      {
+        "type": "text",
+        "content": "Jump on one foot",
+        "sound": "HOP"
+      },
+      {
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a white vegetable that looks like a brain-shaped cloud."
+        "text": "It's a green insect that leaps and chirps in meadows."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Matilda",
-    "category": "Movie",
+    "answer": "Alpaca",
+    "category": "Animal",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Welcome ___ at the door",
-        "sound": "MAT"
-      },
-      {
-        "type": "struck",
-        "content": "WELL",
-        "sound": "ILL"
+        "content": "Gangster Capone's first name",
+        "sound": "AL"
       },
       {
         "type": "text",
-        "content": "Russian word for yes",
-        "sound": "DA"
+        "content": "Fill a suitcase",
+        "sound": "PACK"
+      },
+      {
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the story of a girl with telekinetic powers and a terrible headmistress."
+        "text": "It's a fluffy South American animal raised for its wool."
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Robin Williams",
-    "category": "Celebrity",
+    "answer": "Massachusetts",
+    "category": "Place",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "Steal from",
-        "sound": "ROB"
+        "content": "Church service",
+        "sound": "MASS"
       },
       {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       },
       {
         "type": "text",
-        "content": "Last ___ and testament",
-        "sound": "WILL"
+        "content": "Do this to gum",
+        "sound": "CHEW"
       },
       {
-        "type": "emoji",
-        "content": "🍠",
-        "sound": "YAMS"
+        "type": "text",
+        "content": "Tennis ___ and matches",
+        "sound": "SETS"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the comedian who voiced the Genie in Aladdin and starred in Mrs. Doubtfire."
+        "text": "It's the U.S. state that holds Boston and Cape Cod."
       },
       {
         "label": "Reveal all sounds",
