@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-11",
-  "generatedAt": "2026-10-11T11:04:26.613Z",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T12:32:42.724Z",
   "easy": {
-    "answer": "Grasshopper",
-    "category": "Animal",
+    "answer": "Peppermint",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🌱",
-        "sound": "GRASS"
-      },
-      {
         "type": "text",
-        "content": "Jump on one foot",
-        "sound": "HOP"
+        "content": "Energy and enthusiasm",
+        "sound": "PEP"
       },
       {
         "type": "struck",
         "content": "HIM",
         "sound": "HER"
+      },
+      {
+        "type": "emoji",
+        "content": "🌿",
+        "sound": "MINT"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a green insect that leaps and chirps in meadows."
+        "text": "It's a candy cane flavor."
       },
       {
         "label": "Reveal all sounds",
@@ -47,59 +47,14 @@
     ]
   },
   "medium": {
-    "answer": "Alpaca",
-    "category": "Animal",
+    "answer": "Madagascar",
+    "category": "Place",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "Gangster Capone's first name",
-        "sound": "AL"
-      },
-      {
-        "type": "text",
-        "content": "Fill a suitcase",
-        "sound": "PACK"
-      },
-      {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's a fluffy South American animal raised for its wool."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Massachusetts",
-    "category": "Place",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "text",
-        "content": "Church service",
-        "sound": "MASS"
+        "type": "emoji",
+        "content": "😡",
+        "sound": "MAD"
       },
       {
         "type": "big",
@@ -107,14 +62,14 @@
         "sound": "A"
       },
       {
-        "type": "text",
-        "content": "Do this to gum",
-        "sound": "CHEW"
+        "type": "emoji",
+        "content": "⛽",
+        "sound": "GAS"
       },
       {
-        "type": "text",
-        "content": "Tennis ___ and matches",
-        "sound": "SETS"
+        "type": "emoji",
+        "content": "🚗",
+        "sound": "CAR"
       }
     ],
     "hints": [
@@ -137,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the U.S. state that holds Boston and Cape Cod."
+        "text": "It's a huge island nation off the east coast of Africa, home to lemurs."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Gladiator",
+    "category": "Movie",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "struck",
+        "content": "SAD",
+        "sound": "GLAD"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
+      },
+      {
+        "type": "text",
+        "content": "Finished dinner",
+        "sound": "ATE"
+      },
+      {
+        "type": "text",
+        "content": "Ripped apart",
+        "sound": "TORE"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the Oscar-winning Roman arena movie starring Russell Crowe."
       },
       {
         "label": "Reveal all sounds",
