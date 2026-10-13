@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T12:32:42.724Z",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T12:16:35.122Z",
   "easy": {
-    "answer": "Peppermint",
-    "category": "Food",
+    "answer": "Unicorn",
+    "category": "Creature",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "Energy and enthusiasm",
-        "sound": "PEP"
+        "content": "Opposite of \"me\"",
+        "sound": "YOU"
       },
       {
-        "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
+        "type": "text",
+        "content": "Joint in the middle of your leg",
+        "sound": "KNEE"
       },
       {
         "type": "emoji",
-        "content": "🌿",
-        "sound": "MINT"
+        "content": "🌽",
+        "sound": "CORN"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a candy cane flavor."
+        "text": "It's a magical horse with a single horn."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Madagascar",
-    "category": "Place",
+    "answer": "Encanto",
+    "category": "Movie",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "😡",
-        "sound": "MAD"
-      },
-      {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "N",
+        "sound": "EN"
       },
       {
         "type": "emoji",
-        "content": "⛽",
-        "sound": "GAS"
+        "content": "🥫",
+        "sound": "CAN"
       },
       {
-        "type": "emoji",
-        "content": "🚗",
-        "sound": "CAR"
+        "type": "text",
+        "content": "Digit on your foot",
+        "sound": "TOE"
       }
     ],
     "hints": [
@@ -86,13 +81,9 @@
         "ci": 2
       },
       {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a huge island nation off the east coast of Africa, home to lemurs."
+        "text": "It's the Disney movie about the magical Madrigal family."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Gladiator",
-    "category": "Movie",
+    "answer": "Emma Watson",
+    "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "struck",
-        "content": "SAD",
-        "sound": "GLAD"
-      },
-      {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "content": "M",
+        "sound": "EM"
       },
       {
         "type": "text",
-        "content": "Finished dinner",
-        "sound": "ATE"
+        "content": "Mom, to a toddler",
+        "sound": "MA"
       },
       {
         "type": "text",
-        "content": "Ripped apart",
-        "sound": "TORE"
+        "content": "Light bulb power unit",
+        "sound": "WATT"
+      },
+      {
+        "type": "emoji",
+        "content": "☀️",
+        "sound": "SUN"
       }
     ],
     "hints": [
@@ -146,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the Oscar-winning Roman arena movie starring Russell Crowe."
+        "text": "It's the actress who played Hermione in Harry Potter."
       },
       {
         "label": "Reveal all sounds",
