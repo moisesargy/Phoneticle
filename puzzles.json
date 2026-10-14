@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T12:16:35.122Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T09:49:12.625Z",
   "easy": {
-    "answer": "Unicorn",
-    "category": "Creature",
+    "answer": "Ariel",
+    "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "Opposite of \"me\"",
-        "sound": "YOU"
-      },
-      {
-        "type": "text",
-        "content": "Joint in the middle of your leg",
-        "sound": "KNEE"
-      },
-      {
         "type": "emoji",
-        "content": "🌽",
-        "sound": "CORN"
+        "content": "💨",
+        "sound": "AIR"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
+      },
+      {
+        "type": "text",
+        "content": "Fashion magazine with a girl's name",
+        "sound": "ELLE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a magical horse with a single horn."
+        "text": "It's the red-haired mermaid from a Disney movie."
       },
       {
         "label": "Reveal all sounds",
@@ -47,74 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Encanto",
-    "category": "Movie",
+    "answer": "Hot Air Balloon",
+    "category": "Object",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "big",
-        "content": "N",
-        "sound": "EN"
+        "type": "struck",
+        "content": "COLD",
+        "sound": "HOT"
       },
       {
         "type": "emoji",
-        "content": "🥫",
-        "sound": "CAN"
-      },
-      {
-        "type": "text",
-        "content": "Digit on your foot",
-        "sound": "TOE"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the Disney movie about the magical Madrigal family."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Emma Watson",
-    "category": "Celebrity",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "big",
-        "content": "M",
-        "sound": "EM"
-      },
-      {
-        "type": "text",
-        "content": "Mom, to a toddler",
-        "sound": "MA"
-      },
-      {
-        "type": "text",
-        "content": "Light bulb power unit",
-        "sound": "WATT"
+        "content": "💨",
+        "sound": "AIR"
       },
       {
         "type": "emoji",
-        "content": "☀️",
-        "sound": "SUN"
+        "content": "⚽",
+        "sound": "BALL"
+      },
+      {
+        "type": "text",
+        "content": "Bird with a haunting call",
+        "sound": "LOON"
       }
     ],
     "hints": [
@@ -137,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the actress who played Hermione in Harry Potter."
+        "text": "It's a giant fabric bag filled with heated air that carries a basket into the sky."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Justin Bieber",
+    "category": "Celebrity",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "Merely",
+        "sound": "JUST"
+      },
+      {
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
+      },
+      {
+        "type": "emoji",
+        "content": "🐝",
+        "sound": "BEE"
+      },
+      {
+        "type": "emoji",
+        "content": "🐻",
+        "sound": "BEAR"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the Canadian pop star famous for 'Baby' and 'Sorry'."
       },
       {
         "label": "Reveal all sounds",
