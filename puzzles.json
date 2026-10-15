@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-14",
-  "generatedAt": "2026-10-14T09:49:12.625Z",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T09:29:55.536Z",
   "easy": {
-    "answer": "Ariel",
-    "category": "Character",
+    "answer": "Ice Cream",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "💨",
-        "sound": "AIR"
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "content": "S",
+        "sound": "S"
       },
       {
         "type": "text",
-        "content": "Fashion magazine with a girl's name",
-        "sound": "ELLE"
+        "content": "Coffee additive",
+        "sound": "CREAM"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the red-haired mermaid from a Disney movie."
+        "text": "It's a frozen treat served in a cone."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Hot Air Balloon",
-    "category": "Object",
+    "answer": "Cantaloupe",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "struck",
-        "content": "COLD",
-        "sound": "HOT"
+        "type": "emoji",
+        "content": "🥫",
+        "sound": "CAN"
       },
       {
-        "type": "emoji",
-        "content": "💨",
-        "sound": "AIR"
-      },
-      {
-        "type": "emoji",
-        "content": "⚽",
-        "sound": "BALL"
+        "type": "big",
+        "content": "A",
+        "sound": "UH"
       },
       {
         "type": "text",
-        "content": "Bird with a haunting call",
-        "sound": "LOON"
+        "content": "Run with long, easy strides",
+        "sound": "LOPE"
       }
     ],
     "hints": [
@@ -86,13 +81,9 @@
         "ci": 2
       },
       {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a giant fabric bag filled with heated air that carries a basket into the sky."
+        "text": "It's an orange-fleshed melon with a netted rind."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Justin Bieber",
+    "answer": "Britney Spears",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
+        "type": "emoji",
+        "content": "🇬🇧",
+        "sound": "BRIT"
+      },
+      {
+        "type": "emoji",
+        "content": "🦵",
+        "sound": "KNEE"
+      },
+      {
         "type": "text",
-        "content": "Merely",
-        "sound": "JUST"
+        "content": "Pointed throwing weapon",
+        "sound": "SPEAR"
       },
       {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
-      },
-      {
-        "type": "emoji",
-        "content": "🐝",
-        "sound": "BEE"
-      },
-      {
-        "type": "emoji",
-        "content": "🐻",
-        "sound": "BEAR"
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the Canadian pop star famous for 'Baby' and 'Sorry'."
+        "text": "It's the pop star behind '...Baby One More Time'."
       },
       {
         "label": "Reveal all sounds",
