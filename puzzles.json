@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T09:29:55.536Z",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T09:22:32.848Z",
   "easy": {
-    "answer": "Ice Cream",
-    "category": "Food",
+    "answer": "Firefighter",
+    "category": "Job",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
-      },
-      {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "🔥",
+        "sound": "FIRE"
       },
       {
         "type": "text",
-        "content": "Coffee additive",
-        "sound": "CREAM"
+        "content": "Throw punches",
+        "sound": "FIGHT"
+      },
+      {
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a frozen treat served in a cone."
+        "text": "It's someone who rushes to put out blazes."
       },
       {
         "label": "Reveal all sounds",
@@ -47,74 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Cantaloupe",
+    "answer": "Enchilada",
     "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🥫",
-        "sound": "CAN"
+        "type": "big",
+        "content": "N",
+        "sound": "EN"
       },
       {
-        "type": "big",
-        "content": "A",
-        "sound": "UH"
+        "type": "emoji",
+        "content": "🌶️",
+        "sound": "CHILI"
       },
       {
         "type": "text",
-        "content": "Run with long, easy strides",
-        "sound": "LOPE"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's an orange-fleshed melon with a netted rind."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Britney Spears",
-    "category": "Celebrity",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "emoji",
-        "content": "🇬🇧",
-        "sound": "BRIT"
-      },
-      {
-        "type": "emoji",
-        "content": "🦵",
-        "sound": "KNEE"
+        "content": "Los Angeles, for short",
+        "sound": "LA"
       },
       {
         "type": "text",
-        "content": "Pointed throwing weapon",
-        "sound": "SPEAR"
-      },
-      {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "Russian word for yes",
+        "sound": "DA"
       }
     ],
     "hints": [
@@ -137,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the pop star behind '...Baby One More Time'."
+        "text": "It's a rolled-up tortilla covered in chili sauce and cheese."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Paul McCartney",
+    "category": "Celebrity",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "Survey of opinions",
+        "sound": "POLL"
+      },
+      {
+        "type": "emoji",
+        "content": "🎤",
+        "sound": "MIC"
+      },
+      {
+        "type": "emoji",
+        "content": "🛒",
+        "sound": "CART"
+      },
+      {
+        "type": "emoji",
+        "content": "🦵",
+        "sound": "KNEE"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the bassist and singer of The Beatles."
       },
       {
         "label": "Reveal all sounds",
