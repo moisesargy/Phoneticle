@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T09:22:32.848Z",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T08:54:08.944Z",
   "easy": {
-    "answer": "Firefighter",
-    "category": "Job",
+    "answer": "Doghouse",
+    "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🔥",
-        "sound": "FIRE"
+        "content": "🐶",
+        "sound": "DOG"
       },
       {
         "type": "text",
-        "content": "Throw punches",
-        "sound": "FIGHT"
+        "content": "Question: \"___ are you?\"",
+        "sound": "HOW"
       },
       {
-        "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's someone who rushes to put out blazes."
+        "text": "It's a small shelter built for a pet outside."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Enchilada",
-    "category": "Food",
+    "answer": "Bruno Mars",
+    "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "big",
-        "content": "N",
-        "sound": "EN"
+        "type": "text",
+        "content": "Make coffee",
+        "sound": "BREW"
       },
       {
-        "type": "emoji",
-        "content": "🌶️",
-        "sound": "CHILI"
+        "type": "struck",
+        "content": "YES",
+        "sound": "NO"
       },
       {
         "type": "text",
-        "content": "Los Angeles, for short",
-        "sound": "LA"
-      },
-      {
-        "type": "text",
-        "content": "Russian word for yes",
-        "sound": "DA"
+        "content": "The red planet",
+        "sound": "MARS"
       }
     ],
     "hints": [
@@ -86,13 +81,9 @@
         "ci": 2
       },
       {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a rolled-up tortilla covered in chili sauce and cheese."
+        "text": "It's the singer behind 'Uptown Funk' and 'Locked Out of Heaven.'"
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Paul McCartney",
-    "category": "Celebrity",
+    "answer": "Sherlock Holmes",
+    "category": "Character",
     "difficulty": "hard",
     "clues": [
       {
         "type": "text",
-        "content": "Survey of opinions",
-        "sound": "POLL"
+        "content": "Give half to a friend",
+        "sound": "SHARE"
+      },
+      {
+        "type": "text",
+        "content": "Door securer that takes a key",
+        "sound": "LOCK"
       },
       {
         "type": "emoji",
-        "content": "🎤",
-        "sound": "MIC"
+        "content": "🏠",
+        "sound": "HOME"
       },
       {
-        "type": "emoji",
-        "content": "🛒",
-        "sound": "CART"
-      },
-      {
-        "type": "emoji",
-        "content": "🦵",
-        "sound": "KNEE"
+        "type": "big",
+        "content": "S",
+        "sound": "S"
       }
     ],
     "hints": [
@@ -146,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the bassist and singer of The Beatles."
+        "text": "It's the famous detective who lives at 221B Baker Street."
       },
       {
         "label": "Reveal all sounds",
