@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T08:54:08.944Z",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T09:12:23.616Z",
   "easy": {
-    "answer": "Doghouse",
-    "category": "Object",
+    "answer": "Nutella",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🐶",
-        "sound": "DOG"
+        "content": "🌰",
+        "sound": "NUT"
       },
       {
         "type": "text",
-        "content": "Question: \"___ are you?\"",
-        "sound": "HOW"
+        "content": "Spill a secret",
+        "sound": "TELL"
       },
       {
         "type": "big",
-        "content": "S",
-        "sound": "S"
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a small shelter built for a pet outside."
+        "text": "It's a chocolate-hazelnut spread you put on toast."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Bruno Mars",
+    "answer": "Madonna",
     "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "Make coffee",
-        "sound": "BREW"
+        "type": "emoji",
+        "content": "😡",
+        "sound": "MAD"
       },
       {
         "type": "struck",
-        "content": "YES",
-        "sound": "NO"
+        "content": "OFF",
+        "sound": "ON"
       },
       {
-        "type": "text",
-        "content": "The red planet",
-        "sound": "MARS"
+        "type": "big",
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the singer behind 'Uptown Funk' and 'Locked Out of Heaven.'"
+        "text": "It's the Queen of Pop who sang 'Like a Virgin.'"
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Sherlock Holmes",
-    "category": "Character",
+    "answer": "Dunkin' Donuts",
+    "category": "Brand",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "Give half to a friend",
-        "sound": "SHARE"
-      },
-      {
-        "type": "text",
-        "content": "Door securer that takes a key",
-        "sound": "LOCK"
-      },
-      {
         "type": "emoji",
-        "content": "🏠",
-        "sound": "HOME"
+        "content": "🏀",
+        "sound": "DUNK"
       },
       {
-        "type": "big",
-        "content": "S",
-        "sound": "S"
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
+      },
+      {
+        "type": "text",
+        "content": "Bread before it bakes",
+        "sound": "DOUGH"
+      },
+      {
+        "type": "text",
+        "content": "Almonds and walnuts",
+        "sound": "NUTS"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the famous detective who lives at 221B Baker Street."
+        "text": "It's the coffee-and-doughnut chain that 'runs on' its name."
       },
       {
         "label": "Reveal all sounds",
