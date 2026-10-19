@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T09:12:23.616Z",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T10:22:27.814Z",
   "easy": {
-    "answer": "Nutella",
-    "category": "Food",
+    "answer": "Woodpecker",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🌰",
-        "sound": "NUT"
+        "content": "🪵",
+        "sound": "WOOD"
       },
       {
         "type": "text",
-        "content": "Spill a secret",
-        "sound": "TELL"
+        "content": "Strike with a beak",
+        "sound": "PECK"
       },
       {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a chocolate-hazelnut spread you put on toast."
+        "text": "It's a bird that drums on tree trunks."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Madonna",
-    "category": "Celebrity",
+    "answer": "Eiffel Tower",
+    "category": "Landmark",
     "difficulty": "medium",
     "clues": [
       {
         "type": "emoji",
-        "content": "😡",
-        "sound": "MAD"
+        "content": "👁️",
+        "sound": "EYE"
       },
       {
         "type": "struck",
-        "content": "OFF",
-        "sound": "ON"
+        "content": "EMPTY",
+        "sound": "FULL"
       },
       {
-        "type": "big",
-        "content": "A",
-        "sound": "A"
+        "type": "emoji",
+        "content": "🗼",
+        "sound": "TOWER"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the Queen of Pop who sang 'Like a Virgin.'"
+        "text": "It's the iron landmark in Paris."
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Dunkin' Donuts",
-    "category": "Brand",
+    "answer": "Michael Jackson",
+    "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
         "type": "emoji",
-        "content": "🏀",
-        "sound": "DUNK"
+        "content": "🎤",
+        "sound": "MIKE"
       },
       {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
-      },
-      {
-        "type": "text",
-        "content": "Bread before it bakes",
-        "sound": "DOUGH"
+        "type": "big",
+        "content": "L",
+        "sound": "EL"
       },
       {
         "type": "text",
-        "content": "Almonds and walnuts",
-        "sound": "NUTS"
+        "content": "Tool for lifting a car",
+        "sound": "JACK"
+      },
+      {
+        "type": "emoji",
+        "content": "👦",
+        "sound": "SON"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the coffee-and-doughnut chain that 'runs on' its name."
+        "text": "It's the King of Pop, famous for the moonwalk and 'Thriller'."
       },
       {
         "label": "Reveal all sounds",
