@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T10:22:27.814Z",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T09:42:13.419Z",
   "easy": {
-    "answer": "Woodpecker",
-    "category": "Animal",
+    "answer": "Beehive",
+    "category": "Object",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🪵",
-        "sound": "WOOD"
+        "content": "🐝",
+        "sound": "BEE"
       },
       {
         "type": "text",
-        "content": "Strike with a beak",
-        "sound": "PECK"
+        "content": "Elevated, tall",
+        "sound": "HIGH"
       },
       {
-        "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
+        "type": "big",
+        "content": "V",
+        "sound": "VEE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a bird that drums on tree trunks."
+        "text": "It's where honeybees live and make honey."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Eiffel Tower",
-    "category": "Landmark",
+    "answer": "Elton John",
+    "category": "Celebrity",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "👁️",
-        "sound": "EYE"
+        "type": "big",
+        "content": "L",
+        "sound": "EL"
       },
       {
-        "type": "struck",
-        "content": "EMPTY",
-        "sound": "FULL"
+        "type": "text",
+        "content": "A big weight: a ___ of bricks",
+        "sound": "TON"
       },
       {
-        "type": "emoji",
-        "content": "🗼",
-        "sound": "TOWER"
+        "type": "text",
+        "content": "Toilet: \"go to the ___\"",
+        "sound": "JOHN"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the iron landmark in Paris."
+        "text": "It's the singer of 'Rocket Man' and 'Your Song.'"
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Michael Jackson",
+    "answer": "Robert Downey",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
         "type": "emoji",
-        "content": "🎤",
-        "sound": "MIKE"
-      },
-      {
-        "type": "big",
-        "content": "L",
-        "sound": "EL"
+        "content": "🚣",
+        "sound": "ROW"
       },
       {
         "type": "text",
-        "content": "Tool for lifting a car",
-        "sound": "JACK"
+        "content": "Ernie's Sesame Street roommate",
+        "sound": "BERT"
       },
       {
-        "type": "emoji",
-        "content": "👦",
-        "sound": "SON"
+        "type": "struck",
+        "content": "UP",
+        "sound": "DOWN"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the King of Pop, famous for the moonwalk and 'Thriller'."
+        "text": "It's the actor who played Iron Man."
       },
       {
         "label": "Reveal all sounds",
