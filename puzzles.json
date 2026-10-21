@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T09:42:13.419Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T09:43:39.524Z",
   "easy": {
-    "answer": "Beehive",
-    "category": "Object",
+    "answer": "Skyscraper",
+    "category": "Place",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🐝",
-        "sound": "BEE"
+        "content": "☁️",
+        "sound": "SKY"
       },
       {
         "type": "text",
-        "content": "Elevated, tall",
-        "sound": "HIGH"
+        "content": "Scratch roughly",
+        "sound": "SCRAPE"
       },
       {
-        "type": "big",
-        "content": "V",
-        "sound": "VEE"
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's where honeybees live and make honey."
+        "text": "It's a very tall building in a big city."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Elton John",
-    "category": "Celebrity",
+    "answer": "Montana",
+    "category": "Place",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "text",
+        "content": "Day after Sunday",
+        "sound": "MON"
+      },
+      {
+        "type": "text",
+        "content": "Beach color",
+        "sound": "TAN"
+      },
+      {
         "type": "big",
-        "content": "L",
-        "sound": "EL"
-      },
-      {
-        "type": "text",
-        "content": "A big weight: a ___ of bricks",
-        "sound": "TON"
-      },
-      {
-        "type": "text",
-        "content": "Toilet: \"go to the ___\"",
-        "sound": "JOHN"
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the singer of 'Rocket Man' and 'Your Song.'"
+        "text": "It's the U.S. state known as Big Sky Country."
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Robert Downey",
+    "answer": "Anne Hathaway",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🚣",
-        "sound": "ROW"
-      },
-      {
         "type": "text",
-        "content": "Ernie's Sesame Street roommate",
-        "sound": "BERT"
+        "content": "Diary writer ___ Frank",
+        "sound": "ANNE"
       },
       {
-        "type": "struck",
-        "content": "UP",
-        "sound": "DOWN"
+        "type": "emoji",
+        "content": "🎩",
+        "sound": "HAT"
       },
       {
         "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "content": "A",
+        "sound": "A"
+      },
+      {
+        "type": "text",
+        "content": "Road or path",
+        "sound": "WAY"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the actor who played Iron Man."
+        "text": "It's the actress from The Devil Wears Prada and Les Misérables."
       },
       {
         "label": "Reveal all sounds",
