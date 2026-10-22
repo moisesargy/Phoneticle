@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T09:43:39.524Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T09:43:01.848Z",
   "easy": {
-    "answer": "Skyscraper",
-    "category": "Place",
+    "answer": "Cheeseburger",
+    "category": "Food",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "☁️",
-        "sound": "SKY"
+        "content": "🧀",
+        "sound": "CHEESE"
       },
       {
         "type": "text",
-        "content": "Scratch roughly",
-        "sound": "SCRAPE"
+        "content": "A small town",
+        "sound": "BURG"
       },
       {
         "type": "struck",
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a very tall building in a big city."
+        "text": "It's a beef patty in a bun with a melted slice on top."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Montana",
-    "category": "Place",
+    "answer": "Pepperoni",
+    "category": "Food",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Day after Sunday",
-        "sound": "MON"
-      },
-      {
-        "type": "text",
-        "content": "Beach color",
-        "sound": "TAN"
+        "content": "Salt and ___",
+        "sound": "PEPPER"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "O",
+        "sound": "OH"
+      },
+      {
+        "type": "emoji",
+        "content": "🦵",
+        "sound": "KNEE"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the U.S. state known as Big Sky Country."
+        "text": "It's the most popular pizza topping."
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Anne Hathaway",
+    "answer": "Dolly Parton",
     "category": "Celebrity",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "text",
-        "content": "Diary writer ___ Frank",
-        "sound": "ANNE"
-      },
-      {
         "type": "emoji",
-        "content": "🎩",
-        "sound": "HAT"
+        "content": "🪆",
+        "sound": "DOLL"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "E",
+        "sound": "EE"
+      },
+      {
+        "type": "emoji",
+        "content": "⛳",
+        "sound": "PAR"
       },
       {
         "type": "text",
-        "content": "Road or path",
-        "sound": "WAY"
+        "content": "A really big amount: a ___ of bricks",
+        "sound": "TON"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the actress from The Devil Wears Prada and Les Misérables."
+        "text": "It's the country legend who sang '9 to 5' and 'Jolene'."
       },
       {
         "label": "Reveal all sounds",
