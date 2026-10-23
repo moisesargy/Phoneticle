@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T09:43:01.848Z",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T09:39:22.345Z",
   "easy": {
-    "answer": "Cheeseburger",
-    "category": "Food",
+    "answer": "Toy Story",
+    "category": "Movie",
     "difficulty": "easy",
     "clues": [
       {
         "type": "emoji",
-        "content": "🧀",
-        "sound": "CHEESE"
+        "content": "🧸",
+        "sound": "TOY"
       },
       {
         "type": "text",
-        "content": "A small town",
-        "sound": "BURG"
+        "content": "Shop where you buy things",
+        "sound": "STORE"
       },
       {
-        "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a beef patty in a bun with a melted slice on top."
+        "text": "It's the Pixar movie where Woody and Buzz come alive."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Pepperoni",
-    "category": "Food",
+    "answer": "Frankenstein",
+    "category": "Character",
     "difficulty": "medium",
     "clues": [
       {
         "type": "text",
-        "content": "Salt and ___",
-        "sound": "PEPPER"
+        "content": "Honest and direct",
+        "sound": "FRANK"
       },
       {
         "type": "big",
-        "content": "O",
-        "sound": "OH"
+        "content": "N",
+        "sound": "EN"
       },
       {
-        "type": "emoji",
-        "content": "🦵",
-        "sound": "KNEE"
+        "type": "text",
+        "content": "Beer mug",
+        "sound": "STEIN"
       }
     ],
     "hints": [
@@ -83,7 +83,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the most popular pizza topping."
+        "text": "It's the monster built from stitched-together body parts."
       },
       {
         "label": "Reveal all sounds",
@@ -92,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Dolly Parton",
-    "category": "Celebrity",
+    "answer": "Great Wall of China",
+    "category": "Landmark",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🪆",
-        "sound": "DOLL"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "struck",
+        "content": "TERRIBLE",
+        "sound": "GREAT"
       },
       {
         "type": "emoji",
-        "content": "⛳",
-        "sound": "PAR"
+        "content": "🧱",
+        "sound": "WALL"
       },
       {
-        "type": "text",
-        "content": "A really big amount: a ___ of bricks",
-        "sound": "TON"
+        "type": "struck",
+        "content": "ON",
+        "sound": "OFF"
+      },
+      {
+        "type": "emoji",
+        "content": "🇨🇳",
+        "sound": "CHINA"
       }
     ],
     "hints": [
@@ -137,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the country legend who sang '9 to 5' and 'Jolene'."
+        "text": "It's the enormous ancient fortification stretching across northern China."
       },
       {
         "label": "Reveal all sounds",
