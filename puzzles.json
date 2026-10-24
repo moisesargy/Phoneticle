@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T09:39:22.345Z",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T09:11:32.562Z",
   "easy": {
-    "answer": "Toy Story",
-    "category": "Movie",
+    "answer": "Dumbledore",
+    "category": "Character",
     "difficulty": "easy",
     "clues": [
       {
+        "type": "struck",
+        "content": "SMART",
+        "sound": "DUMB"
+      },
+      {
         "type": "emoji",
-        "content": "🧸",
-        "sound": "TOY"
+        "content": "🐂",
+        "sound": "BULL"
       },
       {
-        "type": "text",
-        "content": "Shop where you buy things",
-        "sound": "STORE"
-      },
-      {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "emoji",
+        "content": "🚪",
+        "sound": "DOOR"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the Pixar movie where Woody and Buzz come alive."
+        "text": "It's the wise headmaster of Hogwarts."
       },
       {
         "label": "Reveal all sounds",
@@ -47,74 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Frankenstein",
-    "category": "Character",
+    "answer": "Carolina",
+    "category": "Place",
     "difficulty": "medium",
     "clues": [
       {
+        "type": "emoji",
+        "content": "🚗",
+        "sound": "CAR"
+      },
+      {
+        "type": "emoji",
+        "content": "⭕",
+        "sound": "OH"
+      },
+      {
         "type": "text",
-        "content": "Honest and direct",
-        "sound": "FRANK"
+        "content": "Straight mark you draw",
+        "sound": "LINE"
       },
       {
         "type": "big",
-        "content": "N",
-        "sound": "EN"
-      },
-      {
-        "type": "text",
-        "content": "Beer mug",
-        "sound": "STEIN"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the monster built from stitched-together body parts."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Great Wall of China",
-    "category": "Landmark",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "struck",
-        "content": "TERRIBLE",
-        "sound": "GREAT"
-      },
-      {
-        "type": "emoji",
-        "content": "🧱",
-        "sound": "WALL"
-      },
-      {
-        "type": "struck",
-        "content": "ON",
-        "sound": "OFF"
-      },
-      {
-        "type": "emoji",
-        "content": "🇨🇳",
-        "sound": "CHINA"
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -137,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the enormous ancient fortification stretching across northern China."
+        "text": "It's the name shared by two southeastern U.S. states, north and south."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Morgan Freeman",
+    "category": "Celebrity",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "struck",
+        "content": "LESS",
+        "sound": "MORE"
+      },
+      {
+        "type": "emoji",
+        "content": "🔫",
+        "sound": "GUN"
+      },
+      {
+        "type": "struck",
+        "content": "PAID",
+        "sound": "FREE"
+      },
+      {
+        "type": "text",
+        "content": "Several guys",
+        "sound": "MEN"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the actor famous for his deep, calm voice and The Shawshank Redemption."
       },
       {
         "label": "Reveal all sounds",
