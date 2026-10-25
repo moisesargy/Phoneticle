@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T09:11:32.562Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T09:28:49.858Z",
   "easy": {
-    "answer": "Dumbledore",
-    "category": "Character",
+    "answer": "Rainbow",
+    "category": "Nature",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "struck",
-        "content": "SMART",
-        "sound": "DUMB"
+        "type": "text",
+        "content": "A narrow beam of light",
+        "sound": "RAY"
+      },
+      {
+        "type": "big",
+        "content": "N",
+        "sound": "EN"
       },
       {
         "type": "emoji",
-        "content": "🐂",
-        "sound": "BULL"
-      },
-      {
-        "type": "emoji",
-        "content": "🚪",
-        "sound": "DOOR"
+        "content": "🎀",
+        "sound": "BOW"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the wise headmaster of Hogwarts."
+        "text": "It appears in the sky when sun and rain mix."
       },
       {
         "label": "Reveal all sounds",
@@ -47,24 +47,78 @@
     ]
   },
   "medium": {
-    "answer": "Carolina",
-    "category": "Place",
+    "answer": "Easter Bunny",
+    "category": "Character",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🚗",
-        "sound": "CAR"
+        "type": "text",
+        "content": "Opposite of west",
+        "sound": "EAST"
       },
       {
-        "type": "emoji",
-        "content": "⭕",
-        "sound": "OH"
+        "type": "struck",
+        "content": "HIM",
+        "sound": "HER"
       },
       {
         "type": "text",
-        "content": "Straight mark you draw",
-        "sound": "LINE"
+        "content": "Hamburger holder",
+        "sound": "BUN"
+      },
+      {
+        "type": "big",
+        "content": "E",
+        "sound": "EE"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the egg-hiding rabbit that shows up each spring."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Pennsylvania",
+    "category": "Place",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "emoji",
+        "content": "🖊️",
+        "sound": "PEN"
+      },
+      {
+        "type": "text",
+        "content": "Window ledge",
+        "sound": "SILL"
+      },
+      {
+        "type": "text",
+        "content": "Too proud of your looks",
+        "sound": "VAIN"
       },
       {
         "type": "big",
@@ -92,61 +146,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the name shared by two southeastern U.S. states, north and south."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Morgan Freeman",
-    "category": "Celebrity",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "struck",
-        "content": "LESS",
-        "sound": "MORE"
-      },
-      {
-        "type": "emoji",
-        "content": "🔫",
-        "sound": "GUN"
-      },
-      {
-        "type": "struck",
-        "content": "PAID",
-        "sound": "FREE"
-      },
-      {
-        "type": "text",
-        "content": "Several guys",
-        "sound": "MEN"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's the actor famous for his deep, calm voice and The Shawshank Redemption."
+        "text": "It's the U.S. state home to Philadelphia and the Liberty Bell."
       },
       {
         "label": "Reveal all sounds",
