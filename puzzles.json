@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T09:28:49.858Z",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T10:37:14.170Z",
   "easy": {
-    "answer": "Rainbow",
-    "category": "Nature",
+    "answer": "Dandelion",
+    "category": "Plant",
     "difficulty": "easy",
     "clues": [
       {
         "type": "text",
-        "content": "A narrow beam of light",
-        "sound": "RAY"
+        "content": "Author Brown of The Da Vinci Code",
+        "sound": "DAN"
       },
       {
         "type": "big",
-        "content": "N",
-        "sound": "EN"
+        "content": "D",
+        "sound": "DEE"
       },
       {
         "type": "emoji",
-        "content": "🎀",
-        "sound": "BOW"
+        "content": "🦁",
+        "sound": "LION"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It appears in the sky when sun and rain mix."
+        "text": "It's a yellow weed that turns into a puffball you blow on."
       },
       {
         "label": "Reveal all sounds",
@@ -47,29 +47,24 @@
     ]
   },
   "medium": {
-    "answer": "Easter Bunny",
-    "category": "Character",
+    "answer": "Instagram",
+    "category": "Brand",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "text",
-        "content": "Opposite of west",
-        "sound": "EAST"
-      },
-      {
         "type": "struck",
-        "content": "HIM",
-        "sound": "HER"
+        "content": "OUT",
+        "sound": "IN"
       },
       {
         "type": "text",
-        "content": "Hamburger holder",
-        "sound": "BUN"
+        "content": "Where actors perform",
+        "sound": "STAGE"
       },
       {
-        "type": "big",
-        "content": "E",
-        "sound": "EE"
+        "type": "emoji",
+        "content": "🐏",
+        "sound": "RAM"
       }
     ],
     "hints": [
@@ -86,13 +81,9 @@
         "ci": 2
       },
       {
-        "label": "Reveal clue 4 sound",
-        "ci": 3
-      },
-      {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the egg-hiding rabbit that shows up each spring."
+        "text": "It's a photo-sharing social media app."
       },
       {
         "label": "Reveal all sounds",
@@ -101,29 +92,29 @@
     ]
   },
   "hard": {
-    "answer": "Pennsylvania",
-    "category": "Place",
+    "answer": "Cleopatra",
+    "category": "Historical Figure",
     "difficulty": "hard",
     "clues": [
       {
-        "type": "emoji",
-        "content": "🖊️",
-        "sound": "PEN"
-      },
-      {
         "type": "text",
-        "content": "Window ledge",
-        "sound": "SILL"
-      },
-      {
-        "type": "text",
-        "content": "Too proud of your looks",
-        "sound": "VAIN"
+        "content": "A soft, moldable earth used in pottery",
+        "sound": "CLAY"
       },
       {
         "type": "big",
-        "content": "A",
-        "sound": "A"
+        "content": "O",
+        "sound": "OH"
+      },
+      {
+        "type": "text",
+        "content": "Gentle tap on the back",
+        "sound": "PAT"
+      },
+      {
+        "type": "text",
+        "content": "Cheer for your team: \"___!\"",
+        "sound": "RAH"
       }
     ],
     "hints": [
@@ -146,7 +137,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the U.S. state home to Philadelphia and the Liberty Bell."
+        "text": "It's the last pharaoh of ancient Egypt."
       },
       {
         "label": "Reveal all sounds",
