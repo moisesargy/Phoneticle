@@ -1,25 +1,25 @@
 {
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T10:37:14.170Z",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T10:06:19.430Z",
   "easy": {
-    "answer": "Dandelion",
-    "category": "Plant",
+    "answer": "Butterfly",
+    "category": "Animal",
     "difficulty": "easy",
     "clues": [
       {
-        "type": "text",
-        "content": "Author Brown of The Da Vinci Code",
-        "sound": "DAN"
+        "type": "big",
+        "content": "B",
+        "sound": "BEE"
       },
       {
-        "type": "big",
-        "content": "D",
-        "sound": "DEE"
+        "type": "text",
+        "content": "Complete: ___ nonsense",
+        "sound": "UTTER"
       },
       {
         "type": "emoji",
-        "content": "🦁",
-        "sound": "LION"
+        "content": "🪰",
+        "sound": "FLY"
       }
     ],
     "hints": [
@@ -38,7 +38,7 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's a yellow weed that turns into a puffball you blow on."
+        "text": "It's a colorful insect that starts life as a caterpillar."
       },
       {
         "label": "Reveal all sounds",
@@ -47,74 +47,29 @@
     ]
   },
   "medium": {
-    "answer": "Instagram",
-    "category": "Brand",
+    "answer": "Oklahoma",
+    "category": "Place",
     "difficulty": "medium",
     "clues": [
       {
-        "type": "struck",
-        "content": "OUT",
-        "sound": "IN"
+        "type": "emoji",
+        "content": "🌳",
+        "sound": "OAK"
       },
       {
         "type": "text",
-        "content": "Where actors perform",
-        "sound": "STAGE"
+        "content": "City of Angels, for short",
+        "sound": "LA"
       },
       {
         "type": "emoji",
-        "content": "🐏",
-        "sound": "RAM"
-      }
-    ],
-    "hints": [
-      {
-        "label": "Reveal clue 1 sound",
-        "ci": 0
-      },
-      {
-        "label": "Reveal clue 2 sound",
-        "ci": 1
-      },
-      {
-        "label": "Reveal clue 3 sound",
-        "ci": 2
-      },
-      {
-        "label": "Give me a hint",
-        "ci": -1,
-        "text": "It's a photo-sharing social media app."
-      },
-      {
-        "label": "Reveal all sounds",
-        "ci": -2
-      }
-    ]
-  },
-  "hard": {
-    "answer": "Cleopatra",
-    "category": "Historical Figure",
-    "difficulty": "hard",
-    "clues": [
-      {
-        "type": "text",
-        "content": "A soft, moldable earth used in pottery",
-        "sound": "CLAY"
+        "content": "🏠",
+        "sound": "HOME"
       },
       {
         "type": "big",
-        "content": "O",
-        "sound": "OH"
-      },
-      {
-        "type": "text",
-        "content": "Gentle tap on the back",
-        "sound": "PAT"
-      },
-      {
-        "type": "text",
-        "content": "Cheer for your team: \"___!\"",
-        "sound": "RAH"
+        "content": "A",
+        "sound": "A"
       }
     ],
     "hints": [
@@ -137,7 +92,61 @@
       {
         "label": "Give me a hint",
         "ci": -1,
-        "text": "It's the last pharaoh of ancient Egypt."
+        "text": "It's the U.S. state with Tulsa and Oklahoma City, known for the musical named after it."
+      },
+      {
+        "label": "Reveal all sounds",
+        "ci": -2
+      }
+    ]
+  },
+  "hard": {
+    "answer": "Justin Timberlake",
+    "category": "Celebrity",
+    "difficulty": "hard",
+    "clues": [
+      {
+        "type": "text",
+        "content": "Fair and honest, like a ___ judge",
+        "sound": "JUST"
+      },
+      {
+        "type": "struck",
+        "content": "OUT",
+        "sound": "IN"
+      },
+      {
+        "type": "text",
+        "content": "What lumberjacks yell",
+        "sound": "TIMBER"
+      },
+      {
+        "type": "text",
+        "content": "Calm body of freshwater",
+        "sound": "LAKE"
+      }
+    ],
+    "hints": [
+      {
+        "label": "Reveal clue 1 sound",
+        "ci": 0
+      },
+      {
+        "label": "Reveal clue 2 sound",
+        "ci": 1
+      },
+      {
+        "label": "Reveal clue 3 sound",
+        "ci": 2
+      },
+      {
+        "label": "Reveal clue 4 sound",
+        "ci": 3
+      },
+      {
+        "label": "Give me a hint",
+        "ci": -1,
+        "text": "It's the singer who brought 'SexyBack' and left NSYNC."
       },
       {
         "label": "Reveal all sounds",
